@@ -1,0 +1,548 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Modal Dialogs",
+      "description": "Modal dialog examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS modal dialog components to create pop-up boxes for things like alerts, notifications, or confirmation prompts. These modals are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+      "category": {
+        "name": "Overlays",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-overlays",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Centered with single action",
+          "uuid": "9a0cb3f6ddde116e8cc6d018e4852dfd",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-300\" style=\"height: 560px\">\n    \n  \n    <div x-data=\"{ open: true }\" @keydown.window.escape=\"open = false\" x-init=\"$watch(&quot;open&quot;, o => !o && window.setTimeout(() => (open = true), 1000))\" x-show=\"open\" class=\"relative z-10\" aria-labelledby=\"modal-title\" x-ref=\"dialog\" aria-modal=\"true\">\n      \n        <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0\" x-transition:enter-end=\"opacity-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" x-description=\"Background backdrop, show/hide based on modal state.\" class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" aria-hidden=\"true\"></div>\n      \n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          \n            <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-transition:enter-end=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave-end=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-description=\"Modal panel, show/hide based on modal state.\" class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6\" @click.away=\"open = false\">\n              <div>\n                <div class=\"mx-auto flex size-12 items-center justify-center rounded-full bg-green-100\">\n                  <svg class=\"size-6 text-green-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 12.75 6 6 9-13.5\"></path>\n</svg>\n                </div>\n                <div class=\"mt-3 text-center sm:mt-5\">\n                  <h3 class=\"text-base font-semibold text-gray-900\" id=\"modal-title\">Payment successful</h3>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet labore.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-6\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\" @click=\"open = false\">Go back to dashboard</button>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  \n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <TransitionRoot as=\"template\" :show=\"open\">\n    <Dialog class=\"relative z-10\" @close=\"open = false\">\n      <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0\" enter-to=\"opacity-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100\" leave-to=\"opacity-0\">\n        <div class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" />\n      </TransitionChild>\n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" enter-to=\"opacity-100 translate-y-0 sm:scale-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100 translate-y-0 sm:scale-100\" leave-to=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\">\n            <DialogPanel class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6\">\n              <div>\n                <div class=\"mx-auto flex size-12 items-center justify-center rounded-full bg-green-100\">\n                  <CheckIcon class=\"size-6 text-green-600\" aria-hidden=\"true\" />\n                </div>\n                <div class=\"mt-3 text-center sm:mt-5\">\n                  <DialogTitle as=\"h3\" class=\"text-base font-semibold text-gray-900\">Payment successful</DialogTitle>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur amet labore.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-6\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\" @click=\"open = false\">Go back to dashboard</button>\n              </div>\n            </DialogPanel>\n          </TransitionChild>\n        </div>\n      </div>\n    </Dialog>\n  </TransitionRoot>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'\nimport { CheckIcon } from '@heroicons/vue/24/outline'\n\nconst open = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 560,
+          "smallWidth": 375,
+          "smallHeight": 560
+        },
+        {
+          "name": "Centered with wide buttons",
+          "uuid": "230ebe97ca4f24eef13b0a225e41b87b",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-300\" style=\"height: 560px\">\n    \n  \n    <div x-data=\"{ open: true }\" @keydown.window.escape=\"open = false\" x-init=\"$watch(&quot;open&quot;, o => !o && window.setTimeout(() => (open = true), 1000))\" x-show=\"open\" class=\"relative z-10\" aria-labelledby=\"modal-title\" x-ref=\"dialog\" aria-modal=\"true\">\n      \n        <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0\" x-transition:enter-end=\"opacity-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" x-description=\"Background backdrop, show/hide based on modal state.\" class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" aria-hidden=\"true\"></div>\n      \n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          \n            <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-transition:enter-end=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave-end=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-description=\"Modal panel, show/hide based on modal state.\" class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6\" @click.away=\"open = false\">\n              <div>\n                <div class=\"mx-auto flex size-12 items-center justify-center rounded-full bg-green-100\">\n                  <svg class=\"size-6 text-green-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 12.75 6 6 9-13.5\"></path>\n</svg>\n                </div>\n                <div class=\"mt-3 text-center sm:mt-5\">\n                  <h3 class=\"text-base font-semibold text-gray-900\" id=\"modal-title\">Payment successful</h3>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aliquam laudantium explicabo pariatur iste dolorem animi vitae error totam. At sapiente aliquam accusamus facere veritatis.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-6 sm:grid sm:grid-flow-row-dense sm:grid-cols-2 sm:gap-3\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:col-start-2\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 sm:col-start-1 sm:mt-0\" @click=\"open = false\">Cancel</button>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  \n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <TransitionRoot as=\"template\" :show=\"open\">\n    <Dialog class=\"relative z-10\" @close=\"open = false\">\n      <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0\" enter-to=\"opacity-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100\" leave-to=\"opacity-0\">\n        <div class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" />\n      </TransitionChild>\n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" enter-to=\"opacity-100 translate-y-0 sm:scale-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100 translate-y-0 sm:scale-100\" leave-to=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\">\n            <DialogPanel class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6\">\n              <div>\n                <div class=\"mx-auto flex size-12 items-center justify-center rounded-full bg-green-100\">\n                  <CheckIcon class=\"size-6 text-green-600\" aria-hidden=\"true\" />\n                </div>\n                <div class=\"mt-3 text-center sm:mt-5\">\n                  <DialogTitle as=\"h3\" class=\"text-base font-semibold text-gray-900\">Payment successful</DialogTitle>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aliquam laudantium explicabo pariatur iste dolorem animi vitae error totam. At sapiente aliquam accusamus facere veritatis.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-6 sm:grid sm:grid-flow-row-dense sm:grid-cols-2 sm:gap-3\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:col-start-2\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:col-start-1 sm:mt-0\" @click=\"open = false\" ref=\"cancelButtonRef\">Cancel</button>\n              </div>\n            </DialogPanel>\n          </TransitionChild>\n        </div>\n      </div>\n    </Dialog>\n  </TransitionRoot>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'\nimport { CheckIcon } from '@heroicons/vue/24/outline'\n\nconst open = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 560,
+          "smallWidth": 375,
+          "smallHeight": 560
+        },
+        {
+          "name": "Simple alert",
+          "uuid": "5b2215402125bb9b2fa926f9af38e494",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-300\" style=\"height: 560px\">\n    \n  \n    <div x-data=\"{ open: true }\" @keydown.window.escape=\"open = false\" x-init=\"$watch(&quot;open&quot;, o => !o && window.setTimeout(() => (open = true), 1000))\" x-show=\"open\" class=\"relative z-10\" aria-labelledby=\"modal-title\" x-ref=\"dialog\" aria-modal=\"true\">\n      \n        <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0\" x-transition:enter-end=\"opacity-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" x-description=\"Background backdrop, show/hide based on modal state.\" class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" aria-hidden=\"true\"></div>\n      \n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          \n            <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-transition:enter-end=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave-end=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-description=\"Modal panel, show/hide based on modal state.\" class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6\" @click.away=\"open = false\">\n              <div class=\"sm:flex sm:items-start\">\n                <div class=\"mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10\">\n                  <svg class=\"size-6 text-red-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z\"></path>\n</svg>\n                </div>\n                <div class=\"mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left\">\n                  <h3 class=\"text-base font-semibold text-gray-900\" id=\"modal-title\">Deactivate account</h3>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Are you sure you want to deactivate your account? All of your data will be permanently removed from our servers forever. This action cannot be undone.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-4 sm:flex sm:flex-row-reverse\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-red-500 sm:ml-3 sm:w-auto\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 sm:mt-0 sm:w-auto\" @click=\"open = false\">Cancel</button>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  \n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <TransitionRoot as=\"template\" :show=\"open\">\n    <Dialog class=\"relative z-10\" @close=\"open = false\">\n      <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0\" enter-to=\"opacity-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100\" leave-to=\"opacity-0\">\n        <div class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" />\n      </TransitionChild>\n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" enter-to=\"opacity-100 translate-y-0 sm:scale-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100 translate-y-0 sm:scale-100\" leave-to=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\">\n            <DialogPanel class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6\">\n              <div class=\"sm:flex sm:items-start\">\n                <div class=\"mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10\">\n                  <ExclamationTriangleIcon class=\"size-6 text-red-600\" aria-hidden=\"true\" />\n                </div>\n                <div class=\"mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left\">\n                  <DialogTitle as=\"h3\" class=\"text-base font-semibold text-gray-900\">Deactivate account</DialogTitle>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Are you sure you want to deactivate your account? All of your data will be permanently removed from our servers forever. This action cannot be undone.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-4 sm:flex sm:flex-row-reverse\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto\" @click=\"open = false\" ref=\"cancelButtonRef\">Cancel</button>\n              </div>\n            </DialogPanel>\n          </TransitionChild>\n        </div>\n      </div>\n    </Dialog>\n  </TransitionRoot>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'\nimport { ExclamationTriangleIcon } from '@heroicons/vue/24/outline'\n\nconst open = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 560,
+          "smallWidth": 375,
+          "smallHeight": 560
+        },
+        {
+          "name": "Simple with dismiss button",
+          "uuid": "f89a7babb527a1909590ce2fa868a45d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-300\" style=\"height: 560px\">\n    \n  \n    <div x-data=\"{ open: true }\" @keydown.window.escape=\"open = false\" x-init=\"$watch(&quot;open&quot;, o => !o && window.setTimeout(() => (open = true), 1000))\" x-show=\"open\" class=\"relative z-10\" aria-labelledby=\"modal-title\" x-ref=\"dialog\" aria-modal=\"true\">\n      \n        <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0\" x-transition:enter-end=\"opacity-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" x-description=\"Background backdrop, show/hide based on modal state.\" class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" aria-hidden=\"true\"></div>\n      \n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          \n            <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-transition:enter-end=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave-end=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-description=\"Modal panel, show/hide based on modal state.\" class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6\" @click.away=\"open = false\">\n              <div class=\"absolute top-0 right-0 hidden pt-4 pr-4 sm:block\">\n                <button type=\"button\" class=\"rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\" @click=\"open = false\">\n                  <span class=\"sr-only\">Close</span>\n                  <svg class=\"size-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6 18 18 6M6 6l12 12\"></path>\n</svg>\n                </button>\n              </div>\n              <div class=\"sm:flex sm:items-start\">\n                <div class=\"mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10\">\n                  <svg class=\"size-6 text-red-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z\"></path>\n</svg>\n                </div>\n                <div class=\"mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left\">\n                  <h3 class=\"text-base font-semibold text-gray-900\" id=\"modal-title\">Deactivate account</h3>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Are you sure you want to deactivate your account? All of your data will be permanently removed from our servers forever. This action cannot be undone.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-4 sm:flex sm:flex-row-reverse\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-red-500 sm:ml-3 sm:w-auto\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 sm:mt-0 sm:w-auto\" @click=\"open = false\">Cancel</button>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  \n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <TransitionRoot as=\"template\" :show=\"open\">\n    <Dialog class=\"relative z-10\" @close=\"open = false\">\n      <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0\" enter-to=\"opacity-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100\" leave-to=\"opacity-0\">\n        <div class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" />\n      </TransitionChild>\n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" enter-to=\"opacity-100 translate-y-0 sm:scale-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100 translate-y-0 sm:scale-100\" leave-to=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\">\n            <DialogPanel class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6\">\n              <div class=\"absolute right-0 top-0 hidden pr-4 pt-4 sm:block\">\n                <button type=\"button\" class=\"rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2\" @click=\"open = false\">\n                  <span class=\"sr-only\">Close</span>\n                  <XMarkIcon class=\"size-6\" aria-hidden=\"true\" />\n                </button>\n              </div>\n              <div class=\"sm:flex sm:items-start\">\n                <div class=\"mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10\">\n                  <ExclamationTriangleIcon class=\"size-6 text-red-600\" aria-hidden=\"true\" />\n                </div>\n                <div class=\"mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left\">\n                  <DialogTitle as=\"h3\" class=\"text-base font-semibold text-gray-900\">Deactivate account</DialogTitle>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Are you sure you want to deactivate your account? All of your data will be permanently removed from our servers forever. This action cannot be undone.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-4 sm:flex sm:flex-row-reverse\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto\" @click=\"open = false\">Cancel</button>\n              </div>\n            </DialogPanel>\n          </TransitionChild>\n        </div>\n      </div>\n    </Dialog>\n  </TransitionRoot>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'\nimport { ExclamationTriangleIcon, XMarkIcon } from '@heroicons/vue/24/outline'\n\nconst open = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 560,
+          "smallWidth": 375,
+          "smallHeight": 560
+        },
+        {
+          "name": "Simple with gray footer",
+          "uuid": "b6812b6c13fff16861f2645c4100ae5b",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-300\" style=\"height: 560px\">\n    \n  \n    <div x-data=\"{ open: true }\" @keydown.window.escape=\"open = false\" x-init=\"$watch(&quot;open&quot;, o => !o && window.setTimeout(() => (open = true), 1000))\" x-show=\"open\" class=\"relative z-10\" aria-labelledby=\"modal-title\" x-ref=\"dialog\" aria-modal=\"true\">\n      \n        <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0\" x-transition:enter-end=\"opacity-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" x-description=\"Background backdrop, show/hide based on modal state.\" class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" aria-hidden=\"true\"></div>\n      \n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          \n            <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-transition:enter-end=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave-end=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-description=\"Modal panel, show/hide based on modal state.\" class=\"relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg\" @click.away=\"open = false\">\n              <div class=\"bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4\">\n                <div class=\"sm:flex sm:items-start\">\n                  <div class=\"mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10\">\n                    <svg class=\"size-6 text-red-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z\"></path>\n</svg>\n                  </div>\n                  <div class=\"mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left\">\n                    <h3 class=\"text-base font-semibold text-gray-900\" id=\"modal-title\">Deactivate account</h3>\n                    <div class=\"mt-2\">\n                      <p class=\"text-sm text-gray-500\">Are you sure you want to deactivate your account? All of your data will be permanently removed. This action cannot be undone.</p>\n                    </div>\n                  </div>\n                </div>\n              </div>\n              <div class=\"bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-red-500 sm:ml-3 sm:w-auto\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 sm:mt-0 sm:w-auto\" @click=\"open = false\">Cancel</button>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  \n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <TransitionRoot as=\"template\" :show=\"open\">\n    <Dialog class=\"relative z-10\" @close=\"open = false\">\n      <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0\" enter-to=\"opacity-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100\" leave-to=\"opacity-0\">\n        <div class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" />\n      </TransitionChild>\n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" enter-to=\"opacity-100 translate-y-0 sm:scale-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100 translate-y-0 sm:scale-100\" leave-to=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\">\n            <DialogPanel class=\"relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg\">\n              <div class=\"bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4\">\n                <div class=\"sm:flex sm:items-start\">\n                  <div class=\"mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10\">\n                    <ExclamationTriangleIcon class=\"size-6 text-red-600\" aria-hidden=\"true\" />\n                  </div>\n                  <div class=\"mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left\">\n                    <DialogTitle as=\"h3\" class=\"text-base font-semibold text-gray-900\">Deactivate account</DialogTitle>\n                    <div class=\"mt-2\">\n                      <p class=\"text-sm text-gray-500\">Are you sure you want to deactivate your account? All of your data will be permanently removed. This action cannot be undone.</p>\n                    </div>\n                  </div>\n                </div>\n              </div>\n              <div class=\"bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto\" @click=\"open = false\" ref=\"cancelButtonRef\">Cancel</button>\n              </div>\n            </DialogPanel>\n          </TransitionChild>\n        </div>\n      </div>\n    </Dialog>\n  </TransitionRoot>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'\nimport { ExclamationTriangleIcon } from '@heroicons/vue/24/outline'\n\nconst open = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 560,
+          "smallWidth": 375,
+          "smallHeight": 560
+        },
+        {
+          "name": "Simple alert with left-aligned buttons",
+          "uuid": "91a802d0d690e1fab88003f4fe449f0b",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-300\" style=\"height: 560px\">\n    \n  \n    <div x-data=\"{ open: true }\" @keydown.window.escape=\"open = false\" x-init=\"$watch(&quot;open&quot;, o => !o && window.setTimeout(() => (open = true), 1000))\" x-show=\"open\" class=\"relative z-10\" aria-labelledby=\"modal-title\" x-ref=\"dialog\" aria-modal=\"true\">\n      \n        <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0\" x-transition:enter-end=\"opacity-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" x-description=\"Background backdrop, show/hide based on modal state.\" class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" aria-hidden=\"true\"></div>\n      \n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          \n            <div x-show=\"open\" x-transition:enter=\"ease-out duration-300\" x-transition:enter-start=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-transition:enter-end=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave=\"ease-in duration-200\" x-transition:leave-start=\"opacity-100 translate-y-0 sm:scale-100\" x-transition:leave-end=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" x-description=\"Modal panel, show/hide based on modal state.\" class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6\" @click.away=\"open = false\">\n              <div class=\"sm:flex sm:items-start\">\n                <div class=\"mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10\">\n                  <svg class=\"size-6 text-red-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z\"></path>\n</svg>\n                </div>\n                <div class=\"mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left\">\n                  <h3 class=\"text-base font-semibold text-gray-900\" id=\"modal-title\">Deactivate account</h3>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Are you sure you want to deactivate your account? All of your data will be permanently removed from our servers forever. This action cannot be undone.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:mt-4 sm:ml-10 sm:flex sm:pl-4\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-red-500 sm:w-auto\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 sm:mt-0 sm:ml-3 sm:w-auto\" @click=\"open = false\">Cancel</button>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  \n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <TransitionRoot as=\"template\" :show=\"open\">\n    <Dialog class=\"relative z-10\" @close=\"open = false\">\n      <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0\" enter-to=\"opacity-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100\" leave-to=\"opacity-0\">\n        <div class=\"fixed inset-0 bg-gray-500/75 transition-opacity\" />\n      </TransitionChild>\n\n      <div class=\"fixed inset-0 z-10 w-screen overflow-y-auto\">\n        <div class=\"flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0\">\n          <TransitionChild as=\"template\" enter=\"ease-out duration-300\" enter-from=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\" enter-to=\"opacity-100 translate-y-0 sm:scale-100\" leave=\"ease-in duration-200\" leave-from=\"opacity-100 translate-y-0 sm:scale-100\" leave-to=\"opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95\">\n            <DialogPanel class=\"relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg sm:p-6\">\n              <div class=\"sm:flex sm:items-start\">\n                <div class=\"mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10\">\n                  <ExclamationTriangleIcon class=\"size-6 text-red-600\" aria-hidden=\"true\" />\n                </div>\n                <div class=\"mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left\">\n                  <DialogTitle as=\"h3\" class=\"text-base font-semibold text-gray-900\">Deactivate account</DialogTitle>\n                  <div class=\"mt-2\">\n                    <p class=\"text-sm text-gray-500\">Are you sure you want to deactivate your account? All of your data will be permanently removed from our servers forever. This action cannot be undone.</p>\n                  </div>\n                </div>\n              </div>\n              <div class=\"mt-5 sm:ml-10 sm:mt-4 sm:flex sm:pl-4\">\n                <button type=\"button\" class=\"inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:w-auto\" @click=\"open = false\">Deactivate</button>\n                <button type=\"button\" class=\"mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:ml-3 sm:mt-0 sm:w-auto\" @click=\"open = false\" ref=\"cancelButtonRef\">Cancel</button>\n              </div>\n            </DialogPanel>\n          </TransitionChild>\n        </div>\n      </div>\n    </Dialog>\n  </TransitionRoot>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'\nimport { ExclamationTriangleIcon } from '@heroicons/vue/24/outline'\n\nconst open = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 560,
+          "smallWidth": 375,
+          "smallHeight": 560
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

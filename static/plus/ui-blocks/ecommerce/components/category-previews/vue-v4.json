@@ -1,0 +1,326 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": false
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": true
+      }
+    ],
+    "categories": [
+      {
+        "name": "Components",
+        "anchor": "product-ecommerce-components",
+        "subcategories": [
+          {
+            "name": "Product Overviews",
+            "url": "/plus/ui-blocks/ecommerce/components/product-overviews",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Product Lists",
+            "url": "/plus/ui-blocks/ecommerce/components/product-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Category Previews",
+            "url": "/plus/ui-blocks/ecommerce/components/category-previews",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Shopping Carts",
+            "url": "/plus/ui-blocks/ecommerce/components/shopping-carts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Category Filters",
+            "url": "/plus/ui-blocks/ecommerce/components/category-filters",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Product Quickviews",
+            "url": "/plus/ui-blocks/ecommerce/components/product-quickviews",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Product Features",
+            "url": "/plus/ui-blocks/ecommerce/components/product-features",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Store Navigation",
+            "url": "/plus/ui-blocks/ecommerce/components/store-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Promo Sections",
+            "url": "/plus/ui-blocks/ecommerce/components/promo-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkout Forms",
+            "url": "/plus/ui-blocks/ecommerce/components/checkout-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Reviews",
+            "url": "/plus/ui-blocks/ecommerce/components/reviews",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Order Summaries",
+            "url": "/plus/ui-blocks/ecommerce/components/order-summaries",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Order History",
+            "url": "/plus/ui-blocks/ecommerce/components/order-history",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Incentives",
+            "url": "/plus/ui-blocks/ecommerce/components/incentives",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-ecommerce-page-examples",
+        "subcategories": [
+          {
+            "name": "Storefront Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/storefront-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Product Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/product-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Category Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/category-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Shopping Cart Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/shopping-cart-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkout Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/checkout-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Order Detail Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/order-detail-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Order History Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/order-history-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Category Previews",
+      "description": "Ecommerce category preview examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS category preview components to highlight various product categories, and help customers find out what products are available in your store. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/ecommerce/components/category-previews",
+      "category": {
+        "name": "Components",
+        "url": "/plus/ui-blocks/ecommerce#product-ecommerce-components",
+        "product": {
+          "name": "Ecommerce",
+          "url": "/plus/ui-blocks/ecommerce"
+        }
+      },
+      "components": [
+        {
+          "name": "With image backgrounds",
+          "uuid": "0bccd1058690fa6d03a79564f992f609",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": "<p class=\"mt-4 text-xs text-slate-500\">Images provided by <a href=\"https://ugmonk.com/\" class=\"font-medium text-sky-600 hover:text-sky-700\">Ugmonk</a></p>",
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-50\">\n    <div class=\"mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8\">\n      <div class=\"sm:flex sm:items-baseline sm:justify-between\">\n        <h2 class=\"text-2xl font-bold tracking-tight text-gray-900\">Shop by Category</h2>\n        <a href=\"#\" class=\"hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block\">\n          Browse all categories\n          <span aria-hidden=\"true\"> &rarr;</span>\n        </a>\n      </div>\n\n      <div class=\"mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8\">\n        <div class=\"group relative aspect-2/1 overflow-hidden rounded-lg sm:row-span-2 sm:aspect-square\">\n          <img src=\"/plus-assets/img/ecommerce-images/home-page-03-featured-category.jpg\" alt=\"Two models wearing women's black cotton crewneck tee and off-white cotton crewneck tee.\" class=\"absolute size-full object-cover group-hover:opacity-75\">\n          <div aria-hidden=\"true\" class=\"absolute inset-0 bg-linear-to-b from-transparent to-black opacity-50\"></div>\n          <div class=\"absolute inset-0 flex items-end p-6\">\n            <div>\n              <h3 class=\"font-semibold text-white\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\"></span>\n                  New Arrivals\n                </a>\n              </h3>\n              <p aria-hidden=\"true\" class=\"mt-1 text-sm text-white\">Shop now</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"group relative aspect-2/1 overflow-hidden rounded-lg sm:aspect-auto\">\n          <img src=\"/plus-assets/img/ecommerce-images/home-page-03-category-01.jpg\" alt=\"Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters.\" class=\"absolute size-full object-cover group-hover:opacity-75\">\n          <div aria-hidden=\"true\" class=\"absolute inset-0 bg-linear-to-b from-transparent to-black opacity-50\"></div>\n          <div class=\"absolute inset-0 flex items-end p-6\">\n            <div>\n              <h3 class=\"font-semibold text-white\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\"></span>\n                  Accessories\n                </a>\n              </h3>\n              <p aria-hidden=\"true\" class=\"mt-1 text-sm text-white\">Shop now</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"group relative aspect-2/1 overflow-hidden rounded-lg sm:aspect-auto\">\n          <img src=\"/plus-assets/img/ecommerce-images/home-page-03-category-02.jpg\" alt=\"Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk.\" class=\"absolute size-full object-cover group-hover:opacity-75\">\n          <div aria-hidden=\"true\" class=\"absolute inset-0 bg-linear-to-b from-transparent to-black opacity-50\"></div>\n          <div class=\"absolute inset-0 flex items-end p-6\">\n            <div>\n              <h3 class=\"font-semibold text-white\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\"></span>\n                  Workspace\n                </a>\n              </h3>\n              <p aria-hidden=\"true\" class=\"mt-1 text-sm text-white\">Shop now</p>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"mt-6 sm:hidden\">\n        <a href=\"#\" class=\"block text-sm font-semibold text-indigo-600 hover:text-indigo-500\">\n          Browse all categories\n          <span aria-hidden=\"true\"> &rarr;</span>\n        </a>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"bg-gray-50\">\n    <div class=\"mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8\">\n      <div class=\"sm:flex sm:items-baseline sm:justify-between\">\n        <h2 class=\"text-2xl font-bold tracking-tight text-gray-900\">Shop by Category</h2>\n        <a href=\"#\" class=\"hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block\">\n          Browse all categories\n          <span aria-hidden=\"true\"> &rarr;</span>\n        </a>\n      </div>\n\n      <div class=\"mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8\">\n        <div class=\"group relative aspect-2/1 overflow-hidden rounded-lg sm:row-span-2 sm:aspect-square\">\n          <img src=\"/plus-assets/img/ecommerce-images/home-page-03-featured-category.jpg\" alt=\"Two models wearing women's black cotton crewneck tee and off-white cotton crewneck tee.\" class=\"absolute size-full object-cover group-hover:opacity-75\" />\n          <div aria-hidden=\"true\" class=\"absolute inset-0 bg-linear-to-b from-transparent to-black opacity-50\" />\n          <div class=\"absolute inset-0 flex items-end p-6\">\n            <div>\n              <h3 class=\"font-semibold text-white\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\" />\n                  New Arrivals\n                </a>\n              </h3>\n              <p aria-hidden=\"true\" class=\"mt-1 text-sm text-white\">Shop now</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"group relative aspect-2/1 overflow-hidden rounded-lg sm:aspect-auto\">\n          <img src=\"/plus-assets/img/ecommerce-images/home-page-03-category-01.jpg\" alt=\"Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters.\" class=\"absolute size-full object-cover group-hover:opacity-75\" />\n          <div aria-hidden=\"true\" class=\"absolute inset-0 bg-linear-to-b from-transparent to-black opacity-50\" />\n          <div class=\"absolute inset-0 flex items-end p-6\">\n            <div>\n              <h3 class=\"font-semibold text-white\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\" />\n                  Accessories\n                </a>\n              </h3>\n              <p aria-hidden=\"true\" class=\"mt-1 text-sm text-white\">Shop now</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"group relative aspect-2/1 overflow-hidden rounded-lg sm:aspect-auto\">\n          <img src=\"/plus-assets/img/ecommerce-images/home-page-03-category-02.jpg\" alt=\"Walnut desk organizer set with white modular trays, next to porcelain mug on wooden desk.\" class=\"absolute size-full object-cover group-hover:opacity-75\" />\n          <div aria-hidden=\"true\" class=\"absolute inset-0 bg-linear-to-b from-transparent to-black opacity-50\" />\n          <div class=\"absolute inset-0 flex items-end p-6\">\n            <div>\n              <h3 class=\"font-semibold text-white\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\" />\n                  Workspace\n                </a>\n              </h3>\n              <p aria-hidden=\"true\" class=\"mt-1 text-sm text-white\">Shop now</p>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"mt-6 sm:hidden\">\n        <a href=\"#\" class=\"block text-sm font-semibold text-indigo-600 hover:text-indigo-500\">\n          Browse all categories\n          <span aria-hidden=\"true\"> &rarr;</span>\n        </a>\n      </div>\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 840,
+          "smallWidth": 375,
+          "smallHeight": 791
+        },
+        {
+          "name": "Three-column",
+          "uuid": "37995021e5cdf0c643346920ff40b13b",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": "<p class=\"mt-4 text-xs text-slate-500\">Images provided by <a href=\"https://ugmonk.com/\" class=\"font-medium text-sky-600 hover:text-sky-700\">Ugmonk</a></p>",
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32\">\n        <h2 class=\"text-2xl font-bold text-gray-900\">Collections</h2>\n\n        <div class=\"mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0\">\n          <div class=\"group relative\">\n              <img src=\"/plus-assets/img/ecommerce-images/home-page-02-edition-01.jpg\" alt=\"Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.\" class=\"w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square\">\n              <h3 class=\"mt-6 text-sm text-gray-500\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\"></span>\n                  Desk and Office\n                </a>\n              </h3>\n              <p class=\"text-base font-semibold text-gray-900\">Work from home accessories</p>\n            </div>\n          <div class=\"group relative\">\n              <img src=\"/plus-assets/img/ecommerce-images/home-page-02-edition-02.jpg\" alt=\"Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.\" class=\"w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square\">\n              <h3 class=\"mt-6 text-sm text-gray-500\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\"></span>\n                  Self-Improvement\n                </a>\n              </h3>\n              <p class=\"text-base font-semibold text-gray-900\">Journals and note-taking</p>\n            </div>\n          <div class=\"group relative\">\n              <img src=\"/plus-assets/img/ecommerce-images/home-page-02-edition-03.jpg\" alt=\"Collection of four insulated travel bottles on wooden shelf.\" class=\"w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square\">\n              <h3 class=\"mt-6 text-sm text-gray-500\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\"></span>\n                  Travel\n                </a>\n              </h3>\n              <p class=\"text-base font-semibold text-gray-900\">Daily commute essentials</p>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32\">\n        <h2 class=\"text-2xl font-bold text-gray-900\">Collections</h2>\n\n        <div class=\"mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0\">\n          <div v-for=\"callout in callouts\" :key=\"callout.name\" class=\"group relative\">\n            <img :src=\"callout.imageSrc\" :alt=\"callout.imageAlt\" class=\"w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square\" />\n            <h3 class=\"mt-6 text-sm text-gray-500\">\n              <a :href=\"callout.href\">\n                <span class=\"absolute inset-0\" />\n                {{ callout.name }}\n              </a>\n            </h3>\n            <p class=\"text-base font-semibold text-gray-900\">{{ callout.description }}</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nconst callouts = [\n  {\n    name: 'Desk and Office',\n    description: 'Work from home accessories',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-02-edition-01.jpg',\n    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',\n    href: '#',\n  },\n  {\n    name: 'Self-Improvement',\n    description: 'Journals and note-taking',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-02-edition-02.jpg',\n    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',\n    href: '#',\n  },\n  {\n    name: 'Travel',\n    description: 'Daily commute essentials',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-02-edition-03.jpg',\n    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',\n    href: '#',\n  },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 769,
+          "smallWidth": 375,
+          "smallHeight": 1444
+        },
+        {
+          "name": "With background image and detail overlay",
+          "uuid": "1f407cdd33b17a2fc24966b27bea7890",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": "<p class=\"mt-4 text-xs text-slate-500\">Images provided by <a href=\"https://ugmonk.com/\" class=\"font-medium text-sky-600 hover:text-sky-700\">Ugmonk</a></p>",
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl\">\n      <div class=\"relative overflow-hidden rounded-lg lg:h-96\">\n        <div class=\"absolute inset-0\">\n          <img src=\"/plus-assets/img/ecommerce-images/category-page-01-featured-collection.jpg\" alt=\"\" class=\"size-full object-cover\">\n        </div>\n        <div aria-hidden=\"true\" class=\"relative h-96 w-full lg:hidden\"></div>\n        <div aria-hidden=\"true\" class=\"relative h-32 w-full lg:hidden\"></div>\n        <div class=\"absolute inset-x-0 bottom-0 rounded-br-lg rounded-bl-lg bg-black/75 p-6 backdrop-blur-sm backdrop-filter sm:flex sm:items-center sm:justify-between lg:inset-x-auto lg:inset-y-0 lg:w-96 lg:flex-col lg:items-start lg:rounded-tl-lg lg:rounded-br-none\">\n          <div>\n            <h2 class=\"text-xl font-bold text-white\">Workspace Collection</h2>\n            <p class=\"mt-1 text-sm text-gray-300\">Upgrade your desk with objects that keep you organized and clear-minded.</p>\n          </div>\n          <a href=\"#\" class=\"mt-6 flex shrink-0 items-center justify-center rounded-md border border-white/25 px-4 py-3 text-base font-medium text-white hover:bg-white/10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full\">View the collection</a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl\">\n      <div class=\"relative overflow-hidden rounded-lg lg:h-96\">\n        <div class=\"absolute inset-0\">\n          <img src=\"/plus-assets/img/ecommerce-images/category-page-01-featured-collection.jpg\" alt=\"\" class=\"size-full object-cover\" />\n        </div>\n        <div aria-hidden=\"true\" class=\"relative h-96 w-full lg:hidden\" />\n        <div aria-hidden=\"true\" class=\"relative h-32 w-full lg:hidden\" />\n        <div class=\"absolute inset-x-0 bottom-0 rounded-br-lg rounded-bl-lg bg-black/75 p-6 backdrop-blur-sm backdrop-filter sm:flex sm:items-center sm:justify-between lg:inset-x-auto lg:inset-y-0 lg:w-96 lg:flex-col lg:items-start lg:rounded-tl-lg lg:rounded-br-none\">\n          <div>\n            <h2 class=\"text-xl font-bold text-white\">Workspace Collection</h2>\n            <p class=\"mt-1 text-sm text-gray-300\">Upgrade your desk with objects that keep you organized and clear-minded.</p>\n          </div>\n          <a href=\"#\" class=\"mt-6 flex shrink-0 items-center justify-center rounded-md border border-white/25 px-4 py-3 text-base font-medium text-white hover:bg-white/10 sm:mt-0 sm:ml-8 lg:ml-0 lg:w-full\">View the collection</a>\n        </div>\n      </div>\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 576,
+          "smallWidth": 375,
+          "smallHeight": 640
+        },
+        {
+          "name": "Three-column with description",
+          "uuid": "2ddbae849fc5ea4b75d75509101c14f5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": "<p class=\"mt-4 text-xs text-slate-500\">Images provided by <a href=\"https://ugmonk.com/\" class=\"font-medium text-sky-600 hover:text-sky-700\">Ugmonk</a></p>",
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8\">\n      <h2 class=\"text-2xl font-bold tracking-tight text-gray-900\">Shop by Collection</h2>\n      <p class=\"mt-4 text-base text-gray-500\">Each season, we collaborate with world-class designers to create a collection inspired by the natural world.</p>\n\n      <div class=\"mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0\">\n        <a href=\"#\" class=\"group block\">\n            <img src=\"/plus-assets/img/ecommerce-images/home-page-01-collection-01.jpg\" alt=\"Brown leather key ring with brass metal loops and rivets on wood table.\" class=\"aspect-3/2 w-full rounded-lg object-cover group-hover:opacity-75 lg:aspect-5/6\">\n            <h3 class=\"mt-4 text-base font-semibold text-gray-900\">Handcrafted Collection</h3>\n            <p class=\"mt-2 text-sm text-gray-500\">Keep your phone, keys, and wallet together, so you can lose everything at once.</p>\n          </a>\n        <a href=\"#\" class=\"group block\">\n            <img src=\"/plus-assets/img/ecommerce-images/home-page-01-collection-02.jpg\" alt=\"Natural leather mouse pad on white desk next to porcelain mug and keyboard.\" class=\"aspect-3/2 w-full rounded-lg object-cover group-hover:opacity-75 lg:aspect-5/6\">\n            <h3 class=\"mt-4 text-base font-semibold text-gray-900\">Organized Desk Collection</h3>\n            <p class=\"mt-2 text-sm text-gray-500\">The rest of the house will still be a mess, but your desk will look great.</p>\n          </a>\n        <a href=\"#\" class=\"group block\">\n            <img src=\"/plus-assets/img/ecommerce-images/home-page-01-collection-03.jpg\" alt=\"Person placing task list card into walnut card holder next to felt carrying case on leather desk pad.\" class=\"aspect-3/2 w-full rounded-lg object-cover group-hover:opacity-75 lg:aspect-5/6\">\n            <h3 class=\"mt-4 text-base font-semibold text-gray-900\">Focus Collection</h3>\n            <p class=\"mt-2 text-sm text-gray-500\">Be more productive than enterprise project managers with a single piece of paper.</p>\n          </a>\n        \n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8\">\n      <h2 class=\"text-2xl font-bold tracking-tight text-gray-900\">Shop by Collection</h2>\n      <p class=\"mt-4 text-base text-gray-500\">Each season, we collaborate with world-class designers to create a collection inspired by the natural world.</p>\n\n      <div class=\"mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-8 lg:space-y-0\">\n        <a v-for=\"category in categories\" :key=\"category.name\" :href=\"category.href\" class=\"group block\">\n          <img :src=\"category.imageSrc\" :alt=\"category.imageAlt\" class=\"aspect-3/2 w-full rounded-lg object-cover group-hover:opacity-75 lg:aspect-5/6\" />\n          <h3 class=\"mt-4 text-base font-semibold text-gray-900\">{{ category.name }}</h3>\n          <p class=\"mt-2 text-sm text-gray-500\">{{ category.description }}</p>\n        </a>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nconst categories = [\n  {\n    name: 'Handcrafted Collection',\n    href: '#',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-01-collection-01.jpg',\n    imageAlt: 'Brown leather key ring with brass metal loops and rivets on wood table.',\n    description: 'Keep your phone, keys, and wallet together, so you can lose everything at once.',\n  },\n  {\n    name: 'Organized Desk Collection',\n    href: '#',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-01-collection-02.jpg',\n    imageAlt: 'Natural leather mouse pad on white desk next to porcelain mug and keyboard.',\n    description: 'The rest of the house will still be a mess, but your desk will look great.',\n  },\n  {\n    name: 'Focus Collection',\n    href: '#',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-01-collection-03.jpg',\n    imageAlt: 'Person placing task list card into walnut card holder next to felt carrying case on leather desk pad.',\n    description: 'Be more productive than enterprise project managers with a single piece of paper.',\n  },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 853,
+          "smallWidth": 375,
+          "smallHeight": 1334
+        },
+        {
+          "name": "With scrolling cards",
+          "uuid": "6ebe66c8103e943e840fd4dbf1cf8ab7",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": "<p class=\"mt-4 text-xs text-slate-500\">Images provided by <a href=\"https://ugmonk.com/\" class=\"font-medium text-sky-600 hover:text-sky-700\">Ugmonk</a></p>",
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"py-16 sm:py-24 xl:mx-auto xl:max-w-7xl xl:px-8\">\n      <div class=\"px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 xl:px-0\">\n        <h2 class=\"text-2xl font-bold tracking-tight text-gray-900\">Shop by Category</h2>\n        <a href=\"#\" class=\"hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block\">\n          Browse all categories\n          <span aria-hidden=\"true\"> &rarr;</span>\n        </a>\n      </div>\n\n      <div class=\"mt-4 flow-root\">\n        <div class=\"-my-2\">\n          <div class=\"relative box-content h-80 overflow-x-auto py-2 xl:overflow-visible\">\n            <div class=\"absolute flex space-x-8 px-4 sm:px-6 lg:px-8 xl:relative xl:grid xl:grid-cols-5 xl:gap-x-8 xl:space-x-0 xl:px-0\">\n              <a href=\"#\" class=\"relative flex h-80 w-56 flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto\">\n                  <span aria-hidden=\"true\" class=\"absolute inset-0\">\n                    <img src=\"/plus-assets/img/ecommerce-images/home-page-01-category-01.jpg\" alt=\"\" class=\"size-full object-cover\">\n                  </span>\n                  <span aria-hidden=\"true\" class=\"absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-gray-800 opacity-50\"></span>\n                  <span class=\"relative mt-auto text-center text-xl font-bold text-white\">New Arrivals</span>\n                </a>\n              <a href=\"#\" class=\"relative flex h-80 w-56 flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto\">\n                  <span aria-hidden=\"true\" class=\"absolute inset-0\">\n                    <img src=\"/plus-assets/img/ecommerce-images/home-page-01-category-02.jpg\" alt=\"\" class=\"size-full object-cover\">\n                  </span>\n                  <span aria-hidden=\"true\" class=\"absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-gray-800 opacity-50\"></span>\n                  <span class=\"relative mt-auto text-center text-xl font-bold text-white\">Productivity</span>\n                </a>\n              <a href=\"#\" class=\"relative flex h-80 w-56 flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto\">\n                  <span aria-hidden=\"true\" class=\"absolute inset-0\">\n                    <img src=\"/plus-assets/img/ecommerce-images/home-page-01-category-04.jpg\" alt=\"\" class=\"size-full object-cover\">\n                  </span>\n                  <span aria-hidden=\"true\" class=\"absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-gray-800 opacity-50\"></span>\n                  <span class=\"relative mt-auto text-center text-xl font-bold text-white\">Workspace</span>\n                </a>\n              <a href=\"#\" class=\"relative flex h-80 w-56 flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto\">\n                  <span aria-hidden=\"true\" class=\"absolute inset-0\">\n                    <img src=\"/plus-assets/img/ecommerce-images/home-page-01-category-05.jpg\" alt=\"\" class=\"size-full object-cover\">\n                  </span>\n                  <span aria-hidden=\"true\" class=\"absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-gray-800 opacity-50\"></span>\n                  <span class=\"relative mt-auto text-center text-xl font-bold text-white\">Accessories</span>\n                </a>\n              <a href=\"#\" class=\"relative flex h-80 w-56 flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto\">\n                  <span aria-hidden=\"true\" class=\"absolute inset-0\">\n                    <img src=\"/plus-assets/img/ecommerce-images/home-page-01-category-03.jpg\" alt=\"\" class=\"size-full object-cover\">\n                  </span>\n                  <span aria-hidden=\"true\" class=\"absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-gray-800 opacity-50\"></span>\n                  <span class=\"relative mt-auto text-center text-xl font-bold text-white\">Sale</span>\n                </a>\n              \n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"mt-6 px-4 sm:hidden\">\n        <a href=\"#\" class=\"block text-sm font-semibold text-indigo-600 hover:text-indigo-500\">\n          Browse all categories\n          <span aria-hidden=\"true\"> &rarr;</span>\n        </a>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"bg-white\">\n    <div class=\"py-16 sm:py-24 xl:mx-auto xl:max-w-7xl xl:px-8\">\n      <div class=\"px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 xl:px-0\">\n        <h2 class=\"text-2xl font-bold tracking-tight text-gray-900\">Shop by Category</h2>\n        <a href=\"#\" class=\"hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block\">\n          Browse all categories\n          <span aria-hidden=\"true\"> &rarr;</span>\n        </a>\n      </div>\n\n      <div class=\"mt-4 flow-root\">\n        <div class=\"-my-2\">\n          <div class=\"relative box-content h-80 overflow-x-auto py-2 xl:overflow-visible\">\n            <div class=\"absolute flex space-x-8 px-4 sm:px-6 lg:px-8 xl:relative xl:grid xl:grid-cols-5 xl:gap-x-8 xl:space-x-0 xl:px-0\">\n              <a v-for=\"category in categories\" :key=\"category.name\" :href=\"category.href\" class=\"relative flex h-80 w-56 flex-col overflow-hidden rounded-lg p-6 hover:opacity-75 xl:w-auto\">\n                <span aria-hidden=\"true\" class=\"absolute inset-0\">\n                  <img :src=\"category.imageSrc\" alt=\"\" class=\"size-full object-cover\" />\n                </span>\n                <span aria-hidden=\"true\" class=\"absolute inset-x-0 bottom-0 h-2/3 bg-linear-to-t from-gray-800 opacity-50\" />\n                <span class=\"relative mt-auto text-center text-xl font-bold text-white\">{{ category.name }}</span>\n              </a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"mt-6 px-4 sm:hidden\">\n        <a href=\"#\" class=\"block text-sm font-semibold text-indigo-600 hover:text-indigo-500\">\n          Browse all categories\n          <span aria-hidden=\"true\"> &rarr;</span>\n        </a>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nconst categories = [\n  {\n    name: 'New Arrivals',\n    href: '#',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-01-category-01.jpg',\n  },\n  {\n    name: 'Productivity',\n    href: '#',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-01-category-02.jpg',\n  },\n  {\n    name: 'Workspace',\n    href: '#',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-01-category-04.jpg',\n  },\n  {\n    name: 'Accessories',\n    href: '#',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-01-category-05.jpg',\n  },\n  {\n    name: 'Sale',\n    href: '#',\n    imageSrc: '/plus-assets/img/ecommerce-images/home-page-01-category-03.jpg',\n  },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 560,
+          "smallWidth": 375,
+          "smallHeight": 540
+        },
+        {
+          "name": "With split images",
+          "uuid": "fb276b5490d5ef7ebd8352e50043a5de",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": "<p class=\"mt-4 text-xs text-slate-500\">Images provided by <a href=\"https://ugmonk.com/\" class=\"font-medium text-sky-600 hover:text-sky-700\">Ugmonk</a></p>",
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"h-0 min-h-[896px]\">\n    \n  <!--\n  This example requires updating your template:\n\n  ```\n  <html class=\"h-full bg-gray-50\">\n  <body class=\"h-full\">\n  ```\n  -->\n  <div class=\"grid min-h-full grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1\">\n    <div class=\"relative flex\">\n      <img src=\"/plus-assets/img/ecommerce-images/home-page-02-edition-01.jpg\" alt=\"\" class=\"absolute inset-0 size-full object-cover\">\n      <div class=\"relative flex w-full flex-col items-start justify-end bg-black/40 p-8 sm:p-12\">\n        <h2 class=\"text-lg font-medium text-white/75\">Self-Improvement</h2>\n        <p class=\"mt-1 text-2xl font-medium text-white\">Journals and note-taking</p>\n        <a href=\"#\" class=\"mt-4 rounded-md bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50\">Shop now</a>\n      </div>\n    </div>\n    <div class=\"relative flex\">\n      <img src=\"/plus-assets/img/ecommerce-images/home-page-02-edition-02.jpg\" alt=\"\" class=\"absolute inset-0 size-full object-cover\">\n      <div class=\"relative flex w-full flex-col items-start justify-end bg-black/40 p-8 sm:p-12\">\n        <h2 class=\"text-lg font-medium text-white/75\">Desk and Office</h2>\n        <p class=\"mt-1 text-2xl font-medium text-white\">Work from home accessories</p>\n        <a href=\"#\" class=\"mt-4 rounded-md bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50\">Shop now</a>\n      </div>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <!--\n    This example requires updating your template:\n\n    ```\n    <html class=\"h-full bg-gray-50\">\n    <body class=\"h-full\">\n    ```\n  -->\n  <div class=\"grid min-h-full grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1\">\n    <div class=\"relative flex\">\n      <img src=\"/plus-assets/img/ecommerce-images/home-page-02-edition-01.jpg\" alt=\"\" class=\"absolute inset-0 size-full object-cover\" />\n      <div class=\"relative flex w-full flex-col items-start justify-end bg-black/40 p-8 sm:p-12\">\n        <h2 class=\"text-lg font-medium text-white/75\">Self-Improvement</h2>\n        <p class=\"mt-1 text-2xl font-medium text-white\">Journals and note-taking</p>\n        <a href=\"#\" class=\"mt-4 rounded-md bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50\">Shop now</a>\n      </div>\n    </div>\n    <div class=\"relative flex\">\n      <img src=\"/plus-assets/img/ecommerce-images/home-page-02-edition-02.jpg\" alt=\"\" class=\"absolute inset-0 size-full object-cover\" />\n      <div class=\"relative flex w-full flex-col items-start justify-end bg-black/40 p-8 sm:p-12\">\n        <h2 class=\"text-lg font-medium text-white/75\">Desk and Office</h2>\n        <p class=\"mt-1 text-2xl font-medium text-white\">Work from home accessories</p>\n        <a href=\"#\" class=\"mt-4 rounded-md bg-white px-4 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-50\">Shop now</a>\n      </div>\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 896,
+          "smallWidth": 375,
+          "smallHeight": 896
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/ecommerce/components/category-previews",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

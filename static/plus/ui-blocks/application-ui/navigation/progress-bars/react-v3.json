@@ -1,0 +1,588 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Progress Bars",
+      "description": "Multi-step navigation and progress examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS progress bar and multi-step navigation examples to visually represent progress and indicate next steps in your interface. These components are designed and built by the Tailwind CSS team, and include a variety of different styles.",
+      "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+      "category": {
+        "name": "Navigation",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-navigation",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple",
+          "uuid": "2771127c1e236ed43a11c623657479d5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl p-6\">\n      \n  <nav aria-label=\"Progress\">\n    <ol role=\"list\" class=\"space-y-4 md:flex md:space-y-0 md:space-x-8\">\n      <li class=\"md:flex-1\">\n          <a href=\"#\" class=\"group flex flex-col border-l-4 border-indigo-600 py-2 pl-4 hover:border-indigo-800 md:border-t-4 md:border-l-0 md:pt-4 md:pb-0 md:pl-0\" x-description=\"Completed Step\">\n              <span class=\"text-sm font-medium text-indigo-600 group-hover:text-indigo-800\">Step 1</span>\n              <span class=\"text-sm font-medium\">Job details</span>\n            </a>\n          </li>\n      <li class=\"md:flex-1\">\n          \n            <a href=\"#\" class=\"flex flex-col border-l-4 border-indigo-600 py-2 pl-4 md:border-t-4 md:border-l-0 md:pt-4 md:pb-0 md:pl-0\" aria-current=\"step\" x-description=\"Current Step\">\n              <span class=\"text-sm font-medium text-indigo-600\">Step 2</span>\n              <span class=\"text-sm font-medium\">Application form</span>\n            </a>\n          </li>\n      <li class=\"md:flex-1\">\n          <a href=\"#\" class=\"group flex flex-col border-l-4 border-gray-200 py-2 pl-4 hover:border-gray-300 md:border-t-4 md:border-l-0 md:pt-4 md:pb-0 md:pl-0\" x-description=\"Upcoming Step\">\n              <span class=\"text-sm font-medium text-gray-500 group-hover:text-gray-700\">Step 3</span>\n              <span class=\"text-sm font-medium\">Preview</span>\n            </a>\n          </li>\n      \n    </ol>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const steps = [\n  { id: 'Step 1', name: 'Job details', href: '#', status: 'complete' },\n  { id: 'Step 2', name: 'Application form', href: '#', status: 'current' },\n  { id: 'Step 3', name: 'Preview', href: '#', status: 'upcoming' },\n]\n\nexport default function Example() {\n  return (\n    <nav aria-label=\"Progress\">\n      <ol role=\"list\" className=\"space-y-4 md:flex md:space-x-8 md:space-y-0\">\n        {steps.map((step) => (\n          <li key={step.name} className=\"md:flex-1\">\n            {step.status === 'complete' ? (\n              <a\n                href={step.href}\n                className=\"group flex flex-col border-l-4 border-indigo-600 py-2 pl-4 hover:border-indigo-800 md:border-l-0 md:border-t-4 md:pb-0 md:pl-0 md:pt-4\"\n              >\n                <span className=\"text-sm font-medium text-indigo-600 group-hover:text-indigo-800\">{step.id}</span>\n                <span className=\"text-sm font-medium\">{step.name}</span>\n              </a>\n            ) : step.status === 'current' ? (\n              <a\n                href={step.href}\n                aria-current=\"step\"\n                className=\"flex flex-col border-l-4 border-indigo-600 py-2 pl-4 md:border-l-0 md:border-t-4 md:pb-0 md:pl-0 md:pt-4\"\n              >\n                <span className=\"text-sm font-medium text-indigo-600\">{step.id}</span>\n                <span className=\"text-sm font-medium\">{step.name}</span>\n              </a>\n            ) : (\n              <a\n                href={step.href}\n                className=\"group flex flex-col border-l-4 border-gray-200 py-2 pl-4 hover:border-gray-300 md:border-l-0 md:border-t-4 md:pb-0 md:pl-0 md:pt-4\"\n              >\n                <span className=\"text-sm font-medium text-gray-500 group-hover:text-gray-700\">{step.id}</span>\n                <span className=\"text-sm font-medium\">{step.name}</span>\n              </a>\n            )}\n          </li>\n        ))}\n      </ol>\n    </nav>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 108,
+          "smallWidth": 375,
+          "smallHeight": 248
+        },
+        {
+          "name": "Panels",
+          "uuid": "ebd95eb76948b1f97351bc44b63203aa",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-4 sm:px-6 md:px-8\">\n      \n  <nav aria-label=\"Progress\">\n    <ol role=\"list\" class=\"divide-y divide-gray-300 rounded-md border border-gray-300 md:flex md:divide-y-0\">\n      <li class=\"relative md:flex md:flex-1\">\n          <a href=\"#\" class=\"group flex w-full items-center\" x-description=\"Completed Step\">\n              <span class=\"flex items-center px-6 py-4 text-sm font-medium\">\n                <span class=\"flex size-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 group-hover:bg-indigo-800\">\n                  <svg class=\"size-6 text-white\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                </span>\n                <span class=\"ml-4 text-sm font-medium text-gray-900\">Job details</span>\n              </span>\n            </a>\n          <!-- Arrow separator for lg screens and up -->\n            <div class=\"absolute top-0 right-0 hidden h-full w-5 md:block\" aria-hidden=\"true\">\n              <svg class=\"size-full text-gray-300\" viewBox=\"0 0 22 80\" fill=\"none\" preserveAspectRatio=\"none\">\n                <path d=\"M0 -2L20 40L0 82\" vector-effect=\"non-scaling-stroke\" stroke=\"currentcolor\" stroke-linejoin=\"round\"></path>\n              </svg>\n            </div>\n          </li>\n      <li class=\"relative md:flex md:flex-1\">\n          \n            <a href=\"#\" class=\"flex items-center px-6 py-4 text-sm font-medium\" aria-current=\"step\" x-description=\"Current Step\">\n              <span class=\"flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-indigo-600\">\n                <span class=\"text-indigo-600\">02</span>\n              </span>\n              <span class=\"ml-4 text-sm font-medium text-indigo-600\">Application form</span>\n            </a>\n          <!-- Arrow separator for lg screens and up -->\n            <div class=\"absolute top-0 right-0 hidden h-full w-5 md:block\" aria-hidden=\"true\">\n              <svg class=\"size-full text-gray-300\" viewBox=\"0 0 22 80\" fill=\"none\" preserveAspectRatio=\"none\">\n                <path d=\"M0 -2L20 40L0 82\" vector-effect=\"non-scaling-stroke\" stroke=\"currentcolor\" stroke-linejoin=\"round\"></path>\n              </svg>\n            </div>\n          </li>\n      <li class=\"relative md:flex md:flex-1\">\n          <a href=\"#\" class=\"group flex items-center\" x-description=\"Upcoming Step\">\n              <span class=\"flex items-center px-6 py-4 text-sm font-medium\">\n                <span class=\"flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-gray-300 group-hover:border-gray-400\">\n                  <span class=\"text-gray-500 group-hover:text-gray-900\">03</span>\n                </span>\n                <span class=\"ml-4 text-sm font-medium text-gray-500 group-hover:text-gray-900\">Preview</span>\n              </span>\n            </a>\n          </li>\n      \n    </ol>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { CheckIcon } from '@heroicons/react/24/solid'\n\nconst steps = [\n  { id: '01', name: 'Job details', href: '#', status: 'complete' },\n  { id: '02', name: 'Application form', href: '#', status: 'current' },\n  { id: '03', name: 'Preview', href: '#', status: 'upcoming' },\n]\n\nexport default function Example() {\n  return (\n    <nav aria-label=\"Progress\">\n      <ol role=\"list\" className=\"divide-y divide-gray-300 rounded-md border border-gray-300 md:flex md:divide-y-0\">\n        {steps.map((step, stepIdx) => (\n          <li key={step.name} className=\"relative md:flex md:flex-1\">\n            {step.status === 'complete' ? (\n              <a href={step.href} className=\"group flex w-full items-center\">\n                <span className=\"flex items-center px-6 py-4 text-sm font-medium\">\n                  <span className=\"flex size-10 shrink-0 items-center justify-center rounded-full bg-indigo-600 group-hover:bg-indigo-800\">\n                    <CheckIcon aria-hidden=\"true\" className=\"size-6 text-white\" />\n                  </span>\n                  <span className=\"ml-4 text-sm font-medium text-gray-900\">{step.name}</span>\n                </span>\n              </a>\n            ) : step.status === 'current' ? (\n              <a href={step.href} aria-current=\"step\" className=\"flex items-center px-6 py-4 text-sm font-medium\">\n                <span className=\"flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-indigo-600\">\n                  <span className=\"text-indigo-600\">{step.id}</span>\n                </span>\n                <span className=\"ml-4 text-sm font-medium text-indigo-600\">{step.name}</span>\n              </a>\n            ) : (\n              <a href={step.href} className=\"group flex items-center\">\n                <span className=\"flex items-center px-6 py-4 text-sm font-medium\">\n                  <span className=\"flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-gray-300 group-hover:border-gray-400\">\n                    <span className=\"text-gray-500 group-hover:text-gray-900\">{step.id}</span>\n                  </span>\n                  <span className=\"ml-4 text-sm font-medium text-gray-500 group-hover:text-gray-900\">{step.name}</span>\n                </span>\n              </a>\n            )}\n\n            {stepIdx !== steps.length - 1 ? (\n              <>\n                {/* Arrow separator for lg screens and up */}\n                <div aria-hidden=\"true\" className=\"absolute right-0 top-0 hidden h-full w-5 md:block\">\n                  <svg fill=\"none\" viewBox=\"0 0 22 80\" preserveAspectRatio=\"none\" className=\"size-full text-gray-300\">\n                    <path\n                      d=\"M0 -2L20 40L0 82\"\n                      stroke=\"currentcolor\"\n                      vectorEffect=\"non-scaling-stroke\"\n                      strokeLinejoin=\"round\"\n                    />\n                  </svg>\n                </div>\n              </>\n            ) : null}\n          </li>\n        ))}\n      </ol>\n    </nav>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 106,
+          "smallWidth": 375,
+          "smallHeight": 252
+        },
+        {
+          "name": "Bullets",
+          "uuid": "ee415bff6f75c6724103ac0b507c54e2",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto py-12\">\n      \n  <nav class=\"flex items-center justify-center\" aria-label=\"Progress\">\n    <p class=\"text-sm font-medium\">Step 2 of 4</p>\n    <ol role=\"list\" class=\"ml-8 flex items-center space-x-5\">\n      <li>\n          <a href=\"#\" class=\"block size-2.5 rounded-full bg-indigo-600 hover:bg-indigo-900\" x-description=\"Completed Step\">\n              <span class=\"sr-only\">Step 1</span>\n            </a>\n          </li>\n      <li>\n          \n            <a href=\"#\" class=\"relative flex items-center justify-center\" aria-current=\"step\" x-description=\"Current Step\">\n              <span class=\"absolute flex size-5 p-px\" aria-hidden=\"true\">\n                <span class=\"size-full rounded-full bg-indigo-200\"></span>\n              </span>\n              <span class=\"relative block size-2.5 rounded-full bg-indigo-600\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Step 2</span>\n            </a>\n          </li>\n      <li>\n          <a href=\"#\" class=\"block size-2.5 rounded-full bg-gray-200 hover:bg-gray-400\" x-description=\"Upcoming Step\">\n              <span class=\"sr-only\">Step 3</span>\n            </a>\n          </li>\n      <li>\n          <a href=\"#\" class=\"block size-2.5 rounded-full bg-gray-200 hover:bg-gray-400\" x-description=\"Upcoming Step\">\n              <span class=\"sr-only\">Step 4</span>\n            </a>\n          </li>\n      \n    </ol>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const steps = [\n  { name: 'Step 1', href: '#', status: 'complete' },\n  { name: 'Step 2', href: '#', status: 'current' },\n  { name: 'Step 3', href: '#', status: 'upcoming' },\n  { name: 'Step 4', href: '#', status: 'upcoming' },\n]\n\nexport default function Example() {\n  return (\n    <nav aria-label=\"Progress\" className=\"flex items-center justify-center\">\n      <p className=\"text-sm font-medium\">\n        Step {steps.findIndex((step) => step.status === 'current') + 1} of {steps.length}\n      </p>\n      <ol role=\"list\" className=\"ml-8 flex items-center space-x-5\">\n        {steps.map((step) => (\n          <li key={step.name}>\n            {step.status === 'complete' ? (\n              <a href={step.href} className=\"block size-2.5 rounded-full bg-indigo-600 hover:bg-indigo-900\">\n                <span className=\"sr-only\">{step.name}</span>\n              </a>\n            ) : step.status === 'current' ? (\n              <a href={step.href} aria-current=\"step\" className=\"relative flex items-center justify-center\">\n                <span aria-hidden=\"true\" className=\"absolute flex size-5 p-px\">\n                  <span className=\"size-full rounded-full bg-indigo-200\" />\n                </span>\n                <span aria-hidden=\"true\" className=\"relative block size-2.5 rounded-full bg-indigo-600\" />\n                <span className=\"sr-only\">{step.name}</span>\n              </a>\n            ) : (\n              <a href={step.href} className=\"block size-2.5 rounded-full bg-gray-200 hover:bg-gray-400\">\n                <span className=\"sr-only\">{step.name}</span>\n              </a>\n            )}\n          </li>\n        ))}\n      </ol>\n    </nav>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 116,
+          "smallWidth": 375,
+          "smallHeight": 116
+        },
+        {
+          "name": "Panels with border",
+          "uuid": "8d8661f38f3de5cbd0e8d704368ffc3d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"py-4 lg:py-12\">\n      \n  <div class=\"lg:border-t lg:border-b lg:border-gray-200\">\n    <nav class=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\" aria-label=\"Progress\">\n      <ol role=\"list\" class=\"overflow-hidden rounded-md lg:flex lg:rounded-none lg:border-r lg:border-l lg:border-gray-200\">\n        <li class=\"relative overflow-hidden lg:flex-1\">\n            <div class=\"overflow-hidden border border-gray-200 rounded-t-md border-b-0  lg:border-0\">\n              <a href=\"#\" class=\"group\" x-description=\"Completed Step\">\n                  <span class=\"absolute top-0 left-0 h-full w-1 bg-transparent group-hover:bg-gray-200 lg:top-auto lg:bottom-0 lg:h-1 lg:w-full\" aria-hidden=\"true\"></span>\n                  <span class=\"flex items-start px-6 py-5 text-sm font-medium \">\n                    <span class=\"shrink-0\">\n                      <span class=\"flex size-10 items-center justify-center rounded-full bg-indigo-600\">\n                        <svg class=\"size-6 text-white\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M19.916 4.626a.75.75 0 0 1 .208 1.04l-9 13.5a.75.75 0 0 1-1.154.114l-6-6a.75.75 0 0 1 1.06-1.06l5.353 5.353 8.493-12.74a.75.75 0 0 1 1.04-.207Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                      </span>\n                    </span>\n                    <span class=\"mt-0.5 ml-4 flex min-w-0 flex-col\">\n                      <span class=\"text-sm font-medium\">Job Details</span>\n                      <span class=\"text-sm font-medium text-gray-500\">Vitae sed mi luctus laoreet.</span>\n                    </span>\n                  </span>\n                </a>\n              </div>\n          </li>\n        <li class=\"relative overflow-hidden lg:flex-1\">\n            <div class=\"overflow-hidden border border-gray-200   lg:border-0\">\n              \n                <a href=\"#\" aria-current=\"step\" x-description=\"Current Step\">\n                  <span class=\"absolute top-0 left-0 h-full w-1 bg-indigo-600 lg:top-auto lg:bottom-0 lg:h-1 lg:w-full\" aria-hidden=\"true\"></span>\n                  <span class=\"flex items-start px-6 py-5 text-sm font-medium lg:pl-9\">\n                    <span class=\"shrink-0\">\n                      <span class=\"flex size-10 items-center justify-center rounded-full border-2 border-indigo-600\">\n                        <span class=\"text-indigo-600\">02</span>\n                      </span>\n                    </span>\n                    <span class=\"mt-0.5 ml-4 flex min-w-0 flex-col\">\n                      <span class=\"text-sm font-medium text-indigo-600\">Application form</span>\n                      <span class=\"text-sm font-medium text-gray-500\">Cursus semper viverra.</span>\n                    </span>\n                  </span>\n                </a>\n              <!-- Separator -->\n                <div class=\"absolute inset-0 top-0 left-0 hidden w-3 lg:block\" aria-hidden=\"true\">\n                  <svg class=\"size-full text-gray-300\" viewBox=\"0 0 12 82\" fill=\"none\" preserveAspectRatio=\"none\">\n                    <path d=\"M0.5 0V31L10.5 41L0.5 51V82\" stroke=\"currentcolor\" vector-effect=\"non-scaling-stroke\"></path>\n                  </svg>\n                </div>\n              </div>\n          </li>\n        <li class=\"relative overflow-hidden lg:flex-1\">\n            <div class=\"overflow-hidden border border-gray-200  rounded-b-md border-t-0 lg:border-0\">\n              <a href=\"#\" class=\"group\" x-description=\"Upcoming Step\">\n                  <span class=\"absolute top-0 left-0 h-full w-1 bg-transparent group-hover:bg-gray-200 lg:top-auto lg:bottom-0 lg:h-1 lg:w-full\" aria-hidden=\"true\"></span>\n                  <span class=\"flex items-start px-6 py-5 text-sm font-medium lg:pl-9\">\n                    <span class=\"shrink-0\">\n                      <span class=\"flex size-10 items-center justify-center rounded-full border-2 border-gray-300\">\n                        <span class=\"text-gray-500\">03</span>\n                      </span>\n                    </span>\n                    <span class=\"mt-0.5 ml-4 flex min-w-0 flex-col\">\n                      <span class=\"text-sm font-medium text-gray-500\">Preview</span>\n                      <span class=\"text-sm font-medium text-gray-500\">Penatibus eu quis ante.</span>\n                    </span>\n                  </span>\n                </a>\n              <!-- Separator -->\n                <div class=\"absolute inset-0 top-0 left-0 hidden w-3 lg:block\" aria-hidden=\"true\">\n                  <svg class=\"size-full text-gray-300\" viewBox=\"0 0 12 82\" fill=\"none\" preserveAspectRatio=\"none\">\n                    <path d=\"M0.5 0V31L10.5 41L0.5 51V82\" stroke=\"currentcolor\" vector-effect=\"non-scaling-stroke\"></path>\n                  </svg>\n                </div>\n              </div>\n          </li>\n        \n      </ol>\n    </nav>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { CheckIcon } from '@heroicons/react/24/solid'\n\nconst steps = [\n  { id: '01', name: 'Job Details', description: 'Vitae sed mi luctus laoreet.', href: '#', status: 'complete' },\n  { id: '02', name: 'Application form', description: 'Cursus semper viverra.', href: '#', status: 'current' },\n  { id: '03', name: 'Preview', description: 'Penatibus eu quis ante.', href: '#', status: 'upcoming' },\n]\n\nfunction classNames(...classes) {\n  return classes.filter(Boolean).join(' ')\n}\n\nexport default function Example() {\n  return (\n    <div className=\"lg:border-b lg:border-t lg:border-gray-200\">\n      <nav aria-label=\"Progress\" className=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">\n        <ol\n          role=\"list\"\n          className=\"overflow-hidden rounded-md lg:flex lg:rounded-none lg:border-l lg:border-r lg:border-gray-200\"\n        >\n          {steps.map((step, stepIdx) => (\n            <li key={step.id} className=\"relative overflow-hidden lg:flex-1\">\n              <div\n                className={classNames(\n                  stepIdx === 0 ? 'rounded-t-md border-b-0' : '',\n                  stepIdx === steps.length - 1 ? 'rounded-b-md border-t-0' : '',\n                  'overflow-hidden border border-gray-200 lg:border-0',\n                )}\n              >\n                {step.status === 'complete' ? (\n                  <a href={step.href} className=\"group\">\n                    <span\n                      aria-hidden=\"true\"\n                      className=\"absolute left-0 top-0 h-full w-1 bg-transparent group-hover:bg-gray-200 lg:bottom-0 lg:top-auto lg:h-1 lg:w-full\"\n                    />\n                    <span\n                      className={classNames(\n                        stepIdx !== 0 ? 'lg:pl-9' : '',\n                        'flex items-start px-6 py-5 text-sm font-medium',\n                      )}\n                    >\n                      <span className=\"shrink-0\">\n                        <span className=\"flex size-10 items-center justify-center rounded-full bg-indigo-600\">\n                          <CheckIcon aria-hidden=\"true\" className=\"size-6 text-white\" />\n                        </span>\n                      </span>\n                      <span className=\"ml-4 mt-0.5 flex min-w-0 flex-col\">\n                        <span className=\"text-sm font-medium\">{step.name}</span>\n                        <span className=\"text-sm font-medium text-gray-500\">{step.description}</span>\n                      </span>\n                    </span>\n                  </a>\n                ) : step.status === 'current' ? (\n                  <a href={step.href} aria-current=\"step\">\n                    <span\n                      aria-hidden=\"true\"\n                      className=\"absolute left-0 top-0 h-full w-1 bg-indigo-600 lg:bottom-0 lg:top-auto lg:h-1 lg:w-full\"\n                    />\n                    <span\n                      className={classNames(\n                        stepIdx !== 0 ? 'lg:pl-9' : '',\n                        'flex items-start px-6 py-5 text-sm font-medium',\n                      )}\n                    >\n                      <span className=\"shrink-0\">\n                        <span className=\"flex size-10 items-center justify-center rounded-full border-2 border-indigo-600\">\n                          <span className=\"text-indigo-600\">{step.id}</span>\n                        </span>\n                      </span>\n                      <span className=\"ml-4 mt-0.5 flex min-w-0 flex-col\">\n                        <span className=\"text-sm font-medium text-indigo-600\">{step.name}</span>\n                        <span className=\"text-sm font-medium text-gray-500\">{step.description}</span>\n                      </span>\n                    </span>\n                  </a>\n                ) : (\n                  <a href={step.href} className=\"group\">\n                    <span\n                      aria-hidden=\"true\"\n                      className=\"absolute left-0 top-0 h-full w-1 bg-transparent group-hover:bg-gray-200 lg:bottom-0 lg:top-auto lg:h-1 lg:w-full\"\n                    />\n                    <span\n                      className={classNames(\n                        stepIdx !== 0 ? 'lg:pl-9' : '',\n                        'flex items-start px-6 py-5 text-sm font-medium',\n                      )}\n                    >\n                      <span className=\"shrink-0\">\n                        <span className=\"flex size-10 items-center justify-center rounded-full border-2 border-gray-300\">\n                          <span className=\"text-gray-500\">{step.id}</span>\n                        </span>\n                      </span>\n                      <span className=\"ml-4 mt-0.5 flex min-w-0 flex-col\">\n                        <span className=\"text-sm font-medium text-gray-500\">{step.name}</span>\n                        <span className=\"text-sm font-medium text-gray-500\">{step.description}</span>\n                      </span>\n                    </span>\n                  </a>\n                )}\n\n                {stepIdx !== 0 ? (\n                  <>\n                    {/* Separator */}\n                    <div aria-hidden=\"true\" className=\"absolute inset-0 left-0 top-0 hidden w-3 lg:block\">\n                      <svg\n                        fill=\"none\"\n                        viewBox=\"0 0 12 82\"\n                        preserveAspectRatio=\"none\"\n                        className=\"size-full text-gray-300\"\n                      >\n                        <path d=\"M0.5 0V31L10.5 41L0.5 51V82\" stroke=\"currentcolor\" vectorEffect=\"non-scaling-stroke\" />\n                      </svg>\n                    </div>\n                  </>\n                ) : null}\n              </div>\n            </li>\n          ))}\n        </ol>\n      </nav>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 180,
+          "smallWidth": 375,
+          "smallHeight": 282
+        },
+        {
+          "name": "Circles",
+          "uuid": "4b1efed043d1ab5688c705f2e27524f3",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto flex justify-center py-12\">\n      \n  <nav aria-label=\"Progress\">\n    <ol role=\"list\" class=\"flex items-center\">\n      <li class=\"relative pr-8 sm:pr-20\">\n          <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\" x-description=\"Completed Step\">\n              <div class=\"h-0.5 w-full bg-indigo-600\"></div>\n            </div>\n            <a href=\"#\" class=\"relative flex size-8 items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-900\">\n              <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z\" clip-rule=\"evenodd\"></path>\n</svg>\n              <span class=\"sr-only\">Step 1</span>\n            </a>\n          </li>\n      <li class=\"relative pr-8 sm:pr-20\">\n          <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\" x-description=\"Completed Step\">\n              <div class=\"h-0.5 w-full bg-indigo-600\"></div>\n            </div>\n            <a href=\"#\" class=\"relative flex size-8 items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-900\">\n              <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z\" clip-rule=\"evenodd\"></path>\n</svg>\n              <span class=\"sr-only\">Step 2</span>\n            </a>\n          </li>\n      <li class=\"relative pr-8 sm:pr-20\">\n          \n            <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\" x-description=\"Current Step\">\n              <div class=\"h-0.5 w-full bg-gray-200\"></div>\n            </div>\n            <a href=\"#\" class=\"relative flex size-8 items-center justify-center rounded-full border-2 border-indigo-600 bg-white\" aria-current=\"step\">\n              <span class=\"size-2.5 rounded-full bg-indigo-600\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Step 3</span>\n            </a>\n          </li>\n      <li class=\"relative pr-8 sm:pr-20\">\n          <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\" x-description=\"Upcoming Step\">\n              <div class=\"h-0.5 w-full bg-gray-200\"></div>\n            </div>\n            <a href=\"#\" class=\"group relative flex size-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white hover:border-gray-400\">\n              <span class=\"size-2.5 rounded-full bg-transparent group-hover:bg-gray-300\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Step 4</span>\n            </a>\n          </li>\n      <li class=\"relative \">\n          <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\" x-description=\"Upcoming Step\">\n              <div class=\"h-0.5 w-full bg-gray-200\"></div>\n            </div>\n            <a href=\"#\" class=\"group relative flex size-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white hover:border-gray-400\">\n              <span class=\"size-2.5 rounded-full bg-transparent group-hover:bg-gray-300\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Step 5</span>\n            </a>\n          </li>\n      \n    </ol>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { CheckIcon } from '@heroicons/react/20/solid'\n\nconst steps = [\n  { name: 'Step 1', href: '#', status: 'complete' },\n  { name: 'Step 2', href: '#', status: 'complete' },\n  { name: 'Step 3', href: '#', status: 'current' },\n  { name: 'Step 4', href: '#', status: 'upcoming' },\n  { name: 'Step 5', href: '#', status: 'upcoming' },\n]\n\nfunction classNames(...classes) {\n  return classes.filter(Boolean).join(' ')\n}\n\nexport default function Example() {\n  return (\n    <nav aria-label=\"Progress\">\n      <ol role=\"list\" className=\"flex items-center\">\n        {steps.map((step, stepIdx) => (\n          <li key={step.name} className={classNames(stepIdx !== steps.length - 1 ? 'pr-8 sm:pr-20' : '', 'relative')}>\n            {step.status === 'complete' ? (\n              <>\n                <div aria-hidden=\"true\" className=\"absolute inset-0 flex items-center\">\n                  <div className=\"h-0.5 w-full bg-indigo-600\" />\n                </div>\n                <a\n                  href=\"#\"\n                  className=\"relative flex size-8 items-center justify-center rounded-full bg-indigo-600 hover:bg-indigo-900\"\n                >\n                  <CheckIcon aria-hidden=\"true\" className=\"size-5 text-white\" />\n                  <span className=\"sr-only\">{step.name}</span>\n                </a>\n              </>\n            ) : step.status === 'current' ? (\n              <>\n                <div aria-hidden=\"true\" className=\"absolute inset-0 flex items-center\">\n                  <div className=\"h-0.5 w-full bg-gray-200\" />\n                </div>\n                <a\n                  href=\"#\"\n                  aria-current=\"step\"\n                  className=\"relative flex size-8 items-center justify-center rounded-full border-2 border-indigo-600 bg-white\"\n                >\n                  <span aria-hidden=\"true\" className=\"size-2.5 rounded-full bg-indigo-600\" />\n                  <span className=\"sr-only\">{step.name}</span>\n                </a>\n              </>\n            ) : (\n              <>\n                <div aria-hidden=\"true\" className=\"absolute inset-0 flex items-center\">\n                  <div className=\"h-0.5 w-full bg-gray-200\" />\n                </div>\n                <a\n                  href=\"#\"\n                  className=\"group relative flex size-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white hover:border-gray-400\"\n                >\n                  <span aria-hidden=\"true\" className=\"size-2.5 rounded-full bg-transparent group-hover:bg-gray-300\" />\n                  <span className=\"sr-only\">{step.name}</span>\n                </a>\n              </>\n            )}\n          </li>\n        ))}\n      </ol>\n    </nav>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 128,
+          "smallWidth": 375,
+          "smallHeight": 128
+        },
+        {
+          "name": "Bullets and text",
+          "uuid": "de81b2a07fe257c90fcc7a8c68489f02",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    \n  <div class=\"px-4 py-12 sm:px-6 lg:px-8\">\n    <nav class=\"flex justify-center\" aria-label=\"Progress\">\n      <ol role=\"list\" class=\"space-y-6\">\n        <li>\n            <a href=\"#\" class=\"group\" x-description=\"Complete Step\">\n                <span class=\"flex items-start\">\n                  <span class=\"relative flex size-5 shrink-0 items-center justify-center\">\n                    <svg class=\"size-full text-indigo-600 group-hover:text-indigo-800\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  </span>\n                  <span class=\"ml-3 text-sm font-medium text-gray-500 group-hover:text-gray-900\">Create account</span>\n                </span>\n              </a>\n            </li>\n        <li>\n            \n              <a href=\"#\" class=\"flex items-start\" aria-current=\"step\" x-description=\"Current Step\">\n                <span class=\"relative flex size-5 shrink-0 items-center justify-center\" aria-hidden=\"true\">\n                  <span class=\"absolute size-4 rounded-full bg-indigo-200\"></span>\n                  <span class=\"relative block size-2 rounded-full bg-indigo-600\"></span>\n                </span>\n                <span class=\"ml-3 text-sm font-medium text-indigo-600\">Profile information</span>\n              </a>\n            </li>\n        <li>\n            <a href=\"#\" class=\"group\" x-description=\"Upcoming Step\">\n                <div class=\"flex items-start\">\n                  <div class=\"relative flex size-5 shrink-0 items-center justify-center\" aria-hidden=\"true\">\n                    <div class=\"size-2 rounded-full bg-gray-300 group-hover:bg-gray-400\"></div>\n                  </div>\n                  <p class=\"ml-3 text-sm font-medium text-gray-500 group-hover:text-gray-900\">Theme</p>\n                </div>\n              </a>\n            </li>\n        <li>\n            <a href=\"#\" class=\"group\" x-description=\"Upcoming Step\">\n                <div class=\"flex items-start\">\n                  <div class=\"relative flex size-5 shrink-0 items-center justify-center\" aria-hidden=\"true\">\n                    <div class=\"size-2 rounded-full bg-gray-300 group-hover:bg-gray-400\"></div>\n                  </div>\n                  <p class=\"ml-3 text-sm font-medium text-gray-500 group-hover:text-gray-900\">Preview</p>\n                </div>\n              </a>\n            </li>\n        \n      </ol>\n    </nav>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { CheckCircleIcon } from '@heroicons/react/20/solid'\n\nconst steps = [\n  { name: 'Create account', href: '#', status: 'complete' },\n  { name: 'Profile information', href: '#', status: 'current' },\n  { name: 'Theme', href: '#', status: 'upcoming' },\n  { name: 'Preview', href: '#', status: 'upcoming' },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"px-4 py-12 sm:px-6 lg:px-8\">\n      <nav aria-label=\"Progress\" className=\"flex justify-center\">\n        <ol role=\"list\" className=\"space-y-6\">\n          {steps.map((step) => (\n            <li key={step.name}>\n              {step.status === 'complete' ? (\n                <a href={step.href} className=\"group\">\n                  <span className=\"flex items-start\">\n                    <span className=\"relative flex size-5 shrink-0 items-center justify-center\">\n                      <CheckCircleIcon\n                        aria-hidden=\"true\"\n                        className=\"size-full text-indigo-600 group-hover:text-indigo-800\"\n                      />\n                    </span>\n                    <span className=\"ml-3 text-sm font-medium text-gray-500 group-hover:text-gray-900\">\n                      {step.name}\n                    </span>\n                  </span>\n                </a>\n              ) : step.status === 'current' ? (\n                <a href={step.href} aria-current=\"step\" className=\"flex items-start\">\n                  <span aria-hidden=\"true\" className=\"relative flex size-5 shrink-0 items-center justify-center\">\n                    <span className=\"absolute size-4 rounded-full bg-indigo-200\" />\n                    <span className=\"relative block size-2 rounded-full bg-indigo-600\" />\n                  </span>\n                  <span className=\"ml-3 text-sm font-medium text-indigo-600\">{step.name}</span>\n                </a>\n              ) : (\n                <a href={step.href} className=\"group\">\n                  <div className=\"flex items-start\">\n                    <div aria-hidden=\"true\" className=\"relative flex size-5 shrink-0 items-center justify-center\">\n                      <div className=\"size-2 rounded-full bg-gray-300 group-hover:bg-gray-400\" />\n                    </div>\n                    <p className=\"ml-3 text-sm font-medium text-gray-500 group-hover:text-gray-900\">{step.name}</p>\n                  </div>\n                </a>\n              )}\n            </li>\n          ))}\n        </ol>\n      </nav>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 248,
+          "smallWidth": 375,
+          "smallHeight": 248
+        },
+        {
+          "name": "Circles with text",
+          "uuid": "e1655fc2b62c1d5280cb639a5c09f1f6",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"flex justify-center px-4 py-12 sm:px-6 lg:px-8\">\n      <div class=\"min-w-0\">\n        \n  <nav aria-label=\"Progress\">\n    <ol role=\"list\" class=\"overflow-hidden\">\n      <li class=\"relative pb-10\">\n          <div class=\"absolute top-4 left-4 mt-0.5 -ml-px h-full w-0.5 bg-indigo-600\" aria-hidden=\"true\"></div>\n            <a href=\"#\" class=\"group relative flex items-start\" x-description=\"Complete Step\">\n              <span class=\"flex h-9 items-center\">\n                <span class=\"relative z-10 flex size-8 items-center justify-center rounded-full bg-indigo-600 group-hover:bg-indigo-800\">\n                  <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                </span>\n              </span>\n              <span class=\"ml-4 flex min-w-0 flex-col\">\n                <span class=\"text-sm font-medium\">Create account</span>\n                <span class=\"text-sm text-gray-500\">Vitae sed mi luctus laoreet.</span>\n              </span>\n            </a>\n          </li>\n      <li class=\"relative pb-10\">\n          \n            <div class=\"absolute top-4 left-4 mt-0.5 -ml-px h-full w-0.5 bg-gray-300\" aria-hidden=\"true\"></div>\n            <a href=\"#\" class=\"group relative flex items-start\" aria-current=\"step\" x-description=\"Current Step\">\n              <span class=\"flex h-9 items-center\" aria-hidden=\"true\">\n                <span class=\"relative z-10 flex size-8 items-center justify-center rounded-full border-2 border-indigo-600 bg-white\">\n                  <span class=\"size-2.5 rounded-full bg-indigo-600\"></span>\n                </span>\n              </span>\n              <span class=\"ml-4 flex min-w-0 flex-col\">\n                <span class=\"text-sm font-medium text-indigo-600\">Profile information</span>\n                <span class=\"text-sm text-gray-500\">Cursus semper viverra facilisis et et some more.</span>\n              </span>\n            </a>\n          </li>\n      <li class=\"relative pb-10\">\n          <div class=\"absolute top-4 left-4 mt-0.5 -ml-px h-full w-0.5 bg-gray-300\" aria-hidden=\"true\"></div>\n            <a href=\"#\" class=\"group relative flex items-start\" x-description=\"Upcoming Step\">\n              <span class=\"flex h-9 items-center\" aria-hidden=\"true\">\n                <span class=\"relative z-10 flex size-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white group-hover:border-gray-400\">\n                  <span class=\"size-2.5 rounded-full bg-transparent group-hover:bg-gray-300\"></span>\n                </span>\n              </span>\n              <span class=\"ml-4 flex min-w-0 flex-col\">\n                <span class=\"text-sm font-medium text-gray-500\">Business information</span>\n                <span class=\"text-sm text-gray-500\">Penatibus eu quis ante.</span>\n              </span>\n            </a>\n          </li>\n      <li class=\"relative pb-10\">\n          <div class=\"absolute top-4 left-4 mt-0.5 -ml-px h-full w-0.5 bg-gray-300\" aria-hidden=\"true\"></div>\n            <a href=\"#\" class=\"group relative flex items-start\" x-description=\"Upcoming Step\">\n              <span class=\"flex h-9 items-center\" aria-hidden=\"true\">\n                <span class=\"relative z-10 flex size-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white group-hover:border-gray-400\">\n                  <span class=\"size-2.5 rounded-full bg-transparent group-hover:bg-gray-300\"></span>\n                </span>\n              </span>\n              <span class=\"ml-4 flex min-w-0 flex-col\">\n                <span class=\"text-sm font-medium text-gray-500\">Theme</span>\n                <span class=\"text-sm text-gray-500\">Faucibus nec enim leo et.</span>\n              </span>\n            </a>\n          </li>\n      <li class=\"relative \">\n          <a href=\"#\" class=\"group relative flex items-start\" x-description=\"Upcoming Step\">\n              <span class=\"flex h-9 items-center\" aria-hidden=\"true\">\n                <span class=\"relative z-10 flex size-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white group-hover:border-gray-400\">\n                  <span class=\"size-2.5 rounded-full bg-transparent group-hover:bg-gray-300\"></span>\n                </span>\n              </span>\n              <span class=\"ml-4 flex min-w-0 flex-col\">\n                <span class=\"text-sm font-medium text-gray-500\">Preview</span>\n                <span class=\"text-sm text-gray-500\">Iusto et officia maiores porro ad non quas.</span>\n              </span>\n            </a>\n          </li>\n      \n    </ol>\n  </nav>\n\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { CheckIcon } from '@heroicons/react/20/solid'\n\nconst steps = [\n  { name: 'Create account', description: 'Vitae sed mi luctus laoreet.', href: '#', status: 'complete' },\n  {\n    name: 'Profile information',\n    description: 'Cursus semper viverra facilisis et et some more.',\n    href: '#',\n    status: 'current',\n  },\n  { name: 'Business information', description: 'Penatibus eu quis ante.', href: '#', status: 'upcoming' },\n  { name: 'Theme', description: 'Faucibus nec enim leo et.', href: '#', status: 'upcoming' },\n  { name: 'Preview', description: 'Iusto et officia maiores porro ad non quas.', href: '#', status: 'upcoming' },\n]\n\nfunction classNames(...classes) {\n  return classes.filter(Boolean).join(' ')\n}\n\nexport default function Example() {\n  return (\n    <nav aria-label=\"Progress\">\n      <ol role=\"list\" className=\"overflow-hidden\">\n        {steps.map((step, stepIdx) => (\n          <li key={step.name} className={classNames(stepIdx !== steps.length - 1 ? 'pb-10' : '', 'relative')}>\n            {step.status === 'complete' ? (\n              <>\n                {stepIdx !== steps.length - 1 ? (\n                  <div aria-hidden=\"true\" className=\"absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-indigo-600\" />\n                ) : null}\n                <a href={step.href} className=\"group relative flex items-start\">\n                  <span className=\"flex h-9 items-center\">\n                    <span className=\"relative z-10 flex size-8 items-center justify-center rounded-full bg-indigo-600 group-hover:bg-indigo-800\">\n                      <CheckIcon aria-hidden=\"true\" className=\"size-5 text-white\" />\n                    </span>\n                  </span>\n                  <span className=\"ml-4 flex min-w-0 flex-col\">\n                    <span className=\"text-sm font-medium\">{step.name}</span>\n                    <span className=\"text-sm text-gray-500\">{step.description}</span>\n                  </span>\n                </a>\n              </>\n            ) : step.status === 'current' ? (\n              <>\n                {stepIdx !== steps.length - 1 ? (\n                  <div aria-hidden=\"true\" className=\"absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300\" />\n                ) : null}\n                <a href={step.href} aria-current=\"step\" className=\"group relative flex items-start\">\n                  <span aria-hidden=\"true\" className=\"flex h-9 items-center\">\n                    <span className=\"relative z-10 flex size-8 items-center justify-center rounded-full border-2 border-indigo-600 bg-white\">\n                      <span className=\"size-2.5 rounded-full bg-indigo-600\" />\n                    </span>\n                  </span>\n                  <span className=\"ml-4 flex min-w-0 flex-col\">\n                    <span className=\"text-sm font-medium text-indigo-600\">{step.name}</span>\n                    <span className=\"text-sm text-gray-500\">{step.description}</span>\n                  </span>\n                </a>\n              </>\n            ) : (\n              <>\n                {stepIdx !== steps.length - 1 ? (\n                  <div aria-hidden=\"true\" className=\"absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300\" />\n                ) : null}\n                <a href={step.href} className=\"group relative flex items-start\">\n                  <span aria-hidden=\"true\" className=\"flex h-9 items-center\">\n                    <span className=\"relative z-10 flex size-8 items-center justify-center rounded-full border-2 border-gray-300 bg-white group-hover:border-gray-400\">\n                      <span className=\"size-2.5 rounded-full bg-transparent group-hover:bg-gray-300\" />\n                    </span>\n                  </span>\n                  <span className=\"ml-4 flex min-w-0 flex-col\">\n                    <span className=\"text-sm font-medium text-gray-500\">{step.name}</span>\n                    <span className=\"text-sm text-gray-500\">{step.description}</span>\n                  </span>\n                </a>\n              </>\n            )}\n          </li>\n        ))}\n      </ol>\n    </nav>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 456,
+          "smallWidth": 375,
+          "smallHeight": 476
+        },
+        {
+          "name": "Progress bar",
+          "uuid": "fb8133472e65a46eb2d7f1acc52f93e5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-12 sm:px-6 lg:px-8\">\n    \n  <div>\n    <h4 class=\"sr-only\">Status</h4>\n    <p class=\"text-sm font-medium text-gray-900\">Migrating MySQL database...</p>\n    <div class=\"mt-6\" aria-hidden=\"true\">\n      <div class=\"overflow-hidden rounded-full bg-gray-200\">\n        <div class=\"h-2 rounded-full bg-indigo-600\" style=\"width: 37.5%\"></div>\n      </div>\n      <div class=\"mt-6 hidden grid-cols-4 text-sm font-medium text-gray-600 sm:grid\">\n        <div class=\"text-indigo-600\">Copying files</div>\n        <div class=\"text-center text-indigo-600\">Migrating database</div>\n        <div class=\"text-center\">Compiling assets</div>\n        <div class=\"text-right\">Deployed</div>\n      </div>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div>\n      <h4 className=\"sr-only\">Status</h4>\n      <p className=\"text-sm font-medium text-gray-900\">Migrating MySQL database...</p>\n      <div aria-hidden=\"true\" className=\"mt-6\">\n        <div className=\"overflow-hidden rounded-full bg-gray-200\">\n          <div style={{ width: '37.5%' }} className=\"h-2 rounded-full bg-indigo-600\" />\n        </div>\n        <div className=\"mt-6 hidden grid-cols-4 text-sm font-medium text-gray-600 sm:grid\">\n          <div className=\"text-indigo-600\">Copying files</div>\n          <div className=\"text-center text-indigo-600\">Migrating database</div>\n          <div className=\"text-center\">Compiling assets</div>\n          <div className=\"text-right\">Deployed</div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 192,
+          "smallWidth": 375,
+          "smallHeight": 148
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

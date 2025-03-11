@@ -1,0 +1,548 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": true
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Empty States",
+      "description": "Empty state examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS empty state components to gracefully handle scenarios where no data is available, guiding users towards the next steps or actions to take. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+      "category": {
+        "name": "Feedback",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-feedback",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple",
+          "uuid": "42930c785190e14c24b53ba822f4a92c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-12\">\n    \n  <div class=\"text-center\">\n    <svg class=\"mx-auto size-12 text-gray-400\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 13h6m-3-3v6m-9 1V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z\"></path>\n    </svg>\n    <h3 class=\"mt-2 text-sm font-semibold text-gray-900\">No projects</h3>\n    <p class=\"mt-1 text-sm text-gray-500\">Get started by creating a new project.</p>\n    <div class=\"mt-6\">\n      <button type=\"button\" class=\"inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">\n        <svg class=\"mr-1.5 -ml-0.5 size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n        New Project\n      </button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"text-center\">\n    <svg class=\"mx-auto size-12 text-gray-400\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 13h6m-3-3v6m-9 1V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z\" />\n    </svg>\n    <h3 class=\"mt-2 text-sm font-semibold text-gray-900\">No projects</h3>\n    <p class=\"mt-1 text-sm text-gray-500\">Get started by creating a new project.</p>\n    <div class=\"mt-6\">\n      <button type=\"button\" class=\"inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">\n        <PlusIcon class=\"mr-1.5 -ml-0.5 size-5\" aria-hidden=\"true\" />\n        New Project\n      </button>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { PlusIcon } from '@heroicons/vue/20/solid'\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "With dashed border",
+          "uuid": "680f71a6b1841658956e1546648937d5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-12\">\n    <div class=\"mx-auto max-w-lg\">\n      \n  <button type=\"button\" class=\"relative block w-full rounded-lg border-2 border-dashed border-gray-300 p-12 text-center hover:border-gray-400 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n    <svg class=\"mx-auto size-12 text-gray-400\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 48 48\" aria-hidden=\"true\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 14v20c0 4.418 7.163 8 16 8 1.381 0 2.721-.087 4-.252M8 14c0 4.418 7.163 8 16 8s16-3.582 16-8M8 14c0-4.418 7.163-8 16-8s16 3.582 16 8m0 0v14m0-4c0 4.418-7.163 8-16 8S8 28.418 8 24m32 10v6m0 0v6m0-6h6m-6 0h-6\"></path>\n    </svg>\n    <span class=\"mt-2 block text-sm font-semibold text-gray-900\">Create a new database</span>\n  </button>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <button type=\"button\" class=\"relative block w-full rounded-lg border-2 border-dashed border-gray-300 p-12 text-center hover:border-gray-400 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n    <svg class=\"mx-auto size-12 text-gray-400\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 48 48\" aria-hidden=\"true\">\n      <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 14v20c0 4.418 7.163 8 16 8 1.381 0 2.721-.087 4-.252M8 14c0 4.418 7.163 8 16 8s16-3.582 16-8M8 14c0-4.418 7.163-8 16-8s16 3.582 16 8m0 0v14m0-4c0 4.418-7.163 8-16 8S8 28.418 8 24m32 10v6m0 0v6m0-6h6m-6 0h-6\" />\n    </svg>\n    <span class=\"mt-2 block text-sm font-semibold text-gray-900\">Create a new database</span>\n  </button>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 272,
+          "smallWidth": 375,
+          "smallHeight": 272
+        },
+        {
+          "name": "With starting points",
+          "uuid": "42312e49c9887a27078b43874d164f48",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white py-12\">\n    <div class=\"mx-auto max-w-2xl px-4\">\n      \n  <div>\n    <h2 class=\"text-base font-semibold text-gray-900\">Projects</h2>\n    <p class=\"mt-1 text-sm text-gray-500\">You haven’t created a project yet. Get started by selecting a template or start from an empty project.</p>\n    <ul role=\"list\" class=\"mt-6 grid grid-cols-1 gap-6 border-t border-b border-gray-200 py-6 sm:grid-cols-2\">\n      <li class=\"flow-root\">\n          <div class=\"relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50\">\n            <div class=\"flex size-16 shrink-0 items-center justify-center rounded-lg bg-pink-500\">\n              <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5\"></path>\n</svg>\n            </div>\n            <div>\n              <h3 class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\" class=\"focus:outline-hidden\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  <span>Create a List</span>\n                  <span aria-hidden=\"true\"> &rarr;</span>\n                </a>\n              </h3>\n              <p class=\"mt-1 text-sm text-gray-500\">Another to-do system you’ll try but eventually give up on.</p>\n            </div>\n          </div>\n        </li>\n      <li class=\"flow-root\">\n          <div class=\"relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50\">\n            <div class=\"flex size-16 shrink-0 items-center justify-center rounded-lg bg-yellow-500\">\n              <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"></path>\n</svg>\n            </div>\n            <div>\n              <h3 class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\" class=\"focus:outline-hidden\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  <span>Create a Calendar</span>\n                  <span aria-hidden=\"true\"> &rarr;</span>\n                </a>\n              </h3>\n              <p class=\"mt-1 text-sm text-gray-500\">Stay on top of your deadlines, or don’t — it’s up to you.</p>\n            </div>\n          </div>\n        </li>\n      <li class=\"flow-root\">\n          <div class=\"relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50\">\n            <div class=\"flex size-16 shrink-0 items-center justify-center rounded-lg bg-green-500\">\n              <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z\"></path>\n</svg>\n            </div>\n            <div>\n              <h3 class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\" class=\"focus:outline-hidden\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  <span>Create a Gallery</span>\n                  <span aria-hidden=\"true\"> &rarr;</span>\n                </a>\n              </h3>\n              <p class=\"mt-1 text-sm text-gray-500\">Great for mood boards and inspiration.</p>\n            </div>\n          </div>\n        </li>\n      <li class=\"flow-root\">\n          <div class=\"relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50\">\n            <div class=\"flex size-16 shrink-0 items-center justify-center rounded-lg bg-blue-500\">\n              <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 4.5v15m6-15v15m-10.875 0h15.75c.621 0 1.125-.504 1.125-1.125V5.625c0-.621-.504-1.125-1.125-1.125H4.125C3.504 4.5 3 5.004 3 5.625v12.75c0 .621.504 1.125 1.125 1.125Z\"></path>\n</svg>\n            </div>\n            <div>\n              <h3 class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\" class=\"focus:outline-hidden\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  <span>Create a Board</span>\n                  <span aria-hidden=\"true\"> &rarr;</span>\n                </a>\n              </h3>\n              <p class=\"mt-1 text-sm text-gray-500\">Track tasks in different stages of your project.</p>\n            </div>\n          </div>\n        </li>\n      <li class=\"flow-root\">\n          <div class=\"relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50\">\n            <div class=\"flex size-16 shrink-0 items-center justify-center rounded-lg bg-indigo-500\">\n              <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 0 1-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0 1 12 18.375m9.75-12.75c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125m19.5 0v1.5c0 .621-.504 1.125-1.125 1.125M2.25 5.625v1.5c0 .621.504 1.125 1.125 1.125m0 0h17.25m-17.25 0h7.5c.621 0 1.125.504 1.125 1.125M3.375 8.25c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m17.25-3.75h-7.5c-.621 0-1.125.504-1.125 1.125m8.625-1.125c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125M12 10.875v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125M13.125 12h7.5m-7.5 0c-.621 0-1.125.504-1.125 1.125M20.625 12c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5M12 14.625v-1.5m0 1.5c0 .621-.504 1.125-1.125 1.125M12 14.625c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m0 1.5v-1.5m0 0c0-.621.504-1.125 1.125-1.125m0 0h7.5\"></path>\n</svg>\n            </div>\n            <div>\n              <h3 class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\" class=\"focus:outline-hidden\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  <span>Create a Spreadsheet</span>\n                  <span aria-hidden=\"true\"> &rarr;</span>\n                </a>\n              </h3>\n              <p class=\"mt-1 text-sm text-gray-500\">Lots of numbers and things — good for nerds.</p>\n            </div>\n          </div>\n        </li>\n      <li class=\"flow-root\">\n          <div class=\"relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50\">\n            <div class=\"flex size-16 shrink-0 items-center justify-center rounded-lg bg-purple-500\">\n              <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"></path>\n</svg>\n            </div>\n            <div>\n              <h3 class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\" class=\"focus:outline-hidden\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  <span>Create a Timeline</span>\n                  <span aria-hidden=\"true\"> &rarr;</span>\n                </a>\n              </h3>\n              <p class=\"mt-1 text-sm text-gray-500\">Get a birds-eye-view of your procrastination.</p>\n            </div>\n          </div>\n        </li>\n      \n    </ul>\n    <div class=\"mt-4 flex\">\n      <a href=\"#\" class=\"text-sm font-medium text-indigo-600 hover:text-indigo-500\">\n        Or start from an empty project\n        <span aria-hidden=\"true\"> &rarr;</span>\n      </a>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <h2 class=\"text-base font-semibold text-gray-900\">Projects</h2>\n    <p class=\"mt-1 text-sm text-gray-500\">You haven’t created a project yet. Get started by selecting a template or start from an empty project.</p>\n    <ul role=\"list\" class=\"mt-6 grid grid-cols-1 gap-6 border-t border-b border-gray-200 py-6 sm:grid-cols-2\">\n      <li v-for=\"(item, itemIdx) in items\" :key=\"itemIdx\" class=\"flow-root\">\n        <div class=\"relative -m-2 flex items-center space-x-4 rounded-xl p-2 focus-within:ring-2 focus-within:ring-indigo-500 hover:bg-gray-50\">\n          <div :class=\"[item.background, 'flex size-16 shrink-0 items-center justify-center rounded-lg']\">\n            <component :is=\"item.icon\" class=\"size-6 text-white\" aria-hidden=\"true\" />\n          </div>\n          <div>\n            <h3 class=\"text-sm font-medium text-gray-900\">\n              <a href=\"#\" class=\"focus:outline-hidden\">\n                <span class=\"absolute inset-0\" aria-hidden=\"true\" />\n                <span>{{ item.title }}</span>\n                <span aria-hidden=\"true\"> &rarr;</span>\n              </a>\n            </h3>\n            <p class=\"mt-1 text-sm text-gray-500\">{{ item.description }}</p>\n          </div>\n        </div>\n      </li>\n    </ul>\n    <div class=\"mt-4 flex\">\n      <a href=\"#\" class=\"text-sm font-medium text-indigo-600 hover:text-indigo-500\">\n        Or start from an empty project\n        <span aria-hidden=\"true\"> &rarr;</span>\n      </a>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport {\n  Bars4Icon,\n  CalendarIcon,\n  ClockIcon,\n  PhotoIcon,\n  TableCellsIcon,\n  ViewColumnsIcon,\n} from '@heroicons/vue/24/outline'\n\nconst items = [\n  {\n    title: 'Create a List',\n    description: 'Another to-do system you’ll try but eventually give up on.',\n    icon: Bars4Icon,\n    background: 'bg-pink-500',\n  },\n  {\n    title: 'Create a Calendar',\n    description: 'Stay on top of your deadlines, or don’t — it’s up to you.',\n    icon: CalendarIcon,\n    background: 'bg-yellow-500',\n  },\n  {\n    title: 'Create a Gallery',\n    description: 'Great for mood boards and inspiration.',\n    icon: PhotoIcon,\n    background: 'bg-green-500',\n  },\n  {\n    title: 'Create a Board',\n    description: 'Track tasks in different stages of your project.',\n    icon: ViewColumnsIcon,\n    background: 'bg-blue-500',\n  },\n  {\n    title: 'Create a Spreadsheet',\n    description: 'Lots of numbers and things — good for nerds.',\n    icon: TableCellsIcon,\n    background: 'bg-indigo-500',\n  },\n  {\n    title: 'Create a Timeline',\n    description: 'Get a birds-eye-view of your procrastination.',\n    icon: ClockIcon,\n    background: 'bg-purple-500',\n  },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 514,
+          "smallWidth": 375,
+          "smallHeight": 778
+        },
+        {
+          "name": "With recommendations",
+          "uuid": "e922fb5bee61af99a8db767e70aa31c8",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-12\">\n    \n  <div class=\"mx-auto max-w-lg\">\n    <div>\n      <div class=\"text-center\">\n        <svg class=\"mx-auto size-12 text-gray-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 48 48\" aria-hidden=\"true\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M34 40h10v-4a6 6 0 00-10.712-3.714M34 40H14m20 0v-4a9.971 9.971 0 00-.712-3.714M14 40H4v-4a6 6 0 0110.713-3.714M14 40v-4c0-1.313.253-2.566.713-3.714m0 0A10.003 10.003 0 0124 26c4.21 0 7.813 2.602 9.288 6.286M30 14a6 6 0 11-12 0 6 6 0 0112 0zm12 6a4 4 0 11-8 0 4 4 0 018 0zm-28 0a4 4 0 11-8 0 4 4 0 018 0z\"></path>\n        </svg>\n        <h2 class=\"mt-2 text-base font-semibold text-gray-900\">Add team members</h2>\n        <p class=\"mt-1 text-sm text-gray-500\">You haven’t added any team members to your project yet. As the owner of this project, you can manage team member permissions.</p>\n      </div>\n      <form action=\"#\" class=\"mt-6 flex\">\n        <input type=\"email\" name=\"email\" aria-label=\"Email address\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Enter an email\">\n        <button type=\"submit\" class=\"ml-4 shrink-0 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Send invite</button>\n      </form>\n    </div>\n    <div class=\"mt-10\">\n      <h3 class=\"text-sm font-medium text-gray-500\">Team members previously added to projects</h3>\n      <ul role=\"list\" class=\"mt-4 divide-y divide-gray-200 border-t border-b border-gray-200\">\n        <li class=\"flex items-center justify-between space-x-3 py-4\">\n            <div class=\"flex min-w-0 flex-1 items-center space-x-3\">\n              <div class=\"shrink-0\">\n                <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n              </div>\n              <div class=\"min-w-0 flex-1\">\n                <p class=\"truncate text-sm font-medium text-gray-900\">Lindsay Walton</p>\n                <p class=\"truncate text-sm font-medium text-gray-500\">Front-end Developer</p>\n              </div>\n            </div>\n            <div class=\"shrink-0\">\n              <button type=\"button\" class=\"inline-flex items-center gap-x-1.5 text-sm/6 font-semibold text-gray-900\">\n                <svg class=\"size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n                Invite <span class=\"sr-only\">Lindsay Walton</span>\n              </button>\n            </div>\n          </li>\n        <li class=\"flex items-center justify-between space-x-3 py-4\">\n            <div class=\"flex min-w-0 flex-1 items-center space-x-3\">\n              <div class=\"shrink-0\">\n                <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n              </div>\n              <div class=\"min-w-0 flex-1\">\n                <p class=\"truncate text-sm font-medium text-gray-900\">Courtney Henry</p>\n                <p class=\"truncate text-sm font-medium text-gray-500\">Designer</p>\n              </div>\n            </div>\n            <div class=\"shrink-0\">\n              <button type=\"button\" class=\"inline-flex items-center gap-x-1.5 text-sm/6 font-semibold text-gray-900\">\n                <svg class=\"size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n                Invite <span class=\"sr-only\">Courtney Henry</span>\n              </button>\n            </div>\n          </li>\n        <li class=\"flex items-center justify-between space-x-3 py-4\">\n            <div class=\"flex min-w-0 flex-1 items-center space-x-3\">\n              <div class=\"shrink-0\">\n                <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n              </div>\n              <div class=\"min-w-0 flex-1\">\n                <p class=\"truncate text-sm font-medium text-gray-900\">Tom Cook</p>\n                <p class=\"truncate text-sm font-medium text-gray-500\">Director of Product</p>\n              </div>\n            </div>\n            <div class=\"shrink-0\">\n              <button type=\"button\" class=\"inline-flex items-center gap-x-1.5 text-sm/6 font-semibold text-gray-900\">\n                <svg class=\"size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n                Invite <span class=\"sr-only\">Tom Cook</span>\n              </button>\n            </div>\n          </li>\n        \n      </ul>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"mx-auto max-w-lg\">\n    <div>\n      <div class=\"text-center\">\n        <svg class=\"mx-auto size-12 text-gray-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 48 48\" aria-hidden=\"true\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M34 40h10v-4a6 6 0 00-10.712-3.714M34 40H14m20 0v-4a9.971 9.971 0 00-.712-3.714M14 40H4v-4a6 6 0 0110.713-3.714M14 40v-4c0-1.313.253-2.566.713-3.714m0 0A10.003 10.003 0 0124 26c4.21 0 7.813 2.602 9.288 6.286M30 14a6 6 0 11-12 0 6 6 0 0112 0zm12 6a4 4 0 11-8 0 4 4 0 018 0zm-28 0a4 4 0 11-8 0 4 4 0 018 0z\" />\n        </svg>\n        <h2 class=\"mt-2 text-base font-semibold text-gray-900\">Add team members</h2>\n        <p class=\"mt-1 text-sm text-gray-500\">You haven’t added any team members to your project yet. As the owner of this project, you can manage team member permissions.</p>\n      </div>\n      <form action=\"#\" class=\"mt-6 flex\">\n        <input type=\"email\" name=\"email\" aria-label=\"Email address\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Enter an email\" />\n        <button type=\"submit\" class=\"ml-4 shrink-0 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Send invite</button>\n      </form>\n    </div>\n    <div class=\"mt-10\">\n      <h3 class=\"text-sm font-medium text-gray-500\">Team members previously added to projects</h3>\n      <ul role=\"list\" class=\"mt-4 divide-y divide-gray-200 border-t border-b border-gray-200\">\n        <li v-for=\"(person, personIdx) in people\" :key=\"personIdx\" class=\"flex items-center justify-between space-x-3 py-4\">\n          <div class=\"flex min-w-0 flex-1 items-center space-x-3\">\n            <div class=\"shrink-0\">\n              <img class=\"size-10 rounded-full\" :src=\"person.imageUrl\" alt=\"\" />\n            </div>\n            <div class=\"min-w-0 flex-1\">\n              <p class=\"truncate text-sm font-medium text-gray-900\">{{ person.name }}</p>\n              <p class=\"truncate text-sm font-medium text-gray-500\">{{ person.role }}</p>\n            </div>\n          </div>\n          <div class=\"shrink-0\">\n            <button type=\"button\" class=\"inline-flex items-center gap-x-1.5 text-sm/6 font-semibold text-gray-900\">\n              <PlusIcon class=\"size-5 text-gray-400\" aria-hidden=\"true\" />\n              Invite <span class=\"sr-only\">{{ person.name }}</span>\n            </button>\n          </div>\n        </li>\n      </ul>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { PlusIcon } from '@heroicons/vue/20/solid'\n\nconst people = [\n  {\n    name: 'Lindsay Walton',\n    role: 'Front-end Developer',\n    imageUrl:\n      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n  {\n    name: 'Courtney Henry',\n    role: 'Designer',\n    imageUrl:\n      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n  {\n    name: 'Tom Cook',\n    role: 'Director of Product',\n    imageUrl:\n      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 576,
+          "smallWidth": 375,
+          "smallHeight": 596
+        },
+        {
+          "name": "With templates",
+          "uuid": "fdd158a00f60e3f9cdf9415b5835e139",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-12\">\n    \n  <div class=\"mx-auto max-w-lg\">\n    <h2 class=\"text-base font-semibold text-gray-900\">Create your first project</h2>\n    <p class=\"mt-1 text-sm text-gray-500\">Get started by selecting a template or start from an empty project.</p>\n    <ul role=\"list\" class=\"mt-6 divide-y divide-gray-200 border-t border-b border-gray-200\">\n      <li>\n          <div class=\"group relative flex items-start space-x-3 py-4\">\n            <div class=\"shrink-0\">\n              <span class=\"inline-flex size-10 items-center justify-center rounded-lg bg-pink-500\">\n                <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 1 1 0-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 0 1-1.44-4.282m3.102.069a18.03 18.03 0 0 1-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 0 1 8.835 2.535M10.34 6.66a23.847 23.847 0 0 0 8.835-2.535m0 0A23.74 23.74 0 0 0 18.795 3m.38 1.125a23.91 23.91 0 0 1 1.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 0 0 1.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 0 1 0 3.46\"></path>\n</svg>\n              </span>\n            </div>\n            <div class=\"min-w-0 flex-1\">\n              <div class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  Marketing Campaign\n                </a>\n              </div>\n              <p class=\"text-sm text-gray-500\">I think the kids call these memes these days.</p>\n            </div>\n            <div class=\"shrink-0 self-center\">\n              <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n            </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"group relative flex items-start space-x-3 py-4\">\n            <div class=\"shrink-0\">\n              <span class=\"inline-flex size-10 items-center justify-center rounded-lg bg-purple-500\">\n                <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z\"></path>\n</svg>\n              </span>\n            </div>\n            <div class=\"min-w-0 flex-1\">\n              <div class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  Engineering Project\n                </a>\n              </div>\n              <p class=\"text-sm text-gray-500\">Something really expensive that will ultimately get cancelled.</p>\n            </div>\n            <div class=\"shrink-0 self-center\">\n              <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n            </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"group relative flex items-start space-x-3 py-4\">\n            <div class=\"shrink-0\">\n              <span class=\"inline-flex size-10 items-center justify-center rounded-lg bg-yellow-500\">\n                <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"></path>\n</svg>\n              </span>\n            </div>\n            <div class=\"min-w-0 flex-1\">\n              <div class=\"text-sm font-medium text-gray-900\">\n                <a href=\"#\">\n                  <span class=\"absolute inset-0\" aria-hidden=\"true\"></span>\n                  Event\n                </a>\n              </div>\n              <p class=\"text-sm text-gray-500\">Like a conference all about you that no one will care about.</p>\n            </div>\n            <div class=\"shrink-0 self-center\">\n              <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n            </div>\n          </div>\n        </li>\n      \n    </ul>\n    <div class=\"mt-6 flex\">\n      <a href=\"#\" class=\"text-sm font-medium text-indigo-600 hover:text-indigo-500\">\n        Or start from an empty project\n        <span aria-hidden=\"true\"> &rarr;</span>\n      </a>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"mx-auto max-w-lg\">\n    <h2 class=\"text-base font-semibold text-gray-900\">Create your first project</h2>\n    <p class=\"mt-1 text-sm text-gray-500\">Get started by selecting a template or start from an empty project.</p>\n    <ul role=\"list\" class=\"mt-6 divide-y divide-gray-200 border-t border-b border-gray-200\">\n      <li v-for=\"(item, itemIdx) in items\" :key=\"itemIdx\">\n        <div class=\"group relative flex items-start space-x-3 py-4\">\n          <div class=\"shrink-0\">\n            <span :class=\"[item.iconColor, 'inline-flex size-10 items-center justify-center rounded-lg']\">\n              <component :is=\"item.icon\" class=\"size-6 text-white\" aria-hidden=\"true\" />\n            </span>\n          </div>\n          <div class=\"min-w-0 flex-1\">\n            <div class=\"text-sm font-medium text-gray-900\">\n              <a :href=\"item.href\">\n                <span class=\"absolute inset-0\" aria-hidden=\"true\" />\n                {{ item.name }}\n              </a>\n            </div>\n            <p class=\"text-sm text-gray-500\">{{ item.description }}</p>\n          </div>\n          <div class=\"shrink-0 self-center\">\n            <ChevronRightIcon class=\"size-5 text-gray-400 group-hover:text-gray-500\" aria-hidden=\"true\" />\n          </div>\n        </div>\n      </li>\n    </ul>\n    <div class=\"mt-6 flex\">\n      <a href=\"#\" class=\"text-sm font-medium text-indigo-600 hover:text-indigo-500\">\n        Or start from an empty project\n        <span aria-hidden=\"true\"> &rarr;</span>\n      </a>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronRightIcon } from '@heroicons/vue/20/solid'\nimport { CalendarIcon, CommandLineIcon, MegaphoneIcon } from '@heroicons/vue/24/outline'\n\nconst items = [\n  {\n    name: 'Marketing Campaign',\n    description: 'I think the kids call these memes these days.',\n    href: '#',\n    iconColor: 'bg-pink-500',\n    icon: MegaphoneIcon,\n  },\n  {\n    name: 'Engineering Project',\n    description: 'Something really expensive that will ultimately get cancelled.',\n    href: '#',\n    iconColor: 'bg-purple-500',\n    icon: CommandLineIcon,\n  },\n  {\n    name: 'Event',\n    description: 'Like a conference all about you that no one will care about.',\n    href: '#',\n    iconColor: 'bg-yellow-500',\n    icon: CalendarIcon,\n  },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 432,
+          "smallWidth": 375,
+          "smallHeight": 512
+        },
+        {
+          "name": "With recommendations grid",
+          "uuid": "77a8b943310fbb088169cf88b4df9eb5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-12\">\n    \n  <div class=\"mx-auto max-w-md sm:max-w-3xl\">\n    <div>\n      <div class=\"text-center\">\n        <svg class=\"mx-auto size-12 text-gray-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 48 48\" aria-hidden=\"true\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M34 40h10v-4a6 6 0 00-10.712-3.714M34 40H14m20 0v-4a9.971 9.971 0 00-.712-3.714M14 40H4v-4a6 6 0 0110.713-3.714M14 40v-4c0-1.313.253-2.566.713-3.714m0 0A10.003 10.003 0 0124 26c4.21 0 7.813 2.602 9.288 6.286M30 14a6 6 0 11-12 0 6 6 0 0112 0zm12 6a4 4 0 11-8 0 4 4 0 018 0zm-28 0a4 4 0 11-8 0 4 4 0 018 0z\"></path>\n        </svg>\n        <h2 class=\"mt-2 text-base font-semibold text-gray-900\">Add team members</h2>\n        <p class=\"mt-1 text-sm text-gray-500\">You haven’t added any team members to your project yet.</p>\n      </div>\n      <form class=\"mt-6 sm:flex sm:items-center\" action=\"#\">\n        <div class=\"flex grow items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600\">\n          <input type=\"text\" name=\"emails\" aria-label=\"Email addresses\" class=\"block min-w-0 grow py-1.5 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Enter an email\">\n          <div class=\"grid shrink-0 grid-cols-1 focus-within:relative\">\n            <select name=\"role\" aria-label=\"Role\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md py-1.5 pr-7 pl-3 text-base text-gray-500 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n              <option>Can edit</option>\n              <option>Can view</option>\n            </select>\n            <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n          </div>\n        </div>\n        <div class=\"mt-3 sm:mt-0 sm:ml-4 sm:shrink-0\">\n          <button type=\"submit\" class=\"block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Send invite</button>\n        </div>\n      </form>\n    </div>\n    <div class=\"mt-10\">\n      <h3 class=\"text-sm font-medium text-gray-500\">Recommended team members</h3>\n      <ul role=\"list\" class=\"mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2\">\n        <li>\n            <button type=\"button\" class=\"group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-xs hover:bg-gray-50 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n              <span class=\"flex min-w-0 flex-1 items-center space-x-3\">\n                <span class=\"block shrink-0\">\n                  <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n                </span>\n                <span class=\"block min-w-0 flex-1\">\n                  <span class=\"block truncate text-sm font-medium text-gray-900\">Lindsay Walton</span>\n                  <span class=\"block truncate text-sm font-medium text-gray-500\">Front-end Developer</span>\n                </span>\n              </span>\n              <span class=\"inline-flex size-10 shrink-0 items-center justify-center\">\n                <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n              </span>\n            </button>\n          </li>\n        <li>\n            <button type=\"button\" class=\"group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-xs hover:bg-gray-50 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n              <span class=\"flex min-w-0 flex-1 items-center space-x-3\">\n                <span class=\"block shrink-0\">\n                  <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n                </span>\n                <span class=\"block min-w-0 flex-1\">\n                  <span class=\"block truncate text-sm font-medium text-gray-900\">Courtney Henry</span>\n                  <span class=\"block truncate text-sm font-medium text-gray-500\">Designer</span>\n                </span>\n              </span>\n              <span class=\"inline-flex size-10 shrink-0 items-center justify-center\">\n                <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n              </span>\n            </button>\n          </li>\n        <li>\n            <button type=\"button\" class=\"group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-xs hover:bg-gray-50 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n              <span class=\"flex min-w-0 flex-1 items-center space-x-3\">\n                <span class=\"block shrink-0\">\n                  <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n                </span>\n                <span class=\"block min-w-0 flex-1\">\n                  <span class=\"block truncate text-sm font-medium text-gray-900\">Tom Cook</span>\n                  <span class=\"block truncate text-sm font-medium text-gray-500\">Director of Product</span>\n                </span>\n              </span>\n              <span class=\"inline-flex size-10 shrink-0 items-center justify-center\">\n                <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n              </span>\n            </button>\n          </li>\n        <li>\n            <button type=\"button\" class=\"group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-xs hover:bg-gray-50 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n              <span class=\"flex min-w-0 flex-1 items-center space-x-3\">\n                <span class=\"block shrink-0\">\n                  <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n                </span>\n                <span class=\"block min-w-0 flex-1\">\n                  <span class=\"block truncate text-sm font-medium text-gray-900\">Whitney Francis</span>\n                  <span class=\"block truncate text-sm font-medium text-gray-500\">Copywriter</span>\n                </span>\n              </span>\n              <span class=\"inline-flex size-10 shrink-0 items-center justify-center\">\n                <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n              </span>\n            </button>\n          </li>\n        <li>\n            <button type=\"button\" class=\"group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-xs hover:bg-gray-50 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n              <span class=\"flex min-w-0 flex-1 items-center space-x-3\">\n                <span class=\"block shrink-0\">\n                  <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n                </span>\n                <span class=\"block min-w-0 flex-1\">\n                  <span class=\"block truncate text-sm font-medium text-gray-900\">Leonard Krasner</span>\n                  <span class=\"block truncate text-sm font-medium text-gray-500\">Senior Designer</span>\n                </span>\n              </span>\n              <span class=\"inline-flex size-10 shrink-0 items-center justify-center\">\n                <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n              </span>\n            </button>\n          </li>\n        <li>\n            <button type=\"button\" class=\"group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-xs hover:bg-gray-50 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n              <span class=\"flex min-w-0 flex-1 items-center space-x-3\">\n                <span class=\"block shrink-0\">\n                  <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n                </span>\n                <span class=\"block min-w-0 flex-1\">\n                  <span class=\"block truncate text-sm font-medium text-gray-900\">Floyd Miles</span>\n                  <span class=\"block truncate text-sm font-medium text-gray-500\">Principal Designer</span>\n                </span>\n              </span>\n              <span class=\"inline-flex size-10 shrink-0 items-center justify-center\">\n                <svg class=\"size-5 text-gray-400 group-hover:text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z\"></path>\n</svg>\n              </span>\n            </button>\n          </li>\n        \n      </ul>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"mx-auto max-w-md sm:max-w-3xl\">\n    <div>\n      <div class=\"text-center\">\n        <svg class=\"mx-auto size-12 text-gray-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 48 48\" aria-hidden=\"true\">\n          <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M34 40h10v-4a6 6 0 00-10.712-3.714M34 40H14m20 0v-4a9.971 9.971 0 00-.712-3.714M14 40H4v-4a6 6 0 0110.713-3.714M14 40v-4c0-1.313.253-2.566.713-3.714m0 0A10.003 10.003 0 0124 26c4.21 0 7.813 2.602 9.288 6.286M30 14a6 6 0 11-12 0 6 6 0 0112 0zm12 6a4 4 0 11-8 0 4 4 0 018 0zm-28 0a4 4 0 11-8 0 4 4 0 018 0z\" />\n        </svg>\n        <h2 class=\"mt-2 text-base font-semibold text-gray-900\">Add team members</h2>\n        <p class=\"mt-1 text-sm text-gray-500\">You haven’t added any team members to your project yet.</p>\n      </div>\n      <form class=\"mt-6 sm:flex sm:items-center\" action=\"#\">\n        <div class=\"flex grow items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600\">\n          <input type=\"text\" name=\"emails\" aria-label=\"Email addresses\" class=\"block min-w-0 grow py-1.5 pr-3 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Enter an email\" />\n          <div class=\"grid shrink-0 grid-cols-1 focus-within:relative\">\n            <select name=\"role\" aria-label=\"Role\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md py-1.5 pr-7 pl-3 text-base text-gray-500 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n              <option>Can edit</option>\n              <option>Can view</option>\n            </select>\n            <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4\" aria-hidden=\"true\" />\n          </div>\n        </div>\n        <div class=\"mt-3 sm:mt-0 sm:ml-4 sm:shrink-0\">\n          <button type=\"submit\" class=\"block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Send invite</button>\n        </div>\n      </form>\n    </div>\n    <div class=\"mt-10\">\n      <h3 class=\"text-sm font-medium text-gray-500\">Recommended team members</h3>\n      <ul role=\"list\" class=\"mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2\">\n        <li v-for=\"(person, personIdx) in people\" :key=\"personIdx\">\n          <button type=\"button\" class=\"group flex w-full items-center justify-between space-x-3 rounded-full border border-gray-300 p-2 text-left shadow-xs hover:bg-gray-50 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n            <span class=\"flex min-w-0 flex-1 items-center space-x-3\">\n              <span class=\"block shrink-0\">\n                <img class=\"size-10 rounded-full\" :src=\"person.imageUrl\" alt=\"\" />\n              </span>\n              <span class=\"block min-w-0 flex-1\">\n                <span class=\"block truncate text-sm font-medium text-gray-900\">{{ person.name }}</span>\n                <span class=\"block truncate text-sm font-medium text-gray-500\">{{ person.role }}</span>\n              </span>\n            </span>\n            <span class=\"inline-flex size-10 shrink-0 items-center justify-center\">\n              <PlusIcon class=\"size-5 text-gray-400 group-hover:text-gray-500\" aria-hidden=\"true\" />\n            </span>\n          </button>\n        </li>\n      </ul>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\nimport { PlusIcon } from '@heroicons/vue/20/solid'\n\nconst people = [\n  {\n    name: 'Lindsay Walton',\n    role: 'Front-end Developer',\n    imageUrl:\n      'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n  {\n    name: 'Courtney Henry',\n    role: 'Designer',\n    imageUrl:\n      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n  {\n    name: 'Tom Cook',\n    role: 'Director of Product',\n    imageUrl:\n      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n  {\n    name: 'Whitney Francis',\n    role: 'Copywriter',\n    imageUrl:\n      'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n  {\n    name: 'Leonard Krasner',\n    role: 'Senior Designer',\n    imageUrl:\n      'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n  {\n    name: 'Floyd Miles',\n    role: 'Principal Designer',\n    imageUrl:\n      'https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',\n  },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 542,
+          "smallWidth": 375,
+          "smallHeight": 832
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

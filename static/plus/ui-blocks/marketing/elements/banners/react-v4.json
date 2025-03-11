@@ -1,0 +1,490 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": true,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": true
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": false
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Page Sections",
+        "anchor": "product-marketing-sections",
+        "subcategories": [
+          {
+            "name": "Hero Sections",
+            "url": "/plus/ui-blocks/marketing/sections/heroes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feature Sections",
+            "url": "/plus/ui-blocks/marketing/sections/feature-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "CTA Sections",
+            "url": "/plus/ui-blocks/marketing/sections/cta-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Bento Grids",
+            "url": "/plus/ui-blocks/marketing/sections/bento-grids",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Sections",
+            "url": "/plus/ui-blocks/marketing/sections/pricing",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Header Sections",
+            "url": "/plus/ui-blocks/marketing/sections/header",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Newsletter Sections",
+            "url": "/plus/ui-blocks/marketing/sections/newsletter-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/marketing/sections/stats-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Testimonials",
+            "url": "/plus/ui-blocks/marketing/sections/testimonials",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Blog Sections",
+            "url": "/plus/ui-blocks/marketing/sections/blog-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Contact Sections",
+            "url": "/plus/ui-blocks/marketing/sections/contact-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Team Sections",
+            "url": "/plus/ui-blocks/marketing/sections/team-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Content Sections",
+            "url": "/plus/ui-blocks/marketing/sections/content-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Logo Clouds",
+            "url": "/plus/ui-blocks/marketing/sections/logo-clouds",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "FAQs",
+            "url": "/plus/ui-blocks/marketing/sections/faq-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Footers",
+            "url": "/plus/ui-blocks/marketing/sections/footers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-marketing-elements",
+        "subcategories": [
+          {
+            "name": "Headers",
+            "url": "/plus/ui-blocks/marketing/elements/headers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Flyout Menus",
+            "url": "/plus/ui-blocks/marketing/elements/flyout-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Banners",
+            "url": "/plus/ui-blocks/marketing/elements/banners",
+            "isNew": false,
+            "isCurrent": true
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-marketing-feedback",
+        "subcategories": [
+          {
+            "name": "404 Pages",
+            "url": "/plus/ui-blocks/marketing/feedback/404-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-marketing-page-examples",
+        "subcategories": [
+          {
+            "name": "Landing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/landing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/pricing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "About Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/about-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Banners",
+      "description": "Marketing banner examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS announcement and banner examples to add important information and call-to-actions to your website, such as announcements, cookie banners, and privacy notices. These CSS banner examples are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/marketing/elements/banners",
+      "category": {
+        "name": "Elements",
+        "url": "/plus/ui-blocks/marketing#product-marketing-elements",
+        "product": {
+          "name": "Marketing",
+          "url": "/plus/ui-blocks/marketing"
+        }
+      },
+      "components": [
+        {
+          "name": "With button",
+          "uuid": "8904b9d9a9fbb9a2313df3975112f9d7",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <div class=\"relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n    <div class=\"absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\" aria-hidden=\"true\">\n      <div class=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\" style=\"clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)\"></div>\n    </div>\n    <div class=\"absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\" aria-hidden=\"true\">\n      <div class=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\" style=\"clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)\"></div>\n    </div>\n    <div class=\"flex flex-wrap items-center gap-x-4 gap-y-2\">\n      <p class=\"text-sm/6 text-gray-900\">\n        <strong class=\"font-semibold\">GeneriCon 2023</strong><svg viewBox=\"0 0 2 2\" class=\"mx-2 inline size-0.5 fill-current\" aria-hidden=\"true\"><circle cx=\"1\" cy=\"1\" r=\"1\"></circle></svg>Join us in Denver from June 7 – 9 to see what’s coming next.\n      </p>\n      <a href=\"#\" class=\"flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\">Register now <span aria-hidden=\"true\">&rarr;</span></a>\n    </div>\n    <div class=\"flex flex-1 justify-end\">\n      <button type=\"button\" class=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n        <span class=\"sr-only\">Dismiss</span>\n        <svg class=\"size-5 text-gray-900\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n      </button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <div className=\"relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',\n          }}\n          className=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\"\n        />\n      </div>\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',\n          }}\n          className=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\"\n        />\n      </div>\n      <div className=\"flex flex-wrap items-center gap-x-4 gap-y-2\">\n        <p className=\"text-sm/6 text-gray-900\">\n          <strong className=\"font-semibold\">GeneriCon 2023</strong>\n          <svg viewBox=\"0 0 2 2\" aria-hidden=\"true\" className=\"mx-2 inline size-0.5 fill-current\">\n            <circle r={1} cx={1} cy={1} />\n          </svg>\n          Join us in Denver from June 7 – 9 to see what’s coming next.\n        </p>\n        <a\n          href=\"#\"\n          className=\"flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\"\n        >\n          Register now <span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </div>\n      <div className=\"flex flex-1 justify-end\">\n        <button type=\"button\" className=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n          <span className=\"sr-only\">Dismiss</span>\n          <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-gray-900\" />\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "On dark",
+          "uuid": "1804a38735a4d6d0ade6c2bcf4ee3f6c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <div class=\"flex items-center gap-x-6 bg-gray-900 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n    <p class=\"text-sm/6 text-white\">\n      <a href=\"#\">\n        <strong class=\"font-semibold\">GeneriCon 2023</strong><svg viewBox=\"0 0 2 2\" class=\"mx-2 inline size-0.5 fill-current\" aria-hidden=\"true\"><circle cx=\"1\" cy=\"1\" r=\"1\"></circle></svg>Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n      </a>\n    </p>\n    <div class=\"flex flex-1 justify-end\">\n      <button type=\"button\" class=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n        <span class=\"sr-only\">Dismiss</span>\n        <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n      </button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <div className=\"flex items-center gap-x-6 bg-gray-900 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n      <p className=\"text-sm/6 text-white\">\n        <a href=\"#\">\n          <strong className=\"font-semibold\">GeneriCon 2023</strong>\n          <svg viewBox=\"0 0 2 2\" aria-hidden=\"true\" className=\"mx-2 inline size-0.5 fill-current\">\n            <circle r={1} cx={1} cy={1} />\n          </svg>\n          Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </p>\n      <div className=\"flex flex-1 justify-end\">\n        <button type=\"button\" className=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n          <span className=\"sr-only\">Dismiss</span>\n          <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-white\" />\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "On brand",
+          "uuid": "4375397fcc9712be608b21b9d8f355c8",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <div class=\"flex items-center gap-x-6 bg-indigo-600 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n    <p class=\"text-sm/6 text-white\">\n      <a href=\"#\">\n        <strong class=\"font-semibold\">GeneriCon 2023</strong><svg viewBox=\"0 0 2 2\" class=\"mx-2 inline size-0.5 fill-current\" aria-hidden=\"true\"><circle cx=\"1\" cy=\"1\" r=\"1\"></circle></svg>Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n      </a>\n    </p>\n    <div class=\"flex flex-1 justify-end\">\n      <button type=\"button\" class=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n        <span class=\"sr-only\">Dismiss</span>\n        <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n      </button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <div className=\"flex items-center gap-x-6 bg-indigo-600 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n      <p className=\"text-sm/6 text-white\">\n        <a href=\"#\">\n          <strong className=\"font-semibold\">GeneriCon 2023</strong>\n          <svg viewBox=\"0 0 2 2\" aria-hidden=\"true\" className=\"mx-2 inline size-0.5 fill-current\">\n            <circle r={1} cx={1} cy={1} />\n          </svg>\n          Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </p>\n      <div className=\"flex flex-1 justify-end\">\n        <button type=\"button\" className=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n          <span className=\"sr-only\">Dismiss</span>\n          <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-white\" />\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "With background glow",
+          "uuid": "c94291a63bd63d01fd3ebf791093ab8d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <div class=\"relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n    <div class=\"absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\" aria-hidden=\"true\">\n      <div class=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\" style=\"clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)\"></div>\n    </div>\n    <div class=\"absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\" aria-hidden=\"true\">\n      <div class=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\" style=\"clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)\"></div>\n    </div>\n    <p class=\"text-sm/6 text-gray-900\">\n      <a href=\"#\">\n        <strong class=\"font-semibold\">GeneriCon 2023</strong><svg viewBox=\"0 0 2 2\" class=\"mx-2 inline size-0.5 fill-current\" aria-hidden=\"true\"><circle cx=\"1\" cy=\"1\" r=\"1\"></circle></svg>Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n      </a>\n    </p>\n    <div class=\"flex flex-1 justify-end\">\n      <button type=\"button\" class=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n        <span class=\"sr-only\">Dismiss</span>\n        <svg class=\"size-5 text-gray-900\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n      </button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <div className=\"relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',\n          }}\n          className=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\"\n        />\n      </div>\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',\n          }}\n          className=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\"\n        />\n      </div>\n      <p className=\"text-sm/6 text-gray-900\">\n        <a href=\"#\">\n          <strong className=\"font-semibold\">GeneriCon 2023</strong>\n          <svg viewBox=\"0 0 2 2\" aria-hidden=\"true\" className=\"mx-2 inline size-0.5 fill-current\">\n            <circle r={1} cx={1} cy={1} />\n          </svg>\n          Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </p>\n      <div className=\"flex flex-1 justify-end\">\n        <button type=\"button\" className=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n          <span className=\"sr-only\">Dismiss</span>\n          <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-gray-900\" />\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "With link",
+          "uuid": "1ad095c7782d609a536ebf3cd9b7212e",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <div class=\"relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n    <div class=\"absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\" aria-hidden=\"true\">\n      <div class=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\" style=\"clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)\"></div>\n    </div>\n    <div class=\"absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\" aria-hidden=\"true\">\n      <div class=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\" style=\"clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)\"></div>\n    </div>\n    <p class=\"text-sm/6 text-gray-900\">\n      GeneriCon 2023 is on June 7 – 9 in Denver. <a href=\"#\" class=\"font-semibold whitespace-nowrap\">Get your ticket&nbsp;<span aria-hidden=\"true\">&rarr;</span></a>\n    </p>\n    <div class=\"flex flex-1 justify-end\">\n      <button type=\"button\" class=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n        <span class=\"sr-only\">Dismiss</span>\n        <svg class=\"size-5 text-gray-900\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n      </button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <div className=\"relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-50 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',\n          }}\n          className=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\"\n        />\n      </div>\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)',\n          }}\n          className=\"aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30\"\n        />\n      </div>\n      <p className=\"text-sm/6 text-gray-900\">\n        GeneriCon 2023 is on June 7 – 9 in Denver.{' '}\n        <a href=\"#\" className=\"font-semibold whitespace-nowrap\">\n          Get your ticket&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </p>\n      <div className=\"flex flex-1 justify-end\">\n        <button type=\"button\" className=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n          <span className=\"sr-only\">Dismiss</span>\n          <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-gray-900\" />\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Left-aligned",
+          "uuid": "49536ab3f61c13112b042a7cb8293dbb",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <div class=\"flex items-center justify-between gap-x-6 bg-gray-900 px-6 py-2.5 sm:pr-3.5 lg:pl-8\">\n    <p class=\"text-sm/6 text-white\">\n      <a href=\"#\">\n        <strong class=\"font-semibold\">GeneriCon 2023</strong><svg viewBox=\"0 0 2 2\" class=\"mx-2 inline size-0.5 fill-current\" aria-hidden=\"true\"><circle cx=\"1\" cy=\"1\" r=\"1\"></circle></svg>Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n      </a>\n    </p>\n    <button type=\"button\" class=\"-m-3 flex-none p-3 focus-visible:outline-offset-[-4px]\">\n      <span class=\"sr-only\">Dismiss</span>\n      <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n    </button>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <div className=\"flex items-center justify-between gap-x-6 bg-gray-900 px-6 py-2.5 sm:pr-3.5 lg:pl-8\">\n      <p className=\"text-sm/6 text-white\">\n        <a href=\"#\">\n          <strong className=\"font-semibold\">GeneriCon 2023</strong>\n          <svg viewBox=\"0 0 2 2\" aria-hidden=\"true\" className=\"mx-2 inline size-0.5 fill-current\">\n            <circle r={1} cx={1} cy={1} />\n          </svg>\n          Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </p>\n      <button type=\"button\" className=\"-m-3 flex-none p-3 focus-visible:outline-offset-[-4px]\">\n        <span className=\"sr-only\">Dismiss</span>\n        <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-white\" />\n      </button>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Bottom aligned",
+          "uuid": "a6fe57a3075bcfcb790893a428c4cfb5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <!--\n    Make sure you add some bottom padding to pages that include a sticky banner like this to prevent\n    your content from being obscured when the user scrolls to the bottom of the page.\n  -->\n  <div class=\"fixed inset-x-0 bottom-0\">\n    <div class=\"flex items-center gap-x-6 bg-gray-900 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n      <p class=\"text-sm/6 text-white\">\n        <a href=\"#\">\n          <strong class=\"font-semibold\">GeneriCon 2023</strong><svg viewBox=\"0 0 2 2\" class=\"mx-2 inline size-0.5 fill-current\" aria-hidden=\"true\"><circle cx=\"1\" cy=\"1\" r=\"1\"></circle></svg>Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </p>\n      <div class=\"flex flex-1 justify-end\">\n        <button type=\"button\" class=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n          <span class=\"sr-only\">Dismiss</span>\n          <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n        </button>\n      </div>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <>\n      {/*\n        Make sure you add some bottom padding to pages that include a sticky banner like this to prevent\n        your content from being obscured when the user scrolls to the bottom of the page.\n      */}\n      <div className=\"fixed inset-x-0 bottom-0\">\n        <div className=\"flex items-center gap-x-6 bg-gray-900 px-6 py-2.5 sm:px-3.5 sm:before:flex-1\">\n          <p className=\"text-sm/6 text-white\">\n            <a href=\"#\">\n              <strong className=\"font-semibold\">GeneriCon 2023</strong>\n              <svg viewBox=\"0 0 2 2\" aria-hidden=\"true\" className=\"mx-2 inline size-0.5 fill-current\">\n                <circle r={1} cx={1} cy={1} />\n              </svg>\n              Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n            </a>\n          </p>\n          <div className=\"flex flex-1 justify-end\">\n            <button type=\"button\" className=\"-m-3 p-3 focus-visible:outline-offset-[-4px]\">\n              <span className=\"sr-only\">Dismiss</span>\n              <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-white\" />\n            </button>\n          </div>\n        </div>\n      </div>\n    </>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Floating at bottom",
+          "uuid": "39dd57897ef8e6d37aa07fbbafc188b1",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <!--\n    Make sure you add some bottom padding to pages that include a sticky banner like this to prevent\n    your content from being obscured when the user scrolls to the bottom of the page.\n  -->\n  <div class=\"pointer-events-none fixed inset-x-0 bottom-0 sm:px-6 sm:pb-5 lg:px-8\">\n    <div class=\"pointer-events-auto flex items-center justify-between gap-x-6 bg-gray-900 px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pr-3.5 sm:pl-4\">\n      <p class=\"text-sm/6 text-white\">\n        <a href=\"#\">\n          <strong class=\"font-semibold\">GeneriCon 2023</strong><svg viewBox=\"0 0 2 2\" class=\"mx-2 inline size-0.5 fill-current\" aria-hidden=\"true\"><circle cx=\"1\" cy=\"1\" r=\"1\"></circle></svg>Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </p>\n      <button type=\"button\" class=\"-m-3 flex-none p-3 focus-visible:outline-offset-[-4px]\">\n        <span class=\"sr-only\">Dismiss</span>\n        <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n      </button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <>\n      {/*\n        Make sure you add some bottom padding to pages that include a sticky banner like this to prevent\n        your content from being obscured when the user scrolls to the bottom of the page.\n      */}\n      <div className=\"pointer-events-none fixed inset-x-0 bottom-0 sm:px-6 sm:pb-5 lg:px-8\">\n        <div className=\"pointer-events-auto flex items-center justify-between gap-x-6 bg-gray-900 px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pr-3.5 sm:pl-4\">\n          <p className=\"text-sm/6 text-white\">\n            <a href=\"#\">\n              <strong className=\"font-semibold\">GeneriCon 2023</strong>\n              <svg viewBox=\"0 0 2 2\" aria-hidden=\"true\" className=\"mx-2 inline size-0.5 fill-current\">\n                <circle r={1} cx={1} cy={1} />\n              </svg>\n              Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n            </a>\n          </p>\n          <button type=\"button\" className=\"-m-3 flex-none p-3 focus-visible:outline-offset-[-4px]\">\n            <span className=\"sr-only\">Dismiss</span>\n            <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-white\" />\n          </button>\n        </div>\n      </div>\n    </>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Floating at bottom centered",
+          "uuid": "dd9098382f8067c3d90b99dbad8351a3",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 16rem\">\n    \n  <!--\n    Make sure you add some bottom padding to pages that include a sticky banner like this to prevent\n    your content from being obscured when the user scrolls to the bottom of the page.\n  -->\n  <div class=\"pointer-events-none fixed inset-x-0 bottom-0 sm:flex sm:justify-center sm:px-6 sm:pb-5 lg:px-8\">\n    <div class=\"pointer-events-auto flex items-center justify-between gap-x-6 bg-gray-900 px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pr-3.5 sm:pl-4\">\n      <p class=\"text-sm/6 text-white\">\n        <a href=\"#\">\n          <strong class=\"font-semibold\">GeneriCon 2023</strong><svg viewBox=\"0 0 2 2\" class=\"mx-2 inline size-0.5 fill-current\" aria-hidden=\"true\"><circle cx=\"1\" cy=\"1\" r=\"1\"></circle></svg>Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n        </a>\n      </p>\n      <button type=\"button\" class=\"-m-1.5 flex-none p-1.5\">\n        <span class=\"sr-only\">Dismiss</span>\n        <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n      </button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { XMarkIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <>\n      {/*\n        Make sure you add some bottom padding to pages that include a sticky banner like this to prevent\n        your content from being obscured when the user scrolls to the bottom of the page.\n      */}\n      <div className=\"pointer-events-none fixed inset-x-0 bottom-0 sm:flex sm:justify-center sm:px-6 sm:pb-5 lg:px-8\">\n        <div className=\"pointer-events-auto flex items-center justify-between gap-x-6 bg-gray-900 px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pr-3.5 sm:pl-4\">\n          <p className=\"text-sm/6 text-white\">\n            <a href=\"#\">\n              <strong className=\"font-semibold\">GeneriCon 2023</strong>\n              <svg viewBox=\"0 0 2 2\" aria-hidden=\"true\" className=\"mx-2 inline size-0.5 fill-current\">\n                <circle r={1} cx={1} cy={1} />\n              </svg>\n              Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span aria-hidden=\"true\">&rarr;</span>\n            </a>\n          </p>\n          <button type=\"button\" className=\"-m-1.5 flex-none p-1.5\">\n            <span className=\"sr-only\">Dismiss</span>\n            <XMarkIcon aria-hidden=\"true\" className=\"size-5 text-white\" />\n          </button>\n        </div>\n      </div>\n    </>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Privacy notice right-aligned",
+          "uuid": "c5bc8a46a1093693fd286f0b74c631f4",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 25rem\">\n    \n  <div class=\"pointer-events-none fixed inset-x-0 bottom-0 px-6 pb-6\">\n    <div class=\"pointer-events-auto ml-auto max-w-xl rounded-xl bg-white p-6 ring-1 shadow-lg ring-gray-900/10\">\n      <p class=\"text-sm/6 text-gray-900\">This website uses cookies to supplement a balanced diet and provide a much deserved reward to the senses after consuming bland but nutritious meals. Accepting our cookies is optional but recommended, as they are delicious. See our <a href=\"#\" class=\"font-semibold text-indigo-600\">cookie policy</a>.</p>\n      <div class=\"mt-4 flex items-center gap-x-5\">\n        <button type=\"button\" class=\"rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\">Accept all</button>\n        <button type=\"button\" class=\"text-sm/6 font-semibold text-gray-900\">Reject all</button>\n      </div>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"pointer-events-none fixed inset-x-0 bottom-0 px-6 pb-6\">\n      <div className=\"pointer-events-auto ml-auto max-w-xl rounded-xl bg-white p-6 ring-1 shadow-lg ring-gray-900/10\">\n        <p className=\"text-sm/6 text-gray-900\">\n          This website uses cookies to supplement a balanced diet and provide a much deserved reward to the senses after\n          consuming bland but nutritious meals. Accepting our cookies is optional but recommended, as they are\n          delicious. See our{' '}\n          <a href=\"#\" className=\"font-semibold text-indigo-600\">\n            cookie policy\n          </a>\n          .\n        </p>\n        <div className=\"mt-4 flex items-center gap-x-5\">\n          <button\n            type=\"button\"\n            className=\"rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\"\n          >\n            Accept all\n          </button>\n          <button type=\"button\" className=\"text-sm/6 font-semibold text-gray-900\">\n            Reject all\n          </button>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 400,
+          "smallWidth": 375,
+          "smallHeight": 400
+        },
+        {
+          "name": "Privacy notice centered",
+          "uuid": "a201de7379a84f1e46667dd219545953",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 25rem\">\n    \n  <div class=\"pointer-events-none fixed inset-x-0 bottom-0 px-6 pb-6\">\n    <div class=\"pointer-events-auto mx-auto max-w-xl rounded-xl bg-white p-6 ring-1 shadow-lg ring-gray-900/10\">\n      <p class=\"text-sm/6 text-gray-900\">This website uses cookies to supplement a balanced diet and provide a much deserved reward to the senses after consuming bland but nutritious meals. Accepting our cookies is optional but recommended, as they are delicious. See our <a href=\"#\" class=\"font-semibold text-indigo-600\">cookie policy</a>.</p>\n      <div class=\"mt-4 flex items-center gap-x-5\">\n        <button type=\"button\" class=\"rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\">Accept all</button>\n        <button type=\"button\" class=\"text-sm/6 font-semibold text-gray-900\">Reject all</button>\n      </div>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"pointer-events-none fixed inset-x-0 bottom-0 px-6 pb-6\">\n      <div className=\"pointer-events-auto mx-auto max-w-xl rounded-xl bg-white p-6 ring-1 shadow-lg ring-gray-900/10\">\n        <p className=\"text-sm/6 text-gray-900\">\n          This website uses cookies to supplement a balanced diet and provide a much deserved reward to the senses after\n          consuming bland but nutritious meals. Accepting our cookies is optional but recommended, as they are\n          delicious. See our{' '}\n          <a href=\"#\" className=\"font-semibold text-indigo-600\">\n            cookie policy\n          </a>\n          .\n        </p>\n        <div className=\"mt-4 flex items-center gap-x-5\">\n          <button\n            type=\"button\"\n            className=\"rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\"\n          >\n            Accept all\n          </button>\n          <button type=\"button\" className=\"text-sm/6 font-semibold text-gray-900\">\n            Reject all\n          </button>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 400,
+          "smallWidth": 375,
+          "smallHeight": 400
+        },
+        {
+          "name": "Privacy notice left-aligned",
+          "uuid": "ec51d95b54eca6de6f1a07467a431e0c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 25rem\">\n    \n  <div class=\"pointer-events-none fixed inset-x-0 bottom-0 px-6 pb-6\">\n    <div class=\"pointer-events-auto max-w-xl rounded-xl bg-white p-6 ring-1 shadow-lg ring-gray-900/10\">\n      <p class=\"text-sm/6 text-gray-900\">This website uses cookies to supplement a balanced diet and provide a much deserved reward to the senses after consuming bland but nutritious meals. Accepting our cookies is optional but recommended, as they are delicious. See our <a href=\"#\" class=\"font-semibold text-indigo-600\">cookie policy</a>.</p>\n      <div class=\"mt-4 flex items-center gap-x-5\">\n        <button type=\"button\" class=\"rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\">Accept all</button>\n        <button type=\"button\" class=\"text-sm/6 font-semibold text-gray-900\">Reject all</button>\n      </div>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"pointer-events-none fixed inset-x-0 bottom-0 px-6 pb-6\">\n      <div className=\"pointer-events-auto max-w-xl rounded-xl bg-white p-6 ring-1 shadow-lg ring-gray-900/10\">\n        <p className=\"text-sm/6 text-gray-900\">\n          This website uses cookies to supplement a balanced diet and provide a much deserved reward to the senses after\n          consuming bland but nutritious meals. Accepting our cookies is optional but recommended, as they are\n          delicious. See our{' '}\n          <a href=\"#\" className=\"font-semibold text-indigo-600\">\n            cookie policy\n          </a>\n          .\n        </p>\n        <div className=\"mt-4 flex items-center gap-x-5\">\n          <button\n            type=\"button\"\n            className=\"rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\"\n          >\n            Accept all\n          </button>\n          <button type=\"button\" className=\"text-sm/6 font-semibold text-gray-900\">\n            Reject all\n          </button>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 400,
+          "smallWidth": 375,
+          "smallHeight": 400
+        },
+        {
+          "name": "Privacy notice full width",
+          "uuid": "43c7208d9b2cc7b884cd3c0918c2c268",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\" style=\"min-height: 25rem\">\n    \n  <div class=\"fixed inset-x-0 bottom-0 flex flex-col justify-between gap-x-8 gap-y-4 bg-white p-6 ring-1 ring-gray-900/10 md:flex-row md:items-center lg:px-8\">\n    <p class=\"max-w-4xl text-sm/6 text-gray-900\">This website uses cookies to supplement a balanced diet and provide a much deserved reward to the senses after consuming bland but nutritious meals. Accepting our cookies is optional but recommended, as they are delicious. See our <a href=\"#\" class=\"font-semibold text-indigo-600\">cookie policy</a>.</p>\n    <div class=\"flex flex-none items-center gap-x-5\">\n      <button type=\"button\" class=\"rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\">Accept all</button>\n      <button type=\"button\" class=\"text-sm/6 font-semibold text-gray-900\">Reject all</button>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"fixed inset-x-0 bottom-0 flex flex-col justify-between gap-x-8 gap-y-4 bg-white p-6 ring-1 ring-gray-900/10 md:flex-row md:items-center lg:px-8\">\n      <p className=\"max-w-4xl text-sm/6 text-gray-900\">\n        This website uses cookies to supplement a balanced diet and provide a much deserved reward to the senses after\n        consuming bland but nutritious meals. Accepting our cookies is optional but recommended, as they are delicious.\n        See our{' '}\n        <a href=\"#\" className=\"font-semibold text-indigo-600\">\n          cookie policy\n        </a>\n        .\n      </p>\n      <div className=\"flex flex-none items-center gap-x-5\">\n        <button\n          type=\"button\"\n          className=\"rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900\"\n        >\n          Accept all\n        </button>\n        <button type=\"button\" className=\"text-sm/6 font-semibold text-gray-900\">\n          Reject all\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 400,
+          "smallWidth": 375,
+          "smallHeight": 400
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/marketing/elements/banners",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

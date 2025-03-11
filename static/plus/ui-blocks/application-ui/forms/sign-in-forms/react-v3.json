@@ -1,0 +1,528 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Sign-in and Registration",
+      "description": "Login and registration form examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS sign-in and registration components as the foundation for your application's login and sign-up pages. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+      "category": {
+        "name": "Forms",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-forms",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple",
+          "uuid": "766a0bf1b8800d383b6c5b77ef9c626c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex min-h-[840px] flex-col bg-white\">\n    \n  <!--\n  This example requires updating your template:\n\n  ```\n  <html class=\"h-full bg-white\">\n  <body class=\"h-full\">\n  ```\n  -->\n  <div class=\"flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8\">\n    <div class=\"sm:mx-auto sm:w-full sm:max-w-sm\">\n      <img class=\"mx-auto h-10 w-auto\" src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=600\" alt=\"Your Company\">\n      <h2 class=\"mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900\">Sign in to your account</h2>\n    </div>\n\n    <div class=\"mt-10 sm:mx-auto sm:w-full sm:max-w-sm\">\n      <form class=\"space-y-6\" action=\"#\" method=\"POST\">\n        <div>\n          <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email address</label>\n          <div class=\"mt-2\">\n            <input type=\"email\" name=\"email\" id=\"email\" autocomplete=\"email\" required class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n          </div>\n        </div>\n\n        <div>\n          <div class=\"flex items-center justify-between\">\n            <label for=\"password\" class=\"block text-sm/6 font-medium text-gray-900\">Password</label>\n            <div class=\"text-sm\">\n              <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">Forgot password?</a>\n            </div>\n          </div>\n          <div class=\"mt-2\">\n            <input type=\"password\" name=\"password\" id=\"password\" autocomplete=\"current-password\" required class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n          </div>\n        </div>\n\n        <div>\n          <button type=\"submit\" class=\"flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Sign in</button>\n        </div>\n      </form>\n\n      <p class=\"mt-10 text-center text-sm/6 text-gray-500\">\n        Not a member?\n        <!-- space -->\n        <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">Start a 14 day free trial</a>\n      </p>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <>\n      {/*\n        This example requires updating your template:\n\n        ```\n        <html class=\"h-full bg-white\">\n        <body class=\"h-full\">\n        ```\n      */}\n      <div className=\"flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8\">\n        <div className=\"sm:mx-auto sm:w-full sm:max-w-sm\">\n          <img\n            alt=\"Your Company\"\n            src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=600\"\n            className=\"mx-auto h-10 w-auto\"\n          />\n          <h2 className=\"mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900\">\n            Sign in to your account\n          </h2>\n        </div>\n\n        <div className=\"mt-10 sm:mx-auto sm:w-full sm:max-w-sm\">\n          <form action=\"#\" method=\"POST\" className=\"space-y-6\">\n            <div>\n              <label htmlFor=\"email\" className=\"block text-sm/6 font-medium text-gray-900\">\n                Email address\n              </label>\n              <div className=\"mt-2\">\n                <input\n                  id=\"email\"\n                  name=\"email\"\n                  type=\"email\"\n                  required\n                  autoComplete=\"email\"\n                  className=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n                />\n              </div>\n            </div>\n\n            <div>\n              <div className=\"flex items-center justify-between\">\n                <label htmlFor=\"password\" className=\"block text-sm/6 font-medium text-gray-900\">\n                  Password\n                </label>\n                <div className=\"text-sm\">\n                  <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n                    Forgot password?\n                  </a>\n                </div>\n              </div>\n              <div className=\"mt-2\">\n                <input\n                  id=\"password\"\n                  name=\"password\"\n                  type=\"password\"\n                  required\n                  autoComplete=\"current-password\"\n                  className=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n                />\n              </div>\n            </div>\n\n            <div>\n              <button\n                type=\"submit\"\n                className=\"flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n              >\n                Sign in\n              </button>\n            </div>\n          </form>\n\n          <p className=\"mt-10 text-center text-sm/6 text-gray-500\">\n            Not a member?{' '}\n            <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n              Start a 14 day free trial\n            </a>\n          </p>\n        </div>\n      </div>\n    </>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 840,
+          "smallWidth": 375,
+          "smallHeight": 840
+        },
+        {
+          "name": "Simple on dark",
+          "uuid": "02e6121b5fa5f255fc747ca408c28697",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex min-h-[840px] flex-col bg-gray-900\">\n    \n  <!--\n  This example requires updating your template:\n\n  ```\n  <html class=\"h-full bg-gray-900\">\n  <body class=\"h-full\">\n  ```\n  -->\n  <div class=\"flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8\">\n    <div class=\"sm:mx-auto sm:w-full sm:max-w-sm\">\n      <img class=\"mx-auto h-10 w-auto\" src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=500\" alt=\"Your Company\">\n      <h2 class=\"mt-10 text-center text-2xl/9 font-bold tracking-tight text-white\">Sign in to your account</h2>\n    </div>\n\n    <div class=\"mt-10 sm:mx-auto sm:w-full sm:max-w-sm\">\n      <form class=\"space-y-6\" action=\"#\" method=\"POST\">\n        <div>\n          <label for=\"email\" class=\"block text-sm/6 font-medium text-white\">Email address</label>\n          <div class=\"mt-2\">\n            <input type=\"email\" name=\"email\" id=\"email\" autocomplete=\"email\" required class=\"block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6\">\n          </div>\n        </div>\n\n        <div>\n          <div class=\"flex items-center justify-between\">\n            <label for=\"password\" class=\"block text-sm/6 font-medium text-white\">Password</label>\n            <div class=\"text-sm\">\n              <a href=\"#\" class=\"font-semibold text-indigo-400 hover:text-indigo-300\">Forgot password?</a>\n            </div>\n          </div>\n          <div class=\"mt-2\">\n            <input type=\"password\" name=\"password\" id=\"password\" autocomplete=\"current-password\" required class=\"block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6\">\n          </div>\n        </div>\n\n        <div>\n          <button type=\"submit\" class=\"flex w-full justify-center rounded-md bg-indigo-500 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500\">Sign in</button>\n        </div>\n      </form>\n\n      <p class=\"mt-10 text-center text-sm/6 text-gray-400\">\n        Not a member?\n        <!-- space -->\n        <a href=\"#\" class=\"font-semibold text-indigo-400 hover:text-indigo-300\">Start a 14 day free trial</a>\n      </p>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <>\n      {/*\n        This example requires updating your template:\n\n        ```\n        <html class=\"h-full bg-gray-900\">\n        <body class=\"h-full\">\n        ```\n      */}\n      <div className=\"flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8\">\n        <div className=\"sm:mx-auto sm:w-full sm:max-w-sm\">\n          <img\n            alt=\"Your Company\"\n            src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=500\"\n            className=\"mx-auto h-10 w-auto\"\n          />\n          <h2 className=\"mt-10 text-center text-2xl/9 font-bold tracking-tight text-white\">Sign in to your account</h2>\n        </div>\n\n        <div className=\"mt-10 sm:mx-auto sm:w-full sm:max-w-sm\">\n          <form action=\"#\" method=\"POST\" className=\"space-y-6\">\n            <div>\n              <label htmlFor=\"email\" className=\"block text-sm/6 font-medium text-white\">\n                Email address\n              </label>\n              <div className=\"mt-2\">\n                <input\n                  id=\"email\"\n                  name=\"email\"\n                  type=\"email\"\n                  required\n                  autoComplete=\"email\"\n                  className=\"block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6\"\n                />\n              </div>\n            </div>\n\n            <div>\n              <div className=\"flex items-center justify-between\">\n                <label htmlFor=\"password\" className=\"block text-sm/6 font-medium text-white\">\n                  Password\n                </label>\n                <div className=\"text-sm\">\n                  <a href=\"#\" className=\"font-semibold text-indigo-400 hover:text-indigo-300\">\n                    Forgot password?\n                  </a>\n                </div>\n              </div>\n              <div className=\"mt-2\">\n                <input\n                  id=\"password\"\n                  name=\"password\"\n                  type=\"password\"\n                  required\n                  autoComplete=\"current-password\"\n                  className=\"block w-full rounded-md bg-white/5 px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6\"\n                />\n              </div>\n            </div>\n\n            <div>\n              <button\n                type=\"submit\"\n                className=\"flex w-full justify-center rounded-md bg-indigo-500 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500\"\n              >\n                Sign in\n              </button>\n            </div>\n          </form>\n\n          <p className=\"mt-10 text-center text-sm/6 text-gray-400\">\n            Not a member?{' '}\n            <a href=\"#\" className=\"font-semibold text-indigo-400 hover:text-indigo-300\">\n              Start a 14 day free trial\n            </a>\n          </p>\n        </div>\n      </div>\n    </>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 840,
+          "smallWidth": 375,
+          "smallHeight": 840
+        },
+        {
+          "name": "Simple no labels",
+          "uuid": "55b9c2097342175b8ddfccf8a30fb68f",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex min-h-[840px] flex-col bg-white\">\n    \n  <!--\n  This example requires updating your template:\n\n  ```\n  <html class=\"h-full bg-white\">\n  <body class=\"h-full\">\n  ```\n  -->\n  <div class=\"flex min-h-full flex-1 items-center justify-center px-4 py-12 sm:px-6 lg:px-8\">\n    <div class=\"w-full max-w-sm space-y-10\">\n      <div>\n        <img class=\"mx-auto h-10 w-auto\" src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=600\" alt=\"Your Company\">\n        <h2 class=\"mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900\">Sign in to your account</h2>\n      </div>\n      <form class=\"space-y-6\" action=\"#\" method=\"POST\">\n        <div>\n          <div class=\"col-span-2\">\n            <input id=\"email-address\" name=\"email\" type=\"email\" autocomplete=\"email\" required aria-label=\"Email address\" class=\"block w-full rounded-t-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Email address\">\n          </div>\n          <div class=\"-mt-px\">\n            <input id=\"password\" name=\"password\" type=\"password\" autocomplete=\"current-password\" required aria-label=\"Password\" class=\"block w-full rounded-b-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Password\">\n          </div>\n        </div>\n\n        <div class=\"flex items-center justify-between\">\n          <div class=\"flex gap-3\">\n            <div class=\"flex h-6 shrink-0 items-center\">\n              <div class=\"group grid size-4 grid-cols-1\">\n                <input id=\"remember-me\" name=\"remember-me\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n                <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n                  <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                  <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                </svg>\n              </div>\n            </div>\n            <label for=\"remember-me\" class=\"block text-sm/6 text-gray-900\">Remember me</label>\n          </div>\n\n          <div class=\"text-sm/6\">\n            <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">Forgot password?</a>\n          </div>\n        </div>\n\n        <div>\n          <button type=\"submit\" class=\"flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Sign in</button>\n        </div>\n      </form>\n\n      <p class=\"text-center text-sm/6 text-gray-500\">\n        Not a member?\n        <!-- space -->\n        <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">Start a 14-day free trial</a>\n      </p>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <>\n      {/*\n        This example requires updating your template:\n\n        ```\n        <html class=\"h-full bg-white\">\n        <body class=\"h-full\">\n        ```\n      */}\n      <div className=\"flex min-h-full flex-1 items-center justify-center px-4 py-12 sm:px-6 lg:px-8\">\n        <div className=\"w-full max-w-sm space-y-10\">\n          <div>\n            <img\n              alt=\"Your Company\"\n              src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=600\"\n              className=\"mx-auto h-10 w-auto\"\n            />\n            <h2 className=\"mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900\">\n              Sign in to your account\n            </h2>\n          </div>\n          <form action=\"#\" method=\"POST\" className=\"space-y-6\">\n            <div>\n              <div className=\"col-span-2\">\n                <input\n                  id=\"email-address\"\n                  name=\"email\"\n                  type=\"email\"\n                  required\n                  placeholder=\"Email address\"\n                  autoComplete=\"email\"\n                  aria-label=\"Email address\"\n                  className=\"block w-full rounded-t-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n                />\n              </div>\n              <div className=\"-mt-px\">\n                <input\n                  id=\"password\"\n                  name=\"password\"\n                  type=\"password\"\n                  required\n                  placeholder=\"Password\"\n                  autoComplete=\"current-password\"\n                  aria-label=\"Password\"\n                  className=\"block w-full rounded-b-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n                />\n              </div>\n            </div>\n\n            <div className=\"flex items-center justify-between\">\n              <div className=\"flex gap-3\">\n                <div className=\"flex h-6 shrink-0 items-center\">\n                  <div className=\"group grid size-4 grid-cols-1\">\n                    <input\n                      id=\"remember-me\"\n                      name=\"remember-me\"\n                      type=\"checkbox\"\n                      className=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\"\n                    />\n                    <svg\n                      fill=\"none\"\n                      viewBox=\"0 0 14 14\"\n                      className=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\"\n                    >\n                      <path\n                        d=\"M3 8L6 11L11 3.5\"\n                        strokeWidth={2}\n                        strokeLinecap=\"round\"\n                        strokeLinejoin=\"round\"\n                        className=\"opacity-0 group-has-[:checked]:opacity-100\"\n                      />\n                      <path\n                        d=\"M3 7H11\"\n                        strokeWidth={2}\n                        strokeLinecap=\"round\"\n                        strokeLinejoin=\"round\"\n                        className=\"opacity-0 group-has-[:indeterminate]:opacity-100\"\n                      />\n                    </svg>\n                  </div>\n                </div>\n                <label htmlFor=\"remember-me\" className=\"block text-sm/6 text-gray-900\">\n                  Remember me\n                </label>\n              </div>\n\n              <div className=\"text-sm/6\">\n                <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n                  Forgot password?\n                </a>\n              </div>\n            </div>\n\n            <div>\n              <button\n                type=\"submit\"\n                className=\"flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n              >\n                Sign in\n              </button>\n            </div>\n          </form>\n\n          <p className=\"text-center text-sm/6 text-gray-500\">\n            Not a member?{' '}\n            <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n              Start a 14-day free trial\n            </a>\n          </p>\n        </div>\n      </div>\n    </>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 840,
+          "smallWidth": 375,
+          "smallHeight": 840
+        },
+        {
+          "name": "Split screen",
+          "uuid": "fef1d7e9849359af76d4d6ead796938b",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex min-h-[900px] flex-col bg-white\">\n    \n  <!--\n  This example requires updating your template:\n\n  ```\n  <html class=\"h-full bg-white\">\n  <body class=\"h-full\">\n  ```\n  -->\n  <div class=\"flex min-h-full flex-1\">\n    <div class=\"flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24\">\n      <div class=\"mx-auto w-full max-w-sm lg:w-96\">\n        <div>\n          <img class=\"h-10 w-auto\" src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=600\" alt=\"Your Company\">\n          <h2 class=\"mt-8 text-2xl/9 font-bold tracking-tight text-gray-900\">Sign in to your account</h2>\n          <p class=\"mt-2 text-sm/6 text-gray-500\">\n            Not a member?\n            <!-- space -->\n            <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">Start a 14 day free trial</a>\n          </p>\n        </div>\n\n        <div class=\"mt-10\">\n          <div>\n            <form action=\"#\" method=\"POST\" class=\"space-y-6\">\n              <div>\n                <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email address</label>\n                <div class=\"mt-2\">\n                  <input type=\"email\" name=\"email\" id=\"email\" autocomplete=\"email\" required class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n                </div>\n              </div>\n\n              <div>\n                <label for=\"password\" class=\"block text-sm/6 font-medium text-gray-900\">Password</label>\n                <div class=\"mt-2\">\n                  <input type=\"password\" name=\"password\" id=\"password\" autocomplete=\"current-password\" required class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n                </div>\n              </div>\n\n              <div class=\"flex items-center justify-between\">\n                <div class=\"flex gap-3\">\n                  <div class=\"flex h-6 shrink-0 items-center\">\n                    <div class=\"group grid size-4 grid-cols-1\">\n                      <input id=\"remember-me\" name=\"remember-me\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n                      <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n                        <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                        <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                      </svg>\n                    </div>\n                  </div>\n                  <label for=\"remember-me\" class=\"block text-sm/6 text-gray-900\">Remember me</label>\n                </div>\n\n                <div class=\"text-sm/6\">\n                  <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">Forgot password?</a>\n                </div>\n              </div>\n\n              <div>\n                <button type=\"submit\" class=\"flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Sign in</button>\n              </div>\n            </form>\n          </div>\n\n          <div class=\"mt-10\">\n            <div class=\"relative\">\n              <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\">\n                <div class=\"w-full border-t border-gray-200\"></div>\n              </div>\n              <div class=\"relative flex justify-center text-sm/6 font-medium\">\n                <span class=\"bg-white px-6 text-gray-900\">Or continue with</span>\n              </div>\n            </div>\n\n            <div class=\"mt-6 grid grid-cols-2 gap-4\">\n              <a href=\"#\" class=\"flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 focus-visible:ring-transparent\">\n                <svg class=\"h-5 w-5\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n  <path d=\"M12.0003 4.75C13.7703 4.75 15.3553 5.36002 16.6053 6.54998L20.0303 3.125C17.9502 1.19 15.2353 0 12.0003 0C7.31028 0 3.25527 2.69 1.28027 6.60998L5.27028 9.70498C6.21525 6.86002 8.87028 4.75 12.0003 4.75Z\" fill=\"#EA4335\"></path>\n  <path d=\"M23.49 12.275C23.49 11.49 23.415 10.73 23.3 10H12V14.51H18.47C18.18 15.99 17.34 17.25 16.08 18.1L19.945 21.1C22.2 19.01 23.49 15.92 23.49 12.275Z\" fill=\"#4285F4\"></path>\n  <path d=\"M5.26498 14.2949C5.02498 13.5699 4.88501 12.7999 4.88501 11.9999C4.88501 11.1999 5.01998 10.4299 5.26498 9.7049L1.275 6.60986C0.46 8.22986 0 10.0599 0 11.9999C0 13.9399 0.46 15.7699 1.28 17.3899L5.26498 14.2949Z\" fill=\"#FBBC05\"></path>\n  <path d=\"M12.0004 24.0001C15.2404 24.0001 17.9654 22.935 19.9454 21.095L16.0804 18.095C15.0054 18.82 13.6204 19.245 12.0004 19.245C8.8704 19.245 6.21537 17.135 5.2654 14.29L1.27539 17.385C3.25539 21.31 7.3104 24.0001 12.0004 24.0001Z\" fill=\"#34A853\"></path>\n</svg>\n                <span class=\"text-sm/6 font-semibold\">Google</span>\n              </a>\n\n              <a href=\"#\" class=\"flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 focus-visible:ring-transparent\">\n                <svg class=\"size-5 fill-[#24292F]\" fill=\"currentColor\" viewBox=\"0 0 20 20\" aria-hidden=\"true\">\n  <path fill-rule=\"evenodd\" d=\"M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z\" clip-rule=\"evenodd\"></path>\n</svg>\n                <span class=\"text-sm/6 font-semibold\">GitHub</span>\n              </a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div class=\"relative hidden w-0 flex-1 lg:block\">\n      <img class=\"absolute inset-0 size-full object-cover\" src=\"https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1908&q=80\" alt=\"\">\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <>\n      {/*\n        This example requires updating your template:\n\n        ```\n        <html class=\"h-full bg-white\">\n        <body class=\"h-full\">\n        ```\n      */}\n      <div className=\"flex min-h-full flex-1\">\n        <div className=\"flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24\">\n          <div className=\"mx-auto w-full max-w-sm lg:w-96\">\n            <div>\n              <img\n                alt=\"Your Company\"\n                src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=600\"\n                className=\"h-10 w-auto\"\n              />\n              <h2 className=\"mt-8 text-2xl/9 font-bold tracking-tight text-gray-900\">Sign in to your account</h2>\n              <p className=\"mt-2 text-sm/6 text-gray-500\">\n                Not a member?{' '}\n                <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n                  Start a 14 day free trial\n                </a>\n              </p>\n            </div>\n\n            <div className=\"mt-10\">\n              <div>\n                <form action=\"#\" method=\"POST\" className=\"space-y-6\">\n                  <div>\n                    <label htmlFor=\"email\" className=\"block text-sm/6 font-medium text-gray-900\">\n                      Email address\n                    </label>\n                    <div className=\"mt-2\">\n                      <input\n                        id=\"email\"\n                        name=\"email\"\n                        type=\"email\"\n                        required\n                        autoComplete=\"email\"\n                        className=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n                      />\n                    </div>\n                  </div>\n\n                  <div>\n                    <label htmlFor=\"password\" className=\"block text-sm/6 font-medium text-gray-900\">\n                      Password\n                    </label>\n                    <div className=\"mt-2\">\n                      <input\n                        id=\"password\"\n                        name=\"password\"\n                        type=\"password\"\n                        required\n                        autoComplete=\"current-password\"\n                        className=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n                      />\n                    </div>\n                  </div>\n\n                  <div className=\"flex items-center justify-between\">\n                    <div className=\"flex gap-3\">\n                      <div className=\"flex h-6 shrink-0 items-center\">\n                        <div className=\"group grid size-4 grid-cols-1\">\n                          <input\n                            id=\"remember-me\"\n                            name=\"remember-me\"\n                            type=\"checkbox\"\n                            className=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\"\n                          />\n                          <svg\n                            fill=\"none\"\n                            viewBox=\"0 0 14 14\"\n                            className=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\"\n                          >\n                            <path\n                              d=\"M3 8L6 11L11 3.5\"\n                              strokeWidth={2}\n                              strokeLinecap=\"round\"\n                              strokeLinejoin=\"round\"\n                              className=\"opacity-0 group-has-[:checked]:opacity-100\"\n                            />\n                            <path\n                              d=\"M3 7H11\"\n                              strokeWidth={2}\n                              strokeLinecap=\"round\"\n                              strokeLinejoin=\"round\"\n                              className=\"opacity-0 group-has-[:indeterminate]:opacity-100\"\n                            />\n                          </svg>\n                        </div>\n                      </div>\n                      <label htmlFor=\"remember-me\" className=\"block text-sm/6 text-gray-900\">\n                        Remember me\n                      </label>\n                    </div>\n\n                    <div className=\"text-sm/6\">\n                      <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n                        Forgot password?\n                      </a>\n                    </div>\n                  </div>\n\n                  <div>\n                    <button\n                      type=\"submit\"\n                      className=\"flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n                    >\n                      Sign in\n                    </button>\n                  </div>\n                </form>\n              </div>\n\n              <div className=\"mt-10\">\n                <div className=\"relative\">\n                  <div aria-hidden=\"true\" className=\"absolute inset-0 flex items-center\">\n                    <div className=\"w-full border-t border-gray-200\" />\n                  </div>\n                  <div className=\"relative flex justify-center text-sm/6 font-medium\">\n                    <span className=\"bg-white px-6 text-gray-900\">Or continue with</span>\n                  </div>\n                </div>\n\n                <div className=\"mt-6 grid grid-cols-2 gap-4\">\n                  <a\n                    href=\"#\"\n                    className=\"flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:ring-transparent\"\n                  >\n                    <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" className=\"h-5 w-5\">\n                      <path\n                        d=\"M12.0003 4.75C13.7703 4.75 15.3553 5.36002 16.6053 6.54998L20.0303 3.125C17.9502 1.19 15.2353 0 12.0003 0C7.31028 0 3.25527 2.69 1.28027 6.60998L5.27028 9.70498C6.21525 6.86002 8.87028 4.75 12.0003 4.75Z\"\n                        fill=\"#EA4335\"\n                      />\n                      <path\n                        d=\"M23.49 12.275C23.49 11.49 23.415 10.73 23.3 10H12V14.51H18.47C18.18 15.99 17.34 17.25 16.08 18.1L19.945 21.1C22.2 19.01 23.49 15.92 23.49 12.275Z\"\n                        fill=\"#4285F4\"\n                      />\n                      <path\n                        d=\"M5.26498 14.2949C5.02498 13.5699 4.88501 12.7999 4.88501 11.9999C4.88501 11.1999 5.01998 10.4299 5.26498 9.7049L1.275 6.60986C0.46 8.22986 0 10.0599 0 11.9999C0 13.9399 0.46 15.7699 1.28 17.3899L5.26498 14.2949Z\"\n                        fill=\"#FBBC05\"\n                      />\n                      <path\n                        d=\"M12.0004 24.0001C15.2404 24.0001 17.9654 22.935 19.9454 21.095L16.0804 18.095C15.0054 18.82 13.6204 19.245 12.0004 19.245C8.8704 19.245 6.21537 17.135 5.2654 14.29L1.27539 17.385C3.25539 21.31 7.3104 24.0001 12.0004 24.0001Z\"\n                        fill=\"#34A853\"\n                      />\n                    </svg>\n                    <span className=\"text-sm/6 font-semibold\">Google</span>\n                  </a>\n\n                  <a\n                    href=\"#\"\n                    className=\"flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:ring-transparent\"\n                  >\n                    <svg fill=\"currentColor\" viewBox=\"0 0 20 20\" aria-hidden=\"true\" className=\"size-5 fill-[#24292F]\">\n                      <path\n                        d=\"M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z\"\n                        clipRule=\"evenodd\"\n                        fillRule=\"evenodd\"\n                      />\n                    </svg>\n                    <span className=\"text-sm/6 font-semibold\">GitHub</span>\n                  </a>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div className=\"relative hidden w-0 flex-1 lg:block\">\n          <img\n            alt=\"\"\n            src=\"https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1908&q=80\"\n            className=\"absolute inset-0 size-full object-cover\"\n          />\n        </div>\n      </div>\n    </>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 900,
+          "smallWidth": 375,
+          "smallHeight": 900
+        },
+        {
+          "name": "Simple card",
+          "uuid": "bc08eb211afa45fad7c9f89c1891f284",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex min-h-[900px] flex-col bg-gray-50\">\n    \n  <!--\n  This example requires updating your template:\n\n  ```\n  <html class=\"h-full bg-gray-50\">\n  <body class=\"h-full\">\n  ```\n  -->\n  <div class=\"flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8\">\n    <div class=\"sm:mx-auto sm:w-full sm:max-w-md\">\n      <img class=\"mx-auto h-10 w-auto\" src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=600\" alt=\"Your Company\">\n      <h2 class=\"mt-6 text-center text-2xl/9 font-bold tracking-tight text-gray-900\">Sign in to your account</h2>\n    </div>\n\n    <div class=\"mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]\">\n      <div class=\"bg-white px-6 py-12 shadow-sm sm:rounded-lg sm:px-12\">\n        <form class=\"space-y-6\" action=\"#\" method=\"POST\">\n          <div>\n            <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email address</label>\n            <div class=\"mt-2\">\n              <input type=\"email\" name=\"email\" id=\"email\" autocomplete=\"email\" required class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n            </div>\n          </div>\n\n          <div>\n            <label for=\"password\" class=\"block text-sm/6 font-medium text-gray-900\">Password</label>\n            <div class=\"mt-2\">\n              <input type=\"password\" name=\"password\" id=\"password\" autocomplete=\"current-password\" required class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n            </div>\n          </div>\n\n          <div class=\"flex items-center justify-between\">\n            <div class=\"flex gap-3\">\n              <div class=\"flex h-6 shrink-0 items-center\">\n                <div class=\"group grid size-4 grid-cols-1\">\n                  <input id=\"remember-me\" name=\"remember-me\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n                  <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n                    <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                    <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                  </svg>\n                </div>\n              </div>\n              <label for=\"remember-me\" class=\"block text-sm/6 text-gray-900\">Remember me</label>\n            </div>\n\n            <div class=\"text-sm/6\">\n              <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">Forgot password?</a>\n            </div>\n          </div>\n\n          <div>\n            <button type=\"submit\" class=\"flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Sign in</button>\n          </div>\n        </form>\n\n        <div>\n          <div class=\"relative mt-10\">\n            <div class=\"absolute inset-0 flex items-center\" aria-hidden=\"true\">\n              <div class=\"w-full border-t border-gray-200\"></div>\n            </div>\n            <div class=\"relative flex justify-center text-sm/6 font-medium\">\n              <span class=\"bg-white px-6 text-gray-900\">Or continue with</span>\n            </div>\n          </div>\n\n          <div class=\"mt-6 grid grid-cols-2 gap-4\">\n            <a href=\"#\" class=\"flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 focus-visible:ring-transparent\">\n              <svg class=\"h-5 w-5\" viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n  <path d=\"M12.0003 4.75C13.7703 4.75 15.3553 5.36002 16.6053 6.54998L20.0303 3.125C17.9502 1.19 15.2353 0 12.0003 0C7.31028 0 3.25527 2.69 1.28027 6.60998L5.27028 9.70498C6.21525 6.86002 8.87028 4.75 12.0003 4.75Z\" fill=\"#EA4335\"></path>\n  <path d=\"M23.49 12.275C23.49 11.49 23.415 10.73 23.3 10H12V14.51H18.47C18.18 15.99 17.34 17.25 16.08 18.1L19.945 21.1C22.2 19.01 23.49 15.92 23.49 12.275Z\" fill=\"#4285F4\"></path>\n  <path d=\"M5.26498 14.2949C5.02498 13.5699 4.88501 12.7999 4.88501 11.9999C4.88501 11.1999 5.01998 10.4299 5.26498 9.7049L1.275 6.60986C0.46 8.22986 0 10.0599 0 11.9999C0 13.9399 0.46 15.7699 1.28 17.3899L5.26498 14.2949Z\" fill=\"#FBBC05\"></path>\n  <path d=\"M12.0004 24.0001C15.2404 24.0001 17.9654 22.935 19.9454 21.095L16.0804 18.095C15.0054 18.82 13.6204 19.245 12.0004 19.245C8.8704 19.245 6.21537 17.135 5.2654 14.29L1.27539 17.385C3.25539 21.31 7.3104 24.0001 12.0004 24.0001Z\" fill=\"#34A853\"></path>\n</svg>\n              <span class=\"text-sm/6 font-semibold\">Google</span>\n            </a>\n\n            <a href=\"#\" class=\"flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50 focus-visible:ring-transparent\">\n              <svg class=\"size-5 fill-[#24292F]\" fill=\"currentColor\" viewBox=\"0 0 20 20\" aria-hidden=\"true\">\n  <path fill-rule=\"evenodd\" d=\"M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z\" clip-rule=\"evenodd\"></path>\n</svg>\n              <span class=\"text-sm/6 font-semibold\">GitHub</span>\n            </a>\n          </div>\n        </div>\n      </div>\n\n      <p class=\"mt-10 text-center text-sm/6 text-gray-500\">\n        Not a member?\n        <!-- space -->\n        <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">Start a 14 day free trial</a>\n      </p>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <>\n      {/*\n        This example requires updating your template:\n\n        ```\n        <html class=\"h-full bg-gray-50\">\n        <body class=\"h-full\">\n        ```\n      */}\n      <div className=\"flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8\">\n        <div className=\"sm:mx-auto sm:w-full sm:max-w-md\">\n          <img\n            alt=\"Your Company\"\n            src=\"/plus-assets/img/logos/mark.svg?color=indigo&shade=600\"\n            className=\"mx-auto h-10 w-auto\"\n          />\n          <h2 className=\"mt-6 text-center text-2xl/9 font-bold tracking-tight text-gray-900\">\n            Sign in to your account\n          </h2>\n        </div>\n\n        <div className=\"mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]\">\n          <div className=\"bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12\">\n            <form action=\"#\" method=\"POST\" className=\"space-y-6\">\n              <div>\n                <label htmlFor=\"email\" className=\"block text-sm/6 font-medium text-gray-900\">\n                  Email address\n                </label>\n                <div className=\"mt-2\">\n                  <input\n                    id=\"email\"\n                    name=\"email\"\n                    type=\"email\"\n                    required\n                    autoComplete=\"email\"\n                    className=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n                  />\n                </div>\n              </div>\n\n              <div>\n                <label htmlFor=\"password\" className=\"block text-sm/6 font-medium text-gray-900\">\n                  Password\n                </label>\n                <div className=\"mt-2\">\n                  <input\n                    id=\"password\"\n                    name=\"password\"\n                    type=\"password\"\n                    required\n                    autoComplete=\"current-password\"\n                    className=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n                  />\n                </div>\n              </div>\n\n              <div className=\"flex items-center justify-between\">\n                <div className=\"flex gap-3\">\n                  <div className=\"flex h-6 shrink-0 items-center\">\n                    <div className=\"group grid size-4 grid-cols-1\">\n                      <input\n                        id=\"remember-me\"\n                        name=\"remember-me\"\n                        type=\"checkbox\"\n                        className=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\"\n                      />\n                      <svg\n                        fill=\"none\"\n                        viewBox=\"0 0 14 14\"\n                        className=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\"\n                      >\n                        <path\n                          d=\"M3 8L6 11L11 3.5\"\n                          strokeWidth={2}\n                          strokeLinecap=\"round\"\n                          strokeLinejoin=\"round\"\n                          className=\"opacity-0 group-has-[:checked]:opacity-100\"\n                        />\n                        <path\n                          d=\"M3 7H11\"\n                          strokeWidth={2}\n                          strokeLinecap=\"round\"\n                          strokeLinejoin=\"round\"\n                          className=\"opacity-0 group-has-[:indeterminate]:opacity-100\"\n                        />\n                      </svg>\n                    </div>\n                  </div>\n                  <label htmlFor=\"remember-me\" className=\"block text-sm/6 text-gray-900\">\n                    Remember me\n                  </label>\n                </div>\n\n                <div className=\"text-sm/6\">\n                  <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n                    Forgot password?\n                  </a>\n                </div>\n              </div>\n\n              <div>\n                <button\n                  type=\"submit\"\n                  className=\"flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n                >\n                  Sign in\n                </button>\n              </div>\n            </form>\n\n            <div>\n              <div className=\"relative mt-10\">\n                <div aria-hidden=\"true\" className=\"absolute inset-0 flex items-center\">\n                  <div className=\"w-full border-t border-gray-200\" />\n                </div>\n                <div className=\"relative flex justify-center text-sm/6 font-medium\">\n                  <span className=\"bg-white px-6 text-gray-900\">Or continue with</span>\n                </div>\n              </div>\n\n              <div className=\"mt-6 grid grid-cols-2 gap-4\">\n                <a\n                  href=\"#\"\n                  className=\"flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:ring-transparent\"\n                >\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" className=\"h-5 w-5\">\n                    <path\n                      d=\"M12.0003 4.75C13.7703 4.75 15.3553 5.36002 16.6053 6.54998L20.0303 3.125C17.9502 1.19 15.2353 0 12.0003 0C7.31028 0 3.25527 2.69 1.28027 6.60998L5.27028 9.70498C6.21525 6.86002 8.87028 4.75 12.0003 4.75Z\"\n                      fill=\"#EA4335\"\n                    />\n                    <path\n                      d=\"M23.49 12.275C23.49 11.49 23.415 10.73 23.3 10H12V14.51H18.47C18.18 15.99 17.34 17.25 16.08 18.1L19.945 21.1C22.2 19.01 23.49 15.92 23.49 12.275Z\"\n                      fill=\"#4285F4\"\n                    />\n                    <path\n                      d=\"M5.26498 14.2949C5.02498 13.5699 4.88501 12.7999 4.88501 11.9999C4.88501 11.1999 5.01998 10.4299 5.26498 9.7049L1.275 6.60986C0.46 8.22986 0 10.0599 0 11.9999C0 13.9399 0.46 15.7699 1.28 17.3899L5.26498 14.2949Z\"\n                      fill=\"#FBBC05\"\n                    />\n                    <path\n                      d=\"M12.0004 24.0001C15.2404 24.0001 17.9654 22.935 19.9454 21.095L16.0804 18.095C15.0054 18.82 13.6204 19.245 12.0004 19.245C8.8704 19.245 6.21537 17.135 5.2654 14.29L1.27539 17.385C3.25539 21.31 7.3104 24.0001 12.0004 24.0001Z\"\n                      fill=\"#34A853\"\n                    />\n                  </svg>\n                  <span className=\"text-sm/6 font-semibold\">Google</span>\n                </a>\n\n                <a\n                  href=\"#\"\n                  className=\"flex w-full items-center justify-center gap-3 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus-visible:ring-transparent\"\n                >\n                  <svg fill=\"currentColor\" viewBox=\"0 0 20 20\" aria-hidden=\"true\" className=\"size-5 fill-[#24292F]\">\n                    <path\n                      d=\"M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.942.359.31.678.921.678 1.856 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z\"\n                      clipRule=\"evenodd\"\n                      fillRule=\"evenodd\"\n                    />\n                  </svg>\n                  <span className=\"text-sm/6 font-semibold\">GitHub</span>\n                </a>\n              </div>\n            </div>\n          </div>\n\n          <p className=\"mt-10 text-center text-sm/6 text-gray-500\">\n            Not a member?{' '}\n            <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n              Start a 14 day free trial\n            </a>\n          </p>\n        </div>\n      </div>\n    </>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 900,
+          "smallWidth": 375,
+          "smallHeight": 900
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

@@ -1,0 +1,528 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Containers",
+      "description": "Responsive layout container examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS container components as the foundation for building fully responsive interfaces with sensible padding across device sizes. These containers are designed and built by the Tailwind CSS team, and include a variety of different layouts.",
+      "url": "/plus/ui-blocks/application-ui/layout/containers",
+      "category": {
+        "name": "Layout",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-layout",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Full-width on mobile, constrained with padded content above",
+          "uuid": "fa14d2deae17e4c14964ef86ea0a1603",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl bg-pink-100 sm:px-6 lg:px-8\">\n      <div class=\"relative h-64 overflow-hidden border border-dashed border-gray-400 opacity-75\">\n        <svg class=\"absolute inset-0 size-full bg-white stroke-gray-900/10\" fill=\"none\">\n          <defs>\n            <pattern id=\"pattern-2e2e2dfb-58b7-4019-82fc-58ca045f95ff\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n              <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n            </pattern>\n          </defs>\n          <rect stroke=\"none\" fill=\"url(#pattern-2e2e2dfb-58b7-4019-82fc-58ca045f95ff)\" width=\"100%\" height=\"100%\"></rect>\n        </svg>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"mx-auto max-w-7xl sm:px-6 lg:px-8\">\n  <!-- Content goes here -->\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Constrained with padded content",
+          "uuid": "633983e1e230752e046685c12c72a962",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl bg-pink-100 px-4 sm:px-6 lg:px-8\">\n      <div class=\"relative h-64 overflow-hidden border border-dashed border-gray-400 opacity-75\">\n        <svg class=\"absolute inset-0 size-full bg-white stroke-gray-900/10\" fill=\"none\">\n          <defs>\n            <pattern id=\"pattern-41542215-11f8-4ef6-8c7c-b6dad8789af9\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n              <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n            </pattern>\n          </defs>\n          <rect stroke=\"none\" fill=\"url(#pattern-41542215-11f8-4ef6-8c7c-b6dad8789af9)\" width=\"100%\" height=\"100%\"></rect>\n        </svg>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">\n  <!-- Content goes here -->\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Full-width on mobile, constrained to breakpoint with padded content above mobile",
+          "uuid": "7359808e2970a406ca075670f344028b",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"container mx-auto bg-pink-100 sm:px-6 lg:px-8\">\n      <div class=\"relative h-64 overflow-hidden border border-dashed border-gray-400 opacity-75\">\n        <svg class=\"absolute inset-0 size-full bg-white stroke-gray-900/10\" fill=\"none\">\n          <defs>\n            <pattern id=\"pattern-8d9f4db6-e749-4a60-8f57-d897f97d1368\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n              <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n            </pattern>\n          </defs>\n          <rect stroke=\"none\" fill=\"url(#pattern-8d9f4db6-e749-4a60-8f57-d897f97d1368)\" width=\"100%\" height=\"100%\"></rect>\n        </svg>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"container mx-auto sm:px-6 lg:px-8\">\n  <!-- Content goes here -->\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Constrained to breakpoint with padded content",
+          "uuid": "e704df9a95d4642b3cb165a1b71f5171",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"container mx-auto bg-pink-100 px-4 sm:px-6 lg:px-8\">\n      <div class=\"relative h-64 overflow-hidden border border-dashed border-gray-400 opacity-75\">\n        <svg class=\"absolute inset-0 size-full bg-white stroke-gray-900/10\" fill=\"none\">\n          <defs>\n            <pattern id=\"pattern-54ce4d11-3dc7-4725-bc6e-470bd01d4171\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n              <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n            </pattern>\n          </defs>\n          <rect stroke=\"none\" fill=\"url(#pattern-54ce4d11-3dc7-4725-bc6e-470bd01d4171)\" width=\"100%\" height=\"100%\"></rect>\n        </svg>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"container mx-auto px-4 sm:px-6 lg:px-8\">\n  <!-- Content goes here -->\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "Narrow constrained with padded content",
+          "uuid": "19e43f3ad1f1f984ec0c02bdb305353f",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl bg-pink-100 px-4 sm:px-6 lg:px-8\">\n      <div class=\"bg-white\">\n        <div class=\"mx-auto max-w-3xl\">\n          <div class=\"relative h-64 overflow-hidden border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-c9405892-1693-467c-891e-c01d12d79e85\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-c9405892-1693-467c-891e-c01d12d79e85)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"mx-auto max-w-7xl px-4 sm:px-6 lg:px-8\">\n  <!-- We've used 3xl here, but feel free to try other max-widths based on your needs -->\n  <div class=\"mx-auto max-w-3xl\">\n    <!-- Content goes here -->\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 256
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/layout/containers",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

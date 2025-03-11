@@ -1,0 +1,488 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": true
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Feeds",
+      "description": "Activity feed and timeline examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS feed components to display things like updates, notifications, and activity logs in a chronological format. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/lists/feeds",
+      "category": {
+        "name": "Lists",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-lists",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple with icons",
+          "uuid": "a70becc0d3cc548c2205920a6aa78e94",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white py-12\">\n    <div class=\"mx-auto max-w-lg px-6\">\n      \n  <div class=\"flow-root\">\n    <ul role=\"list\" class=\"-mb-8\">\n      <li>\n          <div class=\"relative pb-8\">\n            <span class=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n            <div class=\"relative flex space-x-3\">\n              <div>\n                <span class=\"size-8 rounded-full bg-gray-400 flex items-center justify-center ring-8 ring-white\">\n                  <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM3.465 14.493a1.23 1.23 0 0 0 .41 1.412A9.957 9.957 0 0 0 10 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 0 0-13.074.003Z\"></path>\n</svg>\n                </span>\n              </div>\n              <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n                <div>\n                  <p class=\"text-sm text-gray-500\">Applied to <a href=\"#\" class=\"font-medium text-gray-900\">Front End Developer</a></p>\n                </div>\n                <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n                  <time datetime=\"2020-09-20\">Sep 20</time>\n                </div>\n              </div>\n            </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"relative pb-8\">\n            <span class=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n            <div class=\"relative flex space-x-3\">\n              <div>\n                <span class=\"size-8 rounded-full bg-blue-500 flex items-center justify-center ring-8 ring-white\">\n                  <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M1 8.25a1.25 1.25 0 1 1 2.5 0v7.5a1.25 1.25 0 1 1-2.5 0v-7.5ZM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0 1 14 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 0 1-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 0 1-1.341-.317l-2.734-1.366A3 3 0 0 0 6.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 0 1 2.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388Z\"></path>\n</svg>\n                </span>\n              </div>\n              <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n                <div>\n                  <p class=\"text-sm text-gray-500\">Advanced to phone screening by <a href=\"#\" class=\"font-medium text-gray-900\">Bethany Blake</a></p>\n                </div>\n                <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n                  <time datetime=\"2020-09-22\">Sep 22</time>\n                </div>\n              </div>\n            </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"relative pb-8\">\n            <span class=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n            <div class=\"relative flex space-x-3\">\n              <div>\n                <span class=\"size-8 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white\">\n                  <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                </span>\n              </div>\n              <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n                <div>\n                  <p class=\"text-sm text-gray-500\">Completed phone screening with <a href=\"#\" class=\"font-medium text-gray-900\">Martha Gardner</a></p>\n                </div>\n                <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n                  <time datetime=\"2020-09-28\">Sep 28</time>\n                </div>\n              </div>\n            </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"relative pb-8\">\n            <span class=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n            <div class=\"relative flex space-x-3\">\n              <div>\n                <span class=\"size-8 rounded-full bg-blue-500 flex items-center justify-center ring-8 ring-white\">\n                  <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M1 8.25a1.25 1.25 0 1 1 2.5 0v7.5a1.25 1.25 0 1 1-2.5 0v-7.5ZM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0 1 14 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 0 1-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 0 1-1.341-.317l-2.734-1.366A3 3 0 0 0 6.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 0 1 2.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388Z\"></path>\n</svg>\n                </span>\n              </div>\n              <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n                <div>\n                  <p class=\"text-sm text-gray-500\">Advanced to interview by <a href=\"#\" class=\"font-medium text-gray-900\">Bethany Blake</a></p>\n                </div>\n                <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n                  <time datetime=\"2020-09-30\">Sep 30</time>\n                </div>\n              </div>\n            </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"relative pb-8\">\n            <div class=\"relative flex space-x-3\">\n              <div>\n                <span class=\"size-8 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-white\">\n                  <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                </span>\n              </div>\n              <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n                <div>\n                  <p class=\"text-sm text-gray-500\">Completed interview with <a href=\"#\" class=\"font-medium text-gray-900\">Katherine Snyder</a></p>\n                </div>\n                <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n                  <time datetime=\"2020-10-04\">Oct 4</time>\n                </div>\n              </div>\n            </div>\n          </div>\n        </li>\n      \n    </ul>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"flow-root\">\n  <ul role=\"list\" class=\"-mb-8\">\n    <li>\n      <div class=\"relative pb-8\">\n        <span class=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n        <div class=\"relative flex space-x-3\">\n          <div>\n            <span class=\"flex size-8 items-center justify-center rounded-full bg-gray-400 ring-8 ring-white\">\n              <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path d=\"M10 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM3.465 14.493a1.23 1.23 0 0 0 .41 1.412A9.957 9.957 0 0 0 10 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 0 0-13.074.003Z\" />\n              </svg>\n            </span>\n          </div>\n          <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n            <div>\n              <p class=\"text-sm text-gray-500\">Applied to <a href=\"#\" class=\"font-medium text-gray-900\">Front End Developer</a></p>\n            </div>\n            <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n              <time datetime=\"2020-09-20\">Sep 20</time>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n    <li>\n      <div class=\"relative pb-8\">\n        <span class=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n        <div class=\"relative flex space-x-3\">\n          <div>\n            <span class=\"flex size-8 items-center justify-center rounded-full bg-blue-500 ring-8 ring-white\">\n              <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path d=\"M1 8.25a1.25 1.25 0 1 1 2.5 0v7.5a1.25 1.25 0 1 1-2.5 0v-7.5ZM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0 1 14 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 0 1-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 0 1-1.341-.317l-2.734-1.366A3 3 0 0 0 6.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 0 1 2.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388Z\" />\n              </svg>\n            </span>\n          </div>\n          <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n            <div>\n              <p class=\"text-sm text-gray-500\">Advanced to phone screening by <a href=\"#\" class=\"font-medium text-gray-900\">Bethany Blake</a></p>\n            </div>\n            <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n              <time datetime=\"2020-09-22\">Sep 22</time>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n    <li>\n      <div class=\"relative pb-8\">\n        <span class=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n        <div class=\"relative flex space-x-3\">\n          <div>\n            <span class=\"flex size-8 items-center justify-center rounded-full bg-green-500 ring-8 ring-white\">\n              <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z\" clip-rule=\"evenodd\" />\n              </svg>\n            </span>\n          </div>\n          <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n            <div>\n              <p class=\"text-sm text-gray-500\">Completed phone screening with <a href=\"#\" class=\"font-medium text-gray-900\">Martha Gardner</a></p>\n            </div>\n            <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n              <time datetime=\"2020-09-28\">Sep 28</time>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n    <li>\n      <div class=\"relative pb-8\">\n        <span class=\"absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n        <div class=\"relative flex space-x-3\">\n          <div>\n            <span class=\"flex size-8 items-center justify-center rounded-full bg-blue-500 ring-8 ring-white\">\n              <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path d=\"M1 8.25a1.25 1.25 0 1 1 2.5 0v7.5a1.25 1.25 0 1 1-2.5 0v-7.5ZM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0 1 14 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 0 1-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 0 1-1.341-.317l-2.734-1.366A3 3 0 0 0 6.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 0 1 2.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388Z\" />\n              </svg>\n            </span>\n          </div>\n          <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n            <div>\n              <p class=\"text-sm text-gray-500\">Advanced to interview by <a href=\"#\" class=\"font-medium text-gray-900\">Bethany Blake</a></p>\n            </div>\n            <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n              <time datetime=\"2020-09-30\">Sep 30</time>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n    <li>\n      <div class=\"relative pb-8\">\n        <div class=\"relative flex space-x-3\">\n          <div>\n            <span class=\"flex size-8 items-center justify-center rounded-full bg-green-500 ring-8 ring-white\">\n              <svg class=\"size-5 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path fill-rule=\"evenodd\" d=\"M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z\" clip-rule=\"evenodd\" />\n              </svg>\n            </span>\n          </div>\n          <div class=\"flex min-w-0 flex-1 justify-between space-x-4 pt-1.5\">\n            <div>\n              <p class=\"text-sm text-gray-500\">Completed interview with <a href=\"#\" class=\"font-medium text-gray-900\">Katherine Snyder</a></p>\n            </div>\n            <div class=\"text-right text-sm whitespace-nowrap text-gray-500\">\n              <time datetime=\"2020-10-04\">Oct 4</time>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n  </ul>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 384,
+          "smallWidth": 375,
+          "smallHeight": 440
+        },
+        {
+          "name": "With comments",
+          "uuid": "81e5ec57a92ddcadaa913e7bb68336fe",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white py-12\">\n    <div class=\"mx-auto max-w-lg px-6\">\n      \n  <ul role=\"list\" class=\"space-y-6\">\n    <li class=\"relative flex gap-x-4\">\n        <div class=\"absolute left-0 top-0 flex w-6 justify-center -bottom-6\">\n          <div class=\"w-px bg-gray-200\"></div>\n        </div>\n        <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n            <div class=\"size-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300\"></div>\n            </div>\n          <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Chelsea Hagon</span> created the invoice.</p>\n          <time datetime=\"2023-01-23T10:32\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">7d ago</time>\n        </li>\n    <li class=\"relative flex gap-x-4\">\n        <div class=\"absolute left-0 top-0 flex w-6 justify-center -bottom-6\">\n          <div class=\"w-px bg-gray-200\"></div>\n        </div>\n        <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n            <div class=\"size-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300\"></div>\n            </div>\n          <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Chelsea Hagon</span> edited the invoice.</p>\n          <time datetime=\"2023-01-23T11:03\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">6d ago</time>\n        </li>\n    <li class=\"relative flex gap-x-4\">\n        <div class=\"absolute left-0 top-0 flex w-6 justify-center -bottom-6\">\n          <div class=\"w-px bg-gray-200\"></div>\n        </div>\n        <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n            <div class=\"size-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300\"></div>\n            </div>\n          <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Chelsea Hagon</span> sent the invoice.</p>\n          <time datetime=\"2023-01-23T11:24\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">6d ago</time>\n        </li>\n    <li class=\"relative flex gap-x-4\">\n        <div class=\"absolute left-0 top-0 flex w-6 justify-center -bottom-6\">\n          <div class=\"w-px bg-gray-200\"></div>\n        </div>\n        <img src=\"https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\" class=\"relative mt-3 size-6 flex-none rounded-full bg-gray-50\">\n          <div class=\"flex-auto rounded-md p-3 ring-1 ring-gray-200 ring-inset\">\n            <div class=\"flex justify-between gap-x-4\">\n              <div class=\"py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Chelsea Hagon</span> commented</div>\n              <time datetime=\"2023-01-23T15:56\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">3d ago</time>\n            </div>\n            <p class=\"text-sm/6 text-gray-500\">Called client, they reassured me the invoice would be paid by the 25th.</p>\n          </div>\n        </li>\n    <li class=\"relative flex gap-x-4\">\n        <div class=\"absolute left-0 top-0 flex w-6 justify-center -bottom-6\">\n          <div class=\"w-px bg-gray-200\"></div>\n        </div>\n        <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n            <div class=\"size-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300\"></div>\n            </div>\n          <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Alex Curren</span> viewed the invoice.</p>\n          <time datetime=\"2023-01-24T09:12\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">2d ago</time>\n        </li>\n    <li class=\"relative flex gap-x-4\">\n        <div class=\"absolute left-0 top-0 flex w-6 justify-center h-6\">\n          <div class=\"w-px bg-gray-200\"></div>\n        </div>\n        <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n            <svg class=\"size-6 text-indigo-600\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\"></path>\n</svg>\n            </div>\n          <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Alex Curren</span> paid the invoice.</p>\n          <time datetime=\"2023-01-24T09:20\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">1d ago</time>\n        </li>\n    \n  </ul>\n\n  <!-- New comment form -->\n  <div class=\"mt-6 flex gap-x-3\">\n    <img src=\"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\" class=\"size-6 flex-none rounded-full bg-gray-50\">\n    <form action=\"#\" class=\"relative flex-auto\">\n      <div class=\"overflow-hidden rounded-lg pb-12 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n        <label for=\"comment\" class=\"sr-only\">Add your comment</label>\n        <textarea rows=\"2\" name=\"comment\" id=\"comment\" class=\"block w-full resize-none bg-transparent px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Add your comment...\"></textarea>\n      </div>\n\n      <div class=\"absolute inset-x-0 bottom-0 flex justify-between py-2 pr-2 pl-3\">\n        <div class=\"flex items-center space-x-5\">\n          <div class=\"flex items-center\">\n            <button type=\"button\" class=\"-m-2.5 flex size-10 items-center justify-center rounded-full text-gray-400 hover:text-gray-500\">\n              <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M15.621 4.379a3 3 0 0 0-4.242 0l-7 7a3 3 0 0 0 4.241 4.243h.001l.497-.5a.75.75 0 0 1 1.064 1.057l-.498.501-.002.002a4.5 4.5 0 0 1-6.364-6.364l7-7a4.5 4.5 0 0 1 6.368 6.36l-3.455 3.553A2.625 2.625 0 1 1 9.52 9.52l3.45-3.451a.75.75 0 1 1 1.061 1.06l-3.45 3.451a1.125 1.125 0 0 0 1.587 1.595l3.454-3.553a3 3 0 0 0 0-4.242Z\" clip-rule=\"evenodd\"></path>\n</svg>\n              <span class=\"sr-only\">Attach a file</span>\n            </button>\n          </div>\n          <div class=\"flex items-center\">\n            <div x-data=\"Components.listbox({ modelName: 'selected', open: false, selectedIndex: 5, activeIndex: 5, items: [{&quot;name&quot;:&quot;Excited&quot;,&quot;value&quot;:&quot;excited&quot;,&quot;icon&quot;:&quot;&lt;path _id=\\&quot;__heroicon:mini/fire\\&quot; fill-rule=\\&quot;evenodd\\&quot; d=\\&quot;M13.5 4.938a7 7 0 1 1-9.006 1.737c.202-.257.59-.218.793.039.278.352.594.672.943.954.332.269.786-.049.773-.476a5.977 5.977 0 0 1 .572-2.759 6.026 6.026 0 0 1 2.486-2.665c.247-.14.55-.016.677.238A6.967 6.967 0 0 0 13.5 4.938ZM14 12a4 4 0 0 1-4 4c-1.913 0-3.52-1.398-3.91-3.182-.093-.429.44-.643.814-.413a4.043 4.043 0 0 0 1.601.564c.303.038.531-.24.51-.544a5.975 5.975 0 0 1 1.315-4.192.447.447 0 0 1 .431-.16A4.001 4.001 0 0 1 14 12Z\\&quot; clip-rule=\\&quot;evenodd\\&quot;/&gt;&quot;,&quot;iconColor&quot;:&quot;text-white&quot;,&quot;bgColor&quot;:&quot;bg-red-500&quot;},{&quot;name&quot;:&quot;Loved&quot;,&quot;value&quot;:&quot;loved&quot;,&quot;icon&quot;:&quot;&lt;path _id=\\&quot;__heroicon:mini/heart\\&quot; d=\\&quot;m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z\\&quot;/&gt;&quot;,&quot;iconColor&quot;:&quot;text-white&quot;,&quot;bgColor&quot;:&quot;bg-pink-400&quot;},{&quot;name&quot;:&quot;Happy&quot;,&quot;value&quot;:&quot;happy&quot;,&quot;icon&quot;:&quot;&lt;path _id=\\&quot;__heroicon:mini/face-smile\\&quot; fill-rule=\\&quot;evenodd\\&quot; d=\\&quot;M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.536-4.464a.75.75 0 1 0-1.061-1.061 3.5 3.5 0 0 1-4.95 0 .75.75 0 0 0-1.06 1.06 5 5 0 0 0 7.07 0ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z\\&quot; clip-rule=\\&quot;evenodd\\&quot;/&gt;&quot;,&quot;iconColor&quot;:&quot;text-white&quot;,&quot;bgColor&quot;:&quot;bg-green-400&quot;},{&quot;name&quot;:&quot;Sad&quot;,&quot;value&quot;:&quot;sad&quot;,&quot;icon&quot;:&quot;&lt;path _id=\\&quot;__heroicon:mini/face-frown\\&quot; fill-rule=\\&quot;evenodd\\&quot; d=\\&quot;M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm-3.536-3.475a.75.75 0 0 0 1.061 0 3.5 3.5 0 0 1 4.95 0 .75.75 0 1 0 1.06-1.06 5 5 0 0 0-7.07 0 .75.75 0 0 0 0 1.06ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z\\&quot; clip-rule=\\&quot;evenodd\\&quot;/&gt;&quot;,&quot;iconColor&quot;:&quot;text-white&quot;,&quot;bgColor&quot;:&quot;bg-yellow-400&quot;},{&quot;name&quot;:&quot;Thumbsy&quot;,&quot;value&quot;:&quot;thumbsy&quot;,&quot;icon&quot;:&quot;&lt;path _id=\\&quot;__heroicon:mini/hand-thumb-up\\&quot; d=\\&quot;M1 8.25a1.25 1.25 0 1 1 2.5 0v7.5a1.25 1.25 0 1 1-2.5 0v-7.5ZM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0 1 14 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 0 1-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 0 1-1.341-.317l-2.734-1.366A3 3 0 0 0 6.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 0 1 2.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388Z\\&quot;/&gt;&quot;,&quot;iconColor&quot;:&quot;text-white&quot;,&quot;bgColor&quot;:&quot;bg-blue-500&quot;},{&quot;name&quot;:&quot;I feel nothing&quot;,&quot;value&quot;:null,&quot;icon&quot;:&quot;&lt;path _id=\\&quot;__heroicon:mini/x-mark\\&quot; d=\\&quot;M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\\&quot;/&gt;&quot;,&quot;iconColor&quot;:&quot;text-gray-400&quot;,&quot;bgColor&quot;:&quot;bg-transparent&quot;}] })\" x-init=\"init()\">\n              <label id=\"listbox-label\" class=\"sr-only\" @click=\"$refs.button.focus()\">Your mood</label>\n              <div class=\"relative\">\n                <button type=\"button\" class=\"relative -m-2.5 flex size-10 items-center justify-center rounded-full text-gray-400 hover:text-gray-500\" x-ref=\"button\" @keydown.arrow-up.stop.prevent=\"onButtonClick()\" @keydown.arrow-down.stop.prevent=\"onButtonClick()\" @click=\"onButtonClick()\" aria-haspopup=\"listbox\" :aria-expanded=\"open\" aria-expanded=\"true\" aria-labelledby=\"listbox-label\">\n                  <span class=\"flex items-center justify-center\">\n                    <span x-show=\"selected.value === null\" x-description=\"Placeholder label, show/hide based on listbox state.\">\n                      <svg class=\"size-5 shrink-0\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.536-4.464a.75.75 0 1 0-1.061-1.061 3.5 3.5 0 0 1-4.95 0 .75.75 0 0 0-1.06 1.06 5 5 0 0 0 7.07 0ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                      <span class=\"sr-only\">Add your mood</span>\n                    </span>\n                    <span x-show=\"!(selected.value === null)\" x-description=\"Selected item label, show/hide based on listbox state.\">\n                      <span :class=\"selected.bgColor\" class=\"flex size-8 items-center justify-center rounded-full\">\n                        <svg class=\"size-5 shrink-0 text-white\" x-html=\"selected.icon\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M13.5 4.938a7 7 0 1 1-9.006 1.737c.202-.257.59-.218.793.039.278.352.594.672.943.954.332.269.786-.049.773-.476a5.977 5.977 0 0 1 .572-2.759 6.026 6.026 0 0 1 2.486-2.665c.247-.14.55-.016.677.238A6.967 6.967 0 0 0 13.5 4.938ZM14 12a4 4 0 0 1-4 4c-1.913 0-3.52-1.398-3.91-3.182-.093-.429.44-.643.814-.413a4.043 4.043 0 0 0 1.601.564c.303.038.531-.24.51-.544a5.975 5.975 0 0 1 1.315-4.192.447.447 0 0 1 .431-.16A4.001 4.001 0 0 1 14 12Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                      </span>\n                      <span x-text=\"selected.name\" class=\"sr-only\">Excited</span>\n                    </span>\n                  </span>\n                </button>\n\n                \n                  <ul x-show=\"open\" x-transition:leave=\"transition ease-in duration-100\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" class=\"absolute bottom-10 z-10 -ml-6 w-60 rounded-lg bg-white py-3 text-base ring-1 shadow-sm ring-black/5 focus:outline-hidden sm:ml-auto sm:w-64 sm:text-sm\" @click.away=\"open = false\" x-description=\"Select popover, show/hide based on select state.\" @keydown.enter.stop.prevent=\"onOptionSelect()\" @keydown.space.stop.prevent=\"onOptionSelect()\" @keydown.escape=\"onEscape()\" @keydown.arrow-up.prevent=\"onArrowUp()\" @keydown.arrow-down.prevent=\"onArrowDown()\" x-ref=\"listbox\" tabindex=\"-1\" role=\"listbox\" aria-labelledby=\"listbox-label\" :aria-activedescendant=\"activeDescendant\" aria-activedescendant=\"listbox-option-5\">\n                    <li x-state:on=\"Highlighted\" x-state:off=\"Not Highlighted\" class=\"bg-white relative cursor-default px-3 py-2 select-none\" x-description=\"Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\" id=\"listbox-option-0\" role=\"option\" @click=\"choose(0)\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 0)\" @mouseleave=\"onMouseLeave($event)\" :class=\"{ 'bg-gray-100': activeIndex === 0, 'bg-white': !(activeIndex === 0) }\">\n                        <div class=\"flex items-center\">\n                          <div class=\"bg-red-500 flex size-8 items-center justify-center rounded-full\">\n                            <svg class=\"text-white size-5 shrink-0\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M13.5 4.938a7 7 0 1 1-9.006 1.737c.202-.257.59-.218.793.039.278.352.594.672.943.954.332.269.786-.049.773-.476a5.977 5.977 0 0 1 .572-2.759 6.026 6.026 0 0 1 2.486-2.665c.247-.14.55-.016.677.238A6.967 6.967 0 0 0 13.5 4.938ZM14 12a4 4 0 0 1-4 4c-1.913 0-3.52-1.398-3.91-3.182-.093-.429.44-.643.814-.413a4.043 4.043 0 0 0 1.601.564c.303.038.531-.24.51-.544a5.975 5.975 0 0 1 1.315-4.192.447.447 0 0 1 .431-.16A4.001 4.001 0 0 1 14 12Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                          </div>\n                          <span x-state:on=\"Selected\" x-state:off=\"Not Selected\" class=\"ml-3 block truncate font-medium\">Excited</span>\n                        </div>\n                      </li>\n                    <li x-state:on=\"Highlighted\" x-state:off=\"Not Highlighted\" class=\"bg-white relative cursor-default px-3 py-2 select-none\" x-description=\"Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\" id=\"listbox-option-1\" role=\"option\" @click=\"choose(1)\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 1)\" @mouseleave=\"onMouseLeave($event)\" :class=\"{ 'bg-gray-100': activeIndex === 1, 'bg-white': !(activeIndex === 1) }\">\n                        <div class=\"flex items-center\">\n                          <div class=\"bg-pink-400 flex size-8 items-center justify-center rounded-full\">\n                            <svg class=\"text-white size-5 shrink-0\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z\"></path>\n</svg>\n                          </div>\n                          <span x-state:on=\"Selected\" x-state:off=\"Not Selected\" class=\"ml-3 block truncate font-medium\">Loved</span>\n                        </div>\n                      </li>\n                    <li x-state:on=\"Highlighted\" x-state:off=\"Not Highlighted\" class=\"bg-white relative cursor-default px-3 py-2 select-none\" x-description=\"Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\" id=\"listbox-option-2\" role=\"option\" @click=\"choose(2)\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 2)\" @mouseleave=\"onMouseLeave($event)\" :class=\"{ 'bg-gray-100': activeIndex === 2, 'bg-white': !(activeIndex === 2) }\">\n                        <div class=\"flex items-center\">\n                          <div class=\"bg-green-400 flex size-8 items-center justify-center rounded-full\">\n                            <svg class=\"text-white size-5 shrink-0\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.536-4.464a.75.75 0 1 0-1.061-1.061 3.5 3.5 0 0 1-4.95 0 .75.75 0 0 0-1.06 1.06 5 5 0 0 0 7.07 0ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                          </div>\n                          <span x-state:on=\"Selected\" x-state:off=\"Not Selected\" class=\"ml-3 block truncate font-medium\">Happy</span>\n                        </div>\n                      </li>\n                    <li x-state:on=\"Highlighted\" x-state:off=\"Not Highlighted\" class=\"bg-white relative cursor-default px-3 py-2 select-none\" x-description=\"Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\" id=\"listbox-option-3\" role=\"option\" @click=\"choose(3)\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 3)\" @mouseleave=\"onMouseLeave($event)\" :class=\"{ 'bg-gray-100': activeIndex === 3, 'bg-white': !(activeIndex === 3) }\">\n                        <div class=\"flex items-center\">\n                          <div class=\"bg-yellow-400 flex size-8 items-center justify-center rounded-full\">\n                            <svg class=\"text-white size-5 shrink-0\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm-3.536-3.475a.75.75 0 0 0 1.061 0 3.5 3.5 0 0 1 4.95 0 .75.75 0 1 0 1.06-1.06 5 5 0 0 0-7.07 0 .75.75 0 0 0 0 1.06ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                          </div>\n                          <span x-state:on=\"Selected\" x-state:off=\"Not Selected\" class=\"ml-3 block truncate font-medium\">Sad</span>\n                        </div>\n                      </li>\n                    <li x-state:on=\"Highlighted\" x-state:off=\"Not Highlighted\" class=\"bg-white relative cursor-default px-3 py-2 select-none\" x-description=\"Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\" id=\"listbox-option-4\" role=\"option\" @click=\"choose(4)\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 4)\" @mouseleave=\"onMouseLeave($event)\" :class=\"{ 'bg-gray-100': activeIndex === 4, 'bg-white': !(activeIndex === 4) }\">\n                        <div class=\"flex items-center\">\n                          <div class=\"bg-blue-500 flex size-8 items-center justify-center rounded-full\">\n                            <svg class=\"text-white size-5 shrink-0\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M1 8.25a1.25 1.25 0 1 1 2.5 0v7.5a1.25 1.25 0 1 1-2.5 0v-7.5ZM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0 1 14 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 0 1-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 0 1-1.341-.317l-2.734-1.366A3 3 0 0 0 6.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 0 1 2.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388Z\"></path>\n</svg>\n                          </div>\n                          <span x-state:on=\"Selected\" x-state:off=\"Not Selected\" class=\"ml-3 block truncate font-medium\">Thumbsy</span>\n                        </div>\n                      </li>\n                    <li x-state:on=\"Highlighted\" x-state:off=\"Not Highlighted\" class=\"bg-white relative cursor-default px-3 py-2 select-none\" x-description=\"Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\" id=\"listbox-option-5\" role=\"option\" @click=\"choose(5)\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 5)\" @mouseleave=\"onMouseLeave($event)\" :class=\"{ 'bg-gray-100': activeIndex === 5, 'bg-white': !(activeIndex === 5) }\">\n                        <div class=\"flex items-center\">\n                          <div class=\"bg-transparent flex size-8 items-center justify-center rounded-full\">\n                            <svg class=\"text-gray-400 size-5 shrink-0\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n                          </div>\n                          <span x-state:on=\"Selected\" x-state:off=\"Not Selected\" class=\"ml-3 block truncate font-medium\">I feel nothing</span>\n                        </div>\n                      </li>\n                    \n                  </ul>\n                \n              </div>\n            </div>\n          </div>\n        </div>\n        <button type=\"submit\" class=\"rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">Comment</button>\n      </div>\n    </form>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<ul role=\"list\" class=\"space-y-6\">\n  <li class=\"relative flex gap-x-4\">\n    <div class=\"absolute top-0 -bottom-6 left-0 flex w-6 justify-center\">\n      <div class=\"w-px bg-gray-200\"></div>\n    </div>\n    <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n      <div class=\"size-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300\"></div>\n    </div>\n    <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Chelsea Hagon</span> created the invoice.</p>\n    <time datetime=\"2023-01-23T10:32\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">7d ago</time>\n  </li>\n  <li class=\"relative flex gap-x-4\">\n    <div class=\"absolute top-0 -bottom-6 left-0 flex w-6 justify-center\">\n      <div class=\"w-px bg-gray-200\"></div>\n    </div>\n    <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n      <div class=\"size-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300\"></div>\n    </div>\n    <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Chelsea Hagon</span> edited the invoice.</p>\n    <time datetime=\"2023-01-23T11:03\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">6d ago</time>\n  </li>\n  <li class=\"relative flex gap-x-4\">\n    <div class=\"absolute top-0 -bottom-6 left-0 flex w-6 justify-center\">\n      <div class=\"w-px bg-gray-200\"></div>\n    </div>\n    <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n      <div class=\"size-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300\"></div>\n    </div>\n    <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Chelsea Hagon</span> sent the invoice.</p>\n    <time datetime=\"2023-01-23T11:24\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">6d ago</time>\n  </li>\n  <li class=\"relative flex gap-x-4\">\n    <div class=\"absolute top-0 -bottom-6 left-0 flex w-6 justify-center\">\n      <div class=\"w-px bg-gray-200\"></div>\n    </div>\n    <img src=\"https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\" class=\"relative mt-3 size-6 flex-none rounded-full bg-gray-50\">\n    <div class=\"flex-auto rounded-md p-3 ring-1 ring-gray-200 ring-inset\">\n      <div class=\"flex justify-between gap-x-4\">\n        <div class=\"py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Chelsea Hagon</span> commented</div>\n        <time datetime=\"2023-01-23T15:56\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">3d ago</time>\n      </div>\n      <p class=\"text-sm/6 text-gray-500\">Called client, they reassured me the invoice would be paid by the 25th.</p>\n    </div>\n  </li>\n  <li class=\"relative flex gap-x-4\">\n    <div class=\"absolute top-0 -bottom-6 left-0 flex w-6 justify-center\">\n      <div class=\"w-px bg-gray-200\"></div>\n    </div>\n    <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n      <div class=\"size-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300\"></div>\n    </div>\n    <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Alex Curren</span> viewed the invoice.</p>\n    <time datetime=\"2023-01-24T09:12\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">2d ago</time>\n  </li>\n  <li class=\"relative flex gap-x-4\">\n    <div class=\"absolute top-0 left-0 flex h-6 w-6 justify-center\">\n      <div class=\"w-px bg-gray-200\"></div>\n    </div>\n    <div class=\"relative flex size-6 flex-none items-center justify-center bg-white\">\n      <svg class=\"size-6 text-indigo-600\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n        <path fill-rule=\"evenodd\" d=\"M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z\" clip-rule=\"evenodd\" />\n      </svg>\n    </div>\n    <p class=\"flex-auto py-0.5 text-xs/5 text-gray-500\"><span class=\"font-medium text-gray-900\">Alex Curren</span> paid the invoice.</p>\n    <time datetime=\"2023-01-24T09:20\" class=\"flex-none py-0.5 text-xs/5 text-gray-500\">1d ago</time>\n  </li>\n</ul>\n\n<!-- New comment form -->\n<div class=\"mt-6 flex gap-x-3\">\n  <img src=\"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\" class=\"size-6 flex-none rounded-full bg-gray-50\">\n  <form action=\"#\" class=\"relative flex-auto\">\n    <div class=\"overflow-hidden rounded-lg pb-12 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n      <label for=\"comment\" class=\"sr-only\">Add your comment</label>\n      <textarea rows=\"2\" name=\"comment\" id=\"comment\" class=\"block w-full resize-none bg-transparent px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Add your comment...\"></textarea>\n    </div>\n\n    <div class=\"absolute inset-x-0 bottom-0 flex justify-between py-2 pr-2 pl-3\">\n      <div class=\"flex items-center space-x-5\">\n        <div class=\"flex items-center\">\n          <button type=\"button\" class=\"-m-2.5 flex size-10 items-center justify-center rounded-full text-gray-400 hover:text-gray-500\">\n            <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n              <path fill-rule=\"evenodd\" d=\"M15.621 4.379a3 3 0 0 0-4.242 0l-7 7a3 3 0 0 0 4.241 4.243h.001l.497-.5a.75.75 0 0 1 1.064 1.057l-.498.501-.002.002a4.5 4.5 0 0 1-6.364-6.364l7-7a4.5 4.5 0 0 1 6.368 6.36l-3.455 3.553A2.625 2.625 0 1 1 9.52 9.52l3.45-3.451a.75.75 0 1 1 1.061 1.06l-3.45 3.451a1.125 1.125 0 0 0 1.587 1.595l3.454-3.553a3 3 0 0 0 0-4.242Z\" clip-rule=\"evenodd\" />\n            </svg>\n            <span class=\"sr-only\">Attach a file</span>\n          </button>\n        </div>\n        <div class=\"flex items-center\">\n          <div>\n            <label id=\"listbox-label\" class=\"sr-only\">Your mood</label>\n            <div class=\"relative\">\n              <button type=\"button\" class=\"relative -m-2.5 flex size-10 items-center justify-center rounded-full text-gray-400 hover:text-gray-500\" aria-haspopup=\"listbox\" aria-expanded=\"true\" aria-labelledby=\"listbox-label\">\n                <span class=\"flex items-center justify-center\">\n                  <!-- Placeholder label, show/hide based on listbox state. -->\n                  <span>\n                    <svg class=\"size-5 shrink-0\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                      <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.536-4.464a.75.75 0 1 0-1.061-1.061 3.5 3.5 0 0 1-4.95 0 .75.75 0 0 0-1.06 1.06 5 5 0 0 0 7.07 0ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z\" clip-rule=\"evenodd\" />\n                    </svg>\n                    <span class=\"sr-only\">Add your mood</span>\n                  </span>\n                  <!-- Selected item label, show/hide based on listbox state. -->\n                  <span>\n                    <span class=\"flex size-8 items-center justify-center rounded-full bg-red-500\">\n                      <svg class=\"size-5 shrink-0 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                        <path fill-rule=\"evenodd\" d=\"M13.5 4.938a7 7 0 1 1-9.006 1.737c.202-.257.59-.218.793.039.278.352.594.672.943.954.332.269.786-.049.773-.476a5.977 5.977 0 0 1 .572-2.759 6.026 6.026 0 0 1 2.486-2.665c.247-.14.55-.016.677.238A6.967 6.967 0 0 0 13.5 4.938ZM14 12a4 4 0 0 1-4 4c-1.913 0-3.52-1.398-3.91-3.182-.093-.429.44-.643.814-.413a4.043 4.043 0 0 0 1.601.564c.303.038.531-.24.51-.544a5.975 5.975 0 0 1 1.315-4.192.447.447 0 0 1 .431-.16A4.001 4.001 0 0 1 14 12Z\" clip-rule=\"evenodd\" />\n                      </svg>\n                    </span>\n                    <span class=\"sr-only\">Excited</span>\n                  </span>\n                </span>\n              </button>\n\n              <!--\n                Select popover, show/hide based on select state.\n\n                Entering: \"\"\n                  From: \"\"\n                  To: \"\"\n                Leaving: \"transition ease-in duration-100\"\n                  From: \"opacity-100\"\n                  To: \"opacity-0\"\n              -->\n              <ul class=\"absolute bottom-10 z-10 -ml-6 w-60 rounded-lg bg-white py-3 text-base ring-1 shadow-sm ring-black/5 focus:outline-hidden sm:ml-auto sm:w-64 sm:text-sm\" tabindex=\"-1\" role=\"listbox\" aria-labelledby=\"listbox-label\" aria-activedescendant=\"listbox-option-5\">\n                <!--\n                  Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\n\n                  Highlighted: \"bg-gray-100\", Not Highlighted: \"bg-white\"\n                -->\n                <li class=\"relative cursor-default bg-white px-3 py-2 select-none\" id=\"listbox-option-0\" role=\"option\">\n                  <div class=\"flex items-center\">\n                    <div class=\"flex size-8 items-center justify-center rounded-full bg-red-500\">\n                      <svg class=\"size-5 shrink-0 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                        <path fill-rule=\"evenodd\" d=\"M13.5 4.938a7 7 0 1 1-9.006 1.737c.202-.257.59-.218.793.039.278.352.594.672.943.954.332.269.786-.049.773-.476a5.977 5.977 0 0 1 .572-2.759 6.026 6.026 0 0 1 2.486-2.665c.247-.14.55-.016.677.238A6.967 6.967 0 0 0 13.5 4.938ZM14 12a4 4 0 0 1-4 4c-1.913 0-3.52-1.398-3.91-3.182-.093-.429.44-.643.814-.413a4.043 4.043 0 0 0 1.601.564c.303.038.531-.24.51-.544a5.975 5.975 0 0 1 1.315-4.192.447.447 0 0 1 .431-.16A4.001 4.001 0 0 1 14 12Z\" clip-rule=\"evenodd\" />\n                      </svg>\n                    </div>\n                    <span class=\"ml-3 block truncate font-medium\">Excited</span>\n                  </div>\n                </li>\n                <!--\n                  Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\n\n                  Highlighted: \"bg-gray-100\", Not Highlighted: \"bg-white\"\n                -->\n                <li class=\"relative cursor-default bg-white px-3 py-2 select-none\" id=\"listbox-option-1\" role=\"option\">\n                  <div class=\"flex items-center\">\n                    <div class=\"flex size-8 items-center justify-center rounded-full bg-pink-400\">\n                      <svg class=\"size-5 shrink-0 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                        <path d=\"m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z\" />\n                      </svg>\n                    </div>\n                    <span class=\"ml-3 block truncate font-medium\">Loved</span>\n                  </div>\n                </li>\n                <!--\n                  Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\n\n                  Highlighted: \"bg-gray-100\", Not Highlighted: \"bg-white\"\n                -->\n                <li class=\"relative cursor-default bg-white px-3 py-2 select-none\" id=\"listbox-option-2\" role=\"option\">\n                  <div class=\"flex items-center\">\n                    <div class=\"flex size-8 items-center justify-center rounded-full bg-green-400\">\n                      <svg class=\"size-5 shrink-0 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                        <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.536-4.464a.75.75 0 1 0-1.061-1.061 3.5 3.5 0 0 1-4.95 0 .75.75 0 0 0-1.06 1.06 5 5 0 0 0 7.07 0ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z\" clip-rule=\"evenodd\" />\n                      </svg>\n                    </div>\n                    <span class=\"ml-3 block truncate font-medium\">Happy</span>\n                  </div>\n                </li>\n                <!--\n                  Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\n\n                  Highlighted: \"bg-gray-100\", Not Highlighted: \"bg-white\"\n                -->\n                <li class=\"relative cursor-default bg-white px-3 py-2 select-none\" id=\"listbox-option-3\" role=\"option\">\n                  <div class=\"flex items-center\">\n                    <div class=\"flex size-8 items-center justify-center rounded-full bg-yellow-400\">\n                      <svg class=\"size-5 shrink-0 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                        <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm-3.536-3.475a.75.75 0 0 0 1.061 0 3.5 3.5 0 0 1 4.95 0 .75.75 0 1 0 1.06-1.06 5 5 0 0 0-7.07 0 .75.75 0 0 0 0 1.06ZM9 8.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S7.448 7 8 7s1 .672 1 1.5Zm3 1.5c.552 0 1-.672 1-1.5S12.552 7 12 7s-1 .672-1 1.5.448 1.5 1 1.5Z\" clip-rule=\"evenodd\" />\n                      </svg>\n                    </div>\n                    <span class=\"ml-3 block truncate font-medium\">Sad</span>\n                  </div>\n                </li>\n                <!--\n                  Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\n\n                  Highlighted: \"bg-gray-100\", Not Highlighted: \"bg-white\"\n                -->\n                <li class=\"relative cursor-default bg-white px-3 py-2 select-none\" id=\"listbox-option-4\" role=\"option\">\n                  <div class=\"flex items-center\">\n                    <div class=\"flex size-8 items-center justify-center rounded-full bg-blue-500\">\n                      <svg class=\"size-5 shrink-0 text-white\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                        <path d=\"M1 8.25a1.25 1.25 0 1 1 2.5 0v7.5a1.25 1.25 0 1 1-2.5 0v-7.5ZM11 3V1.7c0-.268.14-.526.395-.607A2 2 0 0 1 14 3c0 .995-.182 1.948-.514 2.826-.204.54.166 1.174.744 1.174h2.52c1.243 0 2.261 1.01 2.146 2.247a23.864 23.864 0 0 1-1.341 5.974C17.153 16.323 16.072 17 14.9 17h-3.192a3 3 0 0 1-1.341-.317l-2.734-1.366A3 3 0 0 0 6.292 15H5V8h.963c.685 0 1.258-.483 1.612-1.068a4.011 4.011 0 0 1 2.166-1.73c.432-.143.853-.386 1.011-.814.16-.432.248-.9.248-1.388Z\" />\n                      </svg>\n                    </div>\n                    <span class=\"ml-3 block truncate font-medium\">Thumbsy</span>\n                  </div>\n                </li>\n                <!--\n                  Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.\n\n                  Highlighted: \"bg-gray-100\", Not Highlighted: \"bg-white\"\n                -->\n                <li class=\"relative cursor-default bg-white px-3 py-2 select-none\" id=\"listbox-option-5\" role=\"option\">\n                  <div class=\"flex items-center\">\n                    <div class=\"flex size-8 items-center justify-center rounded-full bg-transparent\">\n                      <svg class=\"size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                        <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\" />\n                      </svg>\n                    </div>\n                    <span class=\"ml-3 block truncate font-medium\">I feel nothing</span>\n                  </div>\n                </li>\n              </ul>\n            </div>\n          </div>\n        </div>\n      </div>\n      <button type=\"submit\" class=\"rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">Comment</button>\n    </div>\n  </form>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 564,
+          "smallWidth": 375,
+          "smallHeight": 564
+        },
+        {
+          "name": "With multiple item types",
+          "uuid": "c7f3196b0f47862c91b15b9042d68d86",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white py-12\">\n    <div class=\"mx-auto max-w-lg px-6\">\n      \n  <div class=\"flow-root\">\n    <ul role=\"list\" class=\"-mb-8\">\n      <li>\n          <div class=\"relative pb-8\">\n            <span class=\"absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n            <div class=\"relative flex items-start space-x-3\">\n              <div class=\"relative\">\n                  <img class=\"flex size-10 items-center justify-center rounded-full bg-gray-400 ring-8 ring-white\" src=\"https://images.unsplash.com/photo-1520785643438-5bf77931f493?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80\" alt=\"\">\n\n                  <span class=\"absolute -right-1 -bottom-0.5 rounded-tl bg-white px-0.5 py-px\">\n                    <svg class=\"size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 2c-2.236 0-4.43.18-6.57.524C1.993 2.755 1 4.014 1 5.426v5.148c0 1.413.993 2.67 2.43 2.902.848.137 1.705.248 2.57.331v3.443a.75.75 0 0 0 1.28.53l3.58-3.579a.78.78 0 0 1 .527-.224 41.202 41.202 0 0 0 5.183-.5c1.437-.232 2.43-1.49 2.43-2.903V5.426c0-1.413-.993-2.67-2.43-2.902A41.289 41.289 0 0 0 10 2Zm0 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM8 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm5 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  </span>\n                </div>\n                <div class=\"min-w-0 flex-1\">\n                  <div>\n                    <div class=\"text-sm\">\n                      <a href=\"#\" class=\"font-medium text-gray-900\">Eduardo Benz</a>\n                    </div>\n                    <p class=\"mt-0.5 text-sm text-gray-500\">Commented 6d ago</p>\n                  </div>\n                  <div class=\"mt-2 text-sm text-gray-700\">\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum tempor purus vitae id. Morbi in vestibulum nec varius. Et diam cursus quis sed purus nam. </p>\n                  </div>\n                </div>\n              </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"relative pb-8\">\n            <span class=\"absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n            <div class=\"relative flex items-start space-x-3\">\n              \n                <div>\n                  <div class=\"relative px-1\">\n                    <div class=\"flex size-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white\">\n                      <svg class=\"size-5 text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-5.5-2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM10 12a5.99 5.99 0 0 0-4.793 2.39A6.483 6.483 0 0 0 10 16.5a6.483 6.483 0 0 0 4.793-2.11A5.99 5.99 0 0 0 10 12Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                    </div>\n                  </div>\n                </div>\n                <div class=\"min-w-0 flex-1 py-1.5\">\n                  <div class=\"text-sm text-gray-500\">\n                    <a href=\"#\" class=\"font-medium text-gray-900\">Hilary Mahy</a>\n                    <!-- space -->\n                    assigned\n                    <!-- space -->\n                    <a href=\"#\" class=\"font-medium text-gray-900\">Kristin Watson</a>\n                    <!-- space -->\n                    <span class=\"whitespace-nowrap\">2d ago</span>\n                  </div>\n                </div>\n              </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"relative pb-8\">\n            <span class=\"absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n            <div class=\"relative flex items-start space-x-3\">\n              \n                <div>\n                  <div class=\"relative px-1\">\n                    <div class=\"flex size-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white\">\n                      <svg class=\"size-5 text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.5 2A2.5 2.5 0 0 0 2 4.5v3.879a2.5 2.5 0 0 0 .732 1.767l7.5 7.5a2.5 2.5 0 0 0 3.536 0l3.878-3.878a2.5 2.5 0 0 0 0-3.536l-7.5-7.5A2.5 2.5 0 0 0 8.38 2H4.5ZM5 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                    </div>\n                  </div>\n                </div>\n                <div class=\"min-w-0 flex-1 py-0\">\n                  <div class=\"text-sm/8 text-gray-500\">\n                    <span class=\"mr-0.5\">\n                      <a href=\"#\" class=\"font-medium text-gray-900\">Hilary Mahy</a>\n                      <!-- space -->\n                      added tags\n                    </span>\n                    <!-- space -->\n                    <span class=\"mr-0.5\">\n                      <a href=\"#\" class=\"inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-gray-200 ring-inset\">\n                          <svg class=\"size-1.5 fill-red-500\" viewBox=\"0 0 6 6\" aria-hidden=\"true\">\n                            <circle cx=\"3\" cy=\"3\" r=\"3\"></circle>\n                          </svg>\n                          Bug\n                        </a>\n                        <!-- space -->\n                      <a href=\"#\" class=\"inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-gray-200 ring-inset\">\n                          <svg class=\"size-1.5 fill-indigo-500\" viewBox=\"0 0 6 6\" aria-hidden=\"true\">\n                            <circle cx=\"3\" cy=\"3\" r=\"3\"></circle>\n                          </svg>\n                          Accessibility\n                        </a>\n                        <!-- space -->\n                      \n                    </span>\n                    <span class=\"whitespace-nowrap\">6h ago</span>\n                  </div>\n                </div>\n              </div>\n          </div>\n        </li>\n      <li>\n          <div class=\"relative pb-8\">\n            <div class=\"relative flex items-start space-x-3\">\n              <div class=\"relative\">\n                  <img class=\"flex size-10 items-center justify-center rounded-full bg-gray-400 ring-8 ring-white\" src=\"https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80\" alt=\"\">\n\n                  <span class=\"absolute -right-1 -bottom-0.5 rounded-tl bg-white px-0.5 py-px\">\n                    <svg class=\"size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 2c-2.236 0-4.43.18-6.57.524C1.993 2.755 1 4.014 1 5.426v5.148c0 1.413.993 2.67 2.43 2.902.848.137 1.705.248 2.57.331v3.443a.75.75 0 0 0 1.28.53l3.58-3.579a.78.78 0 0 1 .527-.224 41.202 41.202 0 0 0 5.183-.5c1.437-.232 2.43-1.49 2.43-2.903V5.426c0-1.413-.993-2.67-2.43-2.902A41.289 41.289 0 0 0 10 2Zm0 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM8 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm5 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  </span>\n                </div>\n                <div class=\"min-w-0 flex-1\">\n                  <div>\n                    <div class=\"text-sm\">\n                      <a href=\"#\" class=\"font-medium text-gray-900\">Jason Meyers</a>\n                    </div>\n                    <p class=\"mt-0.5 text-sm text-gray-500\">Commented 2h ago</p>\n                  </div>\n                  <div class=\"mt-2 text-sm text-gray-700\">\n                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum tempor purus vitae id. Morbi in vestibulum nec varius. Et diam cursus quis sed purus nam. Scelerisque amet elit non sit ut tincidunt condimentum. Nisl ultrices eu venenatis diam.</p>\n                  </div>\n                </div>\n              </div>\n          </div>\n        </li>\n      \n    </ul>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"flow-root\">\n  <ul role=\"list\" class=\"-mb-8\">\n    <li>\n      <div class=\"relative pb-8\">\n        <span class=\"absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n        <div class=\"relative flex items-start space-x-3\">\n          <div class=\"relative\">\n            <img class=\"flex size-10 items-center justify-center rounded-full bg-gray-400 ring-8 ring-white\" src=\"https://images.unsplash.com/photo-1520785643438-5bf77931f493?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80\" alt=\"\">\n\n            <span class=\"absolute -right-1 -bottom-0.5 rounded-tl bg-white px-0.5 py-px\">\n              <svg class=\"size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path fill-rule=\"evenodd\" d=\"M10 2c-2.236 0-4.43.18-6.57.524C1.993 2.755 1 4.014 1 5.426v5.148c0 1.413.993 2.67 2.43 2.902.848.137 1.705.248 2.57.331v3.443a.75.75 0 0 0 1.28.53l3.58-3.579a.78.78 0 0 1 .527-.224 41.202 41.202 0 0 0 5.183-.5c1.437-.232 2.43-1.49 2.43-2.903V5.426c0-1.413-.993-2.67-2.43-2.902A41.289 41.289 0 0 0 10 2Zm0 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM8 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm5 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\" clip-rule=\"evenodd\" />\n              </svg>\n            </span>\n          </div>\n          <div class=\"min-w-0 flex-1\">\n            <div>\n              <div class=\"text-sm\">\n                <a href=\"#\" class=\"font-medium text-gray-900\">Eduardo Benz</a>\n              </div>\n              <p class=\"mt-0.5 text-sm text-gray-500\">Commented 6d ago</p>\n            </div>\n            <div class=\"mt-2 text-sm text-gray-700\">\n              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum tempor purus vitae id. Morbi in vestibulum nec varius. Et diam cursus quis sed purus nam.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n    <li>\n      <div class=\"relative pb-8\">\n        <span class=\"absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n        <div class=\"relative flex items-start space-x-3\">\n          <div>\n            <div class=\"relative px-1\">\n              <div class=\"flex size-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white\">\n                <svg class=\"size-5 text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                  <path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-5.5-2.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM10 12a5.99 5.99 0 0 0-4.793 2.39A6.483 6.483 0 0 0 10 16.5a6.483 6.483 0 0 0 4.793-2.11A5.99 5.99 0 0 0 10 12Z\" clip-rule=\"evenodd\" />\n                </svg>\n              </div>\n            </div>\n          </div>\n          <div class=\"min-w-0 flex-1 py-1.5\">\n            <div class=\"text-sm text-gray-500\">\n              <a href=\"#\" class=\"font-medium text-gray-900\">Hilary Mahy</a>\n              assigned\n              <a href=\"#\" class=\"font-medium text-gray-900\">Kristin Watson</a>\n              <span class=\"whitespace-nowrap\">2d ago</span>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n    <li>\n      <div class=\"relative pb-8\">\n        <span class=\"absolute top-5 left-5 -ml-px h-full w-0.5 bg-gray-200\" aria-hidden=\"true\"></span>\n        <div class=\"relative flex items-start space-x-3\">\n          <div>\n            <div class=\"relative px-1\">\n              <div class=\"flex size-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white\">\n                <svg class=\"size-5 text-gray-500\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                  <path fill-rule=\"evenodd\" d=\"M4.5 2A2.5 2.5 0 0 0 2 4.5v3.879a2.5 2.5 0 0 0 .732 1.767l7.5 7.5a2.5 2.5 0 0 0 3.536 0l3.878-3.878a2.5 2.5 0 0 0 0-3.536l-7.5-7.5A2.5 2.5 0 0 0 8.38 2H4.5ZM5 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\" clip-rule=\"evenodd\" />\n                </svg>\n              </div>\n            </div>\n          </div>\n          <div class=\"min-w-0 flex-1 py-0\">\n            <div class=\"text-sm/8 text-gray-500\">\n              <span class=\"mr-0.5\">\n                <a href=\"#\" class=\"font-medium text-gray-900\">Hilary Mahy</a>\n                added tags\n              </span>\n              <span class=\"mr-0.5\">\n                <a href=\"#\" class=\"inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-gray-200 ring-inset\">\n                  <svg class=\"size-1.5 fill-red-500\" viewBox=\"0 0 6 6\" aria-hidden=\"true\">\n                    <circle cx=\"3\" cy=\"3\" r=\"3\" />\n                  </svg>\n                  Bug\n                </a>\n                <a href=\"#\" class=\"inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-gray-200 ring-inset\">\n                  <svg class=\"size-1.5 fill-indigo-500\" viewBox=\"0 0 6 6\" aria-hidden=\"true\">\n                    <circle cx=\"3\" cy=\"3\" r=\"3\" />\n                  </svg>\n                  Accessibility\n                </a>\n              </span>\n              <span class=\"whitespace-nowrap\">6h ago</span>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n    <li>\n      <div class=\"relative pb-8\">\n        <div class=\"relative flex items-start space-x-3\">\n          <div class=\"relative\">\n            <img class=\"flex size-10 items-center justify-center rounded-full bg-gray-400 ring-8 ring-white\" src=\"https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80\" alt=\"\">\n\n            <span class=\"absolute -right-1 -bottom-0.5 rounded-tl bg-white px-0.5 py-px\">\n              <svg class=\"size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path fill-rule=\"evenodd\" d=\"M10 2c-2.236 0-4.43.18-6.57.524C1.993 2.755 1 4.014 1 5.426v5.148c0 1.413.993 2.67 2.43 2.902.848.137 1.705.248 2.57.331v3.443a.75.75 0 0 0 1.28.53l3.58-3.579a.78.78 0 0 1 .527-.224 41.202 41.202 0 0 0 5.183-.5c1.437-.232 2.43-1.49 2.43-2.903V5.426c0-1.413-.993-2.67-2.43-2.902A41.289 41.289 0 0 0 10 2Zm0 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM8 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm5 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\" clip-rule=\"evenodd\" />\n              </svg>\n            </span>\n          </div>\n          <div class=\"min-w-0 flex-1\">\n            <div>\n              <div class=\"text-sm\">\n                <a href=\"#\" class=\"font-medium text-gray-900\">Jason Meyers</a>\n              </div>\n              <p class=\"mt-0.5 text-sm text-gray-500\">Commented 2h ago</p>\n            </div>\n            <div class=\"mt-2 text-sm text-gray-700\">\n              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum tempor purus vitae id. Morbi in vestibulum nec varius. Et diam cursus quis sed purus nam. Scelerisque amet elit non sit ut tincidunt condimentum. Nisl ultrices eu venenatis diam.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </li>\n  </ul>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 516,
+          "smallWidth": 375,
+          "smallHeight": 648
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/lists/feeds",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

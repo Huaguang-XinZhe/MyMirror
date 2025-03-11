@@ -1,0 +1,430 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": true,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": true
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": false
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Page Sections",
+        "anchor": "product-marketing-sections",
+        "subcategories": [
+          {
+            "name": "Hero Sections",
+            "url": "/plus/ui-blocks/marketing/sections/heroes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feature Sections",
+            "url": "/plus/ui-blocks/marketing/sections/feature-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "CTA Sections",
+            "url": "/plus/ui-blocks/marketing/sections/cta-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Bento Grids",
+            "url": "/plus/ui-blocks/marketing/sections/bento-grids",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Sections",
+            "url": "/plus/ui-blocks/marketing/sections/pricing",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Header Sections",
+            "url": "/plus/ui-blocks/marketing/sections/header",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Newsletter Sections",
+            "url": "/plus/ui-blocks/marketing/sections/newsletter-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/marketing/sections/stats-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Testimonials",
+            "url": "/plus/ui-blocks/marketing/sections/testimonials",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Blog Sections",
+            "url": "/plus/ui-blocks/marketing/sections/blog-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Contact Sections",
+            "url": "/plus/ui-blocks/marketing/sections/contact-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Team Sections",
+            "url": "/plus/ui-blocks/marketing/sections/team-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Content Sections",
+            "url": "/plus/ui-blocks/marketing/sections/content-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Logo Clouds",
+            "url": "/plus/ui-blocks/marketing/sections/logo-clouds",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "FAQs",
+            "url": "/plus/ui-blocks/marketing/sections/faq-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Footers",
+            "url": "/plus/ui-blocks/marketing/sections/footers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-marketing-elements",
+        "subcategories": [
+          {
+            "name": "Headers",
+            "url": "/plus/ui-blocks/marketing/elements/headers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Flyout Menus",
+            "url": "/plus/ui-blocks/marketing/elements/flyout-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Banners",
+            "url": "/plus/ui-blocks/marketing/elements/banners",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-marketing-feedback",
+        "subcategories": [
+          {
+            "name": "404 Pages",
+            "url": "/plus/ui-blocks/marketing/feedback/404-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-marketing-page-examples",
+        "subcategories": [
+          {
+            "name": "Landing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/landing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/pricing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "About Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/about-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Header Sections",
+      "description": "Header section examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS header section examples to clearly convey to visitors what the page is about. These headers are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/marketing/sections/header",
+      "category": {
+        "name": "Page Sections",
+        "url": "/plus/ui-blocks/marketing#product-marketing-sections",
+        "product": {
+          "name": "Marketing",
+          "url": "/plus/ui-blocks/marketing"
+        }
+      },
+      "components": [
+        {
+          "name": "With stats",
+          "uuid": "813ce86310c2c337070a66a152012665",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32\">\n    <img src=\"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply\" alt=\"\" class=\"absolute inset-0 -z-10 size-full object-cover object-right md:object-center\">\n    <div class=\"hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl\" aria-hidden=\"true\">\n      <div class=\"aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n    <div class=\"absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu\" aria-hidden=\"true\">\n      <div class=\"aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:mx-0\">\n        <h2 class=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Work with us</h2>\n        <p class=\"mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n      </div>\n      <div class=\"mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none\">\n        <div class=\"grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10\">\n          <a href=\"#\">Open roles <span aria-hidden=\"true\">&rarr;</span></a>\n          <a href=\"#\">Internship program <span aria-hidden=\"true\">&rarr;</span></a>\n          <a href=\"#\">Our values <span aria-hidden=\"true\">&rarr;</span></a>\n          <a href=\"#\">Meet our leadership <span aria-hidden=\"true\">&rarr;</span></a>\n          \n        </div>\n        <dl class=\"mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4\">\n          <div class=\"flex flex-col-reverse gap-1\">\n              <dt class=\"text-base/7 text-gray-300\">Offices worldwide</dt>\n              <dd class=\"text-4xl font-semibold tracking-tight text-white\">12</dd>\n            </div>\n          <div class=\"flex flex-col-reverse gap-1\">\n              <dt class=\"text-base/7 text-gray-300\">Full-time colleagues</dt>\n              <dd class=\"text-4xl font-semibold tracking-tight text-white\">300+</dd>\n            </div>\n          <div class=\"flex flex-col-reverse gap-1\">\n              <dt class=\"text-base/7 text-gray-300\">Hours per week</dt>\n              <dd class=\"text-4xl font-semibold tracking-tight text-white\">40</dd>\n            </div>\n          <div class=\"flex flex-col-reverse gap-1\">\n              <dt class=\"text-base/7 text-gray-300\">Paid time off</dt>\n              <dd class=\"text-4xl font-semibold tracking-tight text-white\">Unlimited</dd>\n            </div>\n          \n        </dl>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const links = [\n  { name: 'Open roles', href: '#' },\n  { name: 'Internship program', href: '#' },\n  { name: 'Our values', href: '#' },\n  { name: 'Meet our leadership', href: '#' },\n]\nconst stats = [\n  { name: 'Offices worldwide', value: '12' },\n  { name: 'Full-time colleagues', value: '300+' },\n  { name: 'Hours per week', value: '40' },\n  { name: 'Paid time off', value: 'Unlimited' },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32\">\n      <img\n        alt=\"\"\n        src=\"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply\"\n        className=\"absolute inset-0 -z-10 size-full object-cover object-right md:object-center\"\n      />\n      <div\n        aria-hidden=\"true\"\n        className=\"hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20\"\n        />\n      </div>\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20\"\n        />\n      </div>\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl lg:mx-0\">\n          <h2 className=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Work with us</h2>\n          <p className=\"mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8\">\n            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n            fugiat veniam occaecat fugiat.\n          </p>\n        </div>\n        <div className=\"mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none\">\n          <div className=\"grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10\">\n            {links.map((link) => (\n              <a key={link.name} href={link.href}>\n                {link.name} <span aria-hidden=\"true\">&rarr;</span>\n              </a>\n            ))}\n          </div>\n          <dl className=\"mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4\">\n            {stats.map((stat) => (\n              <div key={stat.name} className=\"flex flex-col-reverse gap-1\">\n                <dt className=\"text-base/7 text-gray-300\">{stat.name}</dt>\n                <dd className=\"text-4xl font-semibold tracking-tight text-white\">{stat.value}</dd>\n              </div>\n            ))}\n          </dl>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 644,
+          "smallWidth": 375,
+          "smallHeight": 1056
+        },
+        {
+          "name": "Centered",
+          "uuid": "a501b05b958dd7605d4e42aa2aa65b36",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white px-6 py-24 sm:py-32 lg:px-8\">\n    <div class=\"mx-auto max-w-2xl text-center\">\n      <h2 class=\"text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl\">Support center</h2>\n      <p class=\"mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white px-6 py-24 sm:py-32 lg:px-8\">\n      <div className=\"mx-auto max-w-2xl text-center\">\n        <h2 className=\"text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl\">Support center</h2>\n        <p className=\"mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8\">\n          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n          fugiat veniam occaecat fugiat.\n        </p>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 424,
+          "smallWidth": 375,
+          "smallHeight": 384
+        },
+        {
+          "name": "Centered with eyebrow",
+          "uuid": "8f5b6d408e9691e3336cadf06a8edaf8",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white px-6 py-24 sm:py-32 lg:px-8\">\n    <div class=\"mx-auto max-w-2xl text-center\">\n      <p class=\"text-base/7 font-semibold text-indigo-600\">Get the help you need</p>\n      <h2 class=\"mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl\">Support center</h2>\n      <p class=\"mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white px-6 py-24 sm:py-32 lg:px-8\">\n      <div className=\"mx-auto max-w-2xl text-center\">\n        <p className=\"text-base/7 font-semibold text-indigo-600\">Get the help you need</p>\n        <h2 className=\"mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl\">Support center</h2>\n        <p className=\"mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8\">\n          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n          fugiat veniam occaecat fugiat.\n        </p>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 460,
+          "smallWidth": 375,
+          "smallHeight": 420
+        },
+        {
+          "name": "Simple with eyebrow",
+          "uuid": "808cbad18cf839c49d9555882d35c18f",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:mx-0\">\n        <p class=\"text-base/7 font-semibold text-indigo-600\">Get the help you need</p>\n        <h2 class=\"mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl\">Support center</h2>\n        <p class=\"mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl lg:mx-0\">\n          <p className=\"text-base/7 font-semibold text-indigo-600\">Get the help you need</p>\n          <h2 className=\"mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl\">Support center</h2>\n          <p className=\"mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8\">\n            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n            fugiat veniam occaecat fugiat.\n          </p>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 460,
+          "smallWidth": 375,
+          "smallHeight": 420
+        },
+        {
+          "name": "Centered on dark",
+          "uuid": "c51efdc4407baedb477c4c64d5aed70b",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 px-6 py-24 sm:py-32 lg:px-8\">\n    <div class=\"mx-auto max-w-2xl text-center\">\n      <h2 class=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n      <p class=\"mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 px-6 py-24 sm:py-32 lg:px-8\">\n      <div className=\"mx-auto max-w-2xl text-center\">\n        <h2 className=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n        <p className=\"mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8\">\n          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n          fugiat veniam occaecat fugiat.\n        </p>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 424,
+          "smallWidth": 375,
+          "smallHeight": 384
+        },
+        {
+          "name": "With cards",
+          "uuid": "f295328e633edbb29e7612672e3d69cc",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32\">\n    <img src=\"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply\" alt=\"\" class=\"absolute inset-0 -z-10 size-full object-cover object-right md:object-center\">\n    <div class=\"hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl\">\n      <div class=\"aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n    <div class=\"absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu\">\n      <div class=\"aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:mx-0\">\n        <h2 class=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n        <p class=\"mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n      </div>\n      <div class=\"mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8\">\n        <div class=\"flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-white/10 ring-inset\">\n            <svg class=\"h-7 w-5 flex-none text-indigo-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n            <div class=\"text-base/7\">\n              <h3 class=\"font-semibold text-white\">Sales</h3>\n              <p class=\"mt-2 text-gray-300\">Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.</p>\n            </div>\n          </div>\n        <div class=\"flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-white/10 ring-inset\">\n            <svg class=\"h-7 w-5 flex-none text-indigo-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m7.171 4.146 1.947 2.466a3.514 3.514 0 0 1 1.764 0l1.947-2.466a6.52 6.52 0 0 0-5.658 0Zm8.683 3.025-2.466 1.947c.15.578.15 1.186 0 1.764l2.466 1.947a6.52 6.52 0 0 0 0-5.658Zm-3.025 8.683-1.947-2.466c-.578.15-1.186.15-1.764 0l-1.947 2.466a6.52 6.52 0 0 0 5.658 0ZM4.146 12.83l2.466-1.947a3.514 3.514 0 0 1 0-1.764L4.146 7.171a6.52 6.52 0 0 0 0 5.658ZM5.63 3.297a8.01 8.01 0 0 1 8.738 0 8.031 8.031 0 0 1 2.334 2.334 8.01 8.01 0 0 1 0 8.738 8.033 8.033 0 0 1-2.334 2.334 8.01 8.01 0 0 1-8.738 0 8.032 8.032 0 0 1-2.334-2.334 8.01 8.01 0 0 1 0-8.738A8.03 8.03 0 0 1 5.63 3.297Zm5.198 4.882a2.008 2.008 0 0 0-2.243.407 1.994 1.994 0 0 0-.407 2.243 1.993 1.993 0 0 0 .992.992 2.008 2.008 0 0 0 2.243-.407c.176-.175.31-.374.407-.585a2.008 2.008 0 0 0-.407-2.243 1.993 1.993 0 0 0-.585-.407Z\" clip-rule=\"evenodd\"></path>\n</svg>\n            <div class=\"text-base/7\">\n              <h3 class=\"font-semibold text-white\">Technical Support</h3>\n              <p class=\"mt-2 text-gray-300\">Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.</p>\n            </div>\n          </div>\n        <div class=\"flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-white/10 ring-inset\">\n            <svg class=\"h-7 w-5 flex-none text-indigo-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M2 3.5A1.5 1.5 0 0 1 3.5 2h9A1.5 1.5 0 0 1 14 3.5v11.75A2.75 2.75 0 0 0 16.75 18h-12A2.75 2.75 0 0 1 2 15.25V3.5Zm3.75 7a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5Zm0 3a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5ZM5 5.75A.75.75 0 0 1 5.75 5h4.5a.75.75 0 0 1 .75.75v2.5a.75.75 0 0 1-.75.75h-4.5A.75.75 0 0 1 5 8.25v-2.5Z\" clip-rule=\"evenodd\"></path>\n  <path d=\"M16.5 6.5h-1v8.75a1.25 1.25 0 1 0 2.5 0V8a1.5 1.5 0 0 0-1.5-1.5Z\"></path>\n</svg>\n            <div class=\"text-base/7\">\n              <h3 class=\"font-semibold text-white\">Media Inquiries</h3>\n              <p class=\"mt-2 text-gray-300\">Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.</p>\n            </div>\n          </div>\n        \n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/react/20/solid'\n\nconst cards = [\n  {\n    name: 'Sales',\n    description: 'Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.',\n    icon: PhoneIcon,\n  },\n  {\n    name: 'Technical Support',\n    description: 'Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.',\n    icon: LifebuoyIcon,\n  },\n  {\n    name: 'Media Inquiries',\n    description: 'Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit.',\n    icon: NewspaperIcon,\n  },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32\">\n      <img\n        alt=\"\"\n        src=\"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply\"\n        className=\"absolute inset-0 -z-10 size-full object-cover object-right md:object-center\"\n      />\n      <div className=\"hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl\">\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20\"\n        />\n      </div>\n      <div className=\"absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu\">\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20\"\n        />\n      </div>\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl lg:mx-0\">\n          <h2 className=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n          <p className=\"mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8\">\n            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n            fugiat veniam occaecat fugiat.\n          </p>\n        </div>\n        <div className=\"mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8\">\n          {cards.map((card) => (\n            <div key={card.name} className=\"flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10\">\n              <card.icon aria-hidden=\"true\" className=\"h-7 w-5 flex-none text-indigo-400\" />\n              <div className=\"text-base/7\">\n                <h3 className=\"font-semibold text-white\">{card.name}</h3>\n                <p className=\"mt-2 text-gray-300\">{card.description}</p>\n              </div>\n            </div>\n          ))}\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 672,
+          "smallWidth": 375,
+          "smallHeight": 1000
+        },
+        {
+          "name": "Simple",
+          "uuid": "fed988a810519f7aefef13224b3a814d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:mx-0\">\n        <h2 class=\"text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl\">Support center</h2>\n        <p class=\"mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl lg:mx-0\">\n          <h2 className=\"text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl\">Support center</h2>\n          <p className=\"mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8\">\n            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n            fugiat veniam occaecat fugiat.\n          </p>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 424,
+          "smallWidth": 375,
+          "smallHeight": 384
+        },
+        {
+          "name": "Simple on dark",
+          "uuid": "0144e9d8a55cd252d4808111466eba8d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:mx-0\">\n        <h2 class=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n        <p class=\"mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl lg:mx-0\">\n          <h2 className=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n          <p className=\"mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8\">\n            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n            fugiat veniam occaecat fugiat.\n          </p>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 424,
+          "smallWidth": 375,
+          "smallHeight": 384
+        },
+        {
+          "name": "Simple with background image",
+          "uuid": "e3cd5935c8dfd5c207bed80c1bd04212",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32\">\n    <img src=\"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply\" alt=\"\" class=\"absolute inset-0 -z-10 size-full object-cover\">\n    <div class=\"hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl\" aria-hidden=\"true\">\n      <div class=\"aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n    <div class=\"absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu\" aria-hidden=\"true\">\n      <div class=\"aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:mx-0\">\n        <h2 class=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n        <p class=\"mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32\">\n      <img\n        alt=\"\"\n        src=\"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply\"\n        className=\"absolute inset-0 -z-10 size-full object-cover\"\n      />\n      <div\n        aria-hidden=\"true\"\n        className=\"hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20\"\n        />\n      </div>\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20\"\n        />\n      </div>\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl lg:mx-0\">\n          <h2 className=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n          <p className=\"mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8\">\n            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n            fugiat veniam occaecat fugiat.\n          </p>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 424,
+          "smallWidth": 375,
+          "smallHeight": 384
+        },
+        {
+          "name": "Centered with background image",
+          "uuid": "e89a0157d7858d7ee8df1e9415a7c550",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8\">\n    <img src=\"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply\" alt=\"\" class=\"absolute inset-0 -z-10 size-full object-cover\">\n    <div class=\"hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl\" aria-hidden=\"true\">\n      <div class=\"aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n    <div class=\"absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu\" aria-hidden=\"true\">\n      <div class=\"aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#ff4694] to-[#776fff] opacity-20\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n    <div class=\"mx-auto max-w-2xl text-center\">\n      <h2 class=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n      <p class=\"mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.</p>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8\">\n      <img\n        alt=\"\"\n        src=\"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply\"\n        className=\"absolute inset-0 -z-10 size-full object-cover\"\n      />\n      <div\n        aria-hidden=\"true\"\n        className=\"hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20\"\n        />\n      </div>\n      <div\n        aria-hidden=\"true\"\n        className=\"absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu\"\n      >\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20\"\n        />\n      </div>\n      <div className=\"mx-auto max-w-2xl text-center\">\n        <h2 className=\"text-5xl font-semibold tracking-tight text-white sm:text-7xl\">Support center</h2>\n        <p className=\"mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8\">\n          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n          fugiat veniam occaecat fugiat.\n        </p>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 424,
+          "smallWidth": 375,
+          "smallHeight": 384
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/marketing/sections/header",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

@@ -1,0 +1,668 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Radio Groups",
+      "description": "Radio button group examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS radio group components to create options for things like settings, product variants, and plan comparisons. These radio components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+      "category": {
+        "name": "Forms",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-forms",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple list",
+          "uuid": "3e0576bb094c36161a958147cc707087",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex justify-center bg-white px-8 py-12\">\n    \n  <fieldset>\n    <legend class=\"text-sm/6 font-semibold text-gray-900\">Notifications</legend>\n    <p class=\"mt-1 text-sm/6 text-gray-600\">How do you prefer to receive notifications?</p>\n    <div class=\"mt-6 space-y-6\">\n      <div class=\"flex items-center\">\n          <input id=\"email\" name=\"notification-method\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          <label for=\"email\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Email</label>\n        </div>\n      <div class=\"flex items-center\">\n          <input id=\"sms\" name=\"notification-method\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          <label for=\"sms\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Phone (SMS)</label>\n        </div>\n      <div class=\"flex items-center\">\n          <input id=\"push\" name=\"notification-method\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          <label for=\"push\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Push notification</label>\n        </div>\n      \n    </div>\n  </fieldset>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset>\n  <legend class=\"text-sm/6 font-semibold text-gray-900\">Notifications</legend>\n  <p class=\"mt-1 text-sm/6 text-gray-600\">How do you prefer to receive notifications?</p>\n  <div class=\"mt-6 space-y-6\">\n    <div class=\"flex items-center\">\n      <input id=\"email\" name=\"notification-method\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <label for=\"email\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Email</label>\n    </div>\n    <div class=\"flex items-center\">\n      <input id=\"sms\" name=\"notification-method\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <label for=\"sms\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Phone (SMS)</label>\n    </div>\n    <div class=\"flex items-center\">\n      <input id=\"push\" name=\"notification-method\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <label for=\"push\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Push notification</label>\n    </div>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 292,
+          "smallWidth": 375,
+          "smallHeight": 292
+        },
+        {
+          "name": "Simple inline list",
+          "uuid": "f77fa2476964716cd375c934954229ae",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex justify-center bg-white px-8 py-12\">\n    \n  <fieldset>\n    <legend class=\"text-sm/6 font-semibold text-gray-900\">Notifications</legend>\n    <p class=\"mt-1 text-sm/6 text-gray-600\">How do you prefer to receive notifications?</p>\n    <div class=\"mt-6 space-y-6 sm:flex sm:items-center sm:space-y-0 sm:space-x-10\">\n      <div class=\"flex items-center\">\n          <input id=\"email\" name=\"notification-method\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          <label for=\"email\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Email</label>\n        </div>\n      <div class=\"flex items-center\">\n          <input id=\"sms\" name=\"notification-method\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          <label for=\"sms\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Phone (SMS)</label>\n        </div>\n      <div class=\"flex items-center\">\n          <input id=\"push\" name=\"notification-method\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          <label for=\"push\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Push notification</label>\n        </div>\n      \n    </div>\n  </fieldset>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset>\n  <legend class=\"text-sm/6 font-semibold text-gray-900\">Notifications</legend>\n  <p class=\"mt-1 text-sm/6 text-gray-600\">How do you prefer to receive notifications?</p>\n  <div class=\"mt-6 space-y-6 sm:flex sm:items-center sm:space-x-10 sm:space-y-0\">\n    <div class=\"flex items-center\">\n      <input id=\"email\" name=\"notification-method\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <label for=\"email\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Email</label>\n    </div>\n    <div class=\"flex items-center\">\n      <input id=\"sms\" name=\"notification-method\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <label for=\"sms\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Phone (SMS)</label>\n    </div>\n    <div class=\"flex items-center\">\n      <input id=\"push\" name=\"notification-method\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <label for=\"push\" class=\"ml-3 block text-sm/6 font-medium text-gray-900\">Push notification</label>\n    </div>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 196,
+          "smallWidth": 375,
+          "smallHeight": 292
+        },
+        {
+          "name": "List with description",
+          "uuid": "5a30657598f3154f9bc03a680cea7ff4",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex justify-center bg-white px-4 py-12\">\n    \n  <fieldset aria-label=\"Plan\">\n    <div class=\"space-y-5\">\n      <div class=\"relative flex items-start\">\n          <div class=\"flex h-6 items-center\">\n            <input id=\"small\" aria-describedby=\"small-description\" name=\"plan\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n          <div class=\"ml-3 text-sm/6\">\n            <label for=\"small\" class=\"font-medium text-gray-900\">Small</label>\n            <p id=\"small-description\" class=\"text-gray-500\">4 GB RAM / 2 CPUS / 80 GB SSD Storage</p>\n          </div>\n        </div>\n      <div class=\"relative flex items-start\">\n          <div class=\"flex h-6 items-center\">\n            <input id=\"medium\" aria-describedby=\"medium-description\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n          <div class=\"ml-3 text-sm/6\">\n            <label for=\"medium\" class=\"font-medium text-gray-900\">Medium</label>\n            <p id=\"medium-description\" class=\"text-gray-500\">8 GB RAM / 4 CPUS / 160 GB SSD Storage</p>\n          </div>\n        </div>\n      <div class=\"relative flex items-start\">\n          <div class=\"flex h-6 items-center\">\n            <input id=\"large\" aria-describedby=\"large-description\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n          <div class=\"ml-3 text-sm/6\">\n            <label for=\"large\" class=\"font-medium text-gray-900\">Large</label>\n            <p id=\"large-description\" class=\"text-gray-500\">16 GB RAM / 8 CPUS / 320 GB SSD Storage</p>\n          </div>\n        </div>\n      \n    </div>\n  </fieldset>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset aria-label=\"Plan\">\n  <div class=\"space-y-5\">\n    <div class=\"relative flex items-start\">\n      <div class=\"flex h-6 items-center\">\n        <input id=\"small\" aria-describedby=\"small-description\" name=\"plan\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n      <div class=\"ml-3 text-sm/6\">\n        <label for=\"small\" class=\"font-medium text-gray-900\">Small</label>\n        <p id=\"small-description\" class=\"text-gray-500\">4 GB RAM / 2 CPUS / 80 GB SSD Storage</p>\n      </div>\n    </div>\n    <div class=\"relative flex items-start\">\n      <div class=\"flex h-6 items-center\">\n        <input id=\"medium\" aria-describedby=\"medium-description\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n      <div class=\"ml-3 text-sm/6\">\n        <label for=\"medium\" class=\"font-medium text-gray-900\">Medium</label>\n        <p id=\"medium-description\" class=\"text-gray-500\">8 GB RAM / 4 CPUS / 160 GB SSD Storage</p>\n      </div>\n    </div>\n    <div class=\"relative flex items-start\">\n      <div class=\"flex h-6 items-center\">\n        <input id=\"large\" aria-describedby=\"large-description\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n      <div class=\"ml-3 text-sm/6\">\n        <label for=\"large\" class=\"font-medium text-gray-900\">Large</label>\n        <p id=\"large-description\" class=\"text-gray-500\">16 GB RAM / 8 CPUS / 320 GB SSD Storage</p>\n      </div>\n    </div>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 280,
+          "smallWidth": 375,
+          "smallHeight": 280
+        },
+        {
+          "name": "List with inline description",
+          "uuid": "0f35a14dd9e3a48fa7b5fbe43874f079",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex justify-center bg-white px-4 py-12\">\n    \n  <fieldset aria-label=\"Plan\">\n    <div class=\"space-y-5\">\n      <div class=\"relative flex items-start\">\n          <div class=\"flex h-6 items-center\">\n            <input id=\"small\" aria-describedby=\"small-description\" name=\"plan\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n          <div class=\"ml-3 text-sm/6\">\n            <label for=\"small\" class=\"font-medium text-gray-900\">Small</label>\n            <!-- space -->\n            <span id=\"small-description\" class=\"text-gray-500\">4 GB RAM / 2 CPUS / 80 GB SSD Storage</span>\n          </div>\n        </div>\n      <div class=\"relative flex items-start\">\n          <div class=\"flex h-6 items-center\">\n            <input id=\"medium\" aria-describedby=\"medium-description\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n          <div class=\"ml-3 text-sm/6\">\n            <label for=\"medium\" class=\"font-medium text-gray-900\">Medium</label>\n            <!-- space -->\n            <span id=\"medium-description\" class=\"text-gray-500\">8 GB RAM / 4 CPUS / 160 GB SSD Storage</span>\n          </div>\n        </div>\n      <div class=\"relative flex items-start\">\n          <div class=\"flex h-6 items-center\">\n            <input id=\"large\" aria-describedby=\"large-description\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n          <div class=\"ml-3 text-sm/6\">\n            <label for=\"large\" class=\"font-medium text-gray-900\">Large</label>\n            <!-- space -->\n            <span id=\"large-description\" class=\"text-gray-500\">16 GB RAM / 8 CPUS / 320 GB SSD Storage</span>\n          </div>\n        </div>\n      \n    </div>\n  </fieldset>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset aria-label=\"Plan\">\n  <div class=\"space-y-5\">\n    <div class=\"relative flex items-start\">\n      <div class=\"flex h-6 items-center\">\n        <input id=\"small\" aria-describedby=\"small-description\" name=\"plan\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n      <div class=\"ml-3 text-sm/6\">\n        <label for=\"small\" class=\"font-medium text-gray-900\">Small</label>\n        <span id=\"small-description\" class=\"text-gray-500\">4 GB RAM / 2 CPUS / 80 GB SSD Storage</span>\n      </div>\n    </div>\n    <div class=\"relative flex items-start\">\n      <div class=\"flex h-6 items-center\">\n        <input id=\"medium\" aria-describedby=\"medium-description\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n      <div class=\"ml-3 text-sm/6\">\n        <label for=\"medium\" class=\"font-medium text-gray-900\">Medium</label>\n        <span id=\"medium-description\" class=\"text-gray-500\">8 GB RAM / 4 CPUS / 160 GB SSD Storage</span>\n      </div>\n    </div>\n    <div class=\"relative flex items-start\">\n      <div class=\"flex h-6 items-center\">\n        <input id=\"large\" aria-describedby=\"large-description\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n      <div class=\"ml-3 text-sm/6\">\n        <label for=\"large\" class=\"font-medium text-gray-900\">Large</label>\n        <span id=\"large-description\" class=\"text-gray-500\">16 GB RAM / 8 CPUS / 320 GB SSD Storage</span>\n      </div>\n    </div>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 208,
+          "smallWidth": 375,
+          "smallHeight": 256
+        },
+        {
+          "name": "List with radio on right",
+          "uuid": "f49fff01d7f8c41856ac0fc3bf82e972",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex justify-center bg-white px-4 py-12\">\n    <div class=\"mx-auto w-full max-w-sm\">\n      \n  <fieldset>\n    <legend class=\"text-sm/6 font-semibold text-gray-900\">Transfer funds</legend>\n    <p class=\"mt-1 text-sm/6 text-gray-600\">Transfer your balance to your bank account.</p>\n    <div class=\"mt-2.5 divide-y divide-gray-200\">\n      <div class=\"relative flex items-start pt-3.5 pb-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"account-checking\" class=\"font-medium text-gray-900\">Checking</label>\n            <p id=\"account-checking-description\" class=\"text-gray-500\">CIBC ••••6610</p>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"account-checking\" aria-describedby=\"account-checking-description\" name=\"account\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      <div class=\"relative flex items-start pt-3.5 pb-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"account-savings\" class=\"font-medium text-gray-900\">Savings</label>\n            <p id=\"account-savings-description\" class=\"text-gray-500\">Bank of America ••••0149</p>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"account-savings\" aria-describedby=\"account-savings-description\" name=\"account\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      <div class=\"relative flex items-start pt-3.5 pb-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"account-mastercard\" class=\"font-medium text-gray-900\">Mastercard</label>\n            <p id=\"account-mastercard-description\" class=\"text-gray-500\">Capital One ••••7877</p>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"account-mastercard\" aria-describedby=\"account-mastercard-description\" name=\"account\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      \n    </div>\n  </fieldset>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset>\n  <legend class=\"text-sm/6 font-semibold text-gray-900\">Transfer funds</legend>\n  <p class=\"mt-1 text-sm/6 text-gray-600\">Transfer your balance to your bank account.</p>\n  <div class=\"mt-2.5 divide-y divide-gray-200\">\n    <div class=\"relative flex items-start pb-4 pt-3.5\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"account-checking\" class=\"font-medium text-gray-900\">Checking</label>\n        <p id=\"account-checking-description\" class=\"text-gray-500\">CIBC ••••6610</p>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"account-checking\" aria-describedby=\"account-checking-description\" name=\"account\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n    <div class=\"relative flex items-start pb-4 pt-3.5\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"account-savings\" class=\"font-medium text-gray-900\">Savings</label>\n        <p id=\"account-savings-description\" class=\"text-gray-500\">Bank of America ••••0149</p>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"account-savings\" aria-describedby=\"account-savings-description\" name=\"account\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n    <div class=\"relative flex items-start pb-4 pt-3.5\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"account-mastercard\" class=\"font-medium text-gray-900\">Mastercard</label>\n        <p id=\"account-mastercard-description\" class=\"text-gray-500\">Capital One ••••7877</p>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"account-mastercard\" aria-describedby=\"account-mastercard-description\" name=\"account\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 394,
+          "smallWidth": 375,
+          "smallHeight": 394
+        },
+        {
+          "name": "Simple list with radio on right",
+          "uuid": "f1d8d3ffc64bc16a36304a465a2a4c70",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex justify-center bg-white px-4 py-12\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <fieldset>\n    <legend class=\"text-sm/6 font-semibold text-gray-900\">Select a side</legend>\n    <div class=\"mt-4 divide-y divide-gray-200 border-t border-b border-gray-200\">\n      <div class=\"relative flex items-start py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"side-null\" class=\"font-medium text-gray-900 select-none\">None</label>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"side-null\" name=\"plan\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      <div class=\"relative flex items-start py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"side-1\" class=\"font-medium text-gray-900 select-none\">Baked beans</label>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"side-1\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      <div class=\"relative flex items-start py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"side-2\" class=\"font-medium text-gray-900 select-none\">Coleslaw</label>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"side-2\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      <div class=\"relative flex items-start py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"side-3\" class=\"font-medium text-gray-900 select-none\">French fries</label>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"side-3\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      <div class=\"relative flex items-start py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"side-4\" class=\"font-medium text-gray-900 select-none\">Garden salad</label>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"side-4\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      <div class=\"relative flex items-start py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"side-5\" class=\"font-medium text-gray-900 select-none\">Mashed potatoes</label>\n          </div>\n          <div class=\"ml-3 flex h-6 items-center\">\n            <input id=\"side-5\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\">\n          </div>\n        </div>\n      \n    </div>\n  </fieldset>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset>\n  <legend class=\"text-sm/6 font-semibold text-gray-900\">Select a side</legend>\n  <div class=\"mt-4 divide-y divide-gray-200 border-b border-t border-gray-200\">\n    <div class=\"relative flex items-start py-4\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"side-null\" class=\"select-none font-medium text-gray-900\">None</label>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"side-null\" name=\"plan\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n    <div class=\"relative flex items-start py-4\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"side-1\" class=\"select-none font-medium text-gray-900\">Baked beans</label>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"side-1\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n    <div class=\"relative flex items-start py-4\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"side-2\" class=\"select-none font-medium text-gray-900\">Coleslaw</label>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"side-2\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n    <div class=\"relative flex items-start py-4\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"side-3\" class=\"select-none font-medium text-gray-900\">French fries</label>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"side-3\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n    <div class=\"relative flex items-start py-4\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"side-4\" class=\"select-none font-medium text-gray-900\">Garden salad</label>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"side-4\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n    <div class=\"relative flex items-start py-4\">\n      <div class=\"min-w-0 flex-1 text-sm/6\">\n        <label for=\"side-5\" class=\"select-none font-medium text-gray-900\">Mashed potatoes</label>\n      </div>\n      <div class=\"ml-3 flex h-6 items-center\">\n        <input id=\"side-5\" name=\"plan\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      </div>\n    </div>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 479,
+          "smallWidth": 375,
+          "smallHeight": 479
+        },
+        {
+          "name": "Simple table",
+          "uuid": "4bf0d3a6dd46681182cd9e2d9bc2af66",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/client-ChDcy-h8.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/index-DTfie-aa.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><script type=\"module\">(()=>{var b=Object.create;var o=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var s=(e,i)=>()=>(i||e((i={exports:{}}).exports,i),i.exports);var v=(e,i,t,a)=>{if(i&&typeof i==\"object\"||typeof i==\"function\")for(let d of h(i))!x.call(e,d)&&d!==t&&o(e,d,{get:()=>i[d],enumerable:!(a=f(i,d))||a.enumerable});return e};var l=(e,i,t)=>(t=e!=null?b(y(e)):{},v(i||!e||!e.__esModule?o(t,\"default\",{value:e,enumerable:!0}):t,e));var c=s((w,n)=>{n.exports=window.React});var p=s(($,m)=>{m.exports=window.ReactDOMClient});var r=l(c()),u=l(p()),k=[{name:\"Startup\",priceMonthly:\"$29\",priceYearly:\"$290\",limit:\"Up to 5 active job postings\",selected:!0},{name:\"Business\",priceMonthly:\"$99\",priceYearly:\"$990\",limit:\"Up to 25 active job postings\",selected:!1},{name:\"Enterprise\",priceMonthly:\"$249\",priceYearly:\"$2490\",limit:\"Unlimited active job postings\",selected:!1}];function g(){return r.default.createElement(\"div\",{className:\"flex justify-center bg-white px-8 py-12\"},r.default.createElement(\"div\",{className:\"mx-auto w-full max-w-3xl\"},r.default.createElement(\"fieldset\",{\"aria-label\":\"Pricing plans\",className:\"relative -space-y-px rounded-md bg-white\"},k.map(e=>r.default.createElement(\"label\",{key:e.name,\"aria-label\":e.name,\"aria-description\":`${e.priceMonthly} per month, ${e.priceYearly} per year, ${e.limit}`,className:\"group flex cursor-pointer flex-col border border-gray-200 p-4 first:rounded-tl-md first:rounded-tr-md last:rounded-br-md last:rounded-bl-md focus:outline-hidden has-checked:relative has-checked:border-indigo-200 has-checked:bg-indigo-50 md:grid md:grid-cols-3 md:pr-6 md:pl-4\"},r.default.createElement(\"span\",{className:\"flex items-center gap-3 text-sm\"},r.default.createElement(\"input\",{defaultValue:e.name,defaultChecked:e.selected,name:\"pricing-plan\",type:\"radio\",className:\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\"}),r.default.createElement(\"span\",{className:\"font-medium text-gray-900 group-has-checked:text-indigo-900\"},e.name)),r.default.createElement(\"span\",{className:\"ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-center\"},r.default.createElement(\"span\",{className:\"font-medium text-gray-900 group-has-checked:text-indigo-900\"},e.priceMonthly,\" / mo\"),\" \",r.default.createElement(\"span\",{className:\"text-gray-500 group-has-checked:text-indigo-700\"},\"(\",e.priceYearly,\" / yr)\")),r.default.createElement(\"span\",{className:\"ml-6 pl-1 text-sm text-gray-500 group-has-checked:text-indigo-700 md:ml-0 md:pl-0 md:text-right\"},e.limit))))))}document.body.innerHTML='<div id=\"app\"></div>';(0,u.createRoot)(document.getElementById(\"app\")).render(r.default.createElement(g));})();\n</script><style>#app { display: contents } body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset aria-label=\"Pricing plans\" class=\"relative -space-y-px rounded-md bg-white\">\n  <label aria-label=\"Startup\" aria-description=\"$29 per month, $290 per year, Up to 5 active job postings\" class=\"group flex cursor-pointer flex-col border border-gray-200 p-4 first:rounded-tl-md first:rounded-tr-md last:rounded-bl-md last:rounded-br-md focus:outline-none has-[:checked]:relative has-[:checked]:border-indigo-200 has-[:checked]:bg-indigo-50 md:grid md:grid-cols-3 md:pl-4 md:pr-6\">\n    <span class=\"flex items-center gap-3 text-sm\">\n      <input name=\"pricing-plan\" value=\"Startup\" type=\"radio\" checked class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <span class=\"font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">Startup</span>\n    </span>\n    <span class=\"ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-center\">\n      <span class=\"font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">$29 / mo</span>\n      <span class=\"text-gray-500 group-has-[:checked]:text-indigo-700\">($290 / yr)</span>\n    </span>\n    <span class=\"ml-6 pl-1 text-sm text-gray-500 group-has-[:checked]:text-indigo-700 md:ml-0 md:pl-0 md:text-right\">Up to 5 active job postings</span>\n  </label>\n  <label aria-label=\"Business\" aria-description=\"$99 per month, $990 per year, Up to 25 active job postings\" class=\"group flex cursor-pointer flex-col border border-gray-200 p-4 first:rounded-tl-md first:rounded-tr-md last:rounded-bl-md last:rounded-br-md focus:outline-none has-[:checked]:relative has-[:checked]:border-indigo-200 has-[:checked]:bg-indigo-50 md:grid md:grid-cols-3 md:pl-4 md:pr-6\">\n    <span class=\"flex items-center gap-3 text-sm\">\n      <input name=\"pricing-plan\" value=\"Business\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <span class=\"font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">Business</span>\n    </span>\n    <span class=\"ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-center\">\n      <span class=\"font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">$99 / mo</span>\n      <span class=\"text-gray-500 group-has-[:checked]:text-indigo-700\">($990 / yr)</span>\n    </span>\n    <span class=\"ml-6 pl-1 text-sm text-gray-500 group-has-[:checked]:text-indigo-700 md:ml-0 md:pl-0 md:text-right\">Up to 25 active job postings</span>\n  </label>\n  <label aria-label=\"Enterprise\" aria-description=\"$249 per month, $2490 per year, Unlimited active job postings\" class=\"group flex cursor-pointer flex-col border border-gray-200 p-4 first:rounded-tl-md first:rounded-tr-md last:rounded-bl-md last:rounded-br-md focus:outline-none has-[:checked]:relative has-[:checked]:border-indigo-200 has-[:checked]:bg-indigo-50 md:grid md:grid-cols-3 md:pl-4 md:pr-6\">\n    <span class=\"flex items-center gap-3 text-sm\">\n      <input name=\"pricing-plan\" value=\"Enterprise\" type=\"radio\" class=\"relative size-4 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n      <span class=\"font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">Enterprise</span>\n    </span>\n    <span class=\"ml-6 pl-1 text-sm md:ml-0 md:pl-0 md:text-center\">\n      <span class=\"font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">$249 / mo</span>\n      <span class=\"text-gray-500 group-has-[:checked]:text-indigo-700\">($2490 / yr)</span>\n    </span>\n    <span class=\"ml-6 pl-1 text-sm text-gray-500 group-has-[:checked]:text-indigo-700 md:ml-0 md:pl-0 md:text-right\">Unlimited active job postings</span>\n  </label>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 256,
+          "smallWidth": 375,
+          "smallHeight": 376
+        },
+        {
+          "name": "List with descriptions in panel",
+          "uuid": "7b583a008c3fc62c0fe403d10ca042bb",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/client-ChDcy-h8.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/index-DTfie-aa.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><script type=\"module\">(()=>{var f=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var y=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var l=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports);var v=(e,o,r,i)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let d of g(o))!x.call(e,d)&&d!==r&&s(e,d,{get:()=>o[d],enumerable:!(i=h(o,d))||i.enumerable});return e};var t=(e,o,r)=>(r=e!=null?f(y(e)):{},v(o||!e||!e.__esModule?s(r,\"default\",{value:e,enumerable:!0}):r,e));var c=l((N,n)=>{n.exports=window.React});var m=l((j,b)=>{b.exports=window.ReactDOMClient});var a=t(c()),p=t(m()),k=[{name:\"Public access\",description:\"This project would be available to anyone who has the link\",selected:!0},{name:\"Private to project members\",description:\"Only members of this project would be able to access\",selected:!1},{name:\"Private to you\",description:\"You are the only one able to access this project\",selected:!1}];function u(){return a.default.createElement(\"div\",{className:\"flex justify-center bg-white px-8 py-12\"},a.default.createElement(\"div\",{className:\"mx-auto w-full max-w-3xl\"},a.default.createElement(\"fieldset\",{\"aria-label\":\"Privacy setting\",className:\"-space-y-px rounded-md bg-white\"},k.map(e=>a.default.createElement(\"label\",{key:e.name,value:e.name,\"aria-label\":e.name,\"aria-description\":e.description,className:\"group flex cursor-pointer border border-gray-200 p-4 first:rounded-tl-md first:rounded-tr-md last:rounded-br-md last:rounded-bl-md focus:outline-hidden has-checked:relative has-checked:border-indigo-200 has-checked:bg-indigo-50\"},a.default.createElement(\"input\",{defaultValue:e.name,defaultChecked:e.selected,name:\"privacy-setting\",type:\"radio\",className:\"relative mt-0.5 size-4 shrink-0 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white not-checked:before:hidden checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden\"}),a.default.createElement(\"span\",{className:\"ml-3 flex flex-col\"},a.default.createElement(\"span\",{className:\"block text-sm font-medium text-gray-900 group-has-checked:text-indigo-900\"},e.name),a.default.createElement(\"span\",{className:\"block text-sm text-gray-500 group-has-checked:text-indigo-700\"},e.description)))))))}document.body.innerHTML='<div id=\"app\"></div>';(0,p.createRoot)(document.getElementById(\"app\")).render(a.default.createElement(u));})();\n</script><style>#app { display: contents } body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset aria-label=\"Privacy setting\" class=\"-space-y-px rounded-md bg-white\">\n  <label value=\"Public access\" aria-label=\"Public access\" aria-description=\"This project would be available to anyone who has the link\" class=\"group flex cursor-pointer border border-gray-200 p-4 first:rounded-tl-md first:rounded-tr-md last:rounded-bl-md last:rounded-br-md focus:outline-none has-[:checked]:relative has-[:checked]:border-indigo-200 has-[:checked]:bg-indigo-50\">\n    <input name=\"privacy-setting\" value=\"Public access\" type=\"radio\" checked class=\"relative mt-0.5 size-4 shrink-0 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n    <span class=\"ml-3 flex flex-col\">\n      <span class=\"block text-sm font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">Public access</span>\n      <span class=\"block text-sm text-gray-500 group-has-[:checked]:text-indigo-700\">This project would be available to anyone who has the link</span>\n    </span>\n  </label>\n  <label value=\"Private to project members\" aria-label=\"Private to project members\" aria-description=\"Only members of this project would be able to access\" class=\"group flex cursor-pointer border border-gray-200 p-4 first:rounded-tl-md first:rounded-tr-md last:rounded-bl-md last:rounded-br-md focus:outline-none has-[:checked]:relative has-[:checked]:border-indigo-200 has-[:checked]:bg-indigo-50\">\n    <input name=\"privacy-setting\" value=\"Private to project members\" type=\"radio\" class=\"relative mt-0.5 size-4 shrink-0 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n    <span class=\"ml-3 flex flex-col\">\n      <span class=\"block text-sm font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">Private to project members</span>\n      <span class=\"block text-sm text-gray-500 group-has-[:checked]:text-indigo-700\">Only members of this project would be able to access</span>\n    </span>\n  </label>\n  <label value=\"Private to you\" aria-label=\"Private to you\" aria-description=\"You are the only one able to access this project\" class=\"group flex cursor-pointer border border-gray-200 p-4 first:rounded-tl-md first:rounded-tr-md last:rounded-bl-md last:rounded-br-md focus:outline-none has-[:checked]:relative has-[:checked]:border-indigo-200 has-[:checked]:bg-indigo-50\">\n    <input name=\"privacy-setting\" value=\"Private to you\" type=\"radio\" class=\"relative mt-0.5 size-4 shrink-0 appearance-none rounded-full border border-gray-300 bg-white before:absolute before:inset-1 before:rounded-full before:bg-white checked:border-indigo-600 checked:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:before:bg-gray-400 forced-colors:appearance-auto forced-colors:before:hidden [&:not(:checked)]:before:hidden\">\n    <span class=\"ml-3 flex flex-col\">\n      <span class=\"block text-sm font-medium text-gray-900 group-has-[:checked]:text-indigo-900\">Private to you</span>\n      <span class=\"block text-sm text-gray-500 group-has-[:checked]:text-indigo-700\">You are the only one able to access this project</span>\n    </span>\n  </label>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 316,
+          "smallWidth": 375,
+          "smallHeight": 376
+        },
+        {
+          "name": "Color picker",
+          "uuid": "eb6b38e5a758ade067d50aae93fa1b96",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/client-ChDcy-h8.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/index-DTfie-aa.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><script type=\"module\">(()=>{var k=Object.create;var c=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var v=Object.getOwnPropertyNames;var N=Object.getPrototypeOf,C=Object.prototype.hasOwnProperty;var d=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports);var j=(e,o,t,s)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let l of v(o))!C.call(e,l)&&l!==t&&c(e,l,{get:()=>o[l],enumerable:!(s=y(o,l))||s.enumerable});return e};var a=(e,o,t)=>(t=e!=null?k(N(e)):{},j(o||!e||!e.__esModule?c(t,\"default\",{value:e,enumerable:!0}):t,e));var i=d((G,m)=>{m.exports=window.React});var p=d((M,u)=>{u.exports=window.ReactDOMClient});var x=d((P,f)=>{f.exports=window.headlessui});var r=a(i()),b=a(p()),h=a(i()),n=a(x()),g=[{name:\"Pink\",color:\"text-pink-500\"},{name:\"Purple\",color:\"text-purple-500\"},{name:\"Blue\",color:\"text-blue-500\"},{name:\"Green\",color:\"text-green-500\"},{name:\"Yellow\",color:\"text-yellow-500\"}];function B(...e){return e.filter(Boolean).join(\" \")}function w(){let[e,o]=(0,h.useState)(g[1]);return r.default.createElement(\"div\",{className:\"flex justify-center bg-white px-8 py-12\"},r.default.createElement(\"fieldset\",null,r.default.createElement(\"legend\",{className:\"block text-sm/6 font-semibold text-gray-900\"},\"Choose a label color\"),r.default.createElement(n.RadioGroup,{value:e,onChange:o,className:\"mt-6 flex items-center gap-x-3\"},g.map(t=>r.default.createElement(n.Radio,{key:t.name,value:t,\"aria-label\":t.name,className:B(t.color,\"relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 ring-current focus:outline-hidden data-checked:ring-2 data-focus:data-checked:ring-3 data-focus:data-checked:ring-offset-1\")},r.default.createElement(\"span\",{\"aria-hidden\":\"true\",className:\"size-8 rounded-full border border-black/10 bg-current\"}))))))}document.body.innerHTML='<div id=\"app\"></div>';(0,b.createRoot)(document.getElementById(\"app\")).render(r.default.createElement(w));})();\n</script><style>#app { display: contents } body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset>\n  <legend class=\"block text-sm/6 font-semibold text-gray-900\">Choose a label color</legend>\n  <div class=\"mt-6 flex items-center gap-x-3\">\n    <!-- Active and Checked: \"ring ring-offset-1\" -->\n    <label aria-label=\"Pink\" class=\"relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 text-pink-500 ring-current focus:outline-none\">\n      <input type=\"radio\" name=\"color-choice\" value=\"Pink\" class=\"sr-only\">\n      <span aria-hidden=\"true\" class=\"size-8 rounded-full border border-black/10 bg-current\"></span>\n    </label>\n    <!-- Active and Checked: \"ring ring-offset-1\" -->\n    <label aria-label=\"Purple\" class=\"relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 text-purple-500 ring-current focus:outline-none\">\n      <input type=\"radio\" name=\"color-choice\" value=\"Purple\" class=\"sr-only\">\n      <span aria-hidden=\"true\" class=\"size-8 rounded-full border border-black/10 bg-current\"></span>\n    </label>\n    <!-- Active and Checked: \"ring ring-offset-1\" -->\n    <label aria-label=\"Blue\" class=\"relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 text-blue-500 ring-current focus:outline-none\">\n      <input type=\"radio\" name=\"color-choice\" value=\"Blue\" class=\"sr-only\">\n      <span aria-hidden=\"true\" class=\"size-8 rounded-full border border-black/10 bg-current\"></span>\n    </label>\n    <!-- Active and Checked: \"ring ring-offset-1\" -->\n    <label aria-label=\"Green\" class=\"relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 text-green-500 ring-current focus:outline-none\">\n      <input type=\"radio\" name=\"color-choice\" value=\"Green\" class=\"sr-only\">\n      <span aria-hidden=\"true\" class=\"size-8 rounded-full border border-black/10 bg-current\"></span>\n    </label>\n    <!-- Active and Checked: \"ring ring-offset-1\" -->\n    <label aria-label=\"Yellow\" class=\"relative -m-0.5 flex cursor-pointer items-center justify-center rounded-full p-0.5 text-yellow-500 ring-current focus:outline-none\">\n      <input type=\"radio\" name=\"color-choice\" value=\"Yellow\" class=\"sr-only\">\n      <span aria-hidden=\"true\" class=\"size-8 rounded-full border border-black/10 bg-current\"></span>\n    </label>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 176,
+          "smallWidth": 375,
+          "smallHeight": 176
+        },
+        {
+          "name": "Cards",
+          "uuid": "45612766894822db447a2837d79355f5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/client-ChDcy-h8.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/index-DTfie-aa.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><script type=\"module\">(()=>{var S=Object.create;var p=Object.defineProperty;var B=Object.getOwnPropertyDescriptor;var D=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,k=Object.prototype.hasOwnProperty;var c=(e,o)=>()=>(o||e((o={exports:{}}).exports,o),o.exports);var y=(e,o,r,l)=>{if(o&&typeof o==\"object\"||typeof o==\"function\")for(let f of D(o))!k.call(e,f)&&f!==r&&p(e,f,{get:()=>o[f],enumerable:!(l=B(o,f))||l.enumerable});return e};var n=(e,o,r)=>(r=e!=null?S(b(e)):{},y(o||!e||!e.__esModule?p(r,\"default\",{value:e,enumerable:!0}):r,e));var s=c((v,m)=>{m.exports=window.React});var I=c((U,x)=>{x.exports=window.ReactDOMClient});var w=c((T,i)=>{i.exports=window.headlessui});var a=n(s()),h=n(I()),C=n(s()),u=n(w());var t=n(s(),1);function R({title:e,titleId:o,...r},l){return t.createElement(\"svg\",Object.assign({xmlns:\"http://www.w3.org/2000/svg\",viewBox:\"0 0 20 20\",fill:\"currentColor\",\"aria-hidden\":\"true\",\"data-slot\":\"icon\",ref:l,\"aria-labelledby\":o},r),e?t.createElement(\"title\",{id:o},e):null,t.createElement(\"path\",{fillRule:\"evenodd\",d:\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\",clipRule:\"evenodd\"}))}var L=t.forwardRef(R),d=L;var g=[{id:1,title:\"Newsletter\",description:\"Last message sent an hour ago\",users:\"621 users\"},{id:2,title:\"Existing customers\",description:\"Last message sent 2 weeks ago\",users:\"1200 users\"},{id:3,title:\"Trial users\",description:\"Last message sent 4 days ago\",users:\"2740 users\"}];function A(){let[e,o]=(0,C.useState)(g[0]);return a.default.createElement(\"div\",{className:\"flex justify-center bg-white px-8 py-12\"},a.default.createElement(\"fieldset\",null,a.default.createElement(\"legend\",{className:\"text-sm/6 font-semibold text-gray-900\"},\"Select a mailing list\"),a.default.createElement(u.RadioGroup,{value:e,onChange:o,className:\"mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-3 sm:gap-x-4\"},g.map(r=>a.default.createElement(u.Radio,{key:r.id,value:r,\"aria-label\":r.title,\"aria-description\":`${r.description} to ${r.users}`,className:\"group relative flex cursor-pointer rounded-lg border border-gray-300 bg-white p-4 shadow-xs focus:outline-hidden data-focus:border-indigo-600 data-focus:ring-2 data-focus:ring-indigo-600\"},a.default.createElement(\"span\",{className:\"flex flex-1\"},a.default.createElement(\"span\",{className:\"flex flex-col\"},a.default.createElement(\"span\",{className:\"block text-sm font-medium text-gray-900\"},r.title),a.default.createElement(\"span\",{className:\"mt-1 flex items-center text-sm text-gray-500\"},r.description),a.default.createElement(\"span\",{className:\"mt-6 text-sm font-medium text-gray-900\"},r.users))),a.default.createElement(d,{\"aria-hidden\":\"true\",className:\"size-5 text-indigo-600 group-not-data-checked:invisible\"}),a.default.createElement(\"span\",{\"aria-hidden\":\"true\",className:\"pointer-events-none absolute -inset-px rounded-lg border-2 border-transparent group-data-checked:border-indigo-600 group-data-focus:border\"}))))))}document.body.innerHTML='<div id=\"app\"></div>';(0,h.createRoot)(document.getElementById(\"app\")).render(a.default.createElement(A));})();\n</script><style>#app { display: contents } body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset>\n  <legend class=\"text-sm/6 font-semibold text-gray-900\">Select a mailing list</legend>\n  <div class=\"mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-3 sm:gap-x-4\">\n    <!-- Active: \"border-indigo-600 ring-2 ring-indigo-600\", Not Active: \"border-gray-300\" -->\n    <label aria-label=\"Newsletter\" aria-description=\"Last message sent an hour ago to 621 users\" class=\"relative flex cursor-pointer rounded-lg border bg-white p-4 shadow-sm focus:outline-none\">\n      <input type=\"radio\" name=\"project-type\" value=\"Newsletter\" class=\"sr-only\">\n      <span class=\"flex flex-1\">\n        <span class=\"flex flex-col\">\n          <span class=\"block text-sm font-medium text-gray-900\">Newsletter</span>\n          <span class=\"mt-1 flex items-center text-sm text-gray-500\">Last message sent an hour ago</span>\n          <span class=\"mt-6 text-sm font-medium text-gray-900\">621 users</span>\n        </span>\n      </span>\n      <!-- Not Checked: \"invisible\" -->\n      <svg class=\"size-5 text-indigo-600\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n        <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\" />\n      </svg>\n      <!--\n        Active: \"border\", Not Active: \"border-2\"\n        Checked: \"border-indigo-600\", Not Checked: \"border-transparent\"\n      -->\n      <span class=\"pointer-events-none absolute -inset-px rounded-lg border-2\" aria-hidden=\"true\"></span>\n    </label>\n    <!-- Active: \"border-indigo-600 ring-2 ring-indigo-600\", Not Active: \"border-gray-300\" -->\n    <label aria-label=\"Existing customers\" aria-description=\"Last message sent 2 weeks ago to 1200 users\" class=\"relative flex cursor-pointer rounded-lg border bg-white p-4 shadow-sm focus:outline-none\">\n      <input type=\"radio\" name=\"project-type\" value=\"Existing customers\" class=\"sr-only\">\n      <span class=\"flex flex-1\">\n        <span class=\"flex flex-col\">\n          <span class=\"block text-sm font-medium text-gray-900\">Existing customers</span>\n          <span class=\"mt-1 flex items-center text-sm text-gray-500\">Last message sent 2 weeks ago</span>\n          <span class=\"mt-6 text-sm font-medium text-gray-900\">1200 users</span>\n        </span>\n      </span>\n      <!-- Not Checked: \"invisible\" -->\n      <svg class=\"size-5 text-indigo-600\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n        <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\" />\n      </svg>\n      <!--\n        Active: \"border\", Not Active: \"border-2\"\n        Checked: \"border-indigo-600\", Not Checked: \"border-transparent\"\n      -->\n      <span class=\"pointer-events-none absolute -inset-px rounded-lg border-2\" aria-hidden=\"true\"></span>\n    </label>\n    <!-- Active: \"border-indigo-600 ring-2 ring-indigo-600\", Not Active: \"border-gray-300\" -->\n    <label aria-label=\"Trial users\" aria-description=\"Last message sent 4 days ago to 2740 users\" class=\"relative flex cursor-pointer rounded-lg border bg-white p-4 shadow-sm focus:outline-none\">\n      <input type=\"radio\" name=\"project-type\" value=\"Trial users\" class=\"sr-only\">\n      <span class=\"flex flex-1\">\n        <span class=\"flex flex-col\">\n          <span class=\"block text-sm font-medium text-gray-900\">Trial users</span>\n          <span class=\"mt-1 flex items-center text-sm text-gray-500\">Last message sent 4 days ago</span>\n          <span class=\"mt-6 text-sm font-medium text-gray-900\">2740 users</span>\n        </span>\n      </span>\n      <!-- Not Checked: \"invisible\" -->\n      <svg class=\"size-5 text-indigo-600\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n        <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\" />\n      </svg>\n      <!--\n        Active: \"border\", Not Active: \"border-2\"\n        Checked: \"border-indigo-600\", Not Checked: \"border-transparent\"\n      -->\n      <span class=\"pointer-events-none absolute -inset-px rounded-lg border-2\" aria-hidden=\"true\"></span>\n    </label>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 266,
+          "smallWidth": 375,
+          "smallHeight": 558
+        },
+        {
+          "name": "Small cards",
+          "uuid": "245cb777f4a9823e97d8b1c2dfb87e0c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/client-ChDcy-h8.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/index-DTfie-aa.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><script type=\"module\">(()=>{var v=Object.create;var c=Object.defineProperty;var w=Object.getOwnPropertyDescriptor;var b=Object.getOwnPropertyNames;var S=Object.getPrototypeOf,B=Object.prototype.hasOwnProperty;var d=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports);var G=(e,t,i,m)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of b(t))!B.call(e,o)&&o!==i&&c(e,o,{get:()=>t[o],enumerable:!(m=w(t,o))||m.enumerable});return e};var n=(e,t,i)=>(i=e!=null?v(S(e)):{},G(t||!e||!e.__esModule?c(i,\"default\",{value:e,enumerable:!0}):i,e));var s=d((M,u)=>{u.exports=window.React});var f=d((C,l)=>{l.exports=window.ReactDOMClient});var p=d((E,g)=>{g.exports=window.headlessui});var a=n(s()),h=n(f()),k=n(s()),r=n(p()),x=[{name:\"4 GB\",inStock:!0},{name:\"8 GB\",inStock:!0},{name:\"16 GB\",inStock:!0},{name:\"32 GB\",inStock:!0},{name:\"64 GB\",inStock:!0},{name:\"128 GB\",inStock:!1}];function N(...e){return e.filter(Boolean).join(\" \")}function y(){let[e,t]=(0,k.useState)(x[2]);return a.default.createElement(\"div\",{className:\"flex justify-center bg-white px-8 py-12\"},a.default.createElement(\"fieldset\",{\"aria-label\":\"Choose a memory option\"},a.default.createElement(\"div\",{className:\"flex items-center justify-between\"},a.default.createElement(\"div\",{className:\"text-sm/6 font-medium text-gray-900\"},\"RAM\"),a.default.createElement(\"a\",{href:\"#\",className:\"text-sm/6 font-medium text-indigo-600 hover:text-indigo-500\"},\"See performance specs\")),a.default.createElement(r.RadioGroup,{value:e,onChange:t,className:\"mt-2 grid grid-cols-3 gap-3 sm:grid-cols-6\"},x.map(i=>a.default.createElement(r.Radio,{key:i.name,value:i,disabled:!i.inStock,className:N(i.inStock?\"cursor-pointer focus:outline-hidden\":\"cursor-not-allowed opacity-25\",\"flex items-center justify-center rounded-md bg-white px-3 py-3 text-sm font-semibold text-gray-900 uppercase ring-1 ring-gray-300 not-data-focus:not-data-checked:ring-inset hover:bg-gray-50 data-checked:bg-indigo-600 data-checked:text-white data-checked:ring-0 data-checked:hover:bg-indigo-500 data-focus:ring-2 data-focus:ring-indigo-600 data-focus:ring-offset-2 data-focus:data-checked:ring-2 sm:flex-1\")},i.name)))))}document.body.innerHTML='<div id=\"app\"></div>';(0,h.createRoot)(document.getElementById(\"app\")).render(a.default.createElement(y));})();\n</script><style>#app { display: contents } body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset aria-label=\"Choose a memory option\">\n  <div class=\"flex items-center justify-between\">\n    <div class=\"text-sm/6 font-medium text-gray-900\">RAM</div>\n    <a href=\"#\" class=\"text-sm/6 font-medium text-indigo-600 hover:text-indigo-500\">See performance specs</a>\n  </div>\n\n  <div class=\"mt-2 grid grid-cols-3 gap-3 sm:grid-cols-6\">\n    <!--\n      In Stock: \"cursor-pointer\", Out of Stock: \"opacity-25 cursor-not-allowed\"\n      Active: \"ring-2 ring-indigo-600 ring-offset-2\"\n      Checked: \"ring-0 bg-indigo-600 text-white hover:bg-indigo-500\", Not Checked: \"ring-1 ring-gray-300 bg-white text-gray-900 hover:bg-gray-50\"\n      Not Active and not Checked: \"ring-inset\"\n      Active and Checked: \"ring-2\"\n    -->\n    <label class=\"flex cursor-pointer items-center justify-center rounded-md px-3 py-3 text-sm font-semibold uppercase focus:outline-none sm:flex-1\">\n      <input type=\"radio\" name=\"memory-option\" value=\"4 GB\" class=\"sr-only\">\n      <span>4 GB</span>\n    </label>\n    <!--\n      In Stock: \"cursor-pointer\", Out of Stock: \"opacity-25 cursor-not-allowed\"\n      Active: \"ring-2 ring-indigo-600 ring-offset-2\"\n      Checked: \"ring-0 bg-indigo-600 text-white hover:bg-indigo-500\", Not Checked: \"ring-1 ring-gray-300 bg-white text-gray-900 hover:bg-gray-50\"\n      Not Active and not Checked: \"ring-inset\"\n      Active and Checked: \"ring-2\"\n    -->\n    <label class=\"flex cursor-pointer items-center justify-center rounded-md px-3 py-3 text-sm font-semibold uppercase focus:outline-none sm:flex-1\">\n      <input type=\"radio\" name=\"memory-option\" value=\"8 GB\" class=\"sr-only\">\n      <span>8 GB</span>\n    </label>\n    <!--\n      In Stock: \"cursor-pointer\", Out of Stock: \"opacity-25 cursor-not-allowed\"\n      Active: \"ring-2 ring-indigo-600 ring-offset-2\"\n      Checked: \"ring-0 bg-indigo-600 text-white hover:bg-indigo-500\", Not Checked: \"ring-1 ring-gray-300 bg-white text-gray-900 hover:bg-gray-50\"\n      Not Active and not Checked: \"ring-inset\"\n      Active and Checked: \"ring-2\"\n    -->\n    <label class=\"flex cursor-pointer items-center justify-center rounded-md px-3 py-3 text-sm font-semibold uppercase focus:outline-none sm:flex-1\">\n      <input type=\"radio\" name=\"memory-option\" value=\"16 GB\" class=\"sr-only\">\n      <span>16 GB</span>\n    </label>\n    <!--\n      In Stock: \"cursor-pointer\", Out of Stock: \"opacity-25 cursor-not-allowed\"\n      Active: \"ring-2 ring-indigo-600 ring-offset-2\"\n      Checked: \"ring-0 bg-indigo-600 text-white hover:bg-indigo-500\", Not Checked: \"ring-1 ring-gray-300 bg-white text-gray-900 hover:bg-gray-50\"\n      Not Active and not Checked: \"ring-inset\"\n      Active and Checked: \"ring-2\"\n    -->\n    <label class=\"flex cursor-pointer items-center justify-center rounded-md px-3 py-3 text-sm font-semibold uppercase focus:outline-none sm:flex-1\">\n      <input type=\"radio\" name=\"memory-option\" value=\"32 GB\" class=\"sr-only\">\n      <span>32 GB</span>\n    </label>\n    <!--\n      In Stock: \"cursor-pointer\", Out of Stock: \"opacity-25 cursor-not-allowed\"\n      Active: \"ring-2 ring-indigo-600 ring-offset-2\"\n      Checked: \"ring-0 bg-indigo-600 text-white hover:bg-indigo-500\", Not Checked: \"ring-1 ring-gray-300 bg-white text-gray-900 hover:bg-gray-50\"\n      Not Active and not Checked: \"ring-inset\"\n      Active and Checked: \"ring-2\"\n    -->\n    <label class=\"flex cursor-pointer items-center justify-center rounded-md px-3 py-3 text-sm font-semibold uppercase focus:outline-none sm:flex-1\">\n      <input type=\"radio\" name=\"memory-option\" value=\"64 GB\" class=\"sr-only\">\n      <span>64 GB</span>\n    </label>\n    <!--\n      In Stock: \"cursor-pointer\", Out of Stock: \"opacity-25 cursor-not-allowed\"\n      Active: \"ring-2 ring-indigo-600 ring-offset-2\"\n      Checked: \"ring-0 bg-indigo-600 text-white hover:bg-indigo-500\", Not Checked: \"ring-1 ring-gray-300 bg-white text-gray-900 hover:bg-gray-50\"\n      Not Active and not Checked: \"ring-inset\"\n      Active and Checked: \"ring-2\"\n    -->\n    <label class=\"flex cursor-not-allowed items-center justify-center rounded-md px-3 py-3 text-sm font-semibold uppercase opacity-25 sm:flex-1\">\n      <input type=\"radio\" name=\"memory-option\" value=\"128 GB\" disabled class=\"sr-only\">\n      <span>128 GB</span>\n    </label>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 172,
+          "smallWidth": 375,
+          "smallHeight": 228
+        },
+        {
+          "name": "Stacked cards",
+          "uuid": "57db2be0bad7665ad4538e64fb878835",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/client-ChDcy-h8.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/index-DTfie-aa.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-react-C72_0lsw.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><script type=\"module\">(()=>{var y=Object.create;var p=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var w=Object.getOwnPropertyNames;var S=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var o=(i,a)=>()=>(a||i((a={exports:{}}).exports,a),a.exports);var B=(i,a,e,t)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let r of w(a))!v.call(i,r)&&r!==e&&p(i,r,{get:()=>a[r],enumerable:!(t=h(a,r))||t.enumerable});return i};var n=(i,a,e)=>(e=i!=null?y(S(i)):{},B(a||!i||!i.__esModule?p(e,\"default\",{value:i,enumerable:!0}):e,i));var d=o(($,l)=>{l.exports=window.React});var u=o((C,c)=>{c.exports=window.ReactDOMClient});var f=o((D,x)=>{x.exports=window.headlessui});var s=n(d()),b=n(u()),k=n(d()),m=n(f()),g=[{name:\"Hobby\",ram:\"8GB\",cpus:\"4 CPUs\",disk:\"160 GB SSD disk\",price:\"$40\"},{name:\"Startup\",ram:\"12GB\",cpus:\"6 CPUs\",disk:\"256 GB SSD disk\",price:\"$80\"},{name:\"Business\",ram:\"16GB\",cpus:\"8 CPUs\",disk:\"512 GB SSD disk\",price:\"$160\"},{name:\"Enterprise\",ram:\"32GB\",cpus:\"12 CPUs\",disk:\"1024 GB SSD disk\",price:\"$240\"}];function N(){let[i,a]=(0,k.useState)(g[0]);return s.default.createElement(\"div\",{className:\"flex justify-center bg-white px-8 py-12\"},s.default.createElement(\"div\",{className:\"mx-auto w-full max-w-xl\"},s.default.createElement(\"fieldset\",{\"aria-label\":\"Server size\"},s.default.createElement(m.RadioGroup,{value:i,onChange:a,className:\"space-y-4\"},g.map(e=>s.default.createElement(m.Radio,{key:e.name,value:e,\"aria-label\":e.name,\"aria-description\":`${e.ram}, ${e.cpus}, ${e.disk}, ${e.price} per month`,className:\"group relative block cursor-pointer rounded-lg border border-gray-300 bg-white px-6 py-4 shadow-xs focus:outline-hidden data-focus:border-indigo-600 data-focus:ring-2 data-focus:ring-indigo-600 sm:flex sm:justify-between\"},s.default.createElement(\"span\",{className:\"flex items-center\"},s.default.createElement(\"span\",{className:\"flex flex-col text-sm\"},s.default.createElement(\"span\",{className:\"font-medium text-gray-900\"},e.name),s.default.createElement(\"span\",{className:\"text-gray-500\"},s.default.createElement(\"span\",{className:\"block sm:inline\"},e.ram,\" / \",e.cpus),\" \",s.default.createElement(\"span\",{\"aria-hidden\":\"true\",className:\"hidden sm:mx-1 sm:inline\"},\"\\xB7\"),\" \",s.default.createElement(\"span\",{className:\"block sm:inline\"},e.disk)))),s.default.createElement(\"span\",{className:\"mt-2 flex text-sm sm:mt-0 sm:ml-4 sm:flex-col sm:text-right\"},s.default.createElement(\"span\",{className:\"font-medium text-gray-900\"},e.price),s.default.createElement(\"span\",{className:\"ml-1 text-gray-500 sm:ml-0\"},\"/mo\")),s.default.createElement(\"span\",{\"aria-hidden\":\"true\",className:\"pointer-events-none absolute -inset-px rounded-lg border-2 border-transparent group-data-checked:border-indigo-600 group-data-focus:border\"})))))))}document.body.innerHTML='<div id=\"app\"></div>';(0,b.createRoot)(document.getElementById(\"app\")).render(s.default.createElement(N));})();\n</script><style>#app { display: contents } body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<fieldset aria-label=\"Server size\">\n  <div class=\"space-y-4\">\n    <!-- Active: \"border-indigo-600 ring-2 ring-indigo-600\", Not Active: \"border-gray-300\" -->\n    <label aria-label=\"Hobby\" aria-description=\"8GB, 4 CPUs, 160 GB SSD disk, $40 per month\" class=\"relative block cursor-pointer rounded-lg border bg-white px-6 py-4 shadow-sm focus:outline-none sm:flex sm:justify-between\">\n      <input type=\"radio\" name=\"server-size\" value=\"Hobby\" class=\"sr-only\">\n      <span class=\"flex items-center\">\n        <span class=\"flex flex-col text-sm\">\n          <span class=\"font-medium text-gray-900\">Hobby</span>\n          <span class=\"text-gray-500\">\n            <span class=\"block sm:inline\">8GB / 4 CPUs</span>\n            <span class=\"hidden sm:mx-1 sm:inline\" aria-hidden=\"true\">&middot;</span>\n            <span class=\"block sm:inline\">160 GB SSD disk</span>\n          </span>\n        </span>\n      </span>\n      <span class=\"mt-2 flex text-sm sm:ml-4 sm:mt-0 sm:flex-col sm:text-right\">\n        <span class=\"font-medium text-gray-900\">$40</span>\n        <span class=\"ml-1 text-gray-500 sm:ml-0\">/mo</span>\n      </span>\n      <!--\n        Active: \"border\", Not Active: \"border-2\"\n        Checked: \"border-indigo-600\", Not Checked: \"border-transparent\"\n      -->\n      <span class=\"pointer-events-none absolute -inset-px rounded-lg border-2\" aria-hidden=\"true\"></span>\n    </label>\n    <!-- Active: \"border-indigo-600 ring-2 ring-indigo-600\", Not Active: \"border-gray-300\" -->\n    <label aria-label=\"Startup\" aria-description=\"12GB, 6 CPUs, 256 GB SSD disk, $80 per month\" class=\"relative block cursor-pointer rounded-lg border bg-white px-6 py-4 shadow-sm focus:outline-none sm:flex sm:justify-between\">\n      <input type=\"radio\" name=\"server-size\" value=\"Startup\" class=\"sr-only\">\n      <span class=\"flex items-center\">\n        <span class=\"flex flex-col text-sm\">\n          <span class=\"font-medium text-gray-900\">Startup</span>\n          <span class=\"text-gray-500\">\n            <span class=\"block sm:inline\">12GB / 6 CPUs</span>\n            <span class=\"hidden sm:mx-1 sm:inline\" aria-hidden=\"true\">&middot;</span>\n            <span class=\"block sm:inline\">256 GB SSD disk</span>\n          </span>\n        </span>\n      </span>\n      <span class=\"mt-2 flex text-sm sm:ml-4 sm:mt-0 sm:flex-col sm:text-right\">\n        <span class=\"font-medium text-gray-900\">$80</span>\n        <span class=\"ml-1 text-gray-500 sm:ml-0\">/mo</span>\n      </span>\n      <!--\n        Active: \"border\", Not Active: \"border-2\"\n        Checked: \"border-indigo-600\", Not Checked: \"border-transparent\"\n      -->\n      <span class=\"pointer-events-none absolute -inset-px rounded-lg border-2\" aria-hidden=\"true\"></span>\n    </label>\n    <!-- Active: \"border-indigo-600 ring-2 ring-indigo-600\", Not Active: \"border-gray-300\" -->\n    <label aria-label=\"Business\" aria-description=\"16GB, 8 CPUs, 512 GB SSD disk, $160 per month\" class=\"relative block cursor-pointer rounded-lg border bg-white px-6 py-4 shadow-sm focus:outline-none sm:flex sm:justify-between\">\n      <input type=\"radio\" name=\"server-size\" value=\"Business\" class=\"sr-only\">\n      <span class=\"flex items-center\">\n        <span class=\"flex flex-col text-sm\">\n          <span class=\"font-medium text-gray-900\">Business</span>\n          <span class=\"text-gray-500\">\n            <span class=\"block sm:inline\">16GB / 8 CPUs</span>\n            <span class=\"hidden sm:mx-1 sm:inline\" aria-hidden=\"true\">&middot;</span>\n            <span class=\"block sm:inline\">512 GB SSD disk</span>\n          </span>\n        </span>\n      </span>\n      <span class=\"mt-2 flex text-sm sm:ml-4 sm:mt-0 sm:flex-col sm:text-right\">\n        <span class=\"font-medium text-gray-900\">$160</span>\n        <span class=\"ml-1 text-gray-500 sm:ml-0\">/mo</span>\n      </span>\n      <!--\n        Active: \"border\", Not Active: \"border-2\"\n        Checked: \"border-indigo-600\", Not Checked: \"border-transparent\"\n      -->\n      <span class=\"pointer-events-none absolute -inset-px rounded-lg border-2\" aria-hidden=\"true\"></span>\n    </label>\n    <!-- Active: \"border-indigo-600 ring-2 ring-indigo-600\", Not Active: \"border-gray-300\" -->\n    <label aria-label=\"Enterprise\" aria-description=\"32GB, 12 CPUs, 1024 GB SSD disk, $240 per month\" class=\"relative block cursor-pointer rounded-lg border bg-white px-6 py-4 shadow-sm focus:outline-none sm:flex sm:justify-between\">\n      <input type=\"radio\" name=\"server-size\" value=\"Enterprise\" class=\"sr-only\">\n      <span class=\"flex items-center\">\n        <span class=\"flex flex-col text-sm\">\n          <span class=\"font-medium text-gray-900\">Enterprise</span>\n          <span class=\"text-gray-500\">\n            <span class=\"block sm:inline\">32GB / 12 CPUs</span>\n            <span class=\"hidden sm:mx-1 sm:inline\" aria-hidden=\"true\">&middot;</span>\n            <span class=\"block sm:inline\">1024 GB SSD disk</span>\n          </span>\n        </span>\n      </span>\n      <span class=\"mt-2 flex text-sm sm:ml-4 sm:mt-0 sm:flex-col sm:text-right\">\n        <span class=\"font-medium text-gray-900\">$240</span>\n        <span class=\"ml-1 text-gray-500 sm:ml-0\">/mo</span>\n      </span>\n      <!--\n        Active: \"border\", Not Active: \"border-2\"\n        Checked: \"border-indigo-600\", Not Checked: \"border-transparent\"\n      -->\n      <span class=\"pointer-events-none absolute -inset-px rounded-lg border-2\" aria-hidden=\"true\"></span>\n    </label>\n  </div>\n</fieldset>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 440,
+          "smallWidth": 375,
+          "smallHeight": 632
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

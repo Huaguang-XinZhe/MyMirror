@@ -1,0 +1,366 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": false
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": true
+      }
+    ],
+    "categories": [
+      {
+        "name": "Components",
+        "anchor": "product-ecommerce-components",
+        "subcategories": [
+          {
+            "name": "Product Overviews",
+            "url": "/plus/ui-blocks/ecommerce/components/product-overviews",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Product Lists",
+            "url": "/plus/ui-blocks/ecommerce/components/product-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Category Previews",
+            "url": "/plus/ui-blocks/ecommerce/components/category-previews",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Shopping Carts",
+            "url": "/plus/ui-blocks/ecommerce/components/shopping-carts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Category Filters",
+            "url": "/plus/ui-blocks/ecommerce/components/category-filters",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Product Quickviews",
+            "url": "/plus/ui-blocks/ecommerce/components/product-quickviews",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Product Features",
+            "url": "/plus/ui-blocks/ecommerce/components/product-features",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Store Navigation",
+            "url": "/plus/ui-blocks/ecommerce/components/store-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Promo Sections",
+            "url": "/plus/ui-blocks/ecommerce/components/promo-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkout Forms",
+            "url": "/plus/ui-blocks/ecommerce/components/checkout-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Reviews",
+            "url": "/plus/ui-blocks/ecommerce/components/reviews",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Order Summaries",
+            "url": "/plus/ui-blocks/ecommerce/components/order-summaries",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Order History",
+            "url": "/plus/ui-blocks/ecommerce/components/order-history",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Incentives",
+            "url": "/plus/ui-blocks/ecommerce/components/incentives",
+            "isNew": false,
+            "isCurrent": true
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-ecommerce-page-examples",
+        "subcategories": [
+          {
+            "name": "Storefront Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/storefront-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Product Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/product-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Category Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/category-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Shopping Cart Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/shopping-cart-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkout Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/checkout-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Order Detail Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/order-detail-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Order History Pages",
+            "url": "/plus/ui-blocks/ecommerce/page-examples/order-history-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Incentives",
+      "description": "Ecommerce incentive examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS incentive components to highlight special offers, discounts, loyalty rewards, and promotional deals that encourage customers to make purchases in your store. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/ecommerce/components/incentives",
+      "category": {
+        "name": "Components",
+        "url": "/plus/ui-blocks/ecommerce#product-ecommerce-components",
+        "product": {
+          "name": "Ecommerce",
+          "url": "/plus/ui-blocks/ecommerce"
+        }
+      },
+      "components": [
+        {
+          "name": "3-column with illustrations and split header",
+          "uuid": "8872b12a99b750e189f99b92c726ab75",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": "<p class=\"mt-4 text-xs text-slate-500\">Images provided by <a href=\"https://ugmonk.com/\" class=\"font-medium text-sky-600 hover:text-sky-700\">Ugmonk</a></p>",
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-50\">\n    <div class=\"mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4\">\n      <div class=\"mx-auto max-w-2xl px-4 lg:max-w-none\">\n        <div class=\"grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2\">\n          <div>\n            <h2 class=\"text-4xl font-bold tracking-tight text-gray-900\">We built our business on great customer service</h2>\n            <p class=\"mt-4 text-gray-500\">At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring about that. Our new strategy is to write a bunch of things that look really good in the headlines, then clarify in the small print but hope people don't actually read it.</p>\n          </div>\n          <img src=\"/plus-assets/img/ecommerce-images/incentives-07-hero.jpg\" alt=\"\" class=\"aspect-3/2 w-full rounded-lg bg-gray-100 object-cover\">\n        </div>\n        <div class=\"mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3\">\n          <div class=\"sm:flex lg:block\">\n              <div class=\"sm:shrink-0\">\n                <img class=\"size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-shipping-simple.svg\" alt=\"\">\n              </div>\n              <div class=\"mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                <h3 class=\"text-sm font-medium text-gray-900\">Free shipping</h3>\n                <p class=\"mt-2 text-sm text-gray-500\">It&#039;s not actually free we just price it into the products. Someone&#039;s paying for it, and it&#039;s not us.</p>\n              </div>\n            </div>\n          <div class=\"sm:flex lg:block\">\n              <div class=\"sm:shrink-0\">\n                <img class=\"size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-warranty-simple.svg\" alt=\"\">\n              </div>\n              <div class=\"mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                <h3 class=\"text-sm font-medium text-gray-900\">10-year warranty</h3>\n                <p class=\"mt-2 text-sm text-gray-500\">If it breaks in the first 10 years we&#039;ll replace it. After that you&#039;re on your own though.</p>\n              </div>\n            </div>\n          <div class=\"sm:flex lg:block\">\n              <div class=\"sm:shrink-0\">\n                <img class=\"size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-exchange-simple.svg\" alt=\"\">\n              </div>\n              <div class=\"mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                <h3 class=\"text-sm font-medium text-gray-900\">Exchanges</h3>\n                <p class=\"mt-2 text-sm text-gray-500\">If you don&#039;t like it, trade it to one of your friends for something of theirs. Don&#039;t send it here though.</p>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const incentives = [\n  {\n    name: 'Free shipping',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-shipping-simple.svg',\n    description: \"It's not actually free we just price it into the products. Someone's paying for it, and it's not us.\",\n  },\n  {\n    name: '10-year warranty',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-warranty-simple.svg',\n    description: \"If it breaks in the first 10 years we'll replace it. After that you're on your own though.\",\n  },\n  {\n    name: 'Exchanges',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-exchange-simple.svg',\n    description:\n      \"If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.\",\n  },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-gray-50\">\n      <div className=\"mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4\">\n        <div className=\"mx-auto max-w-2xl px-4 lg:max-w-none\">\n          <div className=\"grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2\">\n            <div>\n              <h2 className=\"text-4xl font-bold tracking-tight text-gray-900\">\n                We built our business on great customer service\n              </h2>\n              <p className=\"mt-4 text-gray-500\">\n                At the beginning at least, but then we realized we could make a lot more money if we kinda stopped\n                caring about that. Our new strategy is to write a bunch of things that look really good in the\n                headlines, then clarify in the small print but hope people don't actually read it.\n              </p>\n            </div>\n            <img\n              alt=\"\"\n              src=\"/plus-assets/img/ecommerce-images/incentives-07-hero.jpg\"\n              className=\"aspect-[3/2] w-full rounded-lg bg-gray-100 object-cover\"\n            />\n          </div>\n          <div className=\"mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3\">\n            {incentives.map((incentive) => (\n              <div key={incentive.name} className=\"sm:flex lg:block\">\n                <div className=\"sm:shrink-0\">\n                  <img alt=\"\" src={incentive.imageSrc} className=\"size-16\" />\n                </div>\n                <div className=\"mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6\">\n                  <h3 className=\"text-sm font-medium text-gray-900\">{incentive.name}</h3>\n                  <p className=\"mt-2 text-sm text-gray-500\">{incentive.description}</p>\n                </div>\n              </div>\n            ))}\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 860,
+          "smallWidth": 375,
+          "smallHeight": 1329
+        },
+        {
+          "name": "4-column with illustrations",
+          "uuid": "38742d005e7e8f48feb79dea72a0a8a5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-50\">\n    <div class=\"mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8\">\n      <div class=\"grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8\">\n        <div>\n            <img src=\"/plus-assets/img/ecommerce/icons/icon-delivery-light.svg\" alt=\"\" class=\"h-24 w-auto\">\n            <h3 class=\"mt-6 text-sm font-medium text-gray-900\">Free Shipping</h3>\n            <p class=\"mt-2 text-sm text-gray-500\">It&#039;s not actually free we just price it into the products. Someone&#039;s paying for it, and it&#039;s not us.</p>\n          </div>\n        <div>\n            <img src=\"/plus-assets/img/ecommerce/icons/icon-chat-light.svg\" alt=\"\" class=\"h-24 w-auto\">\n            <h3 class=\"mt-6 text-sm font-medium text-gray-900\">24/7 Customer Support</h3>\n            <p class=\"mt-2 text-sm text-gray-500\">Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.</p>\n          </div>\n        <div>\n            <img src=\"/plus-assets/img/ecommerce/icons/icon-fast-checkout-light.svg\" alt=\"\" class=\"h-24 w-auto\">\n            <h3 class=\"mt-6 text-sm font-medium text-gray-900\">Fast Shopping Cart</h3>\n            <p class=\"mt-2 text-sm text-gray-500\">Look how fast that cart is going. What does this mean for the actual experience? I don&#039;t know.</p>\n          </div>\n        <div>\n            <img src=\"/plus-assets/img/ecommerce/icons/icon-gift-card-light.svg\" alt=\"\" class=\"h-24 w-auto\">\n            <h3 class=\"mt-6 text-sm font-medium text-gray-900\">Gift Cards</h3>\n            <p class=\"mt-2 text-sm text-gray-500\">Buy them for your friends, especially if they don&#039;t like our store. Free money for us, it&#039;s great.</p>\n          </div>\n        \n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const incentives = [\n  {\n    name: 'Free Shipping',\n    description: \"It's not actually free we just price it into the products. Someone's paying for it, and it's not us.\",\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-delivery-light.svg',\n  },\n  {\n    name: '24/7 Customer Support',\n    description: 'Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-chat-light.svg',\n  },\n  {\n    name: 'Fast Shopping Cart',\n    description: \"Look how fast that cart is going. What does this mean for the actual experience? I don't know.\",\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-fast-checkout-light.svg',\n  },\n  {\n    name: 'Gift Cards',\n    description: \"Buy them for your friends, especially if they don't like our store. Free money for us, it's great.\",\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-gift-card-light.svg',\n  },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-gray-50\">\n      <div className=\"mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8\">\n        <div className=\"grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8\">\n          {incentives.map((incentive) => (\n            <div key={incentive.name}>\n              <img alt=\"\" src={incentive.imageSrc} className=\"h-24 w-auto\" />\n              <h3 className=\"mt-6 text-sm font-medium text-gray-900\">{incentive.name}</h3>\n              <p className=\"mt-2 text-sm text-gray-500\">{incentive.description}</p>\n            </div>\n          ))}\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 464,
+          "smallWidth": 375,
+          "smallHeight": 1088
+        },
+        {
+          "name": "3-column with illustrations and header",
+          "uuid": "2d5d20e54ee541d2b42b7c02457850df",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4\">\n      <div class=\"mx-auto max-w-2xl px-4 lg:max-w-none\">\n        <div class=\"max-w-3xl\">\n          <h2 class=\"text-4xl font-bold tracking-tight text-gray-900\">We built our business on customer service</h2>\n          <p class=\"mt-4 text-gray-500\">At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring about that. Our new strategy is to write a bunch of things that look really good in the headlines, then clarify in the small print but hope people don't actually read it.</p>\n        </div>\n        <div class=\"mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3\">\n          <div class=\"sm:flex lg:block\">\n              <div class=\"sm:shrink-0\">\n                <img class=\"size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-shipping-simple.svg\" alt=\"\">\n              </div>\n              <div class=\"mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                <h3 class=\"text-sm font-medium text-gray-900\">Free shipping</h3>\n                <p class=\"mt-2 text-sm text-gray-500\">It&#039;s not actually free we just price it into the products. Someone&#039;s paying for it, and it&#039;s not us.</p>\n              </div>\n            </div>\n          <div class=\"sm:flex lg:block\">\n              <div class=\"sm:shrink-0\">\n                <img class=\"size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-warranty-simple.svg\" alt=\"\">\n              </div>\n              <div class=\"mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                <h3 class=\"text-sm font-medium text-gray-900\">10-year warranty</h3>\n                <p class=\"mt-2 text-sm text-gray-500\">If it breaks in the first 10 years we&#039;ll replace it. After that you&#039;re on your own though.</p>\n              </div>\n            </div>\n          <div class=\"sm:flex lg:block\">\n              <div class=\"sm:shrink-0\">\n                <img class=\"size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-exchange-simple.svg\" alt=\"\">\n              </div>\n              <div class=\"mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                <h3 class=\"text-sm font-medium text-gray-900\">Exchanges</h3>\n                <p class=\"mt-2 text-sm text-gray-500\">If you don&#039;t like it, trade it to one of your friends for something of theirs. Don&#039;t send it here though.</p>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const incentives = [\n  {\n    name: 'Free shipping',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-shipping-simple.svg',\n    description: \"It's not actually free we just price it into the products. Someone's paying for it, and it's not us.\",\n  },\n  {\n    name: '10-year warranty',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-warranty-simple.svg',\n    description: \"If it breaks in the first 10 years we'll replace it. After that you're on your own though.\",\n  },\n  {\n    name: 'Exchanges',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-exchange-simple.svg',\n    description:\n      \"If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.\",\n  },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <div className=\"mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4\">\n        <div className=\"mx-auto max-w-2xl px-4 lg:max-w-none\">\n          <div className=\"max-w-3xl\">\n            <h2 className=\"text-4xl font-bold tracking-tight text-gray-900\">\n              We built our business on customer service\n            </h2>\n            <p className=\"mt-4 text-gray-500\">\n              At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring\n              about that. Our new strategy is to write a bunch of things that look really good in the headlines, then\n              clarify in the small print but hope people don't actually read it.\n            </p>\n          </div>\n          <div className=\"mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3\">\n            {incentives.map((incentive) => (\n              <div key={incentive.name} className=\"sm:flex lg:block\">\n                <div className=\"sm:shrink-0\">\n                  <img alt=\"\" src={incentive.imageSrc} className=\"size-16\" />\n                </div>\n                <div className=\"mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6\">\n                  <h3 className=\"text-sm font-medium text-gray-900\">{incentive.name}</h3>\n                  <p className=\"mt-2 text-sm text-gray-500\">{incentive.description}</p>\n                </div>\n              </div>\n            ))}\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 604,
+          "smallWidth": 375,
+          "smallHeight": 1020
+        },
+        {
+          "name": "3-column with illustrations and centered text",
+          "uuid": "52ce80a2e5549b97abb3d5d3f76f739e",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-50\">\n    <div class=\"mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4\">\n      <div class=\"mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 px-4 lg:max-w-none lg:grid-cols-3\">\n        <div class=\"text-center sm:flex sm:text-left lg:block lg:text-center\">\n            <div class=\"sm:shrink-0\">\n              <div class=\"flow-root\">\n                <img class=\"mx-auto h-24 w-28\" src=\"/plus-assets/img/ecommerce/icons/icon-delivery-light.svg\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0\">\n              <h3 class=\"text-sm font-medium text-gray-900\">Free Shipping</h3>\n              <p class=\"mt-2 text-sm text-gray-500\">It&#039;s not actually free we just price it into the products. Someone&#039;s paying for it, and it&#039;s not us.</p>\n            </div>\n          </div>\n        <div class=\"text-center sm:flex sm:text-left lg:block lg:text-center\">\n            <div class=\"sm:shrink-0\">\n              <div class=\"flow-root\">\n                <img class=\"mx-auto h-24 w-28\" src=\"/plus-assets/img/ecommerce/icons/icon-chat-light.svg\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0\">\n              <h3 class=\"text-sm font-medium text-gray-900\">24/7 Customer Support</h3>\n              <p class=\"mt-2 text-sm text-gray-500\">Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.</p>\n            </div>\n          </div>\n        <div class=\"text-center sm:flex sm:text-left lg:block lg:text-center\">\n            <div class=\"sm:shrink-0\">\n              <div class=\"flow-root\">\n                <img class=\"mx-auto h-24 w-28\" src=\"/plus-assets/img/ecommerce/icons/icon-fast-checkout-light.svg\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"mt-3 sm:mt-0 sm:ml-3 lg:mt-3 lg:ml-0\">\n              <h3 class=\"text-sm font-medium text-gray-900\">Fast Shopping Cart</h3>\n              <p class=\"mt-2 text-sm text-gray-500\">Look how fast that cart is going. What does this mean for the actual experience? I don&#039;t know.</p>\n            </div>\n          </div>\n        \n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const incentives = [\n  {\n    name: 'Free Shipping',\n    description: \"It's not actually free we just price it into the products. Someone's paying for it, and it's not us.\",\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-delivery-light.svg',\n  },\n  {\n    name: '24/7 Customer Support',\n    description: 'Our AI chat widget is powered by a naive series of if/else statements. Guaranteed to irritate.',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-chat-light.svg',\n  },\n  {\n    name: 'Fast Shopping Cart',\n    description: \"Look how fast that cart is going. What does this mean for the actual experience? I don't know.\",\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-fast-checkout-light.svg',\n  },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-gray-50\">\n      <div className=\"mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4\">\n        <div className=\"mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 px-4 lg:max-w-none lg:grid-cols-3\">\n          {incentives.map((incentive) => (\n            <div key={incentive.name} className=\"text-center sm:flex sm:text-left lg:block lg:text-center\">\n              <div className=\"sm:shrink-0\">\n                <div className=\"flow-root\">\n                  <img alt=\"\" src={incentive.imageSrc} className=\"mx-auto h-24 w-28\" />\n                </div>\n              </div>\n              <div className=\"mt-3 sm:ml-3 sm:mt-0 lg:ml-0 lg:mt-3\">\n                <h3 className=\"text-sm font-medium text-gray-900\">{incentive.name}</h3>\n                <p className=\"mt-2 text-sm text-gray-500\">{incentive.description}</p>\n              </div>\n            </div>\n          ))}\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 432,
+          "smallWidth": 375,
+          "smallHeight": 800
+        },
+        {
+          "name": "3-column with illustrations and heading",
+          "uuid": "24b27a127824cbc843ef2542d46fb3dc",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8\">\n      <div class=\"rounded-2xl bg-gray-50 px-6 py-16 sm:p-16\">\n        <div class=\"mx-auto max-w-xl lg:max-w-none\">\n          <div class=\"text-center\">\n            <h2 class=\"text-2xl font-bold tracking-tight text-gray-900\">We built our business on customer service</h2>\n          </div>\n          <div class=\"mx-auto mt-12 grid max-w-sm grid-cols-1 gap-x-8 gap-y-10 sm:max-w-none lg:grid-cols-3\">\n            <div class=\"text-center sm:flex sm:text-left lg:block lg:text-center\">\n                <div class=\"sm:shrink-0\">\n                  <div class=\"flow-root\">\n                    <img class=\"mx-auto size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-shipping-simple.svg\" alt=\"\">\n                  </div>\n                </div>\n                <div class=\"mt-3 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                  <h3 class=\"text-sm font-medium text-gray-900\">Free shipping</h3>\n                  <p class=\"mt-2 text-sm text-gray-500\">It&#039;s not actually free we just price it into the products. Someone&#039;s paying for it, and it&#039;s not us.</p>\n                </div>\n              </div>\n            <div class=\"text-center sm:flex sm:text-left lg:block lg:text-center\">\n                <div class=\"sm:shrink-0\">\n                  <div class=\"flow-root\">\n                    <img class=\"mx-auto size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-warranty-simple.svg\" alt=\"\">\n                  </div>\n                </div>\n                <div class=\"mt-3 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                  <h3 class=\"text-sm font-medium text-gray-900\">10-year warranty</h3>\n                  <p class=\"mt-2 text-sm text-gray-500\">If it breaks in the first 10 years we&#039;ll replace it. After that you&#039;re on your own though.</p>\n                </div>\n              </div>\n            <div class=\"text-center sm:flex sm:text-left lg:block lg:text-center\">\n                <div class=\"sm:shrink-0\">\n                  <div class=\"flow-root\">\n                    <img class=\"mx-auto size-16\" src=\"/plus-assets/img/ecommerce/icons/icon-exchange-simple.svg\" alt=\"\">\n                  </div>\n                </div>\n                <div class=\"mt-3 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0\">\n                  <h3 class=\"text-sm font-medium text-gray-900\">Exchanges</h3>\n                  <p class=\"mt-2 text-sm text-gray-500\">If you don&#039;t like it, trade it to one of your friends for something of theirs. Don&#039;t send it here though.</p>\n                </div>\n              </div>\n            \n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const incentives = [\n  {\n    name: 'Free shipping',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-shipping-simple.svg',\n    description: \"It's not actually free we just price it into the products. Someone's paying for it, and it's not us.\",\n  },\n  {\n    name: '10-year warranty',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-warranty-simple.svg',\n    description: \"If it breaks in the first 10 years we'll replace it. After that you're on your own though.\",\n  },\n  {\n    name: 'Exchanges',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-exchange-simple.svg',\n    description:\n      \"If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.\",\n  },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <div className=\"mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8\">\n        <div className=\"rounded-2xl bg-gray-50 px-6 py-16 sm:p-16\">\n          <div className=\"mx-auto max-w-xl lg:max-w-none\">\n            <div className=\"text-center\">\n              <h2 className=\"text-2xl font-bold tracking-tight text-gray-900\">\n                We built our business on customer service\n              </h2>\n            </div>\n            <div className=\"mx-auto mt-12 grid max-w-sm grid-cols-1 gap-x-8 gap-y-10 sm:max-w-none lg:grid-cols-3\">\n              {incentives.map((incentive) => (\n                <div key={incentive.name} className=\"text-center sm:flex sm:text-left lg:block lg:text-center\">\n                  <div className=\"sm:shrink-0\">\n                    <div className=\"flow-root\">\n                      <img alt=\"\" src={incentive.imageSrc} className=\"mx-auto size-16\" />\n                    </div>\n                  </div>\n                  <div className=\"mt-3 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6\">\n                    <h3 className=\"text-sm font-medium text-gray-900\">{incentive.name}</h3>\n                    <p className=\"mt-2 text-sm text-gray-500\">{incentive.description}</p>\n                  </div>\n                </div>\n              ))}\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 556,
+          "smallWidth": 375,
+          "smallHeight": 984
+        },
+        {
+          "name": "2x2 grid with illustrations",
+          "uuid": "3899975a74f43a3fe103baffc0f1de86",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-50\">\n    <h2 class=\"sr-only\">Our perks</h2>\n    <div class=\"mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4\">\n      <div class=\"mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-12 px-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-16\">\n        <div class=\"sm:flex\">\n            <div class=\"sm:shrink-0\">\n              <div class=\"flow-root\">\n                <img class=\"h-24 w-28\" src=\"/plus-assets/img/ecommerce/icons/icon-delivery-light.svg\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"mt-3 sm:mt-0 sm:ml-3\">\n              <h3 class=\"text-sm font-medium text-gray-900\">Free delivery</h3>\n              <p class=\"mt-2 text-sm text-gray-500\">Order now and you&#039;ll get delivery absolutely free. Well, it&#039;s not actually free, we just price it into the products. Someone&#039;s paying for it, and it&#039;s not us.</p>\n            </div>\n          </div>\n        <div class=\"sm:flex\">\n            <div class=\"sm:shrink-0\">\n              <div class=\"flow-root\">\n                <img class=\"h-24 w-28\" src=\"/plus-assets/img/ecommerce/icons/icon-warranty-light.svg\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"mt-3 sm:mt-0 sm:ml-3\">\n              <h3 class=\"text-sm font-medium text-gray-900\">10-year warranty</h3>\n              <p class=\"mt-2 text-sm text-gray-500\">We have a 10 year warranty with every product that you purchase, whether thats a new pen or organizer, you can be sure we&#039;ll stand behind it.</p>\n            </div>\n          </div>\n        <div class=\"sm:flex\">\n            <div class=\"sm:shrink-0\">\n              <div class=\"flow-root\">\n                <img class=\"h-24 w-28\" src=\"/plus-assets/img/ecommerce/icons/icon-returns-light.svg\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"mt-3 sm:mt-0 sm:ml-3\">\n              <h3 class=\"text-sm font-medium text-gray-900\">Exchanges</h3>\n              <p class=\"mt-2 text-sm text-gray-500\">We understand that when your product arrives you might not particularly like it, or you ordered the wrong thing. Conditions apply here.</p>\n            </div>\n          </div>\n        <div class=\"sm:flex\">\n            <div class=\"sm:shrink-0\">\n              <div class=\"flow-root\">\n                <img class=\"h-24 w-28\" src=\"/plus-assets/img/ecommerce/icons/icon-planet-light.svg\" alt=\"\">\n              </div>\n            </div>\n            <div class=\"mt-3 sm:mt-0 sm:ml-3\">\n              <h3 class=\"text-sm font-medium text-gray-900\">For the planet</h3>\n              <p class=\"mt-2 text-sm text-gray-500\">Like you, we love the planet, and so we&#039;ve pledged 1% of all sales to the preservation and restoration of the natural environment.</p>\n            </div>\n          </div>\n        \n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const perks = [\n  {\n    name: 'Free delivery',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-delivery-light.svg',\n    description:\n      \"Order now and you'll get delivery absolutely free. Well, it's not actually free, we just price it into the products. Someone's paying for it, and it's not us.\",\n  },\n  {\n    name: '10-year warranty',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-warranty-light.svg',\n    description:\n      \"We have a 10 year warranty with every product that you purchase, whether thats a new pen or organizer, you can be sure we'll stand behind it.\",\n  },\n  {\n    name: 'Exchanges',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-returns-light.svg',\n    description:\n      'We understand that when your product arrives you might not particularly like it, or you ordered the wrong thing. Conditions apply here.',\n  },\n  {\n    name: 'For the planet',\n    imageSrc: '/plus-assets/img/ecommerce/icons/icon-planet-light.svg',\n    description:\n      \"Like you, we love the planet, and so we've pledged 1% of all sales to the preservation and restoration of the natural environment.\",\n  },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-gray-50\">\n      <h2 className=\"sr-only\">Our perks</h2>\n      <div className=\"mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4\">\n        <div className=\"mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-12 px-4 lg:max-w-none lg:grid-cols-2 lg:gap-y-16\">\n          {perks.map((perk) => (\n            <div key={perk.name} className=\"sm:flex\">\n              <div className=\"sm:shrink-0\">\n                <div className=\"flow-root\">\n                  <img alt=\"\" src={perk.imageSrc} className=\"h-24 w-28\" />\n                </div>\n              </div>\n              <div className=\"mt-3 sm:ml-3 sm:mt-0\">\n                <h3 className=\"text-sm font-medium text-gray-900\">{perk.name}</h3>\n                <p className=\"mt-2 text-sm text-gray-500\">{perk.description}</p>\n              </div>\n            </div>\n          ))}\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 512,
+          "smallWidth": 375,
+          "smallHeight": 1120
+        },
+        {
+          "name": "3-column with icons and supporting text",
+          "uuid": "724313acc0fc44912588500e01b3c900",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white py-12\">\n    \n  <div class=\"bg-white\">\n    <h2 class=\"sr-only\">Our perks</h2>\n    <div class=\"mx-auto max-w-7xl divide-y divide-gray-200 lg:flex lg:justify-center lg:divide-x lg:divide-y-0 lg:py-8\">\n      <div class=\"py-8 lg:w-1/3 lg:flex-none lg:py-0\">\n          <div class=\"mx-auto flex max-w-xs items-center px-4 lg:max-w-none lg:px-8\">\n            <svg class=\"size-8 shrink-0 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"></path>\n</svg>\n            <div class=\"ml-4 flex flex-auto flex-col-reverse\">\n              <h3 class=\"font-medium text-gray-900\">10-year all-inclusive warranty</h3>\n              <p class=\"text-sm text-gray-500\">We’ll replace it with a new one</p>\n            </div>\n          </div>\n        </div>\n      <div class=\"py-8 lg:w-1/3 lg:flex-none lg:py-0\">\n          <div class=\"mx-auto flex max-w-xs items-center px-4 lg:max-w-none lg:px-8\">\n            <svg class=\"size-8 shrink-0 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99\"></path>\n</svg>\n            <div class=\"ml-4 flex flex-auto flex-col-reverse\">\n              <h3 class=\"font-medium text-gray-900\">Free shipping on returns</h3>\n              <p class=\"text-sm text-gray-500\">Send it back for free</p>\n            </div>\n          </div>\n        </div>\n      <div class=\"py-8 lg:w-1/3 lg:flex-none lg:py-0\">\n          <div class=\"mx-auto flex max-w-xs items-center px-4 lg:max-w-none lg:px-8\">\n            <svg class=\"size-8 shrink-0 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12\"></path>\n</svg>\n            <div class=\"ml-4 flex flex-auto flex-col-reverse\">\n              <h3 class=\"font-medium text-gray-900\">Free, contactless delivery</h3>\n              <p class=\"text-sm text-gray-500\">The shipping is on us</p>\n            </div>\n          </div>\n        </div>\n      \n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { ArrowPathIcon, CalendarIcon, TruckIcon } from '@heroicons/react/24/outline'\n\nconst perks = [\n  { name: '10-year all-inclusive warranty', description: 'We’ll replace it with a new one', icon: CalendarIcon },\n  { name: 'Free shipping on returns', description: 'Send it back for free', icon: ArrowPathIcon },\n  { name: 'Free, contactless delivery', description: 'The shipping is on us', icon: TruckIcon },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <h2 className=\"sr-only\">Our perks</h2>\n      <div className=\"mx-auto max-w-7xl divide-y divide-gray-200 lg:flex lg:justify-center lg:divide-x lg:divide-y-0 lg:py-8\">\n        {perks.map((perk, perkIdx) => (\n          <div key={perkIdx} className=\"py-8 lg:w-1/3 lg:flex-none lg:py-0\">\n            <div className=\"mx-auto flex max-w-xs items-center px-4 lg:max-w-none lg:px-8\">\n              <perk.icon aria-hidden=\"true\" className=\"size-8 shrink-0 text-indigo-600\" />\n              <div className=\"ml-4 flex flex-auto flex-col-reverse\">\n                <h3 className=\"font-medium text-gray-900\">{perk.name}</h3>\n                <p className=\"text-sm text-gray-500\">{perk.description}</p>\n              </div>\n            </div>\n          </div>\n        ))}\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 204,
+          "smallWidth": 375,
+          "smallHeight": 422
+        },
+        {
+          "name": "3-column with icons",
+          "uuid": "aeb0ee53368825ebb0be85ae6524cd6c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white py-12\">\n    \n  <div class=\"bg-white\">\n    <h2 class=\"sr-only\">Why you should buy from us</h2>\n    <div class=\"flex overflow-x-auto\">\n      <div class=\"mx-auto flex space-x-12 px-4 py-3 whitespace-nowrap sm:px-6 lg:space-x-24 lg:px-8\">\n        <div class=\"flex items-center text-sm font-medium text-indigo-600\">\n            <svg class=\"mr-2 size-6 flex-none\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12\"></path>\n</svg>\n            <p>Free, contactless delivery</p>\n          </div>\n        <div class=\"flex items-center text-sm font-medium text-indigo-600\">\n            <svg class=\"mr-2 size-6 flex-none\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z\"></path>\n</svg>\n            <p>No questions asked returns</p>\n          </div>\n        <div class=\"flex items-center text-sm font-medium text-indigo-600\">\n            <svg class=\"mr-2 size-6 flex-none\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"></path>\n</svg>\n            <p>2-year warranty</p>\n          </div>\n        \n      </div>\n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { CalendarIcon, CheckBadgeIcon, TruckIcon } from '@heroicons/react/24/outline'\n\nconst incentives = [\n  { name: 'Free, contactless delivery', icon: TruckIcon },\n  { name: 'No questions asked returns', icon: CheckBadgeIcon },\n  { name: '2-year warranty', icon: CalendarIcon },\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <h2 className=\"sr-only\">Why you should buy from us</h2>\n      <div className=\"flex overflow-x-auto\">\n        <div className=\"mx-auto flex space-x-12 whitespace-nowrap px-4 py-3 sm:px-6 lg:space-x-24 lg:px-8\">\n          {incentives.map((incentive) => (\n            <div key={incentive.name} className=\"flex items-center text-sm font-medium text-indigo-600\">\n              <incentive.icon aria-hidden=\"true\" className=\"mr-2 size-6 flex-none\" />\n              <p>{incentive.name}</p>\n            </div>\n          ))}\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 144,
+          "smallWidth": 375,
+          "smallHeight": 144
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/ecommerce/components/incentives",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

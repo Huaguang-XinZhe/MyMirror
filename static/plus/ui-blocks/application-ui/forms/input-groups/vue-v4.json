@@ -1,0 +1,848 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Input Groups",
+      "description": "Input group examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS input group components to create things like search bars with buttons, credit card forms, and other form inputs with combined input and label elements. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+      "category": {
+        "name": "Forms",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-forms",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Input with label",
+          "uuid": "04a268fee12196d74c94e82a43106f8d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"you@example.com\">\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"you@example.com\" />\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with label and help text",
+          "uuid": "676267bfc6ff8a0e1e198a25207a41d4",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"you@example.com\" aria-describedby=\"email-description\">\n    </div>\n    <p class=\"mt-2 text-sm text-gray-500\" id=\"email-description\">We'll only use this for spam.</p>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"you@example.com\" aria-describedby=\"email-description\" />\n    </div>\n    <p class=\"mt-2 text-sm text-gray-500\" id=\"email-description\">We'll only use this for spam.</p>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 160,
+          "smallWidth": 375,
+          "smallHeight": 160
+        },
+        {
+          "name": "Input with validation error",
+          "uuid": "7a5297f99a5ed22df80939dd1986de5f",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2 grid grid-cols-1\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"col-start-1 row-start-1 block w-full rounded-md bg-white py-1.5 pr-10 pl-3 text-base text-red-900 outline-1 -outline-offset-1 outline-red-300 placeholder:text-red-300 focus:outline-2 focus:-outline-offset-2 focus:outline-red-600 sm:pr-9 sm:text-sm/6\" placeholder=\"you@example.com\" value=\"adamwathan\" aria-invalid=\"true\" aria-describedby=\"email-error\">\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-3 size-5 self-center justify-self-end text-red-500 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14ZM8 4a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <p class=\"mt-2 text-sm text-red-600\" id=\"email-error\">Not a valid email address.</p>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2 grid grid-cols-1\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"col-start-1 row-start-1 block w-full rounded-md bg-white py-1.5 pr-10 pl-3 text-base text-red-900 outline-1 -outline-offset-1 outline-red-300 placeholder:text-red-300 focus:outline-2 focus:-outline-offset-2 focus:outline-red-600 sm:pr-9 sm:text-sm/6\" placeholder=\"you@example.com\" value=\"adamwathan\" aria-invalid=\"true\" aria-describedby=\"email-error\" />\n      <ExclamationCircleIcon class=\"pointer-events-none col-start-1 row-start-1 mr-3 size-5 self-center justify-self-end text-red-500 sm:size-4\" aria-hidden=\"true\" />\n    </div>\n    <p class=\"mt-2 text-sm text-red-600\" id=\"email-error\">Not a valid email address.</p>\n  </div>\n</template>\n\n<script setup>\nimport { ExclamationCircleIcon } from '@heroicons/vue/16/solid'\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 160,
+          "smallWidth": 375,
+          "smallHeight": 160
+        },
+        {
+          "name": "Input with disabled state",
+          "uuid": "7cbbedb5c241c41093f698b30e1eff40",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2\">\n      <input type=\"email\" name=\"email\" id=\"email\" value=\"you@example.com\" disabled class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 disabled:cursor-not-allowed disabled:bg-gray-50 disabled:text-gray-500 disabled:outline-gray-200 sm:text-sm/6\" placeholder=\"you@example.com\">\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2\">\n      <input type=\"email\" name=\"email\" id=\"email\" value=\"you@example.com\" disabled=\"\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 disabled:cursor-not-allowed disabled:bg-gray-50 disabled:text-gray-500 disabled:outline-gray-200 sm:text-sm/6\" placeholder=\"you@example.com\" />\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with hidden label",
+          "uuid": "1e154eaf2b7dec0fb78a1e71e77780ab",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <input type=\"email\" name=\"email\" id=\"email\" aria-label=\"Email\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"you@example.com\">\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <input type=\"email\" name=\"email\" id=\"email\" aria-label=\"Email\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"you@example.com\" />\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 100,
+          "smallWidth": 375,
+          "smallHeight": 100
+        },
+        {
+          "name": "Input with corner hint",
+          "uuid": "cd2d41bc1bca37b76acacab5925d507c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <div class=\"flex justify-between\">\n      <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n      <span class=\"text-sm/6 text-gray-500\" id=\"email-optional\">Optional</span>\n    </div>\n    <div class=\"mt-2\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"you@example.com\" aria-describedby=\"email-optional\">\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <div class=\"flex justify-between\">\n      <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n      <span class=\"text-sm/6 text-gray-500\" id=\"email-optional\">Optional</span>\n    </div>\n    <div class=\"mt-2\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"you@example.com\" aria-describedby=\"email-optional\" />\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with leading icon",
+          "uuid": "d6ba419d2b33a8ab4fd662189bfd8a31",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2 grid grid-cols-1\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"col-start-1 row-start-1 block w-full rounded-md bg-white py-1.5 pr-3 pl-10 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:pl-9 sm:text-sm/6\" placeholder=\"you@example.com\">\n      <svg class=\"pointer-events-none col-start-1 row-start-1 ml-3 size-5 self-center text-gray-400 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z\"></path>\n  <path d=\"M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z\"></path>\n</svg>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"email\" class=\"block text-sm/6 font-medium text-gray-900\">Email</label>\n    <div class=\"mt-2 grid grid-cols-1\">\n      <input type=\"email\" name=\"email\" id=\"email\" class=\"col-start-1 row-start-1 block w-full rounded-md bg-white py-1.5 pr-3 pl-10 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:pl-9 sm:text-sm/6\" placeholder=\"you@example.com\" />\n      <EnvelopeIcon class=\"pointer-events-none col-start-1 row-start-1 ml-3 size-5 self-center text-gray-400 sm:size-4\" aria-hidden=\"true\" />\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { EnvelopeIcon } from '@heroicons/vue/16/solid'\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with trailing icon",
+          "uuid": "474bd025b849b44eb3c46df09a496b7a",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"account-number\" class=\"block text-sm/6 font-medium text-gray-900\">Account number</label>\n    <div class=\"mt-2 grid grid-cols-1\">\n      <input type=\"text\" name=\"account-number\" id=\"account-number\" class=\"col-start-1 row-start-1 block w-full rounded-md bg-white py-1.5 pr-10 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:pr-9 sm:text-sm/6\" placeholder=\"000-00-0000\">\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-3 size-5 self-center justify-self-end text-gray-400 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0Zm-6 3.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM7.293 5.293a1 1 0 1 1 .99 1.667c-.459.134-1.033.566-1.033 1.29v.25a.75.75 0 1 0 1.5 0v-.115a2.5 2.5 0 1 0-2.518-4.153.75.75 0 1 0 1.061 1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"account-number\" class=\"block text-sm/6 font-medium text-gray-900\">Account number</label>\n    <div class=\"mt-2 grid grid-cols-1\">\n      <input type=\"text\" name=\"account-number\" id=\"account-number\" class=\"col-start-1 row-start-1 block w-full rounded-md bg-white py-1.5 pr-10 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:pr-9 sm:text-sm/6\" placeholder=\"000-00-0000\" />\n      <QuestionMarkCircleIcon class=\"pointer-events-none col-start-1 row-start-1 mr-3 size-5 self-center justify-self-end text-gray-400 sm:size-4\" aria-hidden=\"true\" />\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { QuestionMarkCircleIcon } from '@heroicons/vue/16/solid'\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with add-on",
+          "uuid": "1ef4d534fa0cbcb38331bafa5c352ff8",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"company-website\" class=\"block text-sm/6 font-medium text-gray-900\">Company website</label>\n    <div class=\"mt-2 flex\">\n      <div class=\"flex shrink-0 items-center rounded-l-md bg-white px-3 text-base text-gray-500 outline-1 -outline-offset-1 outline-gray-300 sm:text-sm/6\">https://</div>\n      <input type=\"text\" name=\"company-website\" id=\"company-website\" class=\"-ml-px block w-full grow rounded-r-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"www.example.com\">\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"company-website\" class=\"block text-sm/6 font-medium text-gray-900\">Company website</label>\n    <div class=\"mt-2 flex\">\n      <div class=\"flex shrink-0 items-center rounded-l-md bg-white px-3 text-base text-gray-500 outline-1 -outline-offset-1 outline-gray-300 sm:text-sm/6\">https://</div>\n      <input type=\"text\" name=\"company-website\" id=\"company-website\" class=\"-ml-px block w-full grow rounded-r-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"www.example.com\" />\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with inline add-on",
+          "uuid": "3620fb44e0a49ebce229526254018508",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"company-website\" class=\"block text-sm/6 font-medium text-gray-900\">Company website</label>\n    <div class=\"mt-2\">\n      <div class=\"flex items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n        <div class=\"shrink-0 text-base text-gray-500 select-none sm:text-sm/6\">https://</div>\n        <input type=\"text\" name=\"company-website\" id=\"company-website\" class=\"block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"www.example.com\">\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"company-website\" class=\"block text-sm/6 font-medium text-gray-900\">Company website</label>\n    <div class=\"mt-2\">\n      <div class=\"flex items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n        <div class=\"shrink-0 text-base text-gray-500 select-none sm:text-sm/6\">https://</div>\n        <input type=\"text\" name=\"company-website\" id=\"company-website\" class=\"block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"www.example.com\" />\n      </div>\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with inline leading and trailing add-ons",
+          "uuid": "1a20b7fee66274173ad5ed756fabb335",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"price\" class=\"block text-sm/6 font-medium text-gray-900\">Price</label>\n    <div class=\"mt-2\">\n      <div class=\"flex items-center rounded-md bg-white px-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n        <div class=\"shrink-0 text-base text-gray-500 select-none sm:text-sm/6\">$</div>\n        <input type=\"text\" name=\"price\" id=\"price\" class=\"block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"0.00\" aria-describedby=\"price-currency\">\n        <div id=\"price-currency\" class=\"shrink-0 text-base text-gray-500 select-none sm:text-sm/6\">USD</div>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"price\" class=\"block text-sm/6 font-medium text-gray-900\">Price</label>\n    <div class=\"mt-2\">\n      <div class=\"flex items-center rounded-md bg-white px-3 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n        <div class=\"shrink-0 text-base text-gray-500 select-none sm:text-sm/6\">$</div>\n        <input type=\"text\" name=\"price\" id=\"price\" class=\"block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"0.00\" aria-describedby=\"price-currency\" />\n        <div id=\"price-currency\" class=\"shrink-0 text-base text-gray-500 select-none sm:text-sm/6\">USD</div>\n      </div>\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with inline leading dropdown",
+          "uuid": "6e671f3ae1aaf020c3dfe26d7aaf7b3d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"phone-number\" class=\"block text-sm/6 font-medium text-gray-900\">Phone number</label>\n    <div class=\"mt-2\">\n      <div class=\"flex rounded-md bg-white outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600\">\n        <div class=\"grid shrink-0 grid-cols-1 focus-within:relative\">\n          <select id=\"country\" name=\"country\" autocomplete=\"country\" aria-label=\"Country\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md py-1.5 pr-7 pl-3 text-base text-gray-500 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n            <option>US</option>\n            <option>CA</option>\n            <option>EU</option>\n          </select>\n          <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n        </div>\n        <input type=\"text\" name=\"phone-number\" id=\"phone-number\" class=\"block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"123-456-7890\">\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"phone-number\" class=\"block text-sm/6 font-medium text-gray-900\">Phone number</label>\n    <div class=\"mt-2\">\n      <div class=\"flex rounded-md bg-white outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600\">\n        <div class=\"grid shrink-0 grid-cols-1 focus-within:relative\">\n          <select id=\"country\" name=\"country\" autocomplete=\"country\" aria-label=\"Country\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md py-1.5 pr-7 pl-3 text-base text-gray-500 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n            <option>US</option>\n            <option>CA</option>\n            <option>EU</option>\n          </select>\n          <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4\" aria-hidden=\"true\" />\n        </div>\n        <input type=\"text\" name=\"phone-number\" id=\"phone-number\" class=\"block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"123-456-7890\" />\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with inline leading add-on and trailing dropdown",
+          "uuid": "2607d970262ada86428f063c72b1e7bd",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"price\" class=\"block text-sm/6 font-medium text-gray-900\">Price</label>\n    <div class=\"mt-2\">\n      <div class=\"flex items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600\">\n        <div class=\"shrink-0 text-base text-gray-500 select-none sm:text-sm/6\">$</div>\n        <input type=\"text\" name=\"price\" id=\"price\" class=\"block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"0.00\">\n        <div class=\"grid shrink-0 grid-cols-1 focus-within:relative\">\n          <select id=\"currency\" name=\"currency\" aria-label=\"Currency\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md py-1.5 pr-7 pl-3 text-base text-gray-500 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n            <option>USD</option>\n            <option>CAD</option>\n            <option>EUR</option>\n          </select>\n          <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n        </div>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"price\" class=\"block text-sm/6 font-medium text-gray-900\">Price</label>\n    <div class=\"mt-2\">\n      <div class=\"flex items-center rounded-md bg-white pl-3 outline-1 -outline-offset-1 outline-gray-300 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-600\">\n        <div class=\"shrink-0 text-base text-gray-500 select-none sm:text-sm/6\">$</div>\n        <input type=\"text\" name=\"price\" id=\"price\" class=\"block min-w-0 grow py-1.5 pr-3 pl-1 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"0.00\" />\n        <div class=\"grid shrink-0 grid-cols-1 focus-within:relative\">\n          <select id=\"currency\" name=\"currency\" aria-label=\"Currency\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md py-1.5 pr-7 pl-3 text-base text-gray-500 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n            <option>USD</option>\n            <option>CAD</option>\n            <option>EUR</option>\n          </select>\n          <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4\" aria-hidden=\"true\" />\n        </div>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with leading icon and trailing button",
+          "uuid": "a8d111fef35bfae4c800af505ea0d276",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-sm\">\n      \n  <div>\n    <label for=\"query\" class=\"block text-sm/6 font-medium text-gray-900\">Search candidates</label>\n    <div class=\"mt-2 flex\">\n      <div class=\"-mr-px grid grow grid-cols-1 focus-within:relative\">\n        <input type=\"text\" name=\"query\" id=\"query\" class=\"col-start-1 row-start-1 block w-full rounded-l-md bg-white py-1.5 pr-3 pl-10 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:pl-9 sm:text-sm/6\" placeholder=\"John Smith\">\n        <svg class=\"pointer-events-none col-start-1 row-start-1 ml-3 size-5 self-center text-gray-400 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M8.5 4.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM10.9 12.006c.11.542-.348.994-.9.994H2c-.553 0-1.01-.452-.902-.994a5.002 5.002 0 0 1 9.803 0ZM14.002 12h-1.59a2.556 2.556 0 0 0-.04-.29 6.476 6.476 0 0 0-1.167-2.603 3.002 3.002 0 0 1 3.633 1.911c.18.522-.283.982-.836.982ZM12 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z\"></path>\n</svg>\n      </div>\n      <button type=\"button\" class=\"flex shrink-0 items-center gap-x-1.5 rounded-r-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 outline-1 -outline-offset-1 outline-gray-300 hover:bg-gray-50 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <svg class=\"-ml-0.5 size-4 text-gray-400\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M2 2.75A.75.75 0 0 1 2.75 2h9.5a.75.75 0 0 1 0 1.5h-9.5A.75.75 0 0 1 2 2.75ZM2 6.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5A.75.75 0 0 1 2 6.25Zm0 3.5A.75.75 0 0 1 2.75 9h3.5a.75.75 0 0 1 0 1.5h-3.5A.75.75 0 0 1 2 9.75ZM9.22 9.53a.75.75 0 0 1 0-1.06l2.25-2.25a.75.75 0 0 1 1.06 0l2.25 2.25a.75.75 0 0 1-1.06 1.06l-.97-.97v5.69a.75.75 0 0 1-1.5 0V8.56l-.97.97a.75.75 0 0 1-1.06 0Z\" clip-rule=\"evenodd\"></path>\n</svg>\n        Sort\n      </button>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"query\" class=\"block text-sm/6 font-medium text-gray-900\">Search candidates</label>\n    <div class=\"mt-2 flex\">\n      <div class=\"-mr-px grid grow grid-cols-1 focus-within:relative\">\n        <input type=\"text\" name=\"query\" id=\"query\" class=\"col-start-1 row-start-1 block w-full rounded-l-md bg-white py-1.5 pr-3 pl-10 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:pl-9 sm:text-sm/6\" placeholder=\"John Smith\" />\n        <UsersIcon class=\"pointer-events-none col-start-1 row-start-1 ml-3 size-5 self-center text-gray-400 sm:size-4\" aria-hidden=\"true\" />\n      </div>\n      <button type=\"button\" class=\"flex shrink-0 items-center gap-x-1.5 rounded-r-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 outline-1 -outline-offset-1 outline-gray-300 hover:bg-gray-50 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <BarsArrowUpIcon class=\"-ml-0.5 size-4 text-gray-400\" aria-hidden=\"true\" />\n        Sort\n      </button>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { BarsArrowUpIcon, UsersIcon } from '@heroicons/vue/16/solid'\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Inputs with shared borders",
+          "uuid": "647f942cb06b0d760b381e93f3270b7d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <fieldset>\n      <legend class=\"block text-sm/6 font-medium text-gray-900\">Card details</legend>\n      <div class=\"mt-2 grid grid-cols-2\">\n        <div class=\"col-span-2\">\n          <input type=\"text\" id=\"card-number\" name=\"card-number\" aria-label=\"Card number\" class=\"block w-full rounded-t-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Card number\">\n        </div>\n        <div class=\"-mt-px -mr-px\">\n          <input type=\"text\" id=\"card-expiration-date\" name=\"card-expiration-date\" aria-label=\"Expiration date\" class=\"block w-full rounded-bl-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"MM / YY\">\n        </div>\n        <div class=\"-mt-px\">\n          <input type=\"text\" id=\"card-cvc\" name=\"card-cvc\" aria-label=\"CVC\" class=\"block w-full rounded-br-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"CVC\">\n        </div>\n      </div>\n    </fieldset>\n    <fieldset class=\"mt-6\">\n      <legend class=\"block text-sm/6 font-medium text-gray-900\">Billing address</legend>\n      <div class=\"mt-2\">\n        <div class=\"grid grid-cols-1 focus-within:relative\">\n          <select id=\"country\" name=\"country\" autocomplete=\"country-name\" aria-label=\"Country\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-t-md bg-white py-1.5 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n            <option>United States</option>\n            <option>Canada</option>\n            <option>Mexico</option>\n          </select>\n          <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n        </div>\n        <div class=\"-mt-px\">\n          <input type=\"text\" id=\"postal-code\" name=\"postal-code\" autocomplete=\"postal-code\" aria-label=\"ZIP / Postal code\" class=\"block w-full rounded-b-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"ZIP / Postal code\">\n        </div>\n      </div>\n    </fieldset>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <fieldset>\n      <legend class=\"block text-sm/6 font-medium text-gray-900\">Card details</legend>\n      <div class=\"mt-2 grid grid-cols-2\">\n        <div class=\"col-span-2\">\n          <input type=\"text\" id=\"card-number\" name=\"card-number\" aria-label=\"Card number\" class=\"block w-full rounded-t-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Card number\" />\n        </div>\n        <div class=\"-mt-px -mr-px\">\n          <input type=\"text\" id=\"card-expiration-date\" name=\"card-expiration-date\" aria-label=\"Expiration date\" class=\"block w-full rounded-bl-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"MM / YY\" />\n        </div>\n        <div class=\"-mt-px\">\n          <input type=\"text\" id=\"card-cvc\" name=\"card-cvc\" aria-label=\"CVC\" class=\"block w-full rounded-br-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"CVC\" />\n        </div>\n      </div>\n    </fieldset>\n    <fieldset class=\"mt-6\">\n      <legend class=\"block text-sm/6 font-medium text-gray-900\">Billing address</legend>\n      <div class=\"mt-2\">\n        <div class=\"grid grid-cols-1 focus-within:relative\">\n          <select id=\"country\" name=\"country\" autocomplete=\"country-name\" aria-label=\"Country\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-t-md bg-white py-1.5 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\">\n            <option>United States</option>\n            <option>Canada</option>\n            <option>Mexico</option>\n          </select>\n          <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-500 sm:size-4\" aria-hidden=\"true\" />\n        </div>\n        <div class=\"-mt-px\">\n          <input type=\"text\" id=\"postal-code\" name=\"postal-code\" autocomplete=\"postal-code\" aria-label=\"ZIP / Postal code\" class=\"block w-full rounded-b-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"ZIP / Postal code\" />\n        </div>\n      </div>\n    </fieldset>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 294,
+          "smallWidth": 375,
+          "smallHeight": 294
+        },
+        {
+          "name": "Input with inset label",
+          "uuid": "85e0087460af7ce9f5160485832f72b2",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div class=\"rounded-md bg-white px-3 pt-2.5 pb-1.5 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n    <label for=\"name\" class=\"block text-xs font-medium text-gray-900\">Name</label>\n    <input type=\"text\" name=\"name\" id=\"name\" class=\"block w-full text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Jane Smith\">\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"rounded-md bg-white px-3 pt-2.5 pb-1.5 outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n    <label for=\"name\" class=\"block text-xs font-medium text-gray-900\">Name</label>\n    <input type=\"text\" name=\"name\" id=\"name\" class=\"block w-full text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Jane Smith\" />\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 120,
+          "smallWidth": 375,
+          "smallHeight": 120
+        },
+        {
+          "name": "Inputs with inset labels and shared borders",
+          "uuid": "9d8a37880933ef4ce973cc81853cc959",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div class=\"-space-y-px\">\n    <div class=\"rounded-t-md bg-white px-3 pt-2.5 pb-1.5 outline-1 -outline-offset-1 outline-gray-300 focus-within:relative focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n      <label for=\"name\" class=\"block text-xs font-medium text-gray-900\">Name</label>\n      <input type=\"text\" name=\"name\" id=\"name\" class=\"block w-full text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Jane Smith\">\n    </div>\n    <div class=\"rounded-b-md bg-white px-3 pt-2.5 pb-1.5 outline-1 -outline-offset-1 outline-gray-300 focus-within:relative focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n      <label for=\"job-title\" class=\"block text-xs font-medium text-gray-900\">Job title</label>\n      <input type=\"text\" name=\"job-title\" id=\"job-title\" class=\"block w-full text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Head of Tomfoolery\">\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"-space-y-px\">\n    <div class=\"rounded-t-md bg-white px-3 pt-2.5 pb-1.5 outline-1 -outline-offset-1 outline-gray-300 focus-within:relative focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n      <label for=\"name\" class=\"block text-xs font-medium text-gray-900\">Name</label>\n      <input type=\"text\" name=\"name\" id=\"name\" class=\"block w-full text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Jane Smith\" />\n    </div>\n    <div class=\"rounded-b-md bg-white px-3 pt-2.5 pb-1.5 outline-1 -outline-offset-1 outline-gray-300 focus-within:relative focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n      <label for=\"job-title\" class=\"block text-xs font-medium text-gray-900\">Job title</label>\n      <input type=\"text\" name=\"job-title\" id=\"job-title\" class=\"block w-full text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" placeholder=\"Head of Tomfoolery\" />\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 175,
+          "smallWidth": 375,
+          "smallHeight": 175
+        },
+        {
+          "name": "Input with overlapping label",
+          "uuid": "bd664362c1ab2e20c6dc4c0ee14c4984",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div class=\"relative\">\n    <label for=\"name\" class=\"absolute -top-2 left-2 inline-block rounded-lg bg-white px-1 text-xs font-medium text-gray-900\">Name</label>\n    <input type=\"text\" name=\"name\" id=\"name\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Jane Smith\">\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"relative\">\n    <label for=\"name\" class=\"absolute -top-2 left-2 inline-block rounded-lg bg-white px-1 text-xs font-medium text-gray-900\">Name</label>\n    <input type=\"text\" name=\"name\" id=\"name\" class=\"block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Jane Smith\" />\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 100,
+          "smallWidth": 375,
+          "smallHeight": 100
+        },
+        {
+          "name": "Input with pill shape",
+          "uuid": "550d28e5af844fd761c80c6b6a8d7486",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"name\" class=\"ml-px block pl-4 text-sm/6 font-medium text-gray-900\">Name</label>\n    <div class=\"mt-2\">\n      <input type=\"text\" name=\"name\" id=\"name\" class=\"block w-full rounded-full bg-white px-4 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Jane Smith\">\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"name\" class=\"ml-px block pl-4 text-sm/6 font-medium text-gray-900\">Name</label>\n    <div class=\"mt-2\">\n      <input type=\"text\" name=\"name\" id=\"name\" class=\"block w-full rounded-full bg-white px-4 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Jane Smith\" />\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with gray background and bottom border",
+          "uuid": "9ea6fd1e083858f747f6bac9151550c1",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"name\" class=\"block text-sm/6 font-medium text-gray-900\">Name</label>\n    <div class=\"relative mt-2\">\n      <input type=\"text\" name=\"name\" id=\"name\" class=\"peer block w-full bg-gray-50 px-3 py-1.5 text-gray-900 placeholder:text-gray-500 focus:outline-none sm:text-sm/6\" placeholder=\"Jane Smith\">\n      <div class=\"absolute inset-x-0 bottom-0 border-t border-gray-300 peer-focus:border-t-2 peer-focus:border-indigo-600\" aria-hidden=\"true\"></div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"name\" class=\"block text-sm/6 font-medium text-gray-900\">Name</label>\n    <div class=\"relative mt-2\">\n      <input type=\"text\" name=\"name\" id=\"name\" class=\"peer block w-full bg-gray-50 px-3 py-1.5 text-gray-900 placeholder:text-gray-500 focus:outline-none sm:text-sm/6\" placeholder=\"Jane Smith\" />\n      <div class=\"absolute inset-x-0 bottom-0 border-t border-gray-300 peer-focus:border-t-2 peer-focus:border-indigo-600\" aria-hidden=\"true\" />\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        },
+        {
+          "name": "Input with keyboard shortcut",
+          "uuid": "3fc95e81175349142e7e2111d303296c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"mx-auto w-full max-w-xs\">\n      \n  <div>\n    <label for=\"search\" class=\"block text-sm/6 font-medium text-gray-900\">Quick search</label>\n    <div class=\"mt-2\">\n      <div class=\"flex rounded-md bg-white outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n        <input type=\"text\" name=\"search\" id=\"search\" class=\"block min-w-0 grow px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\">\n        <div class=\"flex py-1.5 pr-1.5\">\n          <kbd class=\"inline-flex items-center rounded-sm border border-gray-200 px-1 font-sans text-xs text-gray-400\">⌘K</kbd>\n        </div>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div>\n    <label for=\"search\" class=\"block text-sm/6 font-medium text-gray-900\">Quick search</label>\n    <div class=\"mt-2\">\n      <div class=\"flex rounded-md bg-white outline-1 -outline-offset-1 outline-gray-300 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-indigo-600\">\n        <input type=\"text\" name=\"search\" id=\"search\" class=\"block min-w-0 grow px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:outline-none sm:text-sm/6\" />\n        <div class=\"flex py-1.5 pr-1.5\">\n          <kbd class=\"inline-flex items-center rounded-sm border border-gray-200 px-1 font-sans text-xs text-gray-400\">⌘K</kbd>\n        </div>\n      </div>\n    </div>\n  </div>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 132,
+          "smallWidth": 375,
+          "smallHeight": 132
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

@@ -1,0 +1,568 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "List containers",
+      "description": "Responsive list container examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS list container components to display lists of users, tasks, or any other resource in your application. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+      "category": {
+        "name": "Layout",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-layout",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple with dividers",
+          "uuid": "1c3bb892112d30468d57dcc89c5298d1",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto max-w-md\">\n      \n  <ul role=\"list\" class=\"divide-y divide-gray-200\">\n    <li class=\"py-4\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-b4126363-2260-432a-9ef3-4e9b56aecbec\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-b4126363-2260-432a-9ef3-4e9b56aecbec)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    <li class=\"py-4\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-b4126363-2260-432a-9ef3-4e9b56aecbec\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-b4126363-2260-432a-9ef3-4e9b56aecbec)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    <li class=\"py-4\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-b4126363-2260-432a-9ef3-4e9b56aecbec\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-b4126363-2260-432a-9ef3-4e9b56aecbec)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    \n  </ul>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <ul role=\"list\" class=\"divide-y divide-gray-200\">\n    <li v-for=\"item in items\" :key=\"item.id\" class=\"py-4\">\n      <!-- Your content -->\n    </li>\n  </ul>\n</template>\n\n<script setup>\nconst items = [\n  { id: 1 },\n  // More items...\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 354,
+          "smallWidth": 375,
+          "smallHeight": 354
+        },
+        {
+          "name": "Card with dividers",
+          "uuid": "a1c9099f000c8917f7c633cbfc912084",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100 py-8\">\n    <div class=\"mx-auto max-w-xl px-4\">\n      \n  <div class=\"overflow-hidden rounded-md bg-white shadow-sm\">\n    <ul role=\"list\" class=\"divide-y divide-gray-200\">\n      <li class=\"px-6 py-4\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-91490595-fbd3-4496-beae-7777d695b0ad\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-91490595-fbd3-4496-beae-7777d695b0ad)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      <li class=\"px-6 py-4\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-91490595-fbd3-4496-beae-7777d695b0ad\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-91490595-fbd3-4496-beae-7777d695b0ad)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      <li class=\"px-6 py-4\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-91490595-fbd3-4496-beae-7777d695b0ad\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-91490595-fbd3-4496-beae-7777d695b0ad)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      \n    </ul>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"overflow-hidden rounded-md bg-white shadow-sm\">\n    <ul role=\"list\" class=\"divide-y divide-gray-200\">\n      <li v-for=\"item in items\" :key=\"item.id\" class=\"px-6 py-4\">\n        <!-- Your content -->\n      </li>\n    </ul>\n  </div>\n</template>\n\n<script setup>\nconst items = [\n  { id: 1 },\n  // More items...\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 354,
+          "smallWidth": 375,
+          "smallHeight": 354
+        },
+        {
+          "name": "Card with dividers, full-width on mobile",
+          "uuid": "338d89d9dfdf34b0f72bf271951ce687",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100 py-8\">\n    <div class=\"mx-auto max-w-2xl sm:px-6\">\n      \n  <div class=\"overflow-hidden bg-white shadow-sm sm:rounded-md\">\n    <ul role=\"list\" class=\"divide-y divide-gray-200\">\n      <li class=\"px-4 py-4 sm:px-6\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-e3123247-9c6d-4692-b66f-f24621fac002\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-e3123247-9c6d-4692-b66f-f24621fac002)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      <li class=\"px-4 py-4 sm:px-6\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-e3123247-9c6d-4692-b66f-f24621fac002\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-e3123247-9c6d-4692-b66f-f24621fac002)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      <li class=\"px-4 py-4 sm:px-6\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-e3123247-9c6d-4692-b66f-f24621fac002\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-e3123247-9c6d-4692-b66f-f24621fac002)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      \n    </ul>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"overflow-hidden bg-white shadow-sm sm:rounded-md\">\n    <ul role=\"list\" class=\"divide-y divide-gray-200\">\n      <li v-for=\"item in items\" :key=\"item.id\" class=\"px-4 py-4 sm:px-6\">\n        <!-- Your content -->\n      </li>\n    </ul>\n  </div>\n</template>\n\n<script setup>\nconst items = [\n  { id: 1 },\n  // More items...\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 354,
+          "smallWidth": 375,
+          "smallHeight": 354
+        },
+        {
+          "name": "Separate cards",
+          "uuid": "a0f475f9acf9194cd19255e19acde240",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100 py-8\">\n    <div class=\"mx-auto max-w-xl px-4\">\n      \n  <ul role=\"list\" class=\"space-y-3\">\n    <li class=\"overflow-hidden rounded-md bg-white px-6 py-4 shadow-sm\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-8ab2765b-2a83-4b15-87ef-1b7e966ad202\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-8ab2765b-2a83-4b15-87ef-1b7e966ad202)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    <li class=\"overflow-hidden rounded-md bg-white px-6 py-4 shadow-sm\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-8ab2765b-2a83-4b15-87ef-1b7e966ad202\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-8ab2765b-2a83-4b15-87ef-1b7e966ad202)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    <li class=\"overflow-hidden rounded-md bg-white px-6 py-4 shadow-sm\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-8ab2765b-2a83-4b15-87ef-1b7e966ad202\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-8ab2765b-2a83-4b15-87ef-1b7e966ad202)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    \n  </ul>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <ul role=\"list\" class=\"space-y-3\">\n    <li v-for=\"item in items\" :key=\"item.id\" class=\"overflow-hidden rounded-md bg-white px-6 py-4 shadow-sm\">\n      <!-- Your content -->\n    </li>\n  </ul>\n</template>\n\n<script setup>\nconst items = [\n  { id: 1 },\n  // More items...\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 376,
+          "smallWidth": 375,
+          "smallHeight": 376
+        },
+        {
+          "name": "Separate cards, full-width on mobile",
+          "uuid": "22e9be21c06d9870c40b338e4e43a2a1",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100 py-8\">\n    <div class=\"mx-auto max-w-2xl sm:px-6\">\n      \n  <ul role=\"list\" class=\"space-y-3\">\n    <li class=\"overflow-hidden bg-white px-4 py-4 shadow-sm sm:rounded-md sm:px-6\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-68d31db3-811c-4e14-a36d-77b54bde9805\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-68d31db3-811c-4e14-a36d-77b54bde9805)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    <li class=\"overflow-hidden bg-white px-4 py-4 shadow-sm sm:rounded-md sm:px-6\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-68d31db3-811c-4e14-a36d-77b54bde9805\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-68d31db3-811c-4e14-a36d-77b54bde9805)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    <li class=\"overflow-hidden bg-white px-4 py-4 shadow-sm sm:rounded-md sm:px-6\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-68d31db3-811c-4e14-a36d-77b54bde9805\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-68d31db3-811c-4e14-a36d-77b54bde9805)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    \n  </ul>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <ul role=\"list\" class=\"space-y-3\">\n    <li v-for=\"item in items\" :key=\"item.id\" class=\"overflow-hidden bg-white px-4 py-4 shadow-sm sm:rounded-md sm:px-6\">\n      <!-- Your content -->\n    </li>\n  </ul>\n</template>\n\n<script setup>\nconst items = [\n  { id: 1 },\n  // More items...\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 376,
+          "smallWidth": 375,
+          "smallHeight": 376
+        },
+        {
+          "name": "Flat card with dividers",
+          "uuid": "7e616a9c8fa0ef72ed1b86d8d0a856f6",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white py-8\">\n    <div class=\"mx-auto max-w-xl px-4\">\n      \n  <div class=\"overflow-hidden rounded-md border border-gray-300 bg-white\">\n    <ul role=\"list\" class=\"divide-y divide-gray-300\">\n      <li class=\"px-6 py-4\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-a0ae6a4d-2600-41a4-a13a-f7510b003ca2\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-a0ae6a4d-2600-41a4-a13a-f7510b003ca2)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      <li class=\"px-6 py-4\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-a0ae6a4d-2600-41a4-a13a-f7510b003ca2\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-a0ae6a4d-2600-41a4-a13a-f7510b003ca2)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      <li class=\"px-6 py-4\">\n          <x-placeholder>\n            <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n              <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n                <defs>\n                  <pattern id=\"pattern-a0ae6a4d-2600-41a4-a13a-f7510b003ca2\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                    <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                  </pattern>\n                </defs>\n                <rect stroke=\"none\" fill=\"url(#pattern-a0ae6a4d-2600-41a4-a13a-f7510b003ca2)\" width=\"100%\" height=\"100%\"></rect>\n              </svg>\n            </div>\n          </x-placeholder>\n        </li>\n      \n    </ul>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <div class=\"overflow-hidden rounded-md border border-gray-300 bg-white\">\n    <ul role=\"list\" class=\"divide-y divide-gray-300\">\n      <li v-for=\"item in items\" :key=\"item.id\" class=\"px-6 py-4\">\n        <!-- Your content -->\n      </li>\n    </ul>\n  </div>\n</template>\n\n<script setup>\nconst items = [\n  { id: 1 },\n  // More items...\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 356,
+          "smallWidth": 375,
+          "smallHeight": 356
+        },
+        {
+          "name": "Simple with dividers, full-width on mobile",
+          "uuid": "e928e0ef48e654b288069499e7359e23",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white py-8\">\n    <div class=\"mx-auto max-w-2xl sm:px-6\">\n      \n  <ul role=\"list\" class=\"divide-y divide-gray-200\">\n    <li class=\"px-4 py-4 sm:px-0\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-ebd07332-ad37-4849-94b4-88845bf7d1cd\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-ebd07332-ad37-4849-94b4-88845bf7d1cd)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    <li class=\"px-4 py-4 sm:px-0\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-ebd07332-ad37-4849-94b4-88845bf7d1cd\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-ebd07332-ad37-4849-94b4-88845bf7d1cd)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    <li class=\"px-4 py-4 sm:px-0\">\n        <x-placeholder>\n          <div class=\"relative h-16 overflow-hidden rounded-sm border border-dashed border-gray-400 opacity-75\">\n            <svg class=\"absolute inset-0 size-full stroke-gray-900/10\" fill=\"none\">\n              <defs>\n                <pattern id=\"pattern-ebd07332-ad37-4849-94b4-88845bf7d1cd\" x=\"0\" y=\"0\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\">\n                  <path d=\"M-3 13 15-5M-5 5l18-18M-1 21 17 3\"></path>\n                </pattern>\n              </defs>\n              <rect stroke=\"none\" fill=\"url(#pattern-ebd07332-ad37-4849-94b4-88845bf7d1cd)\" width=\"100%\" height=\"100%\"></rect>\n            </svg>\n          </div>\n        </x-placeholder>\n      </li>\n    \n  </ul>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 4,
+            "code": "<template>\n  <ul role=\"list\" class=\"divide-y divide-gray-200\">\n    <li v-for=\"item in items\" :key=\"item.id\" class=\"px-4 py-4 sm:px-0\">\n      <!-- Your content -->\n    </li>\n  </ul>\n</template>\n\n<script setup>\nconst items = [\n  { id: 1 },\n  // More items...\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 354,
+          "smallWidth": 375,
+          "smallHeight": 354
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

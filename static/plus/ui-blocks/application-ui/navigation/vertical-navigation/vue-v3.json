@@ -1,0 +1,548 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Vertical Navigation",
+      "description": "Vertical navigation list examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS vertical navigation components to create menus that fit perfectly into your application's sidebar, featuring section headings, badges, and icon links. These navigation components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+      "category": {
+        "name": "Navigation",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-navigation",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple",
+          "uuid": "d1e3b922b56cc8aa9454dc33217dda54",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto w-64\">\n      \n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"-mx-2 space-y-1\">\n      <li>\n          <a href=\"#\" class=\"bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-50 text-indigo-600&quot;, Default: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">Dashboard</a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">Team</a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">Projects</a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">Calendar</a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">Documents</a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">Reports</a>\n        </li>\n      \n    </ul>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"-mx-2 space-y-1\">\n      <li v-for=\"item in navigation\" :key=\"item.name\">\n        <a :href=\"item.href\" :class=\"[item.current ? 'bg-gray-50 text-indigo-600' : 'text-gray-700 hover:bg-gray-50 hover:text-indigo-600', 'group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold']\">{{ item.name }}</a>\n      </li>\n    </ul>\n  </nav>\n</template>\n\n<script setup>\nconst navigation = [\n  { name: 'Dashboard', href: '#', current: true },\n  { name: 'Team', href: '#', current: false },\n  { name: 'Projects', href: '#', current: false },\n  { name: 'Calendar', href: '#', current: false },\n  { name: 'Documents', href: '#', current: false },\n  { name: 'Reports', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 324,
+          "smallWidth": 375,
+          "smallHeight": 324
+        },
+        {
+          "name": "With badges",
+          "uuid": "2f1545962f702a1dd6c9b697238fcae3",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto w-64\">\n      \n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"-mx-2 space-y-1\">\n      <li>\n          <a href=\"#\" class=\"bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-50 text-indigo-600&quot;, Default: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            Dashboard\n            <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">5</span>\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            Team\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            Projects\n            <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">12</span>\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            Calendar\n            <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">20+</span>\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            Documents\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            Reports\n            </a>\n        </li>\n      \n    </ul>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"-mx-2 space-y-1\">\n      <li v-for=\"item in navigation\" :key=\"item.name\">\n        <a :href=\"item.href\" :class=\"[item.current ? 'bg-gray-50 text-indigo-600' : 'text-gray-700 hover:bg-gray-50 hover:text-indigo-600', 'group flex gap-x-3 rounded-md p-2 pl-3 text-sm/6 font-semibold']\">\n          {{ item.name }}\n          <span v-if=\"item.count\" class=\"ml-auto w-9 min-w-max whitespace-nowrap rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium text-gray-600 ring-1 ring-inset ring-gray-200\" aria-hidden=\"true\">{{ item.count }}</span>\n        </a>\n      </li>\n    </ul>\n  </nav>\n</template>\n\n<script setup>\nconst navigation = [\n  { name: 'Dashboard', href: '#', count: '5', current: true },\n  { name: 'Team', href: '#', current: false },\n  { name: 'Projects', href: '#', count: '12', current: false },\n  { name: 'Calendar', href: '#', count: '20+', current: false },\n  { name: 'Documents', href: '#', current: false },\n  { name: 'Reports', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 324,
+          "smallWidth": 375,
+          "smallHeight": 324
+        },
+        {
+          "name": "With icons and badges",
+          "uuid": "f9136c8bf0f235dddb7b984590146594",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto w-64\">\n      \n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"-mx-2 space-y-1\">\n      <li>\n          <a href=\"#\" class=\"bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-50 text-indigo-600&quot;, Default: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25\"></path>\n</svg>\n            Dashboard\n            <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">5</span>\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z\"></path>\n</svg>\n            Team\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z\"></path>\n</svg>\n            Projects\n            <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">12</span>\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"></path>\n</svg>\n            Calendar\n            <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">20+</span>\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75\"></path>\n</svg>\n            Documents\n            </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z\"></path>\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z\"></path>\n</svg>\n            Reports\n            </a>\n        </li>\n      \n    </ul>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"-mx-2 space-y-1\">\n      <li v-for=\"item in navigation\" :key=\"item.name\">\n        <a :href=\"item.href\" :class=\"[item.current ? 'bg-gray-50 text-indigo-600' : 'text-gray-700 hover:bg-gray-50 hover:text-indigo-600', 'group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold']\">\n          <component :is=\"item.icon\" :class=\"[item.current ? 'text-indigo-600' : 'text-gray-400 group-hover:text-indigo-600', 'size-6 shrink-0']\" aria-hidden=\"true\" />\n          {{ item.name }}\n          <span v-if=\"item.count\" class=\"ml-auto w-9 min-w-max whitespace-nowrap rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium text-gray-600 ring-1 ring-inset ring-gray-200\" aria-hidden=\"true\">{{ item.count }}</span>\n        </a>\n      </li>\n    </ul>\n  </nav>\n</template>\n\n<script setup>\nimport {\n  CalendarIcon,\n  ChartPieIcon,\n  DocumentDuplicateIcon,\n  FolderIcon,\n  HomeIcon,\n  UsersIcon,\n} from '@heroicons/vue/24/outline'\n\nconst navigation = [\n  { name: 'Dashboard', href: '#', icon: HomeIcon, count: '5', current: true },\n  { name: 'Team', href: '#', icon: UsersIcon, current: false },\n  { name: 'Projects', href: '#', icon: FolderIcon, count: '12', current: false },\n  { name: 'Calendar', href: '#', icon: CalendarIcon, count: '20+', current: false },\n  { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },\n  { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 324,
+          "smallWidth": 375,
+          "smallHeight": 324
+        },
+        {
+          "name": "With icons",
+          "uuid": "d6311f175e19add0c4342eb7602ec96c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto w-64\">\n      \n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"-mx-2 space-y-1\">\n      <li>\n          <a href=\"#\" class=\"bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-50 text-indigo-600&quot;, Default: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25\"></path>\n</svg>\n            Dashboard\n          </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z\"></path>\n</svg>\n            Team\n          </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z\"></path>\n</svg>\n            Projects\n          </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"></path>\n</svg>\n            Calendar\n          </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75\"></path>\n</svg>\n            Documents\n          </a>\n        </li>\n      <li>\n          <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n            <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z\"></path>\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z\"></path>\n</svg>\n            Reports\n          </a>\n        </li>\n      \n    </ul>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"-mx-2 space-y-1\">\n      <li v-for=\"item in navigation\" :key=\"item.name\">\n        <a :href=\"item.href\" :class=\"[item.current ? 'bg-gray-50 text-indigo-600' : 'text-gray-700 hover:bg-gray-50 hover:text-indigo-600', 'group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold']\">\n          <component :is=\"item.icon\" :class=\"[item.current ? 'text-indigo-600' : 'text-gray-400 group-hover:text-indigo-600', 'size-6 shrink-0']\" aria-hidden=\"true\" />\n          {{ item.name }}\n        </a>\n      </li>\n    </ul>\n  </nav>\n</template>\n\n<script setup>\nimport {\n  CalendarIcon,\n  ChartPieIcon,\n  DocumentDuplicateIcon,\n  FolderIcon,\n  HomeIcon,\n  UsersIcon,\n} from '@heroicons/vue/24/outline'\n\nconst navigation = [\n  { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },\n  { name: 'Team', href: '#', icon: UsersIcon, current: false },\n  { name: 'Projects', href: '#', icon: FolderIcon, current: false },\n  { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },\n  { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },\n  { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 324,
+          "smallWidth": 375,
+          "smallHeight": 324
+        },
+        {
+          "name": "With secondary navigation",
+          "uuid": "c62ff54939dc62098de8d38ebd671ec3",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto w-64\">\n      \n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"flex flex-1 flex-col gap-y-7\">\n      <li>\n        <ul role=\"list\" class=\"-mx-2 space-y-1\">\n          <li>\n              <a href=\"#\" class=\"bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-50 text-indigo-600&quot;, Default: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <svg class=\"size-6 shrink-0 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25\"></path>\n</svg>\n                Dashboard\n                <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">5</span>\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z\"></path>\n</svg>\n                Team\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z\"></path>\n</svg>\n                Projects\n                <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">12</span>\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"></path>\n</svg>\n                Calendar\n                <span class=\"ml-auto w-9 min-w-max rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">20+</span>\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75\"></path>\n</svg>\n                Documents\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z\"></path>\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z\"></path>\n</svg>\n                Reports\n                </a>\n            </li>\n          \n        </ul>\n      </li>\n      <li>\n        <div class=\"text-xs/6 font-semibold text-gray-400\">Projects</div>\n        <ul role=\"list\" class=\"-mx-2 mt-2 space-y-1\">\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-50 text-indigo-600&quot;, Default: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <span class=\"flex size-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600\">W</span>\n                <span class=\"truncate\">Website redesign</span>\n              </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <span class=\"flex size-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600\">G</span>\n                <span class=\"truncate\">GraphQL API</span>\n              </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <span class=\"flex size-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600\">C</span>\n                <span class=\"truncate\">Customer migration guides</span>\n              </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-50&quot;\">\n                <span class=\"flex size-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600\">P</span>\n                <span class=\"truncate\">Profit sharing program</span>\n              </a>\n            </li>\n          \n        </ul>\n      </li>\n    </ul>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"flex flex-1 flex-col gap-y-7\">\n      <li>\n        <ul role=\"list\" class=\"-mx-2 space-y-1\">\n          <li v-for=\"item in navigation\" :key=\"item.name\">\n            <a :href=\"item.href\" :class=\"[item.current ? 'bg-gray-50 text-indigo-600' : 'text-gray-700 hover:bg-gray-50 hover:text-indigo-600', 'group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold']\">\n              <component :is=\"item.icon\" :class=\"[item.current ? 'text-indigo-600' : 'text-gray-400 group-hover:text-indigo-600', 'size-6 shrink-0']\" aria-hidden=\"true\" />\n              {{ item.name }}\n              <span v-if=\"item.count\" class=\"ml-auto w-9 min-w-max whitespace-nowrap rounded-full bg-white px-2.5 py-0.5 text-center text-xs/5 font-medium text-gray-600 ring-1 ring-inset ring-gray-200\" aria-hidden=\"true\">{{ item.count }}</span>\n            </a>\n          </li>\n        </ul>\n      </li>\n      <li>\n        <div class=\"text-xs/6 font-semibold text-gray-400\">Projects</div>\n        <ul role=\"list\" class=\"-mx-2 mt-2 space-y-1\">\n          <li v-for=\"item in secondaryNavigation\" :key=\"item.name\">\n            <a :href=\"item.href\" :class=\"[item.current ? 'bg-gray-50 text-indigo-600' : 'text-gray-700 hover:bg-gray-50 hover:text-indigo-600', 'group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold']\">\n              <span :class=\"[item.current ? 'border-indigo-600 text-indigo-600' : 'border-gray-200 text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600', 'flex size-6 shrink-0 items-center justify-center rounded-lg border bg-white text-[0.625rem] font-medium']\">{{ item.initial }}</span>\n              <span class=\"truncate\">{{ item.name }}</span>\n            </a>\n          </li>\n        </ul>\n      </li>\n    </ul>\n  </nav>\n</template>\n\n<script setup>\nimport {\n  CalendarIcon,\n  ChartPieIcon,\n  DocumentDuplicateIcon,\n  FolderIcon,\n  HomeIcon,\n  UsersIcon,\n} from '@heroicons/vue/24/outline'\n\nconst navigation = [\n  { name: 'Dashboard', href: '#', icon: HomeIcon, count: '5', current: true },\n  { name: 'Team', href: '#', icon: UsersIcon, current: false },\n  { name: 'Projects', href: '#', icon: FolderIcon, count: '12', current: false },\n  { name: 'Calendar', href: '#', icon: CalendarIcon, count: '20+', current: false },\n  { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },\n  { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },\n]\nconst secondaryNavigation = [\n  { name: 'Website redesign', href: '#', initial: 'W', current: false },\n  { name: 'GraphQL API', href: '#', initial: 'G', current: false },\n  { name: 'Customer migration guides', href: '#', initial: 'C', current: false },\n  { name: 'Profit sharing program', href: '#', initial: 'P', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 556,
+          "smallWidth": 375,
+          "smallHeight": 556
+        },
+        {
+          "name": "On gray",
+          "uuid": "2c89cc9bc554b56dba081876a969255c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-50 p-8\">\n    <div class=\"mx-auto w-64\">\n      \n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"flex flex-1 flex-col gap-y-7\">\n      <li>\n        <ul role=\"list\" class=\"-mx-2 space-y-1\">\n          <li>\n              <a href=\"#\" class=\"bg-gray-100 text-indigo-600 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-100 text-indigo-600&quot;, Default: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <svg class=\"size-6 shrink-0 text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25\"></path>\n</svg>\n                Dashboard\n                <span class=\"ml-auto w-9 min-w-max rounded-full bg-gray-50 px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">5</span>\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-100 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z\"></path>\n</svg>\n                Team\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-100 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z\"></path>\n</svg>\n                Projects\n                <span class=\"ml-auto w-9 min-w-max rounded-full bg-gray-50 px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">12</span>\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-100 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"></path>\n</svg>\n                Calendar\n                <span class=\"ml-auto w-9 min-w-max rounded-full bg-gray-50 px-2.5 py-0.5 text-center text-xs/5 font-medium whitespace-nowrap text-gray-600 ring-1 ring-gray-200 ring-inset\" aria-hidden=\"true\">20+</span>\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-100 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75\"></path>\n</svg>\n                Documents\n                </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-100 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <svg class=\"size-6 shrink-0 text-gray-400 group-hover:text-indigo-600\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z\"></path>\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z\"></path>\n</svg>\n                Reports\n                </a>\n            </li>\n          \n        </ul>\n      </li>\n      <li>\n        <div class=\"text-xs/6 font-semibold text-gray-400\">Projects</div>\n        <ul role=\"list\" class=\"-mx-2 mt-2 space-y-1\">\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-50 text-indigo-600&quot;, Default: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <span class=\"flex size-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600\">W</span>\n                <span class=\"truncate\">Website redesign</span>\n              </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <span class=\"flex size-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600\">G</span>\n                <span class=\"truncate\">GraphQL API</span>\n              </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <span class=\"flex size-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600\">C</span>\n                <span class=\"truncate\">Customer migration guides</span>\n              </a>\n            </li>\n          <li>\n              <a href=\"#\" class=\"text-gray-700 hover:text-indigo-600 hover:bg-gray-100 group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold\" x-state-description=\"undefined: &quot;bg-gray-50 text-indigo-600&quot;, undefined: &quot;text-gray-700 hover:text-indigo-600 hover:bg-gray-100&quot;\">\n                <span class=\"flex size-6 shrink-0 items-center justify-center rounded-lg border text-[0.625rem] font-medium bg-white text-gray-400 border-gray-200 group-hover:border-indigo-600 group-hover:text-indigo-600\">P</span>\n                <span class=\"truncate\">Profit sharing program</span>\n              </a>\n            </li>\n          \n        </ul>\n      </li>\n    </ul>\n  </nav>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <nav class=\"flex flex-1 flex-col\" aria-label=\"Sidebar\">\n    <ul role=\"list\" class=\"flex flex-1 flex-col gap-y-7\">\n      <li>\n        <ul role=\"list\" class=\"-mx-2 space-y-1\">\n          <li v-for=\"item in navigation\" :key=\"item.name\">\n            <a :href=\"item.href\" :class=\"[item.current ? 'bg-gray-100 text-indigo-600' : 'text-gray-700 hover:bg-gray-100 hover:text-indigo-600', 'group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold']\">\n              <component :is=\"item.icon\" :class=\"[item.current ? 'text-indigo-600' : 'text-gray-400 group-hover:text-indigo-600', 'size-6 shrink-0']\" aria-hidden=\"true\" />\n              {{ item.name }}\n              <span v-if=\"item.count\" class=\"ml-auto w-9 min-w-max whitespace-nowrap rounded-full bg-gray-50 px-2.5 py-0.5 text-center text-xs/5 font-medium text-gray-600 ring-1 ring-inset ring-gray-200\" aria-hidden=\"true\">{{ item.count }}</span>\n            </a>\n          </li>\n        </ul>\n      </li>\n      <li>\n        <div class=\"text-xs/6 font-semibold text-gray-400\">Projects</div>\n        <ul role=\"list\" class=\"-mx-2 mt-2 space-y-1\">\n          <li v-for=\"item in secondaryNavigation\" :key=\"item.name\">\n            <a :href=\"item.href\" :class=\"[item.current ? 'bg-gray-50 text-indigo-600' : 'text-gray-700 hover:bg-gray-100 hover:text-indigo-600', 'group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold']\">\n              <span :class=\"[item.current ? 'border-indigo-600 text-indigo-600' : 'border-gray-200 text-gray-400 group-hover:border-indigo-600 group-hover:text-indigo-600', 'flex size-6 shrink-0 items-center justify-center rounded-lg border bg-white text-[0.625rem] font-medium']\">{{ item.initial }}</span>\n              <span class=\"truncate\">{{ item.name }}</span>\n            </a>\n          </li>\n        </ul>\n      </li>\n    </ul>\n  </nav>\n</template>\n\n<script setup>\nimport {\n  CalendarIcon,\n  ChartPieIcon,\n  DocumentDuplicateIcon,\n  FolderIcon,\n  HomeIcon,\n  UsersIcon,\n} from '@heroicons/vue/24/outline'\n\nconst navigation = [\n  { name: 'Dashboard', href: '#', icon: HomeIcon, count: '5', current: true },\n  { name: 'Team', href: '#', icon: UsersIcon, current: false },\n  { name: 'Projects', href: '#', icon: FolderIcon, count: '12', current: false },\n  { name: 'Calendar', href: '#', icon: CalendarIcon, count: '20+', current: false },\n  { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },\n  { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },\n]\nconst secondaryNavigation = [\n  { name: 'Website redesign', href: '#', initial: 'W', current: false },\n  { name: 'GraphQL API', href: '#', initial: 'G', current: false },\n  { name: 'Customer migration guides', href: '#', initial: 'C', current: false },\n  { name: 'Profit sharing program', href: '#', initial: 'P', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 556,
+          "smallWidth": 375,
+          "smallHeight": 556
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

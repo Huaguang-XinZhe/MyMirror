@@ -1,0 +1,588 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Media Objects",
+      "description": "Media object examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS media object components to align images or icons with text, for things like user comments, blog posts, and author bios. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+      "category": {
+        "name": "Layout",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-layout",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Basic",
+          "uuid": "eda7e599a3c8507780c878cdeb9d409a",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto max-w-md\">\n      \n  <div class=\"flex\">\n    <div class=\"mr-4 shrink-0\">\n      <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n        <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n      </svg>\n    </div>\n    <div>\n      <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n      <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"flex\">\n  <div class=\"mr-4 shrink-0\">\n    <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n    </svg>\n  </div>\n  <div>\n    <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n    <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 168,
+          "smallWidth": 375,
+          "smallHeight": 216
+        },
+        {
+          "name": "Aligned to center",
+          "uuid": "ef9df725bf54aa2d268260c36ef2bbb5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto max-w-md\">\n      \n  <div class=\"flex\">\n    <div class=\"mr-4 shrink-0 self-center\">\n      <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n        <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n      </svg>\n    </div>\n    <div>\n      <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n      <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"flex\">\n  <div class=\"mr-4 shrink-0 self-center\">\n    <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n    </svg>\n  </div>\n  <div>\n    <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n    <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 168,
+          "smallWidth": 375,
+          "smallHeight": 216
+        },
+        {
+          "name": "Aligned to bottom",
+          "uuid": "8f103bc65ca8eae900111c14168fcdbc",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto max-w-md\">\n      \n  <div class=\"flex\">\n    <div class=\"mr-4 shrink-0 self-end\">\n      <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n        <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n      </svg>\n    </div>\n    <div>\n      <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n      <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"flex\">\n  <div class=\"mr-4 shrink-0 self-end\">\n    <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n    </svg>\n  </div>\n  <div>\n    <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n    <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 168,
+          "smallWidth": 375,
+          "smallHeight": 216
+        },
+        {
+          "name": "Stretched to fit",
+          "uuid": "452126c6f087d341b296dcc8d0fb86a5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto max-w-md\">\n      \n  <div class=\"flex\">\n    <div class=\"mr-4 shrink-0\">\n      <svg class=\"h-full w-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n        <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n      </svg>\n    </div>\n    <div>\n      <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n      <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"flex\">\n  <div class=\"mr-4 shrink-0\">\n    <svg class=\"h-full w-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n    </svg>\n  </div>\n  <div>\n    <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n    <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 168,
+          "smallWidth": 375,
+          "smallHeight": 216
+        },
+        {
+          "name": "Media on right",
+          "uuid": "de6f24032eec6a97d91a05a42000ada6",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto max-w-md\">\n      \n  <div class=\"flex\">\n    <div>\n      <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n      <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n    </div>\n    <div class=\"ml-4 shrink-0\">\n      <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n        <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n      </svg>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"flex\">\n  <div>\n    <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n    <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n  </div>\n  <div class=\"ml-4 shrink-0\">\n    <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n    </svg>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 168,
+          "smallWidth": 375,
+          "smallHeight": 216
+        },
+        {
+          "name": "Basic responsive",
+          "uuid": "1d53bd55122e563ea1f5c7f84221f993",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto max-w-2xl\">\n      \n  <div class=\"sm:flex\">\n    <div class=\"mb-4 shrink-0 sm:mr-4 sm:mb-0\">\n      <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n        <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n      </svg>\n    </div>\n    <div>\n      <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n      <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"sm:flex\">\n  <div class=\"mb-4 shrink-0 sm:mr-4 sm:mb-0\">\n    <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n    </svg>\n  </div>\n  <div>\n    <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n    <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 144,
+          "smallWidth": 375,
+          "smallHeight": 272
+        },
+        {
+          "name": "Wide responsive",
+          "uuid": "d4761775d88a3e2127cd14e89431c257",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white p-8\">\n    <div class=\"mx-auto max-w-2xl\">\n      \n  <div class=\"sm:flex\">\n    <div class=\"mb-4 shrink-0 sm:mr-4 sm:mb-0\">\n      <svg class=\"h-32 w-full border border-gray-300 bg-white text-gray-300 sm:w-32\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n        <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n      </svg>\n    </div>\n    <div>\n      <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n      <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"sm:flex\">\n  <div class=\"mb-4 shrink-0 sm:mr-4 sm:mb-0\">\n    <svg class=\"h-32 w-full border border-gray-300 bg-white text-gray-300 sm:w-32\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n    </svg>\n  </div>\n  <div>\n    <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n    <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 192,
+          "smallWidth": 375,
+          "smallHeight": 336
+        },
+        {
+          "name": "Nested",
+          "uuid": "beff34693069b1bc348f2fd0b534cd3e",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-6 md:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-2xl\">\n      \n  <div class=\"flex\">\n    <div class=\"mr-4 shrink-0\">\n      <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n        <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n      </svg>\n    </div>\n    <div>\n      <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n      <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n\n      <div class=\"mt-6 flex\">\n        <div class=\"mr-4 shrink-0\">\n          <svg class=\"size-12 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n            <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n          </svg>\n        </div>\n        <div>\n          <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n          <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n        </div>\n      </div>\n      <div class=\"mt-6 flex\">\n        <div class=\"mr-4 shrink-0\">\n          <svg class=\"size-12 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n            <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\"></path>\n          </svg>\n        </div>\n        <div>\n          <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n          <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"flex\">\n  <div class=\"mr-4 shrink-0\">\n    <svg class=\"size-16 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n      <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n    </svg>\n  </div>\n  <div>\n    <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n    <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n\n    <div class=\"mt-6 flex\">\n      <div class=\"mr-4 shrink-0\">\n        <svg class=\"size-12 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n          <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n        </svg>\n      </div>\n      <div>\n        <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n        <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n      </div>\n    </div>\n    <div class=\"mt-6 flex\">\n      <div class=\"mr-4 shrink-0\">\n        <svg class=\"size-12 border border-gray-300 bg-white text-gray-300\" preserveAspectRatio=\"none\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 200 200\" aria-hidden=\"true\">\n          <path vector-effect=\"non-scaling-stroke\" stroke-width=\"1\" d=\"M0 0l200 200M0 200L200 0\" />\n        </svg>\n      </div>\n      <div>\n        <h4 class=\"text-lg font-bold\">Lorem ipsum</h4>\n        <p class=\"mt-1\">Repudiandae sint consequuntur vel. Amet ut nobis explicabo numquam expedita quia omnis voluptatem. Minus quidem ipsam quia iusto.</p>\n      </div>\n    </div>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 384,
+          "smallWidth": 375,
+          "smallHeight": 576
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

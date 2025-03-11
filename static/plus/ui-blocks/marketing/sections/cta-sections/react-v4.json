@@ -1,0 +1,450 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": true,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": true
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": false
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Page Sections",
+        "anchor": "product-marketing-sections",
+        "subcategories": [
+          {
+            "name": "Hero Sections",
+            "url": "/plus/ui-blocks/marketing/sections/heroes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feature Sections",
+            "url": "/plus/ui-blocks/marketing/sections/feature-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "CTA Sections",
+            "url": "/plus/ui-blocks/marketing/sections/cta-sections",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Bento Grids",
+            "url": "/plus/ui-blocks/marketing/sections/bento-grids",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Sections",
+            "url": "/plus/ui-blocks/marketing/sections/pricing",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Header Sections",
+            "url": "/plus/ui-blocks/marketing/sections/header",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Newsletter Sections",
+            "url": "/plus/ui-blocks/marketing/sections/newsletter-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/marketing/sections/stats-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Testimonials",
+            "url": "/plus/ui-blocks/marketing/sections/testimonials",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Blog Sections",
+            "url": "/plus/ui-blocks/marketing/sections/blog-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Contact Sections",
+            "url": "/plus/ui-blocks/marketing/sections/contact-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Team Sections",
+            "url": "/plus/ui-blocks/marketing/sections/team-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Content Sections",
+            "url": "/plus/ui-blocks/marketing/sections/content-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Logo Clouds",
+            "url": "/plus/ui-blocks/marketing/sections/logo-clouds",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "FAQs",
+            "url": "/plus/ui-blocks/marketing/sections/faq-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Footers",
+            "url": "/plus/ui-blocks/marketing/sections/footers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-marketing-elements",
+        "subcategories": [
+          {
+            "name": "Headers",
+            "url": "/plus/ui-blocks/marketing/elements/headers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Flyout Menus",
+            "url": "/plus/ui-blocks/marketing/elements/flyout-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Banners",
+            "url": "/plus/ui-blocks/marketing/elements/banners",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-marketing-feedback",
+        "subcategories": [
+          {
+            "name": "404 Pages",
+            "url": "/plus/ui-blocks/marketing/feedback/404-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-marketing-page-examples",
+        "subcategories": [
+          {
+            "name": "Landing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/landing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/pricing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "About Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/about-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "CTA Sections",
+      "description": "CTA section examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS CTA section examples to encourage your visitors to take action and sign up for your product or service. These CTA examples are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/marketing/sections/cta-sections",
+      "category": {
+        "name": "Page Sections",
+        "url": "/plus/ui-blocks/marketing#product-marketing-sections",
+        "product": {
+          "name": "Marketing",
+          "url": "/plus/ui-blocks/marketing"
+        }
+      },
+      "components": [
+        {
+          "name": "Dark panel with app screenshot",
+          "uuid": "0763876148e2fa400b4f1cf13cdf0093",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8\">\n      <div class=\"relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0\">\n        <svg viewBox=\"0 0 1024 1024\" class=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0\" aria-hidden=\"true\">\n          <circle cx=\"512\" cy=\"512\" r=\"512\" fill=\"url(#759c1415-0410-454c-8f7c-9a820de03641)\" fill-opacity=\"0.7\"></circle>\n          <defs>\n            <radialGradient id=\"759c1415-0410-454c-8f7c-9a820de03641\">\n              <stop stop-color=\"#7775D6\"></stop>\n              <stop offset=\"1\" stop-color=\"#E935C1\"></stop>\n            </radialGradient>\n          </defs>\n        </svg>\n        <div class=\"mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left\">\n          <h2 class=\"text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl\">Boost your productivity. Start using our app today.</h2>\n          <p class=\"mt-6 text-lg/8 text-pretty text-gray-300\">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.</p>\n          <div class=\"mt-10 flex items-center justify-center gap-x-6 lg:justify-start\">\n            <a href=\"#\" class=\"rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\">Get started</a>\n            <a href=\"#\" class=\"text-sm/6 font-semibold text-white\">Learn more <span aria-hidden=\"true\">→</span></a>\n          </div>\n        </div>\n        <div class=\"relative mt-16 h-80 lg:mt-8\">\n          <img class=\"absolute top-0 left-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10\" src=\"/plus-assets/img/component-images/dark-project-app-screenshot.png\" alt=\"App screenshot\" width=\"1824\" height=\"1080\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <div className=\"mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8\">\n        <div className=\"relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0\">\n          <svg\n            viewBox=\"0 0 1024 1024\"\n            aria-hidden=\"true\"\n            className=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0\"\n          >\n            <circle r={512} cx={512} cy={512} fill=\"url(#759c1415-0410-454c-8f7c-9a820de03641)\" fillOpacity=\"0.7\" />\n            <defs>\n              <radialGradient id=\"759c1415-0410-454c-8f7c-9a820de03641\">\n                <stop stopColor=\"#7775D6\" />\n                <stop offset={1} stopColor=\"#E935C1\" />\n              </radialGradient>\n            </defs>\n          </svg>\n          <div className=\"mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left\">\n            <h2 className=\"text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl\">\n              Boost your productivity. Start using our app today.\n            </h2>\n            <p className=\"mt-6 text-lg/8 text-pretty text-gray-300\">\n              Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.\n            </p>\n            <div className=\"mt-10 flex items-center justify-center gap-x-6 lg:justify-start\">\n              <a\n                href=\"#\"\n                className=\"rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\"\n              >\n                Get started\n              </a>\n              <a href=\"#\" className=\"text-sm/6 font-semibold text-white\">\n                Learn more <span aria-hidden=\"true\">→</span>\n              </a>\n            </div>\n          </div>\n          <div className=\"relative mt-16 h-80 lg:mt-8\">\n            <img\n              alt=\"App screenshot\"\n              src=\"/plus-assets/img/component-images/dark-project-app-screenshot.png\"\n              width={1824}\n              height={1080}\n              className=\"absolute top-0 left-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10\"\n            />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 760,
+          "smallWidth": 375,
+          "smallHeight": 948
+        },
+        {
+          "name": "Simple stacked",
+          "uuid": "8f2857c2b9324bb3fe8b1c455438ae07",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8\">\n      <h2 class=\"max-w-2xl text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl\">Boost your productivity. Start using our app today.</h2>\n      <div class=\"mt-10 flex items-center gap-x-6\">\n        <a href=\"#\" class=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Get started</a>\n        <a href=\"#\" class=\"text-sm/6 font-semibold text-gray-900\">Learn more <span aria-hidden=\"true\">→</span></a>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <div className=\"mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8\">\n        <h2 className=\"max-w-2xl text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl\">\n          Boost your productivity. Start using our app today.\n        </h2>\n        <div className=\"mt-10 flex items-center gap-x-6\">\n          <a\n            href=\"#\"\n            className=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n          >\n            Get started\n          </a>\n          <a href=\"#\" className=\"text-sm/6 font-semibold text-gray-900\">\n            Learn more <span aria-hidden=\"true\">→</span>\n          </a>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 432,
+          "smallWidth": 375,
+          "smallHeight": 392
+        },
+        {
+          "name": "Centered on dark panel",
+          "uuid": "e96076d46250608ad1a5306c03921371",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8\">\n      <div class=\"relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16\">\n        <h2 class=\"text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl\">Boost your productivity today</h2>\n        <p class=\"mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-300\">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>\n        <div class=\"mt-10 flex items-center justify-center gap-x-6\">\n          <a href=\"#\" class=\"rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\">Get started</a>\n          <a href=\"#\" class=\"text-sm/6 font-semibold text-white\">Learn more <span aria-hidden=\"true\">→</span></a>\n        </div>\n        <svg viewBox=\"0 0 1024 1024\" class=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]\" aria-hidden=\"true\">\n          <circle cx=\"512\" cy=\"512\" r=\"512\" fill=\"url(#827591b1-ce8c-4110-b064-7cb85a0b1217)\" fill-opacity=\"0.7\"></circle>\n          <defs>\n            <radialGradient id=\"827591b1-ce8c-4110-b064-7cb85a0b1217\">\n              <stop stop-color=\"#7775D6\"></stop>\n              <stop offset=\"1\" stop-color=\"#E935C1\"></stop>\n            </radialGradient>\n          </defs>\n        </svg>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <div className=\"mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8\">\n        <div className=\"relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16\">\n          <h2 className=\"text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl\">\n            Boost your productivity today\n          </h2>\n          <p className=\"mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-300\">\n            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur\n            commodo do ea.\n          </p>\n          <div className=\"mt-10 flex items-center justify-center gap-x-6\">\n            <a\n              href=\"#\"\n              className=\"rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\"\n            >\n              Get started\n            </a>\n            <a href=\"#\" className=\"text-sm/6 font-semibold text-white\">\n              Learn more <span aria-hidden=\"true\">→</span>\n            </a>\n          </div>\n          <svg\n            viewBox=\"0 0 1024 1024\"\n            aria-hidden=\"true\"\n            className=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]\"\n          >\n            <circle r={512} cx={512} cy={512} fill=\"url(#827591b1-ce8c-4110-b064-7cb85a0b1217)\" fillOpacity=\"0.7\" />\n            <defs>\n              <radialGradient id=\"827591b1-ce8c-4110-b064-7cb85a0b1217\">\n                <stop stopColor=\"#7775D6\" />\n                <stop offset={1} stopColor=\"#E935C1\" />\n              </radialGradient>\n            </defs>\n          </svg>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 664,
+          "smallWidth": 375,
+          "smallHeight": 696
+        },
+        {
+          "name": "Simple centered",
+          "uuid": "25ce2a81d17545994655ccc4062651a4",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"px-6 py-24 sm:px-6 sm:py-32 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl text-center\">\n        <h2 class=\"text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl\">Boost your productivity. Start using our app today.</h2>\n        <p class=\"mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600\">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>\n        <div class=\"mt-10 flex items-center justify-center gap-x-6\">\n          <a href=\"#\" class=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Get started</a>\n          <a href=\"#\" class=\"text-sm/6 font-semibold text-gray-900\">Learn more <span aria-hidden=\"true\">→</span></a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <div className=\"px-6 py-24 sm:px-6 sm:py-32 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl text-center\">\n          <h2 className=\"text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl\">\n            Boost your productivity. Start using our app today.\n          </h2>\n          <p className=\"mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600\">\n            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur\n            commodo do ea.\n          </p>\n          <div className=\"mt-10 flex items-center justify-center gap-x-6\">\n            <a\n              href=\"#\"\n              className=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n            >\n              Get started\n            </a>\n            <a href=\"#\" className=\"text-sm/6 font-semibold text-gray-900\">\n              Learn more <span aria-hidden=\"true\">→</span>\n            </a>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 520,
+          "smallWidth": 375,
+          "smallHeight": 544
+        },
+        {
+          "name": "Simple centered on dark",
+          "uuid": "24681d2f656c12fd50a3247e636b447d",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"relative isolate overflow-hidden bg-gray-900\">\n    <div class=\"px-6 py-24 sm:px-6 sm:py-32 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl text-center\">\n        <h2 class=\"text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl\">Boost your productivity. Start using our app today.</h2>\n        <p class=\"mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-300\">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>\n        <div class=\"mt-10 flex items-center justify-center gap-x-6\">\n          <a href=\"#\" class=\"rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\">Get started</a>\n          <a href=\"#\" class=\"text-sm/6 font-semibold text-white\">Learn more <span aria-hidden=\"true\">→</span></a>\n        </div>\n      </div>\n    </div>\n    <svg viewBox=\"0 0 1024 1024\" class=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]\" aria-hidden=\"true\">\n      <circle cx=\"512\" cy=\"512\" r=\"512\" fill=\"url(#8d958450-c69f-4251-94bc-4e091a323369)\" fill-opacity=\"0.7\"></circle>\n      <defs>\n        <radialGradient id=\"8d958450-c69f-4251-94bc-4e091a323369\">\n          <stop stop-color=\"#7775D6\"></stop>\n          <stop offset=\"1\" stop-color=\"#E935C1\"></stop>\n        </radialGradient>\n      </defs>\n    </svg>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"relative isolate overflow-hidden bg-gray-900\">\n      <div className=\"px-6 py-24 sm:px-6 sm:py-32 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl text-center\">\n          <h2 className=\"text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl\">\n            Boost your productivity. Start using our app today.\n          </h2>\n          <p className=\"mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-300\">\n            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur\n            commodo do ea.\n          </p>\n          <div className=\"mt-10 flex items-center justify-center gap-x-6\">\n            <a\n              href=\"#\"\n              className=\"rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\"\n            >\n              Get started\n            </a>\n            <a href=\"#\" className=\"text-sm/6 font-semibold text-white\">\n              Learn more <span aria-hidden=\"true\">→</span>\n            </a>\n          </div>\n        </div>\n      </div>\n      <svg\n        viewBox=\"0 0 1024 1024\"\n        aria-hidden=\"true\"\n        className=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]\"\n      >\n        <circle r={512} cx={512} cy={512} fill=\"url(#8d958450-c69f-4251-94bc-4e091a323369)\" fillOpacity=\"0.7\" />\n        <defs>\n          <radialGradient id=\"8d958450-c69f-4251-94bc-4e091a323369\">\n            <stop stopColor=\"#7775D6\" />\n            <stop offset={1} stopColor=\"#E935C1\" />\n          </radialGradient>\n        </defs>\n      </svg>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 520,
+          "smallWidth": 375,
+          "smallHeight": 544
+        },
+        {
+          "name": "Simple centered on brand",
+          "uuid": "211a2608506db0061bc968f07b98d61c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-indigo-700\">\n    <div class=\"px-6 py-24 sm:px-6 sm:py-32 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl text-center\">\n        <h2 class=\"text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl\">Boost your productivity. Start using our app today.</h2>\n        <p class=\"mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-indigo-200\">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>\n        <div class=\"mt-10 flex items-center justify-center gap-x-6\">\n          <a href=\"#\" class=\"rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-xs hover:bg-indigo-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\">Get started</a>\n          <a href=\"#\" class=\"text-sm/6 font-semibold text-white\">Learn more <span aria-hidden=\"true\">→</span></a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-indigo-700\">\n      <div className=\"px-6 py-24 sm:px-6 sm:py-32 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl text-center\">\n          <h2 className=\"text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl\">\n            Boost your productivity. Start using our app today.\n          </h2>\n          <p className=\"mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-indigo-200\">\n            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur\n            commodo do ea.\n          </p>\n          <div className=\"mt-10 flex items-center justify-center gap-x-6\">\n            <a\n              href=\"#\"\n              className=\"rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-xs hover:bg-indigo-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\"\n            >\n              Get started\n            </a>\n            <a href=\"#\" className=\"text-sm/6 font-semibold text-white\">\n              Learn more <span aria-hidden=\"true\">→</span>\n            </a>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 520,
+          "smallWidth": 375,
+          "smallHeight": 544
+        },
+        {
+          "name": "Simple justified",
+          "uuid": "90c79fbd0596cc4e601da985ca825994",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8\">\n      <h2 class=\"max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl\">Ready to dive in? <br>Start your free trial today.</h2>\n      <div class=\"mt-10 flex items-center gap-x-6 lg:mt-0 lg:shrink-0\">\n        <a href=\"#\" class=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Get started</a>\n        <a href=\"#\" class=\"text-sm/6 font-semibold text-gray-900\">Learn more <span aria-hidden=\"true\">→</span></a>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white\">\n      <div className=\"mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8\">\n        <h2 className=\"max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl\">\n          Ready to dive in? <br />\n          Start your free trial today.\n        </h2>\n        <div className=\"mt-10 flex items-center gap-x-6 lg:mt-0 lg:shrink-0\">\n          <a\n            href=\"#\"\n            className=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n          >\n            Get started\n          </a>\n          <a href=\"#\" className=\"text-sm/6 font-semibold text-gray-900\">\n            Learn more <span aria-hidden=\"true\">→</span>\n          </a>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 352,
+          "smallWidth": 375,
+          "smallHeight": 392
+        },
+        {
+          "name": "Simple justified on light brand",
+          "uuid": "866bae7689f78a3192c7ce764a291a44",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-indigo-100\">\n    <div class=\"mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8\">\n      <h2 class=\"max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl\">Ready to dive in? <br>Start your free trial today.</h2>\n      <div class=\"mt-10 flex items-center gap-x-6 lg:mt-0 lg:shrink-0\">\n        <a href=\"#\" class=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Get started</a>\n        <a href=\"#\" class=\"text-sm/6 font-semibold text-gray-900\">Learn more <span aria-hidden=\"true\">→</span></a>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-indigo-100\">\n      <div className=\"mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8\">\n        <h2 className=\"max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl\">\n          Ready to dive in? <br />\n          Start your free trial today.\n        </h2>\n        <div className=\"mt-10 flex items-center gap-x-6 lg:mt-0 lg:shrink-0\">\n          <a\n            href=\"#\"\n            className=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n          >\n            Get started\n          </a>\n          <a href=\"#\" className=\"text-sm/6 font-semibold text-gray-900\">\n            Learn more <span aria-hidden=\"true\">→</span>\n          </a>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 352,
+          "smallWidth": 375,
+          "smallHeight": 392
+        },
+        {
+          "name": "Split with image",
+          "uuid": "58b6441d042e26470c2d485039ead146",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"relative bg-gray-900\">\n    <div class=\"relative h-80 overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2\">\n      <img class=\"size-full object-cover\" src=\"https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply\" alt=\"\">\n      <svg viewBox=\"0 0 926 676\" aria-hidden=\"true\" class=\"absolute -bottom-24 left-24 w-[57.875rem] transform-gpu blur-[118px]\">\n        <path fill=\"url(#60c3c621-93e0-4a09-a0e6-4c228a0116d8)\" fill-opacity=\".4\" d=\"m254.325 516.708-90.89 158.331L0 436.427l254.325 80.281 163.691-285.15c1.048 131.759 36.144 345.144 168.149 144.613C751.171 125.508 707.17-93.823 826.603 41.15c95.546 107.978 104.766 294.048 97.432 373.585L685.481 297.694l16.974 360.474-448.13-141.46Z\"></path>\n        <defs>\n          <linearGradient id=\"60c3c621-93e0-4a09-a0e6-4c228a0116d8\" x1=\"926.392\" x2=\"-109.635\" y1=\".176\" y2=\"321.024\" gradientUnits=\"userSpaceOnUse\">\n            <stop stop-color=\"#776FFF\"></stop>\n            <stop offset=\"1\" stop-color=\"#FF4694\"></stop>\n          </linearGradient>\n        </defs>\n      </svg>\n    </div>\n    <div class=\"relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40\">\n      <div class=\"pr-6 pl-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pr-0 lg:pl-24 xl:pl-32\">\n        <h2 class=\"text-base/7 font-semibold text-indigo-400\">Award winning support</h2>\n        <p class=\"mt-2 text-4xl font-semibold tracking-tight text-white sm:text-5xl\">We’re here to help</p>\n        <p class=\"mt-6 text-base/7 text-gray-300\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.</p>\n        <div class=\"mt-8\">\n          <a href=\"#\" class=\"inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\">Visit the help center</a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"relative bg-gray-900\">\n      <div className=\"relative h-80 overflow-hidden bg-indigo-600 md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2\">\n        <img\n          alt=\"\"\n          src=\"https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply\"\n          className=\"size-full object-cover\"\n        />\n        <svg\n          viewBox=\"0 0 926 676\"\n          aria-hidden=\"true\"\n          className=\"absolute -bottom-24 left-24 w-[57.875rem] transform-gpu blur-[118px]\"\n        >\n          <path\n            d=\"m254.325 516.708-90.89 158.331L0 436.427l254.325 80.281 163.691-285.15c1.048 131.759 36.144 345.144 168.149 144.613C751.171 125.508 707.17-93.823 826.603 41.15c95.546 107.978 104.766 294.048 97.432 373.585L685.481 297.694l16.974 360.474-448.13-141.46Z\"\n            fill=\"url(#60c3c621-93e0-4a09-a0e6-4c228a0116d8)\"\n            fillOpacity=\".4\"\n          />\n          <defs>\n            <linearGradient\n              id=\"60c3c621-93e0-4a09-a0e6-4c228a0116d8\"\n              x1=\"926.392\"\n              x2=\"-109.635\"\n              y1=\".176\"\n              y2=\"321.024\"\n              gradientUnits=\"userSpaceOnUse\"\n            >\n              <stop stopColor=\"#776FFF\" />\n              <stop offset={1} stopColor=\"#FF4694\" />\n            </linearGradient>\n          </defs>\n        </svg>\n      </div>\n      <div className=\"relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40\">\n        <div className=\"pr-6 pl-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pr-0 lg:pl-24 xl:pl-32\">\n          <h2 className=\"text-base/7 font-semibold text-indigo-400\">Award winning support</h2>\n          <p className=\"mt-2 text-4xl font-semibold tracking-tight text-white sm:text-5xl\">We’re here to help</p>\n          <p className=\"mt-6 text-base/7 text-gray-300\">\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a\n            scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum\n            tincidunt duis.\n          </p>\n          <div className=\"mt-8\">\n            <a\n              href=\"#\"\n              className=\"inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\"\n            >\n              Visit the help center\n            </a>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 612,
+          "smallWidth": 375,
+          "smallHeight": 852
+        },
+        {
+          "name": "Two columns with photo on dark",
+          "uuid": "8dd4c113a443605acd83580f4573135c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-24 sm:py-32\">\n    <div class=\"relative isolate\">\n      <div class=\"mx-auto max-w-7xl sm:px-6 lg:px-8\">\n        <div class=\"mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20\">\n          <img class=\"h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm\" src=\"https://images.unsplash.com/photo-1519338381761-c7523edc1f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80\" alt=\"\">\n          <div class=\"w-full flex-auto\">\n            <h2 class=\"text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl\">Join our team</h2>\n            <p class=\"mt-6 text-lg/8 text-pretty text-gray-300\">Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.</p>\n            <ul role=\"list\" class=\"mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 text-white sm:grid-cols-2\">\n              <li class=\"flex gap-x-3\">\n                  <svg class=\"h-7 w-5 flex-none\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  Competitive salaries\n                </li>\n              <li class=\"flex gap-x-3\">\n                  <svg class=\"h-7 w-5 flex-none\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  Flexible work hours\n                </li>\n              <li class=\"flex gap-x-3\">\n                  <svg class=\"h-7 w-5 flex-none\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  30 days of paid vacation\n                </li>\n              <li class=\"flex gap-x-3\">\n                  <svg class=\"h-7 w-5 flex-none\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  Annual team retreats\n                </li>\n              <li class=\"flex gap-x-3\">\n                  <svg class=\"h-7 w-5 flex-none\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  Benefits for you and your family\n                </li>\n              <li class=\"flex gap-x-3\">\n                  <svg class=\"h-7 w-5 flex-none\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                  A great work environment\n                </li>\n              \n            </ul>\n            <div class=\"mt-10 flex\">\n              <a href=\"#\" class=\"text-sm/6 font-semibold text-indigo-400\">See our job postings <span aria-hidden=\"true\">&rarr;</span></a>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl\" aria-hidden=\"true\">\n        <div class=\"aspect-1318/752 w-[82.375rem] flex-none bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-25\" style=\"clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)\"></div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { CheckCircleIcon } from '@heroicons/react/20/solid'\n\nconst benefits = [\n  'Competitive salaries',\n  'Flexible work hours',\n  '30 days of paid vacation',\n  'Annual team retreats',\n  'Benefits for you and your family',\n  'A great work environment',\n]\n\nexport default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-24 sm:py-32\">\n      <div className=\"relative isolate\">\n        <div className=\"mx-auto max-w-7xl sm:px-6 lg:px-8\">\n          <div className=\"mx-auto flex max-w-2xl flex-col gap-16 bg-white/5 px-6 py-16 ring-1 ring-white/10 sm:rounded-3xl sm:p-8 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20 xl:gap-x-20 xl:px-20\">\n            <img\n              alt=\"\"\n              src=\"https://images.unsplash.com/photo-1519338381761-c7523edc1f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80\"\n              className=\"h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm\"\n            />\n            <div className=\"w-full flex-auto\">\n              <h2 className=\"text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl\">\n                Join our team\n              </h2>\n              <p className=\"mt-6 text-lg/8 text-pretty text-gray-300\">\n                Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in\n                accusamus quisquam.\n              </p>\n              <ul role=\"list\" className=\"mt-10 grid grid-cols-1 gap-x-8 gap-y-3 text-base/7 text-white sm:grid-cols-2\">\n                {benefits.map((benefit) => (\n                  <li key={benefit} className=\"flex gap-x-3\">\n                    <CheckCircleIcon aria-hidden=\"true\" className=\"h-7 w-5 flex-none\" />\n                    {benefit}\n                  </li>\n                ))}\n              </ul>\n              <div className=\"mt-10 flex\">\n                <a href=\"#\" className=\"text-sm/6 font-semibold text-indigo-400\">\n                  See our job postings <span aria-hidden=\"true\">&rarr;</span>\n                </a>\n              </div>\n            </div>\n          </div>\n        </div>\n        <div\n          aria-hidden=\"true\"\n          className=\"absolute inset-x-0 -top-16 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl\"\n        >\n          <div\n            style={{\n              clipPath:\n                'polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)',\n            }}\n            className=\"aspect-1318/752 w-[82.375rem] flex-none bg-linear-to-r from-[#80caff] to-[#4f46e5] opacity-25\"\n          />\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 800,
+          "smallWidth": 375,
+          "smallHeight": 1292
+        },
+        {
+          "name": "With image tiles",
+          "uuid": "4b4787c037a2e3840ff410054004398e",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"overflow-hidden bg-white py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:flex lg:px-8\">\n      <div class=\"mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8\">\n        <div class=\"lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8\">\n          <h2 class=\"text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl\">Our people</h2>\n          <p class=\"mt-6 text-xl/8 text-gray-600\">Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>\n          <p class=\"mt-6 text-base/7 text-gray-600\">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.</p>\n          <div class=\"mt-10 flex\">\n            <a href=\"#\" class=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Join our team <span aria-hidden=\"true\">&rarr;</span></a>\n          </div>\n        </div>\n        <div class=\"flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents\">\n          <div class=\"w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end\">\n            <img src=\"https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80\" alt=\"\" class=\"aspect-7/5 w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover\">\n          </div>\n          <div class=\"contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8\">\n            <div class=\"order-first flex w-64 flex-none justify-end self-end lg:w-auto\">\n              <img src=\"https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80\" alt=\"\" class=\"aspect-4/3 w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover\">\n            </div>\n            <div class=\"flex w-96 flex-auto justify-end lg:w-auto lg:flex-none\">\n              <img src=\"https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80\" alt=\"\" class=\"aspect-7/5 w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover\">\n            </div>\n            <div class=\"hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none\">\n              <img src=\"https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80\" alt=\"\" class=\"aspect-4/3 w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover\">\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"overflow-hidden bg-white py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:flex lg:px-8\">\n        <div className=\"mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8\">\n          <div className=\"lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8\">\n            <h2 className=\"text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl\">Our people</h2>\n            <p className=\"mt-6 text-xl/8 text-gray-600\">\n              Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut\n              molestiae velit error quod. Excepturi quidem expedita molestias quas.\n            </p>\n            <p className=\"mt-6 text-base/7 text-gray-600\">\n              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet\n              fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.\n            </p>\n            <div className=\"mt-10 flex\">\n              <a\n                href=\"#\"\n                className=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n              >\n                Join our team <span aria-hidden=\"true\">&rarr;</span>\n              </a>\n            </div>\n          </div>\n          <div className=\"flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents\">\n            <div className=\"w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end\">\n              <img\n                alt=\"\"\n                src=\"https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80\"\n                className=\"aspect-7/5 w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover\"\n              />\n            </div>\n            <div className=\"contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8\">\n              <div className=\"order-first flex w-64 flex-none justify-end self-end lg:w-auto\">\n                <img\n                  alt=\"\"\n                  src=\"https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80\"\n                  className=\"aspect-4/3 w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover\"\n                />\n              </div>\n              <div className=\"flex w-96 flex-auto justify-end lg:w-auto lg:flex-none\">\n                <img\n                  alt=\"\"\n                  src=\"https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80\"\n                  className=\"aspect-7/5 w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover\"\n                />\n              </div>\n              <div className=\"hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none\">\n                <img\n                  alt=\"\"\n                  src=\"https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80\"\n                  className=\"aspect-4/3 w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover\"\n                />\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 1134,
+          "smallWidth": 375,
+          "smallHeight": 1658
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/marketing/sections/cta-sections",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

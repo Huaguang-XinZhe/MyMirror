@@ -1,0 +1,528 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Toggles",
+      "description": "Toggle and switch examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS toggle components to add on/off switches for settings like dark mode, notifications, and feature flags. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/forms/toggles",
+      "category": {
+        "name": "Forms",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-forms",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple toggle",
+          "uuid": "92732eaa2a1e1af9d23939f08cabd44f",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    \n  <button type=\"button\" class=\"bg-gray-200 relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 focus:outline-hidden\" x-data=\"{ on: false }\" role=\"switch\" aria-checked=\"false\" :aria-checked=\"on.toString()\" @click=\"on = !on\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'bg-indigo-600': on, 'bg-gray-200': !(on) }\">\n    <span class=\"sr-only\">Use setting</span>\n    <span aria-hidden=\"true\" class=\"translate-x-0 pointer-events-none inline-block size-5 transform rounded-full bg-white ring-0 shadow-sm transition duration-200 ease-in-out\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'translate-x-5': on, 'translate-x-0': !(on) }\"></span>\n  </button>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<!-- Enabled: \"bg-indigo-600\", Not Enabled: \"bg-gray-200\" -->\n<button type=\"button\" class=\"relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-200 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2\" role=\"switch\" aria-checked=\"false\">\n  <span class=\"sr-only\">Use setting</span>\n  <!-- Enabled: \"translate-x-5\", Not Enabled: \"translate-x-0\" -->\n  <span aria-hidden=\"true\" class=\"pointer-events-none inline-block size-5 translate-x-0 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out\"></span>\n</button>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 88,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Short toggle",
+          "uuid": "b3e0a15571300f79fced5845f97fa972",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    \n  <button type=\"button\" class=\"group relative inline-flex h-5 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 focus:outline-hidden\" x-data=\"{ on: false }\" role=\"switch\" aria-checked=\"false\" :aria-checked=\"on.toString()\" @click=\"on = !on\">\n    <span class=\"sr-only\">Use setting</span>\n    <span aria-hidden=\"true\" class=\"pointer-events-none absolute size-full rounded-md bg-white\"></span>\n    <span aria-hidden=\"true\" class=\"bg-gray-200 pointer-events-none absolute mx-auto h-4 w-9 rounded-full transition-colors duration-200 ease-in-out\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'bg-indigo-600': on, 'bg-gray-200': !(on) }\"></span>\n    <span aria-hidden=\"true\" class=\"translate-x-0 pointer-events-none absolute left-0 inline-block size-5 transform rounded-full border border-gray-200 bg-white ring-0 shadow-sm transition-transform duration-200 ease-in-out\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'translate-x-5': on, 'translate-x-0': !(on) }\"></span>\n  </button>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<button type=\"button\" class=\"group relative inline-flex h-5 w-10 shrink-0 cursor-pointer items-center justify-center rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2\" role=\"switch\" aria-checked=\"false\">\n  <span class=\"sr-only\">Use setting</span>\n  <span aria-hidden=\"true\" class=\"pointer-events-none absolute size-full rounded-md bg-white\"></span>\n  <!-- Enabled: \"bg-indigo-600\", Not Enabled: \"bg-gray-200\" -->\n  <span aria-hidden=\"true\" class=\"pointer-events-none absolute mx-auto h-4 w-9 rounded-full bg-gray-200 transition-colors duration-200 ease-in-out\"></span>\n  <!-- Enabled: \"translate-x-5\", Not Enabled: \"translate-x-0\" -->\n  <span aria-hidden=\"true\" class=\"pointer-events-none absolute left-0 inline-block size-5 translate-x-0 transform rounded-full border border-gray-200 bg-white shadow ring-0 transition-transform duration-200 ease-in-out\"></span>\n</button>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 84,
+          "smallWidth": 375,
+          "smallHeight": 84
+        },
+        {
+          "name": "Toggle with icon",
+          "uuid": "bcaf782196186836b6ea686e7096e734",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    \n  <button type=\"button\" class=\"bg-gray-200 relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 focus:outline-hidden\" x-data=\"{ on: false }\" role=\"switch\" aria-checked=\"false\" :aria-checked=\"on.toString()\" @click=\"on = !on\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'bg-indigo-600': on, 'bg-gray-200': !(on) }\">\n    <span class=\"sr-only\">Use setting</span>\n    <span class=\"translate-x-0 pointer-events-none relative inline-block size-5 transform rounded-full bg-white ring-0 shadow-sm transition duration-200 ease-in-out\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'translate-x-5': on, 'translate-x-0': !(on) }\">\n      <span class=\"opacity-100 duration-200 ease-in absolute inset-0 flex size-full items-center justify-center transition-opacity\" aria-hidden=\"true\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'opacity-0 duration-100 ease-out': on, 'opacity-100 duration-200 ease-in': !(on) }\">\n        <svg class=\"size-3 text-gray-400\" fill=\"none\" viewBox=\"0 0 12 12\">\n          <path d=\"M4 8l2-2m0 0l2-2M6 6L4 4m2 2l2 2\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n        </svg>\n      </span>\n      <span class=\"opacity-0 duration-100 ease-out absolute inset-0 flex size-full items-center justify-center transition-opacity\" aria-hidden=\"true\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'opacity-100 duration-200 ease-in': on, 'opacity-0 duration-100 ease-out': !(on) }\">\n        <svg class=\"size-3 text-indigo-600\" fill=\"currentColor\" viewBox=\"0 0 12 12\">\n          <path d=\"M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z\"></path>\n        </svg>\n      </span>\n    </span>\n  </button>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<!-- Enabled: \"bg-indigo-600\", Not Enabled: \"bg-gray-200\" -->\n<button type=\"button\" class=\"relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-200 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2\" role=\"switch\" aria-checked=\"false\">\n  <span class=\"sr-only\">Use setting</span>\n  <!-- Enabled: \"translate-x-5\", Not Enabled: \"translate-x-0\" -->\n  <span class=\"pointer-events-none relative inline-block size-5 translate-x-0 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out\">\n    <!-- Enabled: \"opacity-0 duration-100 ease-out\", Not Enabled: \"opacity-100 duration-200 ease-in\" -->\n    <span class=\"absolute inset-0 flex size-full items-center justify-center opacity-100 transition-opacity duration-200 ease-in\" aria-hidden=\"true\">\n      <svg class=\"size-3 text-gray-400\" fill=\"none\" viewBox=\"0 0 12 12\">\n        <path d=\"M4 8l2-2m0 0l2-2M6 6L4 4m2 2l2 2\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n      </svg>\n    </span>\n    <!-- Enabled: \"opacity-100 duration-200 ease-in\", Not Enabled: \"opacity-0 duration-100 ease-out\" -->\n    <span class=\"absolute inset-0 flex size-full items-center justify-center opacity-0 transition-opacity duration-100 ease-out\" aria-hidden=\"true\">\n      <svg class=\"size-3 text-indigo-600\" fill=\"currentColor\" viewBox=\"0 0 12 12\">\n        <path d=\"M3.707 5.293a1 1 0 00-1.414 1.414l1.414-1.414zM5 8l-.707.707a1 1 0 001.414 0L5 8zm4.707-3.293a1 1 0 00-1.414-1.414l1.414 1.414zm-7.414 2l2 2 1.414-1.414-2-2-1.414 1.414zm3.414 2l4-4-1.414-1.414-4 4 1.414 1.414z\" />\n      </svg>\n    </span>\n  </span>\n</button>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 88,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "With left label and description",
+          "uuid": "6ed378bcc4d9eb34a1789e77f0f44d16",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    <div class=\"w-full max-w-xl\">\n      \n  <div class=\"flex items-center justify-between\" x-data=\"{ on: false }\">\n    <span class=\"flex grow flex-col\">\n      <span class=\"text-sm/6 font-medium text-gray-900\" id=\"availability-label\">Available to hire</span>\n      <span class=\"text-sm text-gray-500\" id=\"availability-description\">Nulla amet tempus sit accumsan. Aliquet turpis sed sit lacinia.</span>\n    </span>\n    <button type=\"button\" class=\"bg-gray-200 relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 focus:outline-hidden\" role=\"switch\" aria-checked=\"false\" x-ref=\"switch\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'bg-indigo-600': on, 'bg-gray-200': !(on) }\" aria-labelledby=\"availability-label\" aria-describedby=\"availability-description\" :aria-checked=\"on.toString()\" @click=\"on = !on\">\n      <span aria-hidden=\"true\" class=\"translate-x-0 pointer-events-none inline-block size-5 transform rounded-full bg-white ring-0 shadow-sm transition duration-200 ease-in-out\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'translate-x-5': on, 'translate-x-0': !(on) }\"></span>\n    </button>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<div class=\"flex items-center justify-between\">\n  <span class=\"flex grow flex-col\">\n    <span class=\"text-sm/6 font-medium text-gray-900\" id=\"availability-label\">Available to hire</span>\n    <span class=\"text-sm text-gray-500\" id=\"availability-description\">Nulla amet tempus sit accumsan. Aliquet turpis sed sit lacinia.</span>\n  </span>\n  <!-- Enabled: \"bg-indigo-600\", Not Enabled: \"bg-gray-200\" -->\n  <button type=\"button\" class=\"relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-200 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2\" role=\"switch\" aria-checked=\"false\" aria-labelledby=\"availability-label\" aria-describedby=\"availability-description\">\n    <!-- Enabled: \"translate-x-5\", Not Enabled: \"translate-x-0\" -->\n    <span aria-hidden=\"true\" class=\"pointer-events-none inline-block size-5 translate-x-0 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out\"></span>\n  </button>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 108,
+          "smallWidth": 375,
+          "smallHeight": 128
+        },
+        {
+          "name": "With right label",
+          "uuid": "b99e1c97056ef7d294767c9def084f7b",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white p-8\">\n    \n  <div class=\"flex items-center\" x-data=\"{ on: false }\">\n    <button type=\"button\" class=\"bg-gray-200 relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 focus:outline-hidden\" role=\"switch\" aria-checked=\"false\" x-ref=\"switch\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'bg-indigo-600': on, 'bg-gray-200': !(on) }\" aria-labelledby=\"annual-billing-label\" :aria-checked=\"on.toString()\" @click=\"on = !on\">\n      <span aria-hidden=\"true\" class=\"translate-x-0 pointer-events-none inline-block size-5 transform rounded-full bg-white ring-0 shadow-sm transition duration-200 ease-in-out\" x-state:on=\"Enabled\" x-state:off=\"Not Enabled\" :class=\"{ 'translate-x-5': on, 'translate-x-0': !(on) }\"></span>\n    </button>\n    <span class=\"ml-3 text-sm\" id=\"annual-billing-label\" @click=\"on = !on; $refs.switch.focus()\">\n      <span class=\"font-medium text-gray-900\">Annual billing</span>\n      <!-- space -->\n      <span class=\"text-gray-500\">(Save 10%)</span>\n    </span>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 3,
+            "code": "<div class=\"flex items-center\">\n  <!-- Enabled: \"bg-indigo-600\", Not Enabled: \"bg-gray-200\" -->\n  <button type=\"button\" class=\"relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent bg-gray-200 transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2\" role=\"switch\" aria-checked=\"false\" aria-labelledby=\"annual-billing-label\">\n    <!-- Enabled: \"translate-x-5\", Not Enabled: \"translate-x-0\" -->\n    <span aria-hidden=\"true\" class=\"pointer-events-none inline-block size-5 translate-x-0 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out\"></span>\n  </button>\n  <span class=\"ml-3 text-sm\" id=\"annual-billing-label\">\n    <span class=\"font-medium text-gray-900\">Annual billing</span>\n    <span class=\"text-gray-500\">(Save 10%)</span>\n  </span>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 88,
+          "smallWidth": 375,
+          "smallHeight": 88
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/forms/toggles",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

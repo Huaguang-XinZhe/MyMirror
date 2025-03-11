@@ -1,0 +1,508 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Checkboxes",
+      "description": "Checkbox examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS checkbox components to add multi-option selection to your lists and setting screens. These checkbox components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+      "category": {
+        "name": "Forms",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-forms",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "List with description",
+          "uuid": "f03fb959d6ba814eb987d39ae40961f0",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white px-4 py-12\">\n    <div class=\"mx-auto w-full max-w-lg\">\n      \n  <fieldset>\n    <legend class=\"sr-only\">Notifications</legend>\n    <div class=\"space-y-5\">\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"comments\" aria-describedby=\"comments-description\" name=\"comments\" type=\"checkbox\" checked class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"comments\" class=\"font-medium text-gray-900\">Comments</label>\n          <p id=\"comments-description\" class=\"text-gray-500\">Get notified when someones posts a comment on a posting.</p>\n        </div>\n      </div>\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"candidates\" aria-describedby=\"candidates-description\" name=\"candidates\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"candidates\" class=\"font-medium text-gray-900\">Candidates</label>\n          <p id=\"candidates-description\" class=\"text-gray-500\">Get notified when a candidate applies for a job.</p>\n        </div>\n      </div>\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"offers\" aria-describedby=\"offers-description\" name=\"offers\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"offers\" class=\"font-medium text-gray-900\">Offers</label>\n          <p id=\"offers-description\" class=\"text-gray-500\">Get notified when a candidate accepts or rejects an offer.</p>\n        </div>\n      </div>\n    </div>\n  </fieldset>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <fieldset>\n    <legend class=\"sr-only\">Notifications</legend>\n    <div class=\"space-y-5\">\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"comments\" aria-describedby=\"comments-description\" name=\"comments\" type=\"checkbox\" checked=\"\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"comments\" class=\"font-medium text-gray-900\">Comments</label>\n          <p id=\"comments-description\" class=\"text-gray-500\">Get notified when someones posts a comment on a posting.</p>\n        </div>\n      </div>\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"candidates\" aria-describedby=\"candidates-description\" name=\"candidates\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"candidates\" class=\"font-medium text-gray-900\">Candidates</label>\n          <p id=\"candidates-description\" class=\"text-gray-500\">Get notified when a candidate applies for a job.</p>\n        </div>\n      </div>\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"offers\" aria-describedby=\"offers-description\" name=\"offers\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"offers\" class=\"font-medium text-gray-900\">Offers</label>\n          <p id=\"offers-description\" class=\"text-gray-500\">Get notified when a candidate accepts or rejects an offer.</p>\n        </div>\n      </div>\n    </div>\n  </fieldset>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 280,
+          "smallWidth": 375,
+          "smallHeight": 352
+        },
+        {
+          "name": "List with inline description",
+          "uuid": "744ed4fa65ba36b925701eb4da5c6e31",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white px-4 py-12\">\n    <div class=\"mx-auto w-full max-w-lg\">\n      \n  <fieldset>\n    <legend class=\"sr-only\">Notifications</legend>\n    <div class=\"space-y-5\">\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"comments\" aria-describedby=\"comments-description\" name=\"comments\" type=\"checkbox\" checked class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"comments\" class=\"font-medium text-gray-900\">New comments</label>\n          <!-- space -->\n          <span id=\"comments-description\" class=\"text-gray-500\"><span class=\"sr-only\">New comments </span>so you always know what's happening.</span>\n        </div>\n      </div>\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"candidates\" aria-describedby=\"candidates-description\" name=\"candidates\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"candidates\" class=\"font-medium text-gray-900\">New candidates</label>\n          <!-- space -->\n          <span id=\"candidates-description\" class=\"text-gray-500\"><span class=\"sr-only\">New candidates </span>who apply for any open postings.</span>\n        </div>\n      </div>\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"offers\" aria-describedby=\"offers-description\" name=\"offers\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"offers\" class=\"font-medium text-gray-900\">Offers</label>\n          <!-- space -->\n          <span id=\"offers-description\" class=\"text-gray-500\"><span class=\"sr-only\">Offers </span>when they are accepted or rejected by candidates.</span>\n        </div>\n      </div>\n    </div>\n  </fieldset>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <fieldset>\n    <legend class=\"sr-only\">Notifications</legend>\n    <div class=\"space-y-5\">\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"comments\" aria-describedby=\"comments-description\" name=\"comments\" type=\"checkbox\" checked=\"\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"comments\" class=\"font-medium text-gray-900\">New comments</label>\n          {{ ' ' }}\n          <span id=\"comments-description\" class=\"text-gray-500\"><span class=\"sr-only\">New comments </span>so you always know what's happening.</span>\n        </div>\n      </div>\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"candidates\" aria-describedby=\"candidates-description\" name=\"candidates\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"candidates\" class=\"font-medium text-gray-900\">New candidates</label>\n          {{ ' ' }}\n          <span id=\"candidates-description\" class=\"text-gray-500\"><span class=\"sr-only\">New candidates </span>who apply for any open postings.</span>\n        </div>\n      </div>\n      <div class=\"flex gap-3\">\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"offers\" aria-describedby=\"offers-description\" name=\"offers\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n        <div class=\"text-sm/6\">\n          <label for=\"offers\" class=\"font-medium text-gray-900\">Offers</label>\n          {{ ' ' }}\n          <span id=\"offers-description\" class=\"text-gray-500\"><span class=\"sr-only\">Offers </span>when they are accepted or rejected by candidates.</span>\n        </div>\n      </div>\n    </div>\n  </fieldset>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 208,
+          "smallWidth": 375,
+          "smallHeight": 280
+        },
+        {
+          "name": "List with checkbox on right",
+          "uuid": "28fc3a7039fe5a86455d33e8e988aa8c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white px-4 py-12\">\n    <div class=\"mx-auto w-full max-w-lg\">\n      \n  <fieldset class=\"border-t border-b border-gray-200\">\n    <legend class=\"sr-only\">Notifications</legend>\n    <div class=\"divide-y divide-gray-200\">\n      <div class=\"relative flex gap-3 pt-3.5 pb-4\">\n        <div class=\"min-w-0 flex-1 text-sm/6\">\n          <label for=\"comments\" class=\"font-medium text-gray-900\">Comments</label>\n          <p id=\"comments-description\" class=\"text-gray-500\">Get notified when someones posts a comment on a posting.</p>\n        </div>\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"comments\" aria-describedby=\"comments-description\" name=\"comments\" type=\"checkbox\" checked class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n      </div>\n      <div class=\"relative flex gap-3 pt-3.5 pb-4\">\n        <div class=\"min-w-0 flex-1 text-sm/6\">\n          <label for=\"candidates\" class=\"font-medium text-gray-900\">Candidates</label>\n          <p id=\"candidates-description\" class=\"text-gray-500\">Get notified when a candidate applies for a job.</p>\n        </div>\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"candidates\" aria-describedby=\"candidates-description\" name=\"candidates\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n      </div>\n      <div class=\"relative flex gap-3 pt-3.5 pb-4\">\n        <div class=\"min-w-0 flex-1 text-sm/6\">\n          <label for=\"offers\" class=\"font-medium text-gray-900\">Offers</label>\n          <p id=\"offers-description\" class=\"text-gray-500\">Get notified when a candidate accepts or rejects an offer.</p>\n        </div>\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"offers\" aria-describedby=\"offers-description\" name=\"offers\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n            </svg>\n          </div>\n        </div>\n      </div>\n    </div>\n  </fieldset>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <fieldset class=\"border-b border-t border-gray-200\">\n    <legend class=\"sr-only\">Notifications</legend>\n    <div class=\"divide-y divide-gray-200\">\n      <div class=\"relative flex gap-3 pb-4 pt-3.5\">\n        <div class=\"min-w-0 flex-1 text-sm/6\">\n          <label for=\"comments\" class=\"font-medium text-gray-900\">Comments</label>\n          <p id=\"comments-description\" class=\"text-gray-500\">Get notified when someones posts a comment on a posting.</p>\n        </div>\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"comments\" aria-describedby=\"comments-description\" name=\"comments\" type=\"checkbox\" checked=\"\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n      </div>\n      <div class=\"relative flex gap-3 pb-4 pt-3.5\">\n        <div class=\"min-w-0 flex-1 text-sm/6\">\n          <label for=\"candidates\" class=\"font-medium text-gray-900\">Candidates</label>\n          <p id=\"candidates-description\" class=\"text-gray-500\">Get notified when a candidate applies for a job.</p>\n        </div>\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"candidates\" aria-describedby=\"candidates-description\" name=\"candidates\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n      </div>\n      <div class=\"relative flex gap-3 pb-4 pt-3.5\">\n        <div class=\"min-w-0 flex-1 text-sm/6\">\n          <label for=\"offers\" class=\"font-medium text-gray-900\">Offers</label>\n          <p id=\"offers-description\" class=\"text-gray-500\">Get notified when a candidate accepts or rejects an offer.</p>\n        </div>\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input id=\"offers\" aria-describedby=\"offers-description\" name=\"offers\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n      </div>\n    </div>\n  </fieldset>\n</template>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 334,
+          "smallWidth": 375,
+          "smallHeight": 406
+        },
+        {
+          "name": "Simple list with heading",
+          "uuid": "fa06ef87d471092fb404c8c09e1af8a5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"flex items-center justify-center bg-white px-4 py-12\">\n    <div class=\"mx-auto w-full max-w-lg\">\n      \n  <fieldset>\n    <legend class=\"text-base font-semibold text-gray-900\">Members</legend>\n    <div class=\"mt-4 divide-y divide-gray-200 border-t border-b border-gray-200\">\n      <div class=\"relative flex gap-3 py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"person-1\" class=\"font-medium text-gray-900 select-none\">Annette Black</label>\n          </div>\n          <div class=\"flex h-6 shrink-0 items-center\">\n            <div class=\"group grid size-4 grid-cols-1\">\n              <input id=\"person-1\" name=\"person-1\" type=\"checkbox\" checked class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n              <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n                <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              </svg>\n            </div>\n          </div>\n        </div>\n      <div class=\"relative flex gap-3 py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"person-2\" class=\"font-medium text-gray-900 select-none\">Cody Fisher</label>\n          </div>\n          <div class=\"flex h-6 shrink-0 items-center\">\n            <div class=\"group grid size-4 grid-cols-1\">\n              <input id=\"person-2\" name=\"person-2\" type=\"checkbox\" checked class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n              <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n                <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              </svg>\n            </div>\n          </div>\n        </div>\n      <div class=\"relative flex gap-3 py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"person-3\" class=\"font-medium text-gray-900 select-none\">Courtney Henry</label>\n          </div>\n          <div class=\"flex h-6 shrink-0 items-center\">\n            <div class=\"group grid size-4 grid-cols-1\">\n              <input id=\"person-3\" name=\"person-3\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n              <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n                <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              </svg>\n            </div>\n          </div>\n        </div>\n      <div class=\"relative flex gap-3 py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"person-4\" class=\"font-medium text-gray-900 select-none\">Kathryn Murphy</label>\n          </div>\n          <div class=\"flex h-6 shrink-0 items-center\">\n            <div class=\"group grid size-4 grid-cols-1\">\n              <input id=\"person-4\" name=\"person-4\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n              <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n                <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              </svg>\n            </div>\n          </div>\n        </div>\n      <div class=\"relative flex gap-3 py-4\">\n          <div class=\"min-w-0 flex-1 text-sm/6\">\n            <label for=\"person-5\" class=\"font-medium text-gray-900 select-none\">Theresa Webb</label>\n          </div>\n          <div class=\"flex h-6 shrink-0 items-center\">\n            <div class=\"group grid size-4 grid-cols-1\">\n              <input id=\"person-5\" name=\"person-5\" type=\"checkbox\" class=\"col-start-1 row-start-1 appearance-none rounded-sm border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\">\n              <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-disabled:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n                <path class=\"opacity-0 group-has-checked:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                <path class=\"opacity-0 group-has-indeterminate:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n              </svg>\n            </div>\n          </div>\n        </div>\n      \n    </div>\n  </fieldset>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <fieldset>\n    <legend class=\"text-base font-semibold text-gray-900\">Members</legend>\n    <div class=\"mt-4 divide-y divide-gray-200 border-b border-t border-gray-200\">\n      <div v-for=\"(person, personIdx) in people\" :key=\"personIdx\" class=\"relative flex gap-3 py-4\">\n        <div class=\"min-w-0 flex-1 text-sm/6\">\n          <label :for=\"`person-${person.id}`\" class=\"select-none font-medium text-gray-900\">{{ person.name }}</label>\n        </div>\n        <div class=\"flex h-6 shrink-0 items-center\">\n          <div class=\"group grid size-4 grid-cols-1\">\n            <input :id=\"`person-${person.id}`\" :name=\"`person-${person.id}`\" type=\"checkbox\" :checked=\"person.selected\" class=\"col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-indigo-600 checked:bg-indigo-600 indeterminate:border-indigo-600 indeterminate:bg-indigo-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto\" />\n            <svg class=\"pointer-events-none col-start-1 row-start-1 size-3.5 self-center justify-self-center stroke-white group-has-[:disabled]:stroke-gray-950/25\" viewBox=\"0 0 14 14\" fill=\"none\">\n              <path class=\"opacity-0 group-has-[:checked]:opacity-100\" d=\"M3 8L6 11L11 3.5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n              <path class=\"opacity-0 group-has-[:indeterminate]:opacity-100\" d=\"M3 7H11\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" />\n            </svg>\n          </div>\n        </div>\n      </div>\n    </div>\n  </fieldset>\n</template>\n\n<script setup>\nconst people = [\n  { id: 1, name: 'Annette Black', selected: true },\n  { id: 2, name: 'Cody Fisher', selected: true },\n  { id: 3, name: 'Courtney Henry', selected: false },\n  { id: 4, name: 'Kathryn Murphy', selected: false },\n  { id: 5, name: 'Theresa Webb', selected: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 422,
+          "smallWidth": 375,
+          "smallHeight": 422
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

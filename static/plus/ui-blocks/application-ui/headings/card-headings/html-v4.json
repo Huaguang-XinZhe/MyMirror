@@ -1,0 +1,548 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Card Headings",
+      "description": "Card heading examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS card heading components to add things like titles, buttons, profile pictures, and useful information to the top of your cards. These component examples are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+      "category": {
+        "name": "Headings",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-headings",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple",
+          "uuid": "c3692309ba3a2cd4c439031e104ad97a",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl py-6 sm:px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-none\">\n        <div class=\"overflow-hidden bg-white sm:rounded-lg sm:shadow-sm\">\n          \n  <div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n    <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n  </div>\n\n          <ul role=\"list\" class=\"divide-y divide-gray-200 opacity-25\">\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Back End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Front End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">User Interface Designer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Design\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            \n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n  <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 367,
+          "smallWidth": 375,
+          "smallHeight": 367
+        },
+        {
+          "name": "With action",
+          "uuid": "9a0cf79b18a892dfed706f00447128e3",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl py-6 sm:px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-none\">\n        <div class=\"overflow-hidden bg-white sm:rounded-lg sm:shadow-sm\">\n          \n  <div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n    <div class=\"-mt-2 -ml-4 flex flex-wrap items-center justify-between sm:flex-nowrap\">\n      <div class=\"mt-2 ml-4\">\n        <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n      </div>\n      <div class=\"mt-2 ml-4 shrink-0\">\n        <button type=\"button\" class=\"relative inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Create new job</button>\n      </div>\n    </div>\n  </div>\n\n          <ul role=\"list\" class=\"divide-y divide-gray-200 opacity-25\">\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Back End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Front End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">User Interface Designer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Design\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            \n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n  <div class=\"-mt-2 -ml-4 flex flex-wrap items-center justify-between sm:flex-nowrap\">\n    <div class=\"mt-2 ml-4\">\n      <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n    </div>\n    <div class=\"mt-2 ml-4 shrink-0\">\n      <button type=\"button\" class=\"relative inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Create new job</button>\n    </div>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 379,
+          "smallWidth": 375,
+          "smallHeight": 379
+        },
+        {
+          "name": "With avatar and actions",
+          "uuid": "e772a4f0088a3ec0ac950b1eb0351989",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl py-6 sm:px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-none\">\n        <div class=\"overflow-hidden bg-white sm:rounded-lg sm:shadow-sm\">\n          \n  <div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n    <div class=\"-mt-4 -ml-4 flex flex-wrap items-center justify-between sm:flex-nowrap\">\n      <div class=\"mt-4 ml-4\">\n        <div class=\"flex items-center\">\n          <div class=\"shrink-0\">\n            <img class=\"size-12 rounded-full\" src=\"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n          </div>\n          <div class=\"ml-4\">\n            <h3 class=\"text-base font-semibold text-gray-900\">Tom Cook</h3>\n            <p class=\"text-sm text-gray-500\">\n              <a href=\"#\">@tom_cook</a>\n            </p>\n          </div>\n        </div>\n      </div>\n      <div class=\"mt-4 ml-4 flex shrink-0\">\n        <button type=\"button\" class=\"relative inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">\n          <svg class=\"mr-1.5 -ml-0.5 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n          <span>Phone</span>\n        </button>\n        <button type=\"button\" class=\"relative ml-3 inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">\n          <svg class=\"mr-1.5 -ml-0.5 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z\"></path>\n  <path d=\"m19 8.839-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z\"></path>\n</svg>\n          <span>Email</span>\n        </button>\n      </div>\n    </div>\n  </div>\n\n          <ul role=\"list\" class=\"divide-y divide-gray-200 opacity-25\">\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Back End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Front End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">User Interface Designer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Design\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            \n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n  <div class=\"-mt-4 -ml-4 flex flex-wrap items-center justify-between sm:flex-nowrap\">\n    <div class=\"mt-4 ml-4\">\n      <div class=\"flex items-center\">\n        <div class=\"shrink-0\">\n          <img class=\"size-12 rounded-full\" src=\"https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n        </div>\n        <div class=\"ml-4\">\n          <h3 class=\"text-base font-semibold text-gray-900\">Tom Cook</h3>\n          <p class=\"text-sm text-gray-500\">\n            <a href=\"#\">@tom_cook</a>\n          </p>\n        </div>\n      </div>\n    </div>\n    <div class=\"mt-4 ml-4 flex shrink-0\">\n      <button type=\"button\" class=\"relative inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">\n        <svg class=\"mr-1.5 -ml-0.5 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n          <path fill-rule=\"evenodd\" d=\"M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z\" clip-rule=\"evenodd\" />\n        </svg>\n        <span>Phone</span>\n      </button>\n      <button type=\"button\" class=\"relative ml-3 inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">\n        <svg class=\"mr-1.5 -ml-0.5 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n          <path d=\"M3 4a2 2 0 0 0-2 2v1.161l8.441 4.221a1.25 1.25 0 0 0 1.118 0L19 7.162V6a2 2 0 0 0-2-2H3Z\" />\n          <path d=\"m19 8.839-7.77 3.885a2.75 2.75 0 0 1-2.46 0L1 8.839V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.839Z\" />\n        </svg>\n        <span>Email</span>\n      </button>\n    </div>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 391,
+          "smallWidth": 375,
+          "smallHeight": 443
+        },
+        {
+          "name": "With description and action",
+          "uuid": "c8f5fb604fcc6cf6614aab0bfec6a3f2",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl py-6 sm:px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-none\">\n        <div class=\"overflow-hidden bg-white sm:rounded-lg sm:shadow-sm\">\n          \n  <div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n    <div class=\"-mt-4 -ml-4 flex flex-wrap items-center justify-between sm:flex-nowrap\">\n      <div class=\"mt-4 ml-4\">\n        <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n        <p class=\"mt-1 text-sm text-gray-500\">Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti consectetur.</p>\n      </div>\n      <div class=\"mt-4 ml-4 shrink-0\">\n        <button type=\"button\" class=\"relative inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Create new job</button>\n      </div>\n    </div>\n  </div>\n\n          <ul role=\"list\" class=\"divide-y divide-gray-200 opacity-25\">\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Back End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Front End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">User Interface Designer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Design\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            \n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n  <div class=\"-mt-4 -ml-4 flex flex-wrap items-center justify-between sm:flex-nowrap\">\n    <div class=\"mt-4 ml-4\">\n      <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n      <p class=\"mt-1 text-sm text-gray-500\">Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti consectetur.</p>\n    </div>\n    <div class=\"mt-4 ml-4 shrink-0\">\n      <button type=\"button\" class=\"relative inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Create new job</button>\n    </div>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 391,
+          "smallWidth": 375,
+          "smallHeight": 463
+        },
+        {
+          "name": "With description",
+          "uuid": "db063e3ead0c9a42d8b931c920062e56",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl py-6 sm:px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-none\">\n        <div class=\"overflow-hidden bg-white sm:rounded-lg sm:shadow-sm\">\n          \n  <div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n    <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n    <p class=\"mt-1 text-sm text-gray-500\">Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti consectetur.</p>\n  </div>\n\n          <ul role=\"list\" class=\"divide-y divide-gray-200 opacity-25\">\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Back End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">Front End Developer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Engineering\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"block hover:bg-gray-50\">\n                  <div class=\"px-4 py-4 sm:px-6\">\n                    <div class=\"flex items-center justify-between\">\n                      <div class=\"truncate text-sm font-medium text-indigo-600\">User Interface Designer</div>\n                      <div class=\"ml-2 flex shrink-0\">\n                        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Full-time</span>\n                      </div>\n                    </div>\n                    <div class=\"mt-2 flex justify-between\">\n                      <div class=\"sm:flex\">\n                        <div class=\"flex items-center text-sm text-gray-500\">\n                          <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n                          Design\n                        </div>\n                      </div>\n                      <div class=\"ml-2 flex items-center text-sm text-gray-500\">\n                        <svg class=\"mr-1.5 size-5 shrink-0 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"m9.69 18.933.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 0 0 .281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 1 0 3 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 0 0 2.273 1.765 11.842 11.842 0 0 0 .976.544l.062.029.018.008.006.003ZM10 11.25a2.25 2.25 0 1 0 0-4.5 2.25 2.25 0 0 0 0 4.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                        Remote\n                      </div>\n                    </div>\n                  </div>\n                </a>\n              </li>\n            \n          </ul>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"border-b border-gray-200 bg-white px-4 py-5 sm:px-6\">\n  <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n  <p class=\"mt-1 text-sm text-gray-500\">Lorem ipsum dolor sit amet consectetur adipisicing elit quam corrupti consectetur.</p>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 391,
+          "smallWidth": 375,
+          "smallHeight": 411
+        },
+        {
+          "name": "With avatar, meta, and dropdown",
+          "uuid": "566f127b7b70db160352896d06794a7f",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\">\n    <div class=\"mx-auto max-w-7xl py-6 sm:px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-none\">\n        <div class=\"overflow-hidden bg-white sm:rounded-lg sm:shadow-sm\">\n          \n  <div class=\"bg-white px-4 py-5 sm:px-6\">\n    <div class=\"flex space-x-3\">\n      <div class=\"shrink-0\">\n        <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n      </div>\n      <div class=\"min-w-0 flex-1\">\n        <p class=\"text-sm font-semibold text-gray-900\">\n          <a href=\"#\" class=\"hover:underline\">Chelsea Hagon</a>\n        </p>\n        <p class=\"text-sm text-gray-500\">\n          <a href=\"#\" class=\"hover:underline\">December 9 at 11:43 AM</a>\n        </p>\n      </div>\n      <div class=\"flex shrink-0 self-center\">\n        <div x-data=\"Components.menu({ open: false })\" x-init=\"init()\" @keydown.escape.stop=\"open = false; focusButton()\" @click.away=\"onClickAway($event)\" class=\"relative inline-block text-left\">\n          <div>\n            <button type=\"button\" class=\"-m-2 flex items-center rounded-full p-2 text-gray-400 hover:text-gray-600\" id=\"menu-0-button\" x-ref=\"button\" @click=\"onButtonClick()\" @keyup.space.prevent=\"onButtonEnter()\" @keydown.enter.prevent=\"onButtonEnter()\" aria-expanded=\"false\" aria-haspopup=\"true\" x-bind:aria-expanded=\"open.toString()\" @keydown.arrow-up.prevent=\"onArrowUp()\" @keydown.arrow-down.prevent=\"onArrowDown()\">\n              <span class=\"sr-only\">Open options</span>\n              <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM10 8.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM11.5 15.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z\"></path>\n</svg>\n            </button>\n          </div>\n\n          \n            <div x-show=\"open\" x-transition:enter=\"transition ease-out duration-100\" x-transition:enter-start=\"transform opacity-0 scale-95\" x-transition:enter-end=\"transform opacity-100 scale-100\" x-transition:leave=\"transition ease-in duration-75\" x-transition:leave-start=\"transform opacity-100 scale-100\" x-transition:leave-end=\"transform opacity-0 scale-95\" class=\"absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white ring-1 shadow-lg ring-black/5 focus:outline-hidden\" x-ref=\"menu-items\" x-description=\"Dropdown menu, show/hide based on menu state.\" x-bind:aria-activedescendant=\"activeDescendant\" role=\"menu\" aria-orientation=\"vertical\" aria-labelledby=\"menu-0-button\" tabindex=\"-1\" @keydown.arrow-up.prevent=\"onArrowUp()\" @keydown.arrow-down.prevent=\"onArrowDown()\" @keydown.tab=\"open = false\" @keydown.enter.prevent=\"open = false; focusButton()\" @keyup.space.prevent=\"open = false; focusButton()\">\n              <div class=\"py-1\" role=\"none\">\n                <a href=\"#\" class=\"text-gray-700 flex px-4 py-2 text-sm\" x-state:on=\"Active\" x-state:off=\"Not Active\" :class=\"{ 'bg-gray-100 text-gray-900 outline-hidden': activeIndex === 0, 'text-gray-700': !(activeIndex === 0) }\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-0\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 0)\" @mouseleave=\"onMouseLeave($event)\" @click=\"open = false; focusButton()\">\n                    <svg class=\"mr-3 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                    <span>Add to favorites</span>\n                  </a>\n                <a href=\"#\" class=\"text-gray-700 flex px-4 py-2 text-sm\" :class=\"{ 'bg-gray-100 text-gray-900 outline-hidden': activeIndex === 1, 'text-gray-700': !(activeIndex === 1) }\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-1\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 1)\" @mouseleave=\"onMouseLeave($event)\" @click=\"open = false; focusButton()\">\n                    <svg class=\"mr-3 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M6.28 5.22a.75.75 0 0 1 0 1.06L2.56 10l3.72 3.72a.75.75 0 0 1-1.06 1.06L.97 10.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Zm7.44 0a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L17.44 10l-3.72-3.72a.75.75 0 0 1 0-1.06ZM11.377 2.011a.75.75 0 0 1 .612.867l-2.5 14.5a.75.75 0 0 1-1.478-.255l2.5-14.5a.75.75 0 0 1 .866-.612Z\" clip-rule=\"evenodd\"></path>\n</svg>\n                    <span>Embed</span>\n                  </a>\n                <a href=\"#\" class=\"text-gray-700 flex px-4 py-2 text-sm\" :class=\"{ 'bg-gray-100 text-gray-900 outline-hidden': activeIndex === 2, 'text-gray-700': !(activeIndex === 2) }\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-2\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 2)\" @mouseleave=\"onMouseLeave($event)\" @click=\"open = false; focusButton()\">\n                    <svg class=\"mr-3 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M3.5 2.75a.75.75 0 0 0-1.5 0v14.5a.75.75 0 0 0 1.5 0v-4.392l1.657-.348a6.449 6.449 0 0 1 4.271.572 7.948 7.948 0 0 0 5.965.524l2.078-.64A.75.75 0 0 0 18 12.25v-8.5a.75.75 0 0 0-.904-.734l-2.38.501a7.25 7.25 0 0 1-4.186-.363l-.502-.2a8.75 8.75 0 0 0-5.053-.439l-1.475.31V2.75Z\"></path>\n</svg>\n                    <span>Report content</span>\n                  </a>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  </div>\n\n          <div class=\"px-4 pb-5 opacity-25 sm:p-6 sm:pt-0\">\n            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo impedit sapiente recusandae iusto officiis dolor? Laborum quibusdam quam, quidem vel assumenda repellat inventore sint nesciunt, ullam asperiores magnam placeat eveniet. Aliquam voluptatibus assumenda distinctio veniam quam tempora modi aperiam nemo voluptate reprehenderit quidem, nisi vero est.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "html",
+            "language": "html",
+            "version": 4,
+            "code": "<div class=\"bg-white px-4 py-5 sm:px-6\">\n  <div class=\"flex space-x-3\">\n    <div class=\"shrink-0\">\n      <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80\" alt=\"\">\n    </div>\n    <div class=\"min-w-0 flex-1\">\n      <p class=\"text-sm font-semibold text-gray-900\">\n        <a href=\"#\" class=\"hover:underline\">Chelsea Hagon</a>\n      </p>\n      <p class=\"text-sm text-gray-500\">\n        <a href=\"#\" class=\"hover:underline\">December 9 at 11:43 AM</a>\n      </p>\n    </div>\n    <div class=\"flex shrink-0 self-center\">\n      <div class=\"relative inline-block text-left\">\n        <div>\n          <button type=\"button\" class=\"-m-2 flex items-center rounded-full p-2 text-gray-400 hover:text-gray-600\" id=\"menu-0-button\" aria-expanded=\"false\" aria-haspopup=\"true\">\n            <span class=\"sr-only\">Open options</span>\n            <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n              <path d=\"M10 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM10 8.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM11.5 15.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z\" />\n            </svg>\n          </button>\n        </div>\n\n        <!--\n          Dropdown menu, show/hide based on menu state.\n\n          Entering: \"transition ease-out duration-100\"\n            From: \"transform opacity-0 scale-95\"\n            To: \"transform opacity-100 scale-100\"\n          Leaving: \"transition ease-in duration-75\"\n            From: \"transform opacity-100 scale-100\"\n            To: \"transform opacity-0 scale-95\"\n        -->\n        <div class=\"absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white ring-1 shadow-lg ring-black/5 focus:outline-hidden\" role=\"menu\" aria-orientation=\"vertical\" aria-labelledby=\"menu-0-button\" tabindex=\"-1\">\n          <div class=\"py-1\" role=\"none\">\n            <!-- Active: \"bg-gray-100 text-gray-900 outline-hidden\", Not Active: \"text-gray-700\" -->\n            <a href=\"#\" class=\"flex px-4 py-2 text-sm text-gray-700\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-0\">\n              <svg class=\"mr-3 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path fill-rule=\"evenodd\" d=\"M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z\" clip-rule=\"evenodd\" />\n              </svg>\n              <span>Add to favorites</span>\n            </a>\n            <a href=\"#\" class=\"flex px-4 py-2 text-sm text-gray-700\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-1\">\n              <svg class=\"mr-3 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path fill-rule=\"evenodd\" d=\"M6.28 5.22a.75.75 0 0 1 0 1.06L2.56 10l3.72 3.72a.75.75 0 0 1-1.06 1.06L.97 10.53a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0Zm7.44 0a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L17.44 10l-3.72-3.72a.75.75 0 0 1 0-1.06ZM11.377 2.011a.75.75 0 0 1 .612.867l-2.5 14.5a.75.75 0 0 1-1.478-.255l2.5-14.5a.75.75 0 0 1 .866-.612Z\" clip-rule=\"evenodd\" />\n              </svg>\n              <span>Embed</span>\n            </a>\n            <a href=\"#\" class=\"flex px-4 py-2 text-sm text-gray-700\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-2\">\n              <svg class=\"mr-3 size-5 text-gray-400\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n                <path d=\"M3.5 2.75a.75.75 0 0 0-1.5 0v14.5a.75.75 0 0 0 1.5 0v-4.392l1.657-.348a6.449 6.449 0 0 1 4.271.572 7.948 7.948 0 0 0 5.965.524l2.078-.64A.75.75 0 0 0 18 12.25v-8.5a.75.75 0 0 0-.904-.734l-2.38.501a7.25 7.25 0 0 1-4.186-.363l-.502-.2a8.75 8.75 0 0 0-5.053-.439l-1.475.31V2.75Z\" />\n              </svg>\n              <span>Report content</span>\n            </a>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 224,
+          "smallWidth": 375,
+          "smallHeight": 364
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

@@ -1,0 +1,628 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": true
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Section Headings",
+      "description": "Section heading examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": null,
+      "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+      "category": {
+        "name": "Headings",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-headings",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple",
+          "uuid": "c514bd50feabd9311204463df38ea764",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200 pb-5\">\n    <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"border-b border-gray-200 pb-5\">\n      <h3 className=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 141,
+          "smallWidth": 375,
+          "smallHeight": 141
+        },
+        {
+          "name": "With description",
+          "uuid": "e41884f80859d3afa20019532c28c1fb",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200 pb-5\">\n    <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n    <p class=\"mt-2 max-w-4xl text-sm text-gray-500\">Workcation is a property rental website. Etiam ullamcorper massa viverra consequat, consectetur id nulla tempus. Fringilla egestas justo massa purus sagittis malesuada.</p>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"border-b border-gray-200 pb-5\">\n      <h3 className=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n      <p className=\"mt-2 max-w-4xl text-sm text-gray-500\">\n        Workcation is a property rental website. Etiam ullamcorper massa viverra consequat, consectetur id nulla tempus.\n        Fringilla egestas justo massa purus sagittis malesuada.\n      </p>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 189,
+          "smallWidth": 375,
+          "smallHeight": 229
+        },
+        {
+          "name": "With actions",
+          "uuid": "c5d6c4f68f35b58694ac3b9a190684fc",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200 pb-5 sm:flex sm:items-center sm:justify-between\">\n    <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n    <div class=\"mt-3 flex sm:mt-0 sm:ml-4\">\n      <button type=\"button\" class=\"inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">Share</button>\n      <button type=\"button\" class=\"ml-3 inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Create</button>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"border-b border-gray-200 pb-5 sm:flex sm:items-center sm:justify-between\">\n      <h3 className=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n      <div className=\"mt-3 flex sm:ml-4 sm:mt-0\">\n        <button\n          type=\"button\"\n          className=\"inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\"\n        >\n          Share\n        </button>\n        <button\n          type=\"button\"\n          className=\"ml-3 inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n        >\n          Create\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 153,
+          "smallWidth": 375,
+          "smallHeight": 189
+        },
+        {
+          "name": "With action",
+          "uuid": "8e70bbedbd540f18a4b57fcc378e80a4",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200 pb-5 sm:flex sm:items-center sm:justify-between\">\n    <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n    <div class=\"mt-3 sm:mt-0 sm:ml-4\">\n      <button type=\"button\" class=\"inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Create new job</button>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"border-b border-gray-200 pb-5 sm:flex sm:items-center sm:justify-between\">\n      <h3 className=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n      <div className=\"mt-3 sm:ml-4 sm:mt-0\">\n        <button\n          type=\"button\"\n          className=\"inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n        >\n          Create new job\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 153,
+          "smallWidth": 375,
+          "smallHeight": 189
+        },
+        {
+          "name": "With input group",
+          "uuid": "df8f39d7313327ae424064d721e61dad",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200 pb-5 sm:flex sm:items-center sm:justify-between\">\n    <h3 class=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n    <div class=\"mt-3 flex sm:mt-0 sm:ml-4\">\n      <div class=\"-mr-px grid grow grid-cols-1 focus-within:relative\">\n        <input type=\"text\" name=\"query\" id=\"query\" aria-label=\"Search candidates\" class=\"col-start-1 row-start-1 block w-full rounded-l-md bg-white py-1.5 pr-3 pl-10 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:pl-9 sm:text-sm/6\" placeholder=\"Search candidates\">\n        <svg class=\"pointer-events-none col-start-1 row-start-1 ml-3 size-5 self-center text-gray-400 sm:size-4\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z\" clip-rule=\"evenodd\"></path>\n</svg>\n      </div>\n      <button type=\"button\" class=\"flex shrink-0 items-center gap-x-1.5 rounded-r-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 outline-1 -outline-offset-1 outline-gray-300 hover:bg-gray-50 focus:relative focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <svg class=\"-ml-0.5 size-4 text-gray-400\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M2 2.75A.75.75 0 0 1 2.75 2h9.5a.75.75 0 0 1 0 1.5h-9.5A.75.75 0 0 1 2 2.75ZM2 6.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5h-5.5A.75.75 0 0 1 2 6.25Zm0 3.5A.75.75 0 0 1 2.75 9h3.5a.75.75 0 0 1 0 1.5h-3.5A.75.75 0 0 1 2 9.75ZM9.22 9.53a.75.75 0 0 1 0-1.06l2.25-2.25a.75.75 0 0 1 1.06 0l2.25 2.25a.75.75 0 0 1-1.06 1.06l-.97-.97v5.69a.75.75 0 0 1-1.5 0V8.56l-.97.97a.75.75 0 0 1-1.06 0Z\" clip-rule=\"evenodd\"></path>\n</svg>\n        Sort\n      </button>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { BarsArrowUpIcon, MagnifyingGlassIcon } from '@heroicons/react/16/solid'\n\nexport default function Example() {\n  return (\n    <div className=\"border-b border-gray-200 pb-5 sm:flex sm:items-center sm:justify-between\">\n      <h3 className=\"text-base font-semibold text-gray-900\">Job Postings</h3>\n      <div className=\"mt-3 flex sm:ml-4 sm:mt-0\">\n        <div className=\"-mr-px grid grow grid-cols-1 focus-within:relative\">\n          <input\n            id=\"query\"\n            name=\"query\"\n            type=\"text\"\n            placeholder=\"Search candidates\"\n            aria-label=\"Search candidates\"\n            className=\"col-start-1 row-start-1 block w-full rounded-l-md bg-white py-1.5 pl-10 pr-3 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:pl-9 sm:text-sm/6\"\n          />\n          <MagnifyingGlassIcon\n            aria-hidden=\"true\"\n            className=\"pointer-events-none col-start-1 row-start-1 ml-3 size-5 self-center text-gray-400 sm:size-4\"\n          />\n        </div>\n        <button\n          type=\"button\"\n          className=\"flex shrink-0 items-center gap-x-1.5 rounded-r-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 hover:bg-gray-50 focus:relative focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\"\n        >\n          <BarsArrowUpIcon aria-hidden=\"true\" className=\"-ml-0.5 size-4 text-gray-400\" />\n          Sort\n        </button>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 153,
+          "smallWidth": 375,
+          "smallHeight": 189
+        },
+        {
+          "name": "With tabs",
+          "uuid": "0174a6f43f8fd733c731085e1f8f009a",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200 pb-5 sm:pb-0\">\n    <h3 class=\"text-base font-semibold text-gray-900\">Candidates</h3>\n    <div class=\"mt-3 sm:mt-4\">\n      <div class=\"grid grid-cols-1 sm:hidden\">\n        <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n        <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n          <option>Applied</option>\n          <option>Phone Screening</option>\n          <option selected>Interview</option>\n          <option>Offer</option>\n          <option>Hired</option>\n          \n        </select>\n        <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n      </div>\n      <div class=\"hidden sm:block\" x-description=\"Tabs at small breakpoint and up\">\n        <nav class=\"-mb-px flex space-x-8\">\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;border-indigo-500 text-indigo-600&quot;, Default: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Applied</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Phone Screening</a>\n          <a href=\"#\" class=\"border-indigo-500 text-indigo-600 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Interview</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Offer</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Hired</a>\n          \n        </nav>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { ChevronDownIcon } from '@heroicons/react/16/solid'\n\nconst tabs = [\n  { name: 'Applied', href: '#', current: false },\n  { name: 'Phone Screening', href: '#', current: false },\n  { name: 'Interview', href: '#', current: true },\n  { name: 'Offer', href: '#', current: false },\n  { name: 'Hired', href: '#', current: false },\n]\n\nfunction classNames(...classes) {\n  return classes.filter(Boolean).join(' ')\n}\n\nexport default function Example() {\n  return (\n    <div className=\"border-b border-gray-200 pb-5 sm:pb-0\">\n      <h3 className=\"text-base font-semibold text-gray-900\">Candidates</h3>\n      <div className=\"mt-3 sm:mt-4\">\n        <div className=\"grid grid-cols-1 sm:hidden\">\n          {/* Use an \"onChange\" listener to redirect the user to the selected tab URL. */}\n          <select\n            defaultValue={tabs.find((tab) => tab.current).name}\n            aria-label=\"Select a tab\"\n            className=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\"\n          >\n            {tabs.map((tab) => (\n              <option key={tab.name}>{tab.name}</option>\n            ))}\n          </select>\n          <ChevronDownIcon\n            aria-hidden=\"true\"\n            className=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\"\n          />\n        </div>\n        <div className=\"hidden sm:block\">\n          <nav className=\"-mb-px flex space-x-8\">\n            {tabs.map((tab) => (\n              <a\n                key={tab.name}\n                href={tab.href}\n                aria-current={tab.current ? 'page' : undefined}\n                className={classNames(\n                  tab.current\n                    ? 'border-indigo-500 text-indigo-600'\n                    : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700',\n                  'whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium',\n                )}\n              >\n                {tab.name}\n              </a>\n            ))}\n          </nav>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 174,
+          "smallWidth": 375,
+          "smallHeight": 193
+        },
+        {
+          "name": "With actions and tabs",
+          "uuid": "3783741bf2b1859f7a43f4a191f22acc",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"relative border-b border-gray-200 pb-5 sm:pb-0\">\n    <div class=\"md:flex md:items-center md:justify-between\">\n      <h3 class=\"text-base font-semibold text-gray-900\">Candidates</h3>\n      <div class=\"mt-3 flex md:absolute md:top-3 md:right-0 md:mt-0\">\n        <button type=\"button\" class=\"inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">Share</button>\n        <button type=\"button\" class=\"ml-3 inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Create</button>\n      </div>\n    </div>\n    <div class=\"mt-4\">\n      <div class=\"grid grid-cols-1 sm:hidden\">\n        <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n        <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n          <option>Applied</option>\n          <option>Phone Screening</option>\n          <option selected>Interview</option>\n          <option>Offer</option>\n          <option>Hired</option>\n          \n        </select>\n        <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n      </div>\n      <div class=\"hidden sm:block\" x-description=\"Tabs at small breakpoint and up\">\n        <nav class=\"-mb-px flex space-x-8\">\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;border-indigo-500 text-indigo-600&quot;, Default: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Applied</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Phone Screening</a>\n          <a href=\"#\" class=\"border-indigo-500 text-indigo-600 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Interview</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Offer</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Hired</a>\n          \n        </nav>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { ChevronDownIcon } from '@heroicons/react/16/solid'\n\nconst tabs = [\n  { name: 'Applied', href: '#', current: false },\n  { name: 'Phone Screening', href: '#', current: false },\n  { name: 'Interview', href: '#', current: true },\n  { name: 'Offer', href: '#', current: false },\n  { name: 'Hired', href: '#', current: false },\n]\n\nfunction classNames(...classes) {\n  return classes.filter(Boolean).join(' ')\n}\n\nexport default function Example() {\n  return (\n    <div className=\"relative border-b border-gray-200 pb-5 sm:pb-0\">\n      <div className=\"md:flex md:items-center md:justify-between\">\n        <h3 className=\"text-base font-semibold text-gray-900\">Candidates</h3>\n        <div className=\"mt-3 flex md:absolute md:right-0 md:top-3 md:mt-0\">\n          <button\n            type=\"button\"\n            className=\"inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\"\n          >\n            Share\n          </button>\n          <button\n            type=\"button\"\n            className=\"ml-3 inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n          >\n            Create\n          </button>\n        </div>\n      </div>\n      <div className=\"mt-4\">\n        <div className=\"grid grid-cols-1 sm:hidden\">\n          {/* Use an \"onChange\" listener to redirect the user to the selected tab URL. */}\n          <select\n            defaultValue={tabs.find((tab) => tab.current).name}\n            aria-label=\"Select a tab\"\n            className=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\"\n          >\n            {tabs.map((tab) => (\n              <option key={tab.name}>{tab.name}</option>\n            ))}\n          </select>\n          <ChevronDownIcon\n            aria-hidden=\"true\"\n            className=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\"\n          />\n        </div>\n        <div className=\"hidden sm:block\">\n          <nav className=\"-mb-px flex space-x-8\">\n            {tabs.map((tab) => (\n              <a\n                key={tab.name}\n                href={tab.href}\n                aria-current={tab.current ? 'page' : undefined}\n                className={classNames(\n                  tab.current\n                    ? 'border-indigo-500 text-indigo-600'\n                    : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700',\n                  'whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium',\n                )}\n              >\n                {tab.name}\n              </a>\n            ))}\n          </nav>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 174,
+          "smallWidth": 375,
+          "smallHeight": 245
+        },
+        {
+          "name": "With inline tabs",
+          "uuid": "276936aa601c0ab9e065e66f22b6e6c0",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200\">\n    <div class=\"sm:flex sm:items-baseline\">\n      <h3 class=\"text-base font-semibold text-gray-900\">Issues</h3>\n      <div class=\"mt-4 sm:mt-0 sm:ml-10\">\n        <nav class=\"-mb-px flex space-x-8\">\n          <a href=\"#\" class=\"border-indigo-500 text-indigo-600 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" aria-current=\"page\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;border-indigo-500 text-indigo-600&quot;, Default: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Open</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Closed</a>\n          \n        </nav>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "const tabs = [\n  { name: 'Open', href: '#', current: true },\n  { name: 'Closed', href: '#', current: false },\n]\n\nfunction classNames(...classes) {\n  return classes.filter(Boolean).join(' ')\n}\n\nexport default function Example() {\n  return (\n    <div className=\"border-b border-gray-200\">\n      <div className=\"sm:flex sm:items-baseline\">\n        <h3 className=\"text-base font-semibold text-gray-900\">Issues</h3>\n        <div className=\"mt-4 sm:ml-10 sm:mt-0\">\n          <nav className=\"-mb-px flex space-x-8\">\n            {tabs.map((tab) => (\n              <a\n                key={tab.name}\n                href={tab.href}\n                aria-current={tab.current ? 'page' : undefined}\n                className={classNames(\n                  tab.current\n                    ? 'border-indigo-500 text-indigo-600'\n                    : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700',\n                  'whitespace-nowrap border-b-2 px-1 pb-4 text-sm font-medium',\n                )}\n              >\n                {tab.name}\n              </a>\n            ))}\n          </nav>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 137,
+          "smallWidth": 375,
+          "smallHeight": 174
+        },
+        {
+          "name": "With label",
+          "uuid": "446e3bebd49060a01c3f05189c4c09da",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200 pb-5\">\n    <div class=\"-mt-2 -ml-2 flex flex-wrap items-baseline\">\n      <h3 class=\"mt-2 ml-2 text-base font-semibold text-gray-900\">Job Postings</h3>\n      <p class=\"mt-1 ml-2 truncate text-sm text-gray-500\">in Engineering</p>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"border-b border-gray-200 pb-5\">\n      <div className=\"-ml-2 -mt-2 flex flex-wrap items-baseline\">\n        <h3 className=\"ml-2 mt-2 text-base font-semibold text-gray-900\">Job Postings</h3>\n        <p className=\"ml-2 mt-1 truncate text-sm text-gray-500\">in Engineering</p>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 141,
+          "smallWidth": 375,
+          "smallHeight": 141
+        },
+        {
+          "name": "With badge and dropdown",
+          "uuid": "ed0bd6107e9619f08a549f76f5073f20",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"min-h-[300px] bg-white sm:min-h-[240px]\">\n    <div class=\"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8\">\n      \n  <div class=\"border-b border-gray-200 pb-5\">\n    <div class=\"sm:flex sm:items-baseline sm:justify-between\">\n      <div class=\"sm:w-0 sm:flex-1\">\n        <h1 id=\"message-heading\" class=\"text-base font-semibold text-gray-900\">Full-Stack Developer</h1>\n        <p class=\"mt-1 truncate text-sm text-gray-500\">Checkout and Payments Team</p>\n      </div>\n\n      <div class=\"mt-4 flex items-center justify-between sm:mt-0 sm:ml-6 sm:shrink-0 sm:justify-start\">\n        <span class=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset\">Open</span>\n        <div x-data=\"Components.menu({ open: false })\" x-init=\"init()\" @keydown.escape.stop=\"open = false; focusButton()\" @click.away=\"onClickAway($event)\" class=\"relative ml-3 inline-block text-left\">\n          <div>\n            <button type=\"button\" class=\"-my-2 flex items-center rounded-full bg-white p-2 text-gray-400 hover:text-gray-600 focus:ring-2 focus:ring-indigo-500 focus:outline-hidden\" id=\"menu-0-button\" x-ref=\"button\" @click=\"onButtonClick()\" @keyup.space.prevent=\"onButtonEnter()\" @keydown.enter.prevent=\"onButtonEnter()\" aria-expanded=\"false\" aria-haspopup=\"true\" x-bind:aria-expanded=\"open.toString()\" @keydown.arrow-up.prevent=\"onArrowUp()\" @keydown.arrow-down.prevent=\"onArrowDown()\">\n              <span class=\"sr-only\">Open options</span>\n              <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM10 8.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM11.5 15.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z\"></path>\n</svg>\n            </button>\n          </div>\n\n          \n            <div x-show=\"open\" x-transition:enter=\"transition ease-out duration-100\" x-transition:enter-start=\"transform opacity-0 scale-95\" x-transition:enter-end=\"transform opacity-100 scale-100\" x-transition:leave=\"transition ease-in duration-75\" x-transition:leave-start=\"transform opacity-100 scale-100\" x-transition:leave-end=\"transform opacity-0 scale-95\" class=\"absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white ring-1 shadow-lg ring-black/5 focus:outline-hidden\" x-ref=\"menu-items\" x-description=\"Dropdown menu, show/hide based on menu state.\" x-bind:aria-activedescendant=\"activeDescendant\" role=\"menu\" aria-orientation=\"vertical\" aria-labelledby=\"menu-0-button\" tabindex=\"-1\" @keydown.arrow-up.prevent=\"onArrowUp()\" @keydown.arrow-down.prevent=\"onArrowDown()\" @keydown.tab=\"open = false\" @keydown.enter.prevent=\"open = false; focusButton()\" @keyup.space.prevent=\"open = false; focusButton()\">\n              <div class=\"py-1\" role=\"none\">\n                <a href=\"#\" class=\"text-gray-700 flex justify-between px-4 py-2 text-sm\" x-state:on=\"Active\" x-state:off=\"Not Active\" :class=\"{ 'bg-gray-100 text-gray-900 outline-hidden': activeIndex === 0, 'text-gray-700': !(activeIndex === 0) }\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-0\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 0)\" @mouseleave=\"onMouseLeave($event)\" @click=\"open = false; focusButton()\">\n                    <span>Edit</span>\n                  </a>\n                <a href=\"#\" class=\"text-gray-700 flex justify-between px-4 py-2 text-sm\" :class=\"{ 'bg-gray-100 text-gray-900 outline-hidden': activeIndex === 1, 'text-gray-700': !(activeIndex === 1) }\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-1\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 1)\" @mouseleave=\"onMouseLeave($event)\" @click=\"open = false; focusButton()\">\n                    <span>Duplicate</span>\n                  </a>\n                <button type=\"button\" class=\"text-gray-700 flex w-full justify-between px-4 py-2 text-sm\" :class=\"{ 'bg-gray-100 text-gray-900 outline-hidden': activeIndex === 2, 'text-gray-700': !(activeIndex === 2) }\" role=\"menuitem\" tabindex=\"-1\" id=\"menu-0-item-2\" @mouseenter=\"onMouseEnter($event)\" @mousemove=\"onMouseMove($event, 2)\" @mouseleave=\"onMouseLeave($event)\" @click=\"open = false; focusButton()\">\n                    <span>Archive</span>\n                  </button>\n              </div>\n            </div>\n          \n        </div>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'\nimport { EllipsisVerticalIcon } from '@heroicons/react/20/solid'\n\nexport default function Example() {\n  return (\n    <div className=\"border-b border-gray-200 pb-5\">\n      <div className=\"sm:flex sm:items-baseline sm:justify-between\">\n        <div className=\"sm:w-0 sm:flex-1\">\n          <h1 id=\"message-heading\" className=\"text-base font-semibold text-gray-900\">\n            Full-Stack Developer\n          </h1>\n          <p className=\"mt-1 truncate text-sm text-gray-500\">Checkout and Payments Team</p>\n        </div>\n\n        <div className=\"mt-4 flex items-center justify-between sm:ml-6 sm:mt-0 sm:shrink-0 sm:justify-start\">\n          <span className=\"inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20\">\n            Open\n          </span>\n          <Menu as=\"div\" className=\"relative ml-3 inline-block text-left\">\n            <div>\n              <MenuButton className=\"-my-2 flex items-center rounded-full bg-white p-2 text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500\">\n                <span className=\"sr-only\">Open options</span>\n                <EllipsisVerticalIcon aria-hidden=\"true\" className=\"size-5\" />\n              </MenuButton>\n            </div>\n\n            <MenuItems\n              transition\n              className=\"absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black/5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in\"\n            >\n              <div className=\"py-1\">\n                <MenuItem>\n                  <a\n                    href=\"#\"\n                    className=\"flex justify-between px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none\"\n                  >\n                    <span>Edit</span>\n                  </a>\n                </MenuItem>\n                <MenuItem>\n                  <a\n                    href=\"#\"\n                    className=\"flex justify-between px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none\"\n                  >\n                    <span>Duplicate</span>\n                  </a>\n                </MenuItem>\n                <MenuItem>\n                  <button\n                    type=\"button\"\n                    className=\"flex w-full justify-between px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none\"\n                  >\n                    <span>Archive</span>\n                  </button>\n                </MenuItem>\n              </div>\n            </MenuItems>\n          </Menu>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 240,
+          "smallWidth": 375,
+          "smallHeight": 300
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

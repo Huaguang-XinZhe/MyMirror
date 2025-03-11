@@ -1,0 +1,548 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": true
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Notifications",
+      "description": "Pop-up notification and toast examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS notification and toast components to add non-intrusive alerts for user notifications to your application, featuring action and dismiss buttons, avatars, and icons. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+      "category": {
+        "name": "Overlays",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-overlays",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple",
+          "uuid": "a065edf8f08a35f06943b2e266ca9af1",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\" style=\"min-height: 320px\">\n    \n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div x-data=\"{ show: true }\" aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      \n        <div x-show=\"show\" x-transition:enter=\"transform ease-out duration-300 transition\" x-transition:enter-start=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" x-transition:enter-end=\"translate-y-0 opacity-100 sm:translate-x-0\" x-transition:leave=\"transition ease-in duration-100\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" class=\"pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white ring-1 shadow-lg ring-black/5\">\n          <div class=\"p-4\">\n            <div class=\"flex items-start\">\n              <div class=\"shrink-0\">\n                <svg class=\"size-6 text-green-400\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"></path>\n</svg>\n              </div>\n              <div class=\"ml-3 w-0 flex-1 pt-0.5\">\n                <p class=\"text-sm font-medium text-gray-900\">Successfully saved!</p>\n                <p class=\"mt-1 text-sm text-gray-500\">Anyone with a link can now view this file.</p>\n              </div>\n              <div class=\"ml-4 flex shrink-0\">\n                <button type=\"button\" @click=\"show = false; setTimeout(() => show = true, 1000)\" class=\"inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n                  <span class=\"sr-only\">Close</span>\n                  <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      <transition enter-active-class=\"transform ease-out duration-300 transition\" enter-from-class=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" enter-to-class=\"translate-y-0 opacity-100 sm:translate-x-0\" leave-active-class=\"transition ease-in duration-100\" leave-from-class=\"opacity-100\" leave-to-class=\"opacity-0\">\n        <div v-if=\"show\" class=\"pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black/5\">\n          <div class=\"p-4\">\n            <div class=\"flex items-start\">\n              <div class=\"shrink-0\">\n                <CheckCircleIcon class=\"size-6 text-green-400\" aria-hidden=\"true\" />\n              </div>\n              <div class=\"ml-3 w-0 flex-1 pt-0.5\">\n                <p class=\"text-sm font-medium text-gray-900\">Successfully saved!</p>\n                <p class=\"mt-1 text-sm text-gray-500\">Anyone with a link can now view this file.</p>\n              </div>\n              <div class=\"ml-4 flex shrink-0\">\n                <button type=\"button\" @click=\"show = false\" class=\"inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2\">\n                  <span class=\"sr-only\">Close</span>\n                  <XMarkIcon class=\"size-5\" aria-hidden=\"true\" />\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </transition>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { CheckCircleIcon } from '@heroicons/vue/24/outline'\nimport { XMarkIcon } from '@heroicons/vue/20/solid'\n\nconst show = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 320,
+          "smallWidth": 375,
+          "smallHeight": 320
+        },
+        {
+          "name": "Condensed",
+          "uuid": "8960ebee918a39c1a753da4d378c0f96",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\" style=\"min-height: 320px\">\n    \n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div x-data=\"{ show: true }\" aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      \n        <div x-show=\"show\" x-transition:enter=\"transform ease-out duration-300 transition\" x-transition:enter-start=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" x-transition:enter-end=\"translate-y-0 opacity-100 sm:translate-x-0\" x-transition:leave=\"transition ease-in duration-100\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" class=\"pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white ring-1 shadow-lg ring-black/5\">\n          <div class=\"p-4\">\n            <div class=\"flex items-center\">\n              <div class=\"flex w-0 flex-1 justify-between\">\n                <p class=\"w-0 flex-1 text-sm font-medium text-gray-900\">Discussion archived</p>\n                <button type=\"button\" class=\"ml-3 shrink-0 rounded-md bg-white text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">Undo</button>\n              </div>\n              <div class=\"ml-4 flex shrink-0\">\n                <button type=\"button\" @click=\"show = false; setTimeout(() => show = true, 1000)\" class=\"inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n                  <span class=\"sr-only\">Close</span>\n                  <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      <transition enter-active-class=\"transform ease-out duration-300 transition\" enter-from-class=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" enter-to-class=\"translate-y-0 opacity-100 sm:translate-x-0\" leave-active-class=\"transition ease-in duration-100\" leave-from-class=\"opacity-100\" leave-to-class=\"opacity-0\">\n        <div v-if=\"show\" class=\"pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black/5\">\n          <div class=\"p-4\">\n            <div class=\"flex items-center\">\n              <div class=\"flex w-0 flex-1 justify-between\">\n                <p class=\"w-0 flex-1 text-sm font-medium text-gray-900\">Discussion archived</p>\n                <button type=\"button\" class=\"ml-3 shrink-0 rounded-md bg-white text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2\">Undo</button>\n              </div>\n              <div class=\"ml-4 flex shrink-0\">\n                <button type=\"button\" @click=\"show = false\" class=\"inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2\">\n                  <span class=\"sr-only\">Close</span>\n                  <XMarkIcon class=\"size-5\" aria-hidden=\"true\" />\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </transition>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { XMarkIcon } from '@heroicons/vue/20/solid'\n\nconst show = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 320,
+          "smallWidth": 375,
+          "smallHeight": 320
+        },
+        {
+          "name": "With actions below",
+          "uuid": "755581b198213fbd8058c85f7f18cb39",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\" style=\"min-height: 320px\">\n    \n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div x-data=\"{ show: true }\" aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      \n        <div x-show=\"show\" x-transition:enter=\"transform ease-out duration-300 transition\" x-transition:enter-start=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" x-transition:enter-end=\"translate-y-0 opacity-100 sm:translate-x-0\" x-transition:leave=\"transition ease-in duration-100\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" class=\"pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white ring-1 shadow-lg ring-black/5\">\n          <div class=\"p-4\">\n            <div class=\"flex items-start\">\n              <div class=\"shrink-0\">\n                <svg class=\"size-6 text-gray-400\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H6.911a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661Z\"></path>\n</svg>\n              </div>\n              <div class=\"ml-3 w-0 flex-1 pt-0.5\">\n                <p class=\"text-sm font-medium text-gray-900\">Discussion moved</p>\n                <p class=\"mt-1 text-sm text-gray-500\">Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.</p>\n                <div class=\"mt-3 flex space-x-7\">\n                  <button type=\"button\" class=\"rounded-md bg-white text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">Undo</button>\n                  <button type=\"button\" class=\"rounded-md bg-white text-sm font-medium text-gray-700 hover:text-gray-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">Dismiss</button>\n                </div>\n              </div>\n              <div class=\"ml-4 flex shrink-0\">\n                <button type=\"button\" @click=\"show = false; setTimeout(() => show = true, 1000)\" class=\"inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n                  <span class=\"sr-only\">Close</span>\n                  <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      <transition enter-active-class=\"transform ease-out duration-300 transition\" enter-from-class=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" enter-to-class=\"translate-y-0 opacity-100 sm:translate-x-0\" leave-active-class=\"transition ease-in duration-100\" leave-from-class=\"opacity-100\" leave-to-class=\"opacity-0\">\n        <div v-if=\"show\" class=\"pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black/5\">\n          <div class=\"p-4\">\n            <div class=\"flex items-start\">\n              <div class=\"shrink-0\">\n                <InboxIcon class=\"size-6 text-gray-400\" aria-hidden=\"true\" />\n              </div>\n              <div class=\"ml-3 w-0 flex-1 pt-0.5\">\n                <p class=\"text-sm font-medium text-gray-900\">Discussion moved</p>\n                <p class=\"mt-1 text-sm text-gray-500\">Lorem ipsum dolor sit amet consectetur adipisicing elit oluptatum tenetur.</p>\n                <div class=\"mt-3 flex space-x-7\">\n                  <button type=\"button\" class=\"rounded-md bg-white text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2\">Undo</button>\n                  <button type=\"button\" class=\"rounded-md bg-white text-sm font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2\">Dismiss</button>\n                </div>\n              </div>\n              <div class=\"ml-4 flex shrink-0\">\n                <button type=\"button\" @click=\"show = false\" class=\"inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2\">\n                  <span class=\"sr-only\">Close</span>\n                  <XMarkIcon class=\"size-5\" aria-hidden=\"true\" />\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </transition>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { InboxIcon } from '@heroicons/vue/24/outline'\nimport { XMarkIcon } from '@heroicons/vue/20/solid'\n\nconst show = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 320,
+          "smallWidth": 375,
+          "smallHeight": 320
+        },
+        {
+          "name": "With avatar",
+          "uuid": "c1ce1d3e4b7269f8da91ec959046c395",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\" style=\"min-height: 320px\">\n    \n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div x-data=\"{ show: true }\" aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      \n        <div x-show=\"show\" x-transition:enter=\"transform ease-out duration-300 transition\" x-transition:enter-start=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" x-transition:enter-end=\"translate-y-0 opacity-100 sm:translate-x-0\" x-transition:leave=\"transition ease-in duration-100\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" class=\"pointer-events-auto flex w-full max-w-md rounded-lg bg-white ring-1 shadow-lg ring-black/5\">\n          <div class=\"w-0 flex-1 p-4\">\n            <div class=\"flex items-start\">\n              <div class=\"shrink-0 pt-0.5\">\n                <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80\" alt=\"\">\n              </div>\n              <div class=\"ml-3 w-0 flex-1\">\n                <p class=\"text-sm font-medium text-gray-900\">Emilia Gates</p>\n                <p class=\"mt-1 text-sm text-gray-500\">Sure! 8:30pm works great!</p>\n              </div>\n            </div>\n          </div>\n          <div class=\"flex border-l border-gray-200\">\n            <button type=\"button\" @click=\"show = false; setTimeout(() => show = true, 1000)\" class=\"flex w-full items-center justify-center rounded-none rounded-r-lg border border-transparent p-4 text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:ring-2 focus:ring-indigo-500 focus:outline-hidden\">Reply</button>\n          </div>\n        </div>\n      \n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      <transition enter-active-class=\"transform ease-out duration-300 transition\" enter-from-class=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" enter-to-class=\"translate-y-0 opacity-100 sm:translate-x-0\" leave-active-class=\"transition ease-in duration-100\" leave-from-class=\"opacity-100\" leave-to-class=\"opacity-0\">\n        <div v-if=\"show\" class=\"pointer-events-auto flex w-full max-w-md rounded-lg bg-white shadow-lg ring-1 ring-black/5\">\n          <div class=\"w-0 flex-1 p-4\">\n            <div class=\"flex items-start\">\n              <div class=\"shrink-0 pt-0.5\">\n                <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80\" alt=\"\" />\n              </div>\n              <div class=\"ml-3 w-0 flex-1\">\n                <p class=\"text-sm font-medium text-gray-900\">Emilia Gates</p>\n                <p class=\"mt-1 text-sm text-gray-500\">Sure! 8:30pm works great!</p>\n              </div>\n            </div>\n          </div>\n          <div class=\"flex border-l border-gray-200\">\n            <button type=\"button\" @click=\"show = false\" class=\"flex w-full items-center justify-center rounded-none rounded-r-lg border border-transparent p-4 text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500\">Reply</button>\n          </div>\n        </div>\n      </transition>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\n\nconst show = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 320,
+          "smallWidth": 375,
+          "smallHeight": 320
+        },
+        {
+          "name": "With split buttons",
+          "uuid": "7d20f80f5b5fc2a13c14034d3d60115e",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\" style=\"min-height: 320px\">\n    \n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div x-data=\"{ show: true }\" aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      \n        <div x-show=\"show\" x-transition:enter=\"transform ease-out duration-300 transition\" x-transition:enter-start=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" x-transition:enter-end=\"translate-y-0 opacity-100 sm:translate-x-0\" x-transition:leave=\"transition ease-in duration-100\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" class=\"pointer-events-auto flex w-full max-w-md divide-x divide-gray-200 rounded-lg bg-white ring-1 shadow-lg ring-black/5\">\n          <div class=\"flex w-0 flex-1 items-center p-4\">\n            <div class=\"w-full\">\n              <p class=\"text-sm font-medium text-gray-900\">Receive notifications</p>\n              <p class=\"mt-1 text-sm text-gray-500\">Notifications may include alerts, sounds, and badges.</p>\n            </div>\n          </div>\n          <div class=\"flex\">\n            <div class=\"flex flex-col divide-y divide-gray-200\">\n              <div class=\"flex h-0 flex-1\">\n                <button type=\"button\" @click=\"show = false; setTimeout(() => show = true, 1000)\" class=\"flex w-full items-center justify-center rounded-none rounded-tr-lg border border-transparent px-4 py-3 text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:z-10 focus:ring-2 focus:ring-indigo-500 focus:outline-hidden\">Reply</button>\n              </div>\n              <div class=\"flex h-0 flex-1\">\n                <button type=\"button\" @click=\"show = false; setTimeout(() => show = true, 1000)\" class=\"flex w-full items-center justify-center rounded-none rounded-br-lg border border-transparent px-4 py-3 text-sm font-medium text-gray-700 hover:text-gray-500 focus:ring-2 focus:ring-indigo-500 focus:outline-hidden\">Don't allow</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      <transition enter-active-class=\"transform ease-out duration-300 transition\" enter-from-class=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" enter-to-class=\"translate-y-0 opacity-100 sm:translate-x-0\" leave-active-class=\"transition ease-in duration-100\" leave-from-class=\"opacity-100\" leave-to-class=\"opacity-0\">\n        <div v-if=\"show\" class=\"pointer-events-auto flex w-full max-w-md divide-x divide-gray-200 rounded-lg bg-white shadow-lg ring-1 ring-black/5\">\n          <div class=\"flex w-0 flex-1 items-center p-4\">\n            <div class=\"w-full\">\n              <p class=\"text-sm font-medium text-gray-900\">Receive notifications</p>\n              <p class=\"mt-1 text-sm text-gray-500\">Notifications may include alerts, sounds, and badges.</p>\n            </div>\n          </div>\n          <div class=\"flex\">\n            <div class=\"flex flex-col divide-y divide-gray-200\">\n              <div class=\"flex h-0 flex-1\">\n                <button type=\"button\" @click=\"show = false\" class=\"flex w-full items-center justify-center rounded-none rounded-tr-lg border border-transparent px-4 py-3 text-sm font-medium text-indigo-600 hover:text-indigo-500 focus:z-10 focus:outline-none focus:ring-2 focus:ring-indigo-500\">Reply</button>\n              </div>\n              <div class=\"flex h-0 flex-1\">\n                <button type=\"button\" @click=\"show = false\" class=\"flex w-full items-center justify-center rounded-none rounded-br-lg border border-transparent px-4 py-3 text-sm font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500\">Don't allow</button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </transition>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\n\nconst show = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 320,
+          "smallWidth": 375,
+          "smallHeight": 320
+        },
+        {
+          "name": "With buttons below",
+          "uuid": "fc4d5d4d23fdbfd7bbd531edf250e93a",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": true,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100\" style=\"min-height: 320px\">\n    \n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div x-data=\"{ show: true }\" aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      \n        <div x-show=\"show\" x-transition:enter=\"transform ease-out duration-300 transition\" x-transition:enter-start=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" x-transition:enter-end=\"translate-y-0 opacity-100 sm:translate-x-0\" x-transition:leave=\"transition ease-in duration-100\" x-transition:leave-start=\"opacity-100\" x-transition:leave-end=\"opacity-0\" class=\"pointer-events-auto w-full max-w-sm rounded-lg bg-white ring-1 shadow-lg ring-black/5\">\n          <div class=\"p-4\">\n            <div class=\"flex items-start\">\n              <div class=\"shrink-0 pt-0.5\">\n                <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80\" alt=\"\">\n              </div>\n              <div class=\"ml-3 w-0 flex-1\">\n                <p class=\"text-sm font-medium text-gray-900\">Emilia Gates</p>\n                <p class=\"mt-1 text-sm text-gray-500\">Sent you an invite to connect.</p>\n                <div class=\"mt-4 flex\">\n                  <button type=\"button\" class=\"inline-flex items-center rounded-md bg-indigo-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Accept</button>\n                  <button type=\"button\" class=\"ml-3 inline-flex items-center rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50\">Decline</button>\n                </div>\n              </div>\n              <div class=\"ml-4 flex shrink-0\">\n                <button type=\"button\" @click=\"show = false; setTimeout(() => show = true, 1000)\" class=\"inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden\">\n                  <span class=\"sr-only\">Close</span>\n                  <svg class=\"size-5\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z\"></path>\n</svg>\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      \n    </div>\n  </div>\n\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <!-- Global notification live region, render this permanently at the end of the document -->\n  <div aria-live=\"assertive\" class=\"pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6\">\n    <div class=\"flex w-full flex-col items-center space-y-4 sm:items-end\">\n      <!-- Notification panel, dynamically insert this into the live region when it needs to be displayed -->\n      <transition enter-active-class=\"transform ease-out duration-300 transition\" enter-from-class=\"translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2\" enter-to-class=\"translate-y-0 opacity-100 sm:translate-x-0\" leave-active-class=\"transition ease-in duration-100\" leave-from-class=\"opacity-100\" leave-to-class=\"opacity-0\">\n        <div v-if=\"show\" class=\"pointer-events-auto w-full max-w-sm rounded-lg bg-white shadow-lg ring-1 ring-black/5\">\n          <div class=\"p-4\">\n            <div class=\"flex items-start\">\n              <div class=\"shrink-0 pt-0.5\">\n                <img class=\"size-10 rounded-full\" src=\"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.2&w=160&h=160&q=80\" alt=\"\" />\n              </div>\n              <div class=\"ml-3 w-0 flex-1\">\n                <p class=\"text-sm font-medium text-gray-900\">Emilia Gates</p>\n                <p class=\"mt-1 text-sm text-gray-500\">Sent you an invite to connect.</p>\n                <div class=\"mt-4 flex\">\n                  <button type=\"button\" class=\"inline-flex items-center rounded-md bg-indigo-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Accept</button>\n                  <button type=\"button\" class=\"ml-3 inline-flex items-center rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50\">Decline</button>\n                </div>\n              </div>\n              <div class=\"ml-4 flex shrink-0\">\n                <button type=\"button\" @click=\"show = false\" class=\"inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2\">\n                  <span class=\"sr-only\">Close</span>\n                  <XMarkIcon class=\"size-5\" aria-hidden=\"true\" />\n                </button>\n              </div>\n            </div>\n          </div>\n        </div>\n      </transition>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ref } from 'vue'\nimport { XMarkIcon } from '@heroicons/vue/20/solid'\n\nconst show = ref(true)\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 320,
+          "smallWidth": 375,
+          "smallHeight": 320
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

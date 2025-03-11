@@ -1,0 +1,608 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": false,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": false
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": true
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Application Shells",
+        "anchor": "product-application-ui-application-shells",
+        "subcategories": [
+          {
+            "name": "Stacked Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/stacked",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/sidebar",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Multi-Column Layouts",
+            "url": "/plus/ui-blocks/application-ui/application-shells/multi-column",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Headings",
+        "anchor": "product-application-ui-headings",
+        "subcategories": [
+          {
+            "name": "Page Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/page-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Card Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/card-headings",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Section Headings",
+            "url": "/plus/ui-blocks/application-ui/headings/section-headings",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Data Display",
+        "anchor": "product-application-ui-data-display",
+        "subcategories": [
+          {
+            "name": "Description Lists",
+            "url": "/plus/ui-blocks/application-ui/data-display/description-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/application-ui/data-display/stats",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Calendars",
+            "url": "/plus/ui-blocks/application-ui/data-display/calendars",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Lists",
+        "anchor": "product-application-ui-lists",
+        "subcategories": [
+          {
+            "name": "Stacked Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/stacked-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tables",
+            "url": "/plus/ui-blocks/application-ui/lists/tables",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Grid Lists",
+            "url": "/plus/ui-blocks/application-ui/lists/grid-lists",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feeds",
+            "url": "/plus/ui-blocks/application-ui/lists/feeds",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Forms",
+        "anchor": "product-application-ui-forms",
+        "subcategories": [
+          {
+            "name": "Form Layouts",
+            "url": "/plus/ui-blocks/application-ui/forms/form-layouts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Input Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/input-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Select Menus",
+            "url": "/plus/ui-blocks/application-ui/forms/select-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sign-in and Registration",
+            "url": "/plus/ui-blocks/application-ui/forms/sign-in-forms",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Textareas",
+            "url": "/plus/ui-blocks/application-ui/forms/textareas",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Radio Groups",
+            "url": "/plus/ui-blocks/application-ui/forms/radio-groups",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Checkboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/checkboxes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Toggles",
+            "url": "/plus/ui-blocks/application-ui/forms/toggles",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Action Panels",
+            "url": "/plus/ui-blocks/application-ui/forms/action-panels",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Comboboxes",
+            "url": "/plus/ui-blocks/application-ui/forms/comboboxes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-application-ui-feedback",
+        "subcategories": [
+          {
+            "name": "Alerts",
+            "url": "/plus/ui-blocks/application-ui/feedback/alerts",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Empty States",
+            "url": "/plus/ui-blocks/application-ui/feedback/empty-states",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Navigation",
+        "anchor": "product-application-ui-navigation",
+        "subcategories": [
+          {
+            "name": "Navbars",
+            "url": "/plus/ui-blocks/application-ui/navigation/navbars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pagination",
+            "url": "/plus/ui-blocks/application-ui/navigation/pagination",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Tabs",
+            "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Vertical Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/vertical-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Sidebar Navigation",
+            "url": "/plus/ui-blocks/application-ui/navigation/sidebar-navigation",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Breadcrumbs",
+            "url": "/plus/ui-blocks/application-ui/navigation/breadcrumbs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Progress Bars",
+            "url": "/plus/ui-blocks/application-ui/navigation/progress-bars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Command Palettes",
+            "url": "/plus/ui-blocks/application-ui/navigation/command-palettes",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Overlays",
+        "anchor": "product-application-ui-overlays",
+        "subcategories": [
+          {
+            "name": "Modal Dialogs",
+            "url": "/plus/ui-blocks/application-ui/overlays/modal-dialogs",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Drawers",
+            "url": "/plus/ui-blocks/application-ui/overlays/drawers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Notifications",
+            "url": "/plus/ui-blocks/application-ui/overlays/notifications",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-application-ui-elements",
+        "subcategories": [
+          {
+            "name": "Avatars",
+            "url": "/plus/ui-blocks/application-ui/elements/avatars",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Badges",
+            "url": "/plus/ui-blocks/application-ui/elements/badges",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dropdowns",
+            "url": "/plus/ui-blocks/application-ui/elements/dropdowns",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Buttons",
+            "url": "/plus/ui-blocks/application-ui/elements/buttons",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Button Groups",
+            "url": "/plus/ui-blocks/application-ui/elements/button-groups",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Layout",
+        "anchor": "product-application-ui-layout",
+        "subcategories": [
+          {
+            "name": "Containers",
+            "url": "/plus/ui-blocks/application-ui/layout/containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Cards",
+            "url": "/plus/ui-blocks/application-ui/layout/cards",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "List containers",
+            "url": "/plus/ui-blocks/application-ui/layout/list-containers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Media Objects",
+            "url": "/plus/ui-blocks/application-ui/layout/media-objects",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Dividers",
+            "url": "/plus/ui-blocks/application-ui/layout/dividers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-application-ui-page-examples",
+        "subcategories": [
+          {
+            "name": "Home Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/home-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Detail Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/detail-screens",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Settings Screens",
+            "url": "/plus/ui-blocks/application-ui/page-examples/settings-screens",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Tabs",
+      "description": "Tab navigation examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS tabs components to group content into tabbed sections, such as settings pages or resources in different states. These components are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+      "category": {
+        "name": "Navigation",
+        "url": "/plus/ui-blocks/application-ui#product-application-ui-navigation",
+        "product": {
+          "name": "Application UI",
+          "url": "/plus/ui-blocks/application-ui"
+        }
+      },
+      "components": [
+        {
+          "name": "Tabs with underline",
+          "uuid": "de43ff625fee032d234b14989e88422f",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      \n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option>My Account</option>\n        <option>Company</option>\n        <option selected>Team Members</option>\n        <option>Billing</option>\n        \n      </select>\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <div class=\"hidden sm:block\">\n      <div class=\"border-b border-gray-200\">\n        <nav class=\"-mb-px flex space-x-8\" aria-label=\"Tabs\">\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;border-indigo-500 text-indigo-600&quot;, Default: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">My Account</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Company</a>\n          <a href=\"#\" class=\"border-indigo-500 text-indigo-600 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Team Members</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Billing</a>\n          \n        </nav>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n      </select>\n      <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" aria-hidden=\"true\" />\n    </div>\n    <div class=\"hidden sm:block\">\n      <div class=\"border-b border-gray-200\">\n        <nav class=\"-mb-px flex space-x-8\" aria-label=\"Tabs\">\n          <a v-for=\"tab in tabs\" :key=\"tab.name\" :href=\"tab.href\" :class=\"[tab.current ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700', 'whitespace-nowrap border-b-2 px-1 py-4 text-sm font-medium']\" :aria-current=\"tab.current ? 'page' : undefined\">{{ tab.name }}</a>\n        </nav>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n\nconst tabs = [\n  { name: 'My Account', href: '#', current: false },\n  { name: 'Company', href: '#', current: false },\n  { name: 'Team Members', href: '#', current: true },\n  { name: 'Billing', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 102,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Tabs with underline and icons",
+          "uuid": "aed2acb28998d158d7aa898cb19540e4",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      \n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option>My Account</option>\n        <option>Company</option>\n        <option selected>Team Members</option>\n        <option>Billing</option>\n        \n      </select>\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <div class=\"hidden sm:block\">\n      <div class=\"border-b border-gray-200\">\n        <nav class=\"-mb-px flex space-x-8\" aria-label=\"Tabs\">\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 group inline-flex items-center border-b-2 py-4 px-1 text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;border-indigo-500 text-indigo-600&quot;, Default: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">\n              <svg class=\"text-gray-400 group-hover:text-gray-500 -ml-0.5 mr-2 size-5\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;text-indigo-500&quot;, Default: &quot;text-gray-400 group-hover:text-gray-500&quot;\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M10 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM3.465 14.493a1.23 1.23 0 0 0 .41 1.412A9.957 9.957 0 0 0 10 18c2.31 0 4.438-.784 6.131-2.1.43-.333.604-.903.408-1.41a7.002 7.002 0 0 0-13.074.003Z\"></path>\n</svg>\n              <span>My Account</span>\n            </a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 group inline-flex items-center border-b-2 py-4 px-1 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">\n              <svg class=\"text-gray-400 group-hover:text-gray-500 -ml-0.5 mr-2 size-5\" x-state-description=\"undefined: &quot;text-indigo-500&quot;, undefined: &quot;text-gray-400 group-hover:text-gray-500&quot;\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4 16.5v-13h-.25a.75.75 0 0 1 0-1.5h12.5a.75.75 0 0 1 0 1.5H16v13h.25a.75.75 0 0 1 0 1.5h-3.5a.75.75 0 0 1-.75-.75v-2.5a.75.75 0 0 0-.75-.75h-2.5a.75.75 0 0 0-.75.75v2.5a.75.75 0 0 1-.75.75h-3.5a.75.75 0 0 1 0-1.5H4Zm3-11a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1ZM7.5 9a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM11 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1Zm.5 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z\" clip-rule=\"evenodd\"></path>\n</svg>\n              <span>Company</span>\n            </a>\n          <a href=\"#\" class=\"border-indigo-500 text-indigo-600 group inline-flex items-center border-b-2 py-4 px-1 text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">\n              <svg class=\"text-indigo-500 -ml-0.5 mr-2 size-5\" x-state-description=\"undefined: &quot;text-indigo-500&quot;, undefined: &quot;text-gray-400 group-hover:text-gray-500&quot;\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path d=\"M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z\"></path>\n</svg>\n              <span>Team Members</span>\n            </a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 group inline-flex items-center border-b-2 py-4 px-1 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">\n              <svg class=\"text-gray-400 group-hover:text-gray-500 -ml-0.5 mr-2 size-5\" x-state-description=\"undefined: &quot;text-indigo-500&quot;, undefined: &quot;text-gray-400 group-hover:text-gray-500&quot;\" viewBox=\"0 0 20 20\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M2.5 4A1.5 1.5 0 0 0 1 5.5V6h18v-.5A1.5 1.5 0 0 0 17.5 4h-15ZM19 8.5H1v6A1.5 1.5 0 0 0 2.5 16h15a1.5 1.5 0 0 0 1.5-1.5v-6ZM3 13.25a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75Zm4.75-.75a.75.75 0 0 0 0 1.5h3.5a.75.75 0 0 0 0-1.5h-3.5Z\" clip-rule=\"evenodd\"></path>\n</svg>\n              <span>Billing</span>\n            </a>\n          \n        </nav>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n      </select>\n      <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" aria-hidden=\"true\" />\n    </div>\n    <div class=\"hidden sm:block\">\n      <div class=\"border-b border-gray-200\">\n        <nav class=\"-mb-px flex space-x-8\" aria-label=\"Tabs\">\n          <a v-for=\"tab in tabs\" :key=\"tab.name\" :href=\"tab.href\" :class=\"[tab.current ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700', 'group inline-flex items-center border-b-2 px-1 py-4 text-sm font-medium']\" :aria-current=\"tab.current ? 'page' : undefined\">\n            <component :is=\"tab.icon\" :class=\"[tab.current ? 'text-indigo-500' : 'text-gray-400 group-hover:text-gray-500', '-ml-0.5 mr-2 size-5']\" aria-hidden=\"true\" />\n            <span>{{ tab.name }}</span>\n          </a>\n        </nav>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\nimport { BuildingOfficeIcon, CreditCardIcon, UserIcon, UsersIcon } from '@heroicons/vue/20/solid'\n\nconst tabs = [\n  { name: 'My Account', href: '#', icon: UserIcon, current: false },\n  { name: 'Company', href: '#', icon: BuildingOfficeIcon, current: false },\n  { name: 'Team Members', href: '#', icon: UsersIcon, current: true },\n  { name: 'Billing', href: '#', icon: CreditCardIcon, current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 102,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Tabs in pills",
+          "uuid": "556317db33900f6182a5f45cd9b50300",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      \n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option>My Account</option>\n        <option>Company</option>\n        <option selected>Team Members</option>\n        <option>Billing</option>\n        \n      </select>\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <div class=\"hidden sm:block\">\n      <nav class=\"flex space-x-4\" aria-label=\"Tabs\">\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700 rounded-md px-3 py-2 text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-100 text-gray-700&quot;, Default: &quot;text-gray-500 hover:text-gray-700&quot;\">My Account</a>\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700 rounded-md px-3 py-2 text-sm font-medium\" x-state-description=\"undefined: &quot;bg-gray-100 text-gray-700&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">Company</a>\n        <a href=\"#\" class=\"bg-gray-100 text-gray-700 rounded-md px-3 py-2 text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;bg-gray-100 text-gray-700&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">Team Members</a>\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700 rounded-md px-3 py-2 text-sm font-medium\" x-state-description=\"undefined: &quot;bg-gray-100 text-gray-700&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">Billing</a>\n        \n      </nav>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n      </select>\n      <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" aria-hidden=\"true\" />\n    </div>\n    <div class=\"hidden sm:block\">\n      <nav class=\"flex space-x-4\" aria-label=\"Tabs\">\n        <a v-for=\"tab in tabs\" :key=\"tab.name\" :href=\"tab.href\" :class=\"[tab.current ? 'bg-gray-100 text-gray-700' : 'text-gray-500 hover:text-gray-700', 'rounded-md px-3 py-2 text-sm font-medium']\" :aria-current=\"tab.current ? 'page' : undefined\">{{ tab.name }}</a>\n      </nav>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n\nconst tabs = [\n  { name: 'My Account', href: '#', current: false },\n  { name: 'Company', href: '#', current: false },\n  { name: 'Team Members', href: '#', current: true },\n  { name: 'Billing', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 84,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Tabs in pills on gray",
+          "uuid": "2a66fc822e8ad55f59321825e5af0980",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-100 px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      \n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option>My Account</option>\n        <option>Company</option>\n        <option selected>Team Members</option>\n        <option>Billing</option>\n        \n      </select>\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <div class=\"hidden sm:block\">\n      <nav class=\"flex space-x-4\" aria-label=\"Tabs\">\n        <a href=\"#\" class=\"text-gray-600 hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-gray-200 text-gray-800&quot;, Default: &quot;text-gray-600 hover:text-gray-800&quot;\">My Account</a>\n        <a href=\"#\" class=\"text-gray-600 hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium\" x-state-description=\"undefined: &quot;bg-gray-200 text-gray-800&quot;, undefined: &quot;text-gray-600 hover:text-gray-800&quot;\">Company</a>\n        <a href=\"#\" class=\"bg-gray-200 text-gray-800 rounded-md px-3 py-2 text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;bg-gray-200 text-gray-800&quot;, undefined: &quot;text-gray-600 hover:text-gray-800&quot;\">Team Members</a>\n        <a href=\"#\" class=\"text-gray-600 hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium\" x-state-description=\"undefined: &quot;bg-gray-200 text-gray-800&quot;, undefined: &quot;text-gray-600 hover:text-gray-800&quot;\">Billing</a>\n        \n      </nav>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n      </select>\n      <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" aria-hidden=\"true\" />\n    </div>\n    <div class=\"hidden sm:block\">\n      <nav class=\"flex space-x-4\" aria-label=\"Tabs\">\n        <a v-for=\"tab in tabs\" :key=\"tab.name\" :href=\"tab.href\" :class=\"[tab.current ? 'bg-gray-200 text-gray-800' : 'text-gray-600 hover:text-gray-800', 'rounded-md px-3 py-2 text-sm font-medium']\" :aria-current=\"tab.current ? 'page' : undefined\">{{ tab.name }}</a>\n      </nav>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n\nconst tabs = [\n  { name: 'My Account', href: '#', current: false },\n  { name: 'Company', href: '#', current: false },\n  { name: 'Team Members', href: '#', current: true },\n  { name: 'Billing', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 84,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Tabs in pills with brand color",
+          "uuid": "07e889de48dabb9e22d20353d7c02d16",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      \n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option>My Account</option>\n        <option>Company</option>\n        <option selected>Team Members</option>\n        <option>Billing</option>\n        \n      </select>\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <div class=\"hidden sm:block\">\n      <nav class=\"flex space-x-4\" aria-label=\"Tabs\">\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700 rounded-md px-3 py-2 text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-indigo-100 text-indigo-700&quot;, Default: &quot;text-gray-500 hover:text-gray-700&quot;\">My Account</a>\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700 rounded-md px-3 py-2 text-sm font-medium\" x-state-description=\"undefined: &quot;bg-indigo-100 text-indigo-700&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">Company</a>\n        <a href=\"#\" class=\"bg-indigo-100 text-indigo-700 rounded-md px-3 py-2 text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;bg-indigo-100 text-indigo-700&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">Team Members</a>\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700 rounded-md px-3 py-2 text-sm font-medium\" x-state-description=\"undefined: &quot;bg-indigo-100 text-indigo-700&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">Billing</a>\n        \n      </nav>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n      </select>\n      <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" aria-hidden=\"true\" />\n    </div>\n    <div class=\"hidden sm:block\">\n      <nav class=\"flex space-x-4\" aria-label=\"Tabs\">\n        <a v-for=\"tab in tabs\" :key=\"tab.name\" :href=\"tab.href\" :class=\"[tab.current ? 'bg-indigo-100 text-indigo-700' : 'text-gray-500 hover:text-gray-700', 'rounded-md px-3 py-2 text-sm font-medium']\" :aria-current=\"tab.current ? 'page' : undefined\">{{ tab.name }}</a>\n      </nav>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n\nconst tabs = [\n  { name: 'My Account', href: '#', current: false },\n  { name: 'Company', href: '#', current: false },\n  { name: 'Team Members', href: '#', current: true },\n  { name: 'Billing', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 84,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Full-width tabs with underline",
+          "uuid": "7c429fe94a1fc0801cfd429c3b507c12",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      \n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option>My Account</option>\n        <option>Company</option>\n        <option selected>Team Members</option>\n        <option>Billing</option>\n        \n      </select>\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <div class=\"hidden sm:block\">\n      <div class=\"border-b border-gray-200\">\n        <nav class=\"-mb-px flex\" aria-label=\"Tabs\">\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;border-indigo-500 text-indigo-600&quot;, Default: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">My Account</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Company</a>\n          <a href=\"#\" class=\"border-indigo-500 text-indigo-600 w-1/4 border-b-2 py-4 px-1 text-center text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Team Members</a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 w-1/4 border-b-2 py-4 px-1 text-center text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700&quot;\">Billing</a>\n          \n        </nav>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n      </select>\n      <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" aria-hidden=\"true\" />\n    </div>\n    <div class=\"hidden sm:block\">\n      <div class=\"border-b border-gray-200\">\n        <nav class=\"-mb-px flex\" aria-label=\"Tabs\">\n          <a v-for=\"tab in tabs\" :key=\"tab.name\" :href=\"tab.href\" :class=\"[tab.current ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700', 'w-1/4 border-b-2 px-1 py-4 text-center text-sm font-medium']\" :aria-current=\"tab.current ? 'page' : undefined\">{{ tab.name }}</a>\n        </nav>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n\nconst tabs = [\n  { name: 'My Account', href: '#', current: false },\n  { name: 'Company', href: '#', current: false },\n  { name: 'Team Members', href: '#', current: true },\n  { name: 'Billing', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 102,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Bar with underline",
+          "uuid": "83b472fc38b57e49a566805a5e5bb2f7",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-gray-50 px-4 py-6 sm:px-6 sm:py-12 lg:px-8\">\n    <div class=\"mx-auto max-w-3xl\">\n      \n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option>My Account</option>\n        <option>Company</option>\n        <option selected>Team Members</option>\n        <option>Billing</option>\n        \n      </select>\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <div class=\"hidden sm:block\">\n      <nav class=\"isolate flex divide-x divide-gray-200 rounded-lg shadow-sm\" aria-label=\"Tabs\">\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700 rounded-l-lg  group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;text-gray-900&quot;, Default: &quot;text-gray-500 hover:text-gray-700&quot;\">\n            <span>My Account</span>\n            <span aria-hidden=\"true\" class=\"bg-transparent absolute inset-x-0 bottom-0 h-0.5\"></span>\n          </a>\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700   group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10\" x-state-description=\"undefined: &quot;text-gray-900&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">\n            <span>Company</span>\n            <span aria-hidden=\"true\" class=\"bg-transparent absolute inset-x-0 bottom-0 h-0.5\"></span>\n          </a>\n        <a href=\"#\" class=\"text-gray-900   group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10\" aria-current=\"page\" x-state-description=\"undefined: &quot;text-gray-900&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">\n            <span>Team Members</span>\n            <span aria-hidden=\"true\" class=\"bg-indigo-500 absolute inset-x-0 bottom-0 h-0.5\"></span>\n          </a>\n        <a href=\"#\" class=\"text-gray-500 hover:text-gray-700  rounded-r-lg group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10\" x-state-description=\"undefined: &quot;text-gray-900&quot;, undefined: &quot;text-gray-500 hover:text-gray-700&quot;\">\n            <span>Billing</span>\n            <span aria-hidden=\"true\" class=\"bg-transparent absolute inset-x-0 bottom-0 h-0.5\"></span>\n          </a>\n        \n      </nav>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n      </select>\n      <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" aria-hidden=\"true\" />\n    </div>\n    <div class=\"hidden sm:block\">\n      <nav class=\"isolate flex divide-x divide-gray-200 rounded-lg shadow\" aria-label=\"Tabs\">\n        <a v-for=\"(tab, tabIdx) in tabs\" :key=\"tab.name\" :href=\"tab.href\" :class=\"[tab.current ? 'text-gray-900' : 'text-gray-500 hover:text-gray-700', tabIdx === 0 ? 'rounded-l-lg' : '', tabIdx === tabs.length - 1 ? 'rounded-r-lg' : '', 'group relative min-w-0 flex-1 overflow-hidden bg-white px-4 py-4 text-center text-sm font-medium hover:bg-gray-50 focus:z-10']\" :aria-current=\"tab.current ? 'page' : undefined\">\n          <span>{{ tab.name }}</span>\n          <span aria-hidden=\"true\" :class=\"[tab.current ? 'bg-indigo-500' : 'bg-transparent', 'absolute inset-x-0 bottom-0 h-0.5']\" />\n        </a>\n      </nav>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n\nconst tabs = [\n  { name: 'My Account', href: '#', current: false },\n  { name: 'Company', href: '#', current: false },\n  { name: 'Team Members', href: '#', current: true },\n  { name: 'Billing', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 148,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Tabs with underline and badges",
+          "uuid": "70db4dcecc9b8bad86b28ebe23546f27",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  <div class=\"bg-white px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      \n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option>Applied</option>\n        <option>Phone Screening</option>\n        <option selected>Interview</option>\n        <option>Offer</option>\n        <option>Disqualified</option>\n        \n      </select>\n      <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n    </div>\n    <div class=\"hidden sm:block\">\n      <div class=\"border-b border-gray-200\">\n        <nav class=\"-mb-px flex space-x-8\" aria-label=\"Tabs\">\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;border-indigo-500 text-indigo-600&quot;, Default: &quot;border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700&quot;\">\n              Applied\n              <span class=\"bg-gray-100 text-gray-900 ml-3 hidden rounded-full py-0.5 px-2.5 text-xs font-medium md:inline-block\" x-state:on=\"Current\" x-state:off=\"Default\" x-state-description=\"Current: &quot;bg-indigo-100 text-indigo-600&quot;, Default: &quot;bg-gray-100 text-gray-900&quot;\">52</span>\n              </a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700&quot;\">\n              Phone Screening\n              <span class=\"bg-gray-100 text-gray-900 ml-3 hidden rounded-full py-0.5 px-2.5 text-xs font-medium md:inline-block\" x-state-description=\"undefined: &quot;bg-indigo-100 text-indigo-600&quot;, undefined: &quot;bg-gray-100 text-gray-900&quot;\">6</span>\n              </a>\n          <a href=\"#\" class=\"border-indigo-500 text-indigo-600 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" aria-current=\"page\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700&quot;\">\n              Interview\n              <span class=\"bg-indigo-100 text-indigo-600 ml-3 hidden rounded-full py-0.5 px-2.5 text-xs font-medium md:inline-block\" x-state-description=\"undefined: &quot;bg-indigo-100 text-indigo-600&quot;, undefined: &quot;bg-gray-100 text-gray-900&quot;\">4</span>\n              </a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700&quot;\">\n              Offer\n              </a>\n          <a href=\"#\" class=\"border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium\" x-state-description=\"undefined: &quot;border-indigo-500 text-indigo-600&quot;, undefined: &quot;border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700&quot;\">\n              Disqualified\n              </a>\n          \n        </nav>\n      </div>\n    </div>\n  </div>\n\n    </div>\n  </div>\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div>\n    <div class=\"grid grid-cols-1 sm:hidden\">\n      <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n      <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pl-3 pr-8 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600\">\n        <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n      </select>\n      <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-500\" aria-hidden=\"true\" />\n    </div>\n    <div class=\"hidden sm:block\">\n      <div class=\"border-b border-gray-200\">\n        <nav class=\"-mb-px flex space-x-8\" aria-label=\"Tabs\">\n          <a v-for=\"tab in tabs\" :key=\"tab.name\" href=\"#\" :class=\"[tab.current ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700', 'flex whitespace-nowrap border-b-2 px-1 py-4 text-sm font-medium']\" :aria-current=\"tab.current ? 'page' : undefined\">\n            {{ tab.name }}\n            <span v-if=\"tab.count\" :class=\"[tab.current ? 'bg-indigo-100 text-indigo-600' : 'bg-gray-100 text-gray-900', 'ml-3 hidden rounded-full px-2.5 py-0.5 text-xs font-medium md:inline-block']\">{{ tab.count }}</span>\n          </a>\n        </nav>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n\nconst tabs = [\n  { name: 'Applied', href: '#', count: '52', current: false },\n  { name: 'Phone Screening', href: '#', count: '6', current: false },\n  { name: 'Interview', href: '#', count: '4', current: true },\n  { name: 'Offer', href: '#', current: false },\n  { name: 'Disqualified', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 102,
+          "smallWidth": 375,
+          "smallHeight": 88
+        },
+        {
+          "name": "Simple on dark",
+          "uuid": "53ad80df58cd3ec112165f4d1bea15d9",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      <div class=\"grid grid-cols-1 sm:hidden\">\n        <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n        <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white/5 py-2 pr-8 pl-3 text-base text-white outline-1 -outline-offset-1 outline-white/10 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500\">\n          <option>My Account</option>\n          <option>Company</option>\n          <option selected>Team Members</option>\n          <option>Billing</option>\n          \n        </select>\n        <svg class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-400\" viewBox=\"0 0 16 16\" fill=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path fill-rule=\"evenodd\" d=\"M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z\" clip-rule=\"evenodd\"></path>\n</svg>\n      </div>\n      <div class=\"hidden sm:block\">\n        <nav class=\"flex border-b border-white/10 py-4\">\n          <ul role=\"list\" class=\"flex min-w-full flex-none gap-x-8 px-2 text-sm/6 font-semibold text-gray-400\">\n            <li>\n                <a href=\"#\" class=\"\">My Account</a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"\">Company</a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"text-indigo-400\">Team Members</a>\n              </li>\n            <li>\n                <a href=\"#\" class=\"\">Billing</a>\n              </li>\n            \n          </ul>\n        </nav>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "vue",
+            "language": "html",
+            "version": 3,
+            "code": "<template>\n  <div class=\"bg-gray-900 px-4 py-6 sm:px-6 lg:px-8\">\n    <div class=\"mx-auto max-w-7xl\">\n      <div class=\"grid grid-cols-1 sm:hidden\">\n        <!-- Use an \"onChange\" listener to redirect the user to the selected tab URL. -->\n        <select aria-label=\"Select a tab\" class=\"col-start-1 row-start-1 w-full appearance-none rounded-md bg-white/5 py-2 pl-3 pr-8 text-base text-white outline outline-1 -outline-offset-1 outline-white/10 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500\">\n          <option v-for=\"tab in tabs\" :key=\"tab.name\" :selected=\"tab.current\">{{ tab.name }}</option>\n        </select>\n        <ChevronDownIcon class=\"pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end fill-gray-400\" aria-hidden=\"true\" />\n      </div>\n      <div class=\"hidden sm:block\">\n        <nav class=\"flex border-b border-white/10 py-4\">\n          <ul role=\"list\" class=\"flex min-w-full flex-none gap-x-8 px-2 text-sm/6 font-semibold text-gray-400\">\n            <li v-for=\"tab in tabs\" :key=\"tab.name\">\n              <a :href=\"tab.href\" :class=\"tab.current ? 'text-indigo-400' : ''\">{{ tab.name }}</a>\n            </li>\n          </ul>\n        </nav>\n      </div>\n    </div>\n  </div>\n</template>\n\n<script setup>\nimport { ChevronDownIcon } from '@heroicons/vue/16/solid'\n\nconst tabs = [\n  { name: 'My Account', href: '#', current: false },\n  { name: 'Company', href: '#', current: false },\n  { name: 'Team Members', href: '#', current: true },\n  { name: 'Billing', href: '#', current: false },\n]\n</script>"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 105,
+          "smallWidth": 375,
+          "smallHeight": 88
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/application-ui/navigation/tabs",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

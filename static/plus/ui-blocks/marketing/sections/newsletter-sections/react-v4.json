@@ -1,0 +1,370 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": true,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": true
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": false
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Page Sections",
+        "anchor": "product-marketing-sections",
+        "subcategories": [
+          {
+            "name": "Hero Sections",
+            "url": "/plus/ui-blocks/marketing/sections/heroes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feature Sections",
+            "url": "/plus/ui-blocks/marketing/sections/feature-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "CTA Sections",
+            "url": "/plus/ui-blocks/marketing/sections/cta-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Bento Grids",
+            "url": "/plus/ui-blocks/marketing/sections/bento-grids",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Sections",
+            "url": "/plus/ui-blocks/marketing/sections/pricing",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Header Sections",
+            "url": "/plus/ui-blocks/marketing/sections/header",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Newsletter Sections",
+            "url": "/plus/ui-blocks/marketing/sections/newsletter-sections",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/marketing/sections/stats-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Testimonials",
+            "url": "/plus/ui-blocks/marketing/sections/testimonials",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Blog Sections",
+            "url": "/plus/ui-blocks/marketing/sections/blog-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Contact Sections",
+            "url": "/plus/ui-blocks/marketing/sections/contact-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Team Sections",
+            "url": "/plus/ui-blocks/marketing/sections/team-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Content Sections",
+            "url": "/plus/ui-blocks/marketing/sections/content-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Logo Clouds",
+            "url": "/plus/ui-blocks/marketing/sections/logo-clouds",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "FAQs",
+            "url": "/plus/ui-blocks/marketing/sections/faq-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Footers",
+            "url": "/plus/ui-blocks/marketing/sections/footers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-marketing-elements",
+        "subcategories": [
+          {
+            "name": "Headers",
+            "url": "/plus/ui-blocks/marketing/elements/headers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Flyout Menus",
+            "url": "/plus/ui-blocks/marketing/elements/flyout-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Banners",
+            "url": "/plus/ui-blocks/marketing/elements/banners",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-marketing-feedback",
+        "subcategories": [
+          {
+            "name": "404 Pages",
+            "url": "/plus/ui-blocks/marketing/feedback/404-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-marketing-page-examples",
+        "subcategories": [
+          {
+            "name": "Landing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/landing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/pricing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "About Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/about-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Newsletter Sections",
+      "description": "Newsletter section examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS newsletter section examples to turn your visitors into email subscribers. These examples are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/marketing/sections/newsletter-sections",
+      "category": {
+        "name": "Page Sections",
+        "url": "/plus/ui-blocks/marketing#product-marketing-sections",
+        "product": {
+          "name": "Marketing",
+          "url": "/plus/ui-blocks/marketing"
+        }
+      },
+      "components": [
+        {
+          "name": "Side-by-side with details",
+          "uuid": "82fc139db99143307df48bb9fe6152c5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2\">\n        <div class=\"max-w-xl lg:max-w-lg\">\n          <h2 class=\"text-4xl font-semibold tracking-tight text-white\">Subscribe to our newsletter</h2>\n          <p class=\"mt-4 text-lg text-gray-300\">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p>\n          <div class=\"mt-6 flex max-w-md gap-x-4\">\n            <label for=\"email-address\" class=\"sr-only\">Email address</label>\n            <input id=\"email-address\" name=\"email\" type=\"email\" autocomplete=\"email\" required class=\"min-w-0 flex-auto rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6\" placeholder=\"Enter your email\">\n            <button type=\"submit\" class=\"flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500\">Subscribe</button>\n          </div>\n        </div>\n        <dl class=\"grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2\">\n          <div class=\"flex flex-col items-start\">\n            <div class=\"rounded-md bg-white/5 p-2 ring-1 ring-white/10\">\n              <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z\"></path>\n</svg>\n            </div>\n            <dt class=\"mt-4 text-base font-semibold text-white\">Weekly articles</dt>\n            <dd class=\"mt-2 text-base/7 text-gray-400\">Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.</dd>\n          </div>\n          <div class=\"flex flex-col items-start\">\n            <div class=\"rounded-md bg-white/5 p-2 ring-1 ring-white/10\">\n              <svg class=\"size-6 text-white\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" aria-hidden=\"true\" data-slot=\"icon\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002\"></path>\n</svg>\n            </div>\n            <dt class=\"mt-4 text-base font-semibold text-white\">No spam</dt>\n            <dd class=\"mt-2 text-base/7 text-gray-400\">Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.</dd>\n          </div>\n        </dl>\n      </div>\n    </div>\n    <div class=\"absolute top-0 left-1/2 -z-10 -translate-x-1/2 blur-3xl xl:-top-6\" aria-hidden=\"true\">\n      <div class=\"aspect-1155/678 w-[72.1875rem] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30\" style=\"clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)\"></div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'\n\nexport default function Example() {\n  return (\n    <div className=\"relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2\">\n          <div className=\"max-w-xl lg:max-w-lg\">\n            <h2 className=\"text-4xl font-semibold tracking-tight text-white\">Subscribe to our newsletter</h2>\n            <p className=\"mt-4 text-lg text-gray-300\">\n              Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt\n              dolore.\n            </p>\n            <div className=\"mt-6 flex max-w-md gap-x-4\">\n              <label htmlFor=\"email-address\" className=\"sr-only\">\n                Email address\n              </label>\n              <input\n                id=\"email-address\"\n                name=\"email\"\n                type=\"email\"\n                required\n                placeholder=\"Enter your email\"\n                autoComplete=\"email\"\n                className=\"min-w-0 flex-auto rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6\"\n              />\n              <button\n                type=\"submit\"\n                className=\"flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500\"\n              >\n                Subscribe\n              </button>\n            </div>\n          </div>\n          <dl className=\"grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2\">\n            <div className=\"flex flex-col items-start\">\n              <div className=\"rounded-md bg-white/5 p-2 ring-1 ring-white/10\">\n                <CalendarDaysIcon aria-hidden=\"true\" className=\"size-6 text-white\" />\n              </div>\n              <dt className=\"mt-4 text-base font-semibold text-white\">Weekly articles</dt>\n              <dd className=\"mt-2 text-base/7 text-gray-400\">\n                Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet.\n              </dd>\n            </div>\n            <div className=\"flex flex-col items-start\">\n              <div className=\"rounded-md bg-white/5 p-2 ring-1 ring-white/10\">\n                <HandRaisedIcon aria-hidden=\"true\" className=\"size-6 text-white\" />\n              </div>\n              <dt className=\"mt-4 text-base font-semibold text-white\">No spam</dt>\n              <dd className=\"mt-2 text-base/7 text-gray-400\">\n                Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim.\n              </dd>\n            </div>\n          </dl>\n        </div>\n      </div>\n      <div aria-hidden=\"true\" className=\"absolute top-0 left-1/2 -z-10 -translate-x-1/2 blur-3xl xl:-top-6\">\n        <div\n          style={{\n            clipPath:\n              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',\n          }}\n          className=\"aspect-1155/678 w-[72.1875rem] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30\"\n        />\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 436,
+          "smallWidth": 375,
+          "smallHeight": 820
+        },
+        {
+          "name": "Simple side-by-side",
+          "uuid": "b2ff902a7a0b79e3695dbe77464cc495",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-16 sm:py-24 lg:py-32\">\n    <div class=\"mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8\">\n      <h2 class=\"max-w-xl text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-4xl lg:col-span-7\">Want product news and updates? Sign up for our newsletter.</h2>\n      <form class=\"w-full max-w-md lg:col-span-5 lg:pt-2\">\n        <div class=\"flex gap-x-4\">\n          <label for=\"email-address\" class=\"sr-only\">Email address</label>\n          <input id=\"email-address\" name=\"email\" type=\"email\" autocomplete=\"email\" required class=\"min-w-0 flex-auto rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Enter your email\">\n          <button type=\"submit\" class=\"flex-none rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Subscribe</button>\n        </div>\n        <p class=\"mt-4 text-sm/6 text-gray-900\">We care about your data. Read our <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">privacy&nbsp;policy</a>.</p>\n      </form>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-16 sm:py-24 lg:py-32\">\n      <div className=\"mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8\">\n        <h2 className=\"max-w-xl text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-4xl lg:col-span-7\">\n          Want product news and updates? Sign up for our newsletter.\n        </h2>\n        <form className=\"w-full max-w-md lg:col-span-5 lg:pt-2\">\n          <div className=\"flex gap-x-4\">\n            <label htmlFor=\"email-address\" className=\"sr-only\">\n              Email address\n            </label>\n            <input\n              id=\"email-address\"\n              name=\"email\"\n              type=\"email\"\n              required\n              placeholder=\"Enter your email\"\n              autoComplete=\"email\"\n              className=\"min-w-0 flex-auto rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n            />\n            <button\n              type=\"submit\"\n              className=\"flex-none rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n            >\n              Subscribe\n            </button>\n          </div>\n          <p className=\"mt-4 text-sm/6 text-gray-900\">\n            We care about your data. Read our{' '}\n            <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n              privacy&nbsp;policy\n            </a>\n            .\n          </p>\n        </form>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 344,
+          "smallWidth": 375,
+          "smallHeight": 380
+        },
+        {
+          "name": "Simple side-by-side on dark",
+          "uuid": "2ee4ae0989ff79acbcab47840afb4ff7",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-16 sm:py-24 lg:py-32\">\n    <div class=\"mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8\">\n      <h2 class=\"max-w-xl text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl lg:col-span-7\">Want product news and updates? Sign up for our newsletter.</h2>\n      <form class=\"w-full max-w-md lg:col-span-5 lg:pt-2\">\n        <div class=\"flex gap-x-4\">\n          <label for=\"email-address\" class=\"sr-only\">Email address</label>\n          <input id=\"email-address\" name=\"email\" type=\"email\" autocomplete=\"email\" required class=\"min-w-0 flex-auto rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6\" placeholder=\"Enter your email\">\n          <button type=\"submit\" class=\"flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500\">Subscribe</button>\n        </div>\n        <p class=\"mt-4 text-sm/6 text-gray-300\">We care about your data. Read our <a href=\"#\" class=\"font-semibold text-white\">privacy&nbsp;policy</a>.</p>\n      </form>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-16 sm:py-24 lg:py-32\">\n      <div className=\"mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8\">\n        <h2 className=\"max-w-xl text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl lg:col-span-7\">\n          Want product news and updates? Sign up for our newsletter.\n        </h2>\n        <form className=\"w-full max-w-md lg:col-span-5 lg:pt-2\">\n          <div className=\"flex gap-x-4\">\n            <label htmlFor=\"email-address\" className=\"sr-only\">\n              Email address\n            </label>\n            <input\n              id=\"email-address\"\n              name=\"email\"\n              type=\"email\"\n              required\n              placeholder=\"Enter your email\"\n              autoComplete=\"email\"\n              className=\"min-w-0 flex-auto rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6\"\n            />\n            <button\n              type=\"submit\"\n              className=\"flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500\"\n            >\n              Subscribe\n            </button>\n          </div>\n          <p className=\"mt-4 text-sm/6 text-gray-300\">\n            We care about your data. Read our{' '}\n            <a href=\"#\" className=\"font-semibold text-white\">\n              privacy&nbsp;policy\n            </a>\n            .\n          </p>\n        </form>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 344,
+          "smallWidth": 375,
+          "smallHeight": 380
+        },
+        {
+          "name": "Simple side-by-side on brand",
+          "uuid": "0199bc4ef95ddc2e9442384f5d91f6a6",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-indigo-700 py-16 sm:py-24 lg:py-32\">\n    <div class=\"mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8\">\n      <h2 class=\"max-w-xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:col-span-7\">Want product news and updates? Sign up for our newsletter.</h2>\n      <form class=\"w-full max-w-md lg:col-span-5 lg:pt-2\">\n        <div class=\"flex gap-x-4\">\n          <label for=\"email-address\" class=\"sr-only\">Email address</label>\n          <input id=\"email-address\" name=\"email\" type=\"email\" autocomplete=\"email\" required class=\"min-w-0 flex-auto rounded-md bg-white/10 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-white/75 focus:outline-2 focus:-outline-offset-2 focus:outline-white sm:text-sm/6\" placeholder=\"Enter your email\">\n          <button type=\"submit\" class=\"flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-xs hover:bg-indigo-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\">Subscribe</button>\n        </div>\n        <p class=\"mt-4 text-sm/6 text-gray-300\">We care about your data. Read our <a href=\"#\" class=\"font-semibold text-white hover:text-indigo-50\">privacy&nbsp;policy</a>.</p>\n      </form>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-indigo-700 py-16 sm:py-24 lg:py-32\">\n      <div className=\"mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8\">\n        <h2 className=\"max-w-xl text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:col-span-7\">\n          Want product news and updates? Sign up for our newsletter.\n        </h2>\n        <form className=\"w-full max-w-md lg:col-span-5 lg:pt-2\">\n          <div className=\"flex gap-x-4\">\n            <label htmlFor=\"email-address\" className=\"sr-only\">\n              Email address\n            </label>\n            <input\n              id=\"email-address\"\n              name=\"email\"\n              type=\"email\"\n              required\n              placeholder=\"Enter your email\"\n              autoComplete=\"email\"\n              className=\"min-w-0 flex-auto rounded-md bg-white/10 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-white/75 focus:outline-2 focus:-outline-offset-2 focus:outline-white sm:text-sm/6\"\n            />\n            <button\n              type=\"submit\"\n              className=\"flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-indigo-600 shadow-xs hover:bg-indigo-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\"\n            >\n              Subscribe\n            </button>\n          </div>\n          <p className=\"mt-4 text-sm/6 text-gray-300\">\n            We care about your data. Read our{' '}\n            <a href=\"#\" className=\"font-semibold text-white hover:text-indigo-50\">\n              privacy&nbsp;policy\n            </a>\n            .\n          </p>\n        </form>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 344,
+          "smallWidth": 375,
+          "smallHeight": 380
+        },
+        {
+          "name": "Simple stacked",
+          "uuid": "2da53d5b251438c875c9d2fec8b3d3c0",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-16 sm:py-24 lg:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <h2 class=\"max-w-2xl text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-4xl\">Want product news and updates? Sign up for our newsletter.</h2>\n      <form class=\"mt-10 max-w-md\">\n        <div class=\"flex gap-x-4\">\n          <label for=\"email-address\" class=\"sr-only\">Email address</label>\n          <input id=\"email-address\" name=\"email\" type=\"email\" autocomplete=\"email\" required class=\"min-w-0 flex-auto rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\" placeholder=\"Enter your email\">\n          <button type=\"submit\" class=\"flex-none rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Subscribe</button>\n        </div>\n        <p class=\"mt-4 text-sm/6 text-gray-900\">We care about your data. Read our <a href=\"#\" class=\"font-semibold text-indigo-600 hover:text-indigo-500\">privacy&nbsp;policy</a>.</p>\n      </form>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-16 sm:py-24 lg:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <h2 className=\"max-w-2xl text-3xl font-semibold tracking-tight text-balance text-gray-900 sm:text-4xl\">\n          Want product news and updates? Sign up for our newsletter.\n        </h2>\n        <form className=\"mt-10 max-w-md\">\n          <div className=\"flex gap-x-4\">\n            <label htmlFor=\"email-address\" className=\"sr-only\">\n              Email address\n            </label>\n            <input\n              id=\"email-address\"\n              name=\"email\"\n              type=\"email\"\n              required\n              placeholder=\"Enter your email\"\n              autoComplete=\"email\"\n              className=\"min-w-0 flex-auto rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6\"\n            />\n            <button\n              type=\"submit\"\n              className=\"flex-none rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n            >\n              Subscribe\n            </button>\n          </div>\n          <p className=\"mt-4 text-sm/6 text-gray-900\">\n            We care about your data. Read our{' '}\n            <a href=\"#\" className=\"font-semibold text-indigo-600 hover:text-indigo-500\">\n              privacy&nbsp;policy\n            </a>\n            .\n          </p>\n        </form>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 456,
+          "smallWidth": 375,
+          "smallHeight": 380
+        },
+        {
+          "name": "Centered card",
+          "uuid": "fc2ec9e02ab2fe1136ea7091f841e79c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-16 sm:py-24\">\n    <div class=\"mx-auto max-w-7xl sm:px-6 lg:px-8\">\n      <div class=\"relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32\">\n        <h2 class=\"mx-auto max-w-3xl text-center text-4xl font-semibold tracking-tight text-white sm:text-5xl\">Get notified when we’re launching</h2>\n        <p class=\"mx-auto mt-6 max-w-lg text-center text-lg text-gray-300\">Reprehenderit ad esse et non officia in nulla. Id proident tempor incididunt nostrud nulla et culpa.</p>\n        <form class=\"mx-auto mt-10 flex max-w-md gap-x-4\">\n          <label for=\"email-address\" class=\"sr-only\">Email address</label>\n          <input id=\"email-address\" name=\"email\" type=\"email\" autocomplete=\"email\" required class=\"min-w-0 flex-auto rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-white sm:text-sm/6\" placeholder=\"Enter your email\">\n          <button type=\"submit\" class=\"flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\">Notify me</button>\n        </form>\n        <svg viewBox=\"0 0 1024 1024\" class=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2\" aria-hidden=\"true\">\n          <circle cx=\"512\" cy=\"512\" r=\"512\" fill=\"url(#759c1415-0410-454c-8f7c-9a820de03641)\" fill-opacity=\"0.7\"></circle>\n          <defs>\n            <radialGradient id=\"759c1415-0410-454c-8f7c-9a820de03641\" cx=\"0\" cy=\"0\" r=\"1\" gradientUnits=\"userSpaceOnUse\" gradientTransform=\"translate(512 512) rotate(90) scale(512)\">\n              <stop stop-color=\"#7775D6\"></stop>\n              <stop offset=\"1\" stop-color=\"#E935C1\" stop-opacity=\"0\"></stop>\n            </radialGradient>\n          </defs>\n        </svg>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-16 sm:py-24\">\n      <div className=\"mx-auto max-w-7xl sm:px-6 lg:px-8\">\n        <div className=\"relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32\">\n          <h2 className=\"mx-auto max-w-3xl text-center text-4xl font-semibold tracking-tight text-white sm:text-5xl\">\n            Get notified when we’re launching\n          </h2>\n          <p className=\"mx-auto mt-6 max-w-lg text-center text-lg text-gray-300\">\n            Reprehenderit ad esse et non officia in nulla. Id proident tempor incididunt nostrud nulla et culpa.\n          </p>\n          <form className=\"mx-auto mt-10 flex max-w-md gap-x-4\">\n            <label htmlFor=\"email-address\" className=\"sr-only\">\n              Email address\n            </label>\n            <input\n              id=\"email-address\"\n              name=\"email\"\n              type=\"email\"\n              required\n              placeholder=\"Enter your email\"\n              autoComplete=\"email\"\n              className=\"min-w-0 flex-auto rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-white sm:text-sm/6\"\n            />\n            <button\n              type=\"submit\"\n              className=\"flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\"\n            >\n              Notify me\n            </button>\n          </form>\n          <svg\n            viewBox=\"0 0 1024 1024\"\n            aria-hidden=\"true\"\n            className=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2\"\n          >\n            <circle r={512} cx={512} cy={512} fill=\"url(#759c1415-0410-454c-8f7c-9a820de03641)\" fillOpacity=\"0.7\" />\n            <defs>\n              <radialGradient\n                r={1}\n                cx={0}\n                cy={0}\n                id=\"759c1415-0410-454c-8f7c-9a820de03641\"\n                gradientUnits=\"userSpaceOnUse\"\n                gradientTransform=\"translate(512 512) rotate(90) scale(512)\"\n              >\n                <stop stopColor=\"#7775D6\" />\n                <stop offset={1} stopColor=\"#E935C1\" stopOpacity={0} />\n              </radialGradient>\n            </defs>\n          </svg>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 656,
+          "smallWidth": 375,
+          "smallHeight": 588
+        },
+        {
+          "name": "Side-by-side on card",
+          "uuid": "545e4f870cc7bc80a882f6ea2f33fb9f",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-16 sm:py-24\">\n    <div class=\"mx-auto max-w-7xl sm:px-6 lg:px-8\">\n      <div class=\"relative isolate flex flex-col gap-10 overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:flex-row xl:items-center xl:py-32\">\n        <h2 class=\"max-w-xl text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl xl:flex-auto\">Want our product updates? Sign up for our newsletter.</h2>\n        <form class=\"w-full max-w-md\">\n          <div class=\"flex gap-x-4\">\n            <label for=\"email-address\" class=\"sr-only\">Email address</label>\n            <input id=\"email-address\" name=\"email\" type=\"email\" autocomplete=\"email\" required class=\"min-w-0 flex-auto rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-white sm:text-sm/6\" placeholder=\"Enter your email\">\n            <button type=\"submit\" class=\"flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\">Notify me</button>\n          </div>\n          <p class=\"mt-4 text-sm/6 text-gray-300\">We care about your data. Read our <a href=\"#\" class=\"font-semibold text-white\">privacy&nbsp;policy</a>.</p>\n        </form>\n        <svg viewBox=\"0 0 1024 1024\" class=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2\" aria-hidden=\"true\">\n          <circle cx=\"512\" cy=\"512\" r=\"512\" fill=\"url(#759c1415-0410-454c-8f7c-9a820de03641)\" fill-opacity=\"0.7\"></circle>\n          <defs>\n            <radialGradient id=\"759c1415-0410-454c-8f7c-9a820de03641\" cx=\"0\" cy=\"0\" r=\"1\" gradientUnits=\"userSpaceOnUse\" gradientTransform=\"translate(512 512) rotate(90) scale(512)\">\n              <stop stop-color=\"#7775D6\"></stop>\n              <stop offset=\"1\" stop-color=\"#E935C1\" stop-opacity=\"0\"></stop>\n            </radialGradient>\n          </defs>\n        </svg>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 4,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-16 sm:py-24\">\n      <div className=\"mx-auto max-w-7xl sm:px-6 lg:px-8\">\n        <div className=\"relative isolate flex flex-col gap-10 overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:flex-row xl:items-center xl:py-32\">\n          <h2 className=\"max-w-xl text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl xl:flex-auto\">\n            Want our product updates? Sign up for our newsletter.\n          </h2>\n          <form className=\"w-full max-w-md\">\n            <div className=\"flex gap-x-4\">\n              <label htmlFor=\"email-address\" className=\"sr-only\">\n                Email address\n              </label>\n              <input\n                id=\"email-address\"\n                name=\"email\"\n                type=\"email\"\n                required\n                placeholder=\"Enter your email\"\n                autoComplete=\"email\"\n                className=\"min-w-0 flex-auto rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-white sm:text-sm/6\"\n              />\n              <button\n                type=\"submit\"\n                className=\"flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white\"\n              >\n                Notify me\n              </button>\n            </div>\n            <p className=\"mt-4 text-sm/6 text-gray-300\">\n              We care about your data. Read our{' '}\n              <a href=\"#\" className=\"font-semibold text-white\">\n                privacy&nbsp;policy\n              </a>\n              .\n            </p>\n          </form>\n          <svg\n            viewBox=\"0 0 1024 1024\"\n            aria-hidden=\"true\"\n            className=\"absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-x-1/2\"\n          >\n            <circle r={512} cx={512} cy={512} fill=\"url(#759c1415-0410-454c-8f7c-9a820de03641)\" fillOpacity=\"0.7\" />\n            <defs>\n              <radialGradient\n                r={1}\n                cx={0}\n                cy={0}\n                id=\"759c1415-0410-454c-8f7c-9a820de03641\"\n                gradientUnits=\"userSpaceOnUse\"\n                gradientTransform=\"translate(512 512) rotate(90) scale(512)\"\n              >\n                <stop stopColor=\"#7775D6\" />\n                <stop offset={1} stopColor=\"#E935C1\" stopOpacity={0} />\n              </radialGradient>\n            </defs>\n          </svg>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 528,
+          "smallWidth": 375,
+          "smallHeight": 572
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/marketing/sections/newsletter-sections",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}

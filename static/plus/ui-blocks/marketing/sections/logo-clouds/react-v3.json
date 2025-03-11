@@ -1,0 +1,470 @@
+{
+  "component": "ComponentCategory",
+  "props": {
+    "errors": {},
+    "tailwindVersion": "4.0",
+    "baseUrl": "",
+    "copyrightYear": "2025",
+    "auth": {
+      "isImpersonating": false,
+      "user": {
+        "email": "admin@fengzi.cool",
+        "teams": [
+          {
+            "id": 123456,
+            "name": "Long Live Freedom"
+          }
+        ],
+        "can": {
+          "upgradeToTeamLicense": false,
+          "canUpgradeToStandardAllAccess": false
+        }
+      }
+    },
+    "canPurchasePlus": false,
+    "componentsUrl": "/plus/ui-blocks/marketing",
+    "preferredLanguage": "zh-CN",
+    "archiveAvailable": true,
+    "products": [
+      {
+        "name": "Marketing",
+        "url": "/plus/ui-blocks/marketing",
+        "isCurrent": true
+      },
+      {
+        "name": "Application UI",
+        "url": "/plus/ui-blocks/application-ui",
+        "isCurrent": false
+      },
+      {
+        "name": "Ecommerce",
+        "url": "/plus/ui-blocks/ecommerce",
+        "isCurrent": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Page Sections",
+        "anchor": "product-marketing-sections",
+        "subcategories": [
+          {
+            "name": "Hero Sections",
+            "url": "/plus/ui-blocks/marketing/sections/heroes",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Feature Sections",
+            "url": "/plus/ui-blocks/marketing/sections/feature-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "CTA Sections",
+            "url": "/plus/ui-blocks/marketing/sections/cta-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Bento Grids",
+            "url": "/plus/ui-blocks/marketing/sections/bento-grids",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Sections",
+            "url": "/plus/ui-blocks/marketing/sections/pricing",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Header Sections",
+            "url": "/plus/ui-blocks/marketing/sections/header",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Newsletter Sections",
+            "url": "/plus/ui-blocks/marketing/sections/newsletter-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Stats",
+            "url": "/plus/ui-blocks/marketing/sections/stats-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Testimonials",
+            "url": "/plus/ui-blocks/marketing/sections/testimonials",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Blog Sections",
+            "url": "/plus/ui-blocks/marketing/sections/blog-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Contact Sections",
+            "url": "/plus/ui-blocks/marketing/sections/contact-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Team Sections",
+            "url": "/plus/ui-blocks/marketing/sections/team-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Content Sections",
+            "url": "/plus/ui-blocks/marketing/sections/content-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Logo Clouds",
+            "url": "/plus/ui-blocks/marketing/sections/logo-clouds",
+            "isNew": false,
+            "isCurrent": true
+          },
+          {
+            "name": "FAQs",
+            "url": "/plus/ui-blocks/marketing/sections/faq-sections",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Footers",
+            "url": "/plus/ui-blocks/marketing/sections/footers",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "anchor": "product-marketing-elements",
+        "subcategories": [
+          {
+            "name": "Headers",
+            "url": "/plus/ui-blocks/marketing/elements/headers",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Flyout Menus",
+            "url": "/plus/ui-blocks/marketing/elements/flyout-menus",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Banners",
+            "url": "/plus/ui-blocks/marketing/elements/banners",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Feedback",
+        "anchor": "product-marketing-feedback",
+        "subcategories": [
+          {
+            "name": "404 Pages",
+            "url": "/plus/ui-blocks/marketing/feedback/404-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      },
+      {
+        "name": "Page Examples",
+        "anchor": "product-marketing-page-examples",
+        "subcategories": [
+          {
+            "name": "Landing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/landing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "Pricing Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/pricing-pages",
+            "isNew": false,
+            "isCurrent": false
+          },
+          {
+            "name": "About Pages",
+            "url": "/plus/ui-blocks/marketing/page-examples/about-pages",
+            "isNew": false,
+            "isCurrent": false
+          }
+        ]
+      }
+    ],
+    "subcategory": {
+      "name": "Logo Clouds",
+      "description": "Logo cloud examples for Tailwind CSS, designed and built by the creators of the framework.",
+      "introduction": "Use these Tailwind CSS logo cloud examples to build trust and highlight prominent customers and partners. These examples are designed and built by the Tailwind CSS team, and include a variety of different styles and layouts.",
+      "url": "/plus/ui-blocks/marketing/sections/logo-clouds",
+      "category": {
+        "name": "Page Sections",
+        "url": "/plus/ui-blocks/marketing#product-marketing-sections",
+        "product": {
+          "name": "Marketing",
+          "url": "/plus/ui-blocks/marketing"
+        }
+      },
+      "components": [
+        {
+          "name": "Simple with heading",
+          "uuid": "6b864c393af88d7b8a2ac53eaebf6403",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <h2 class=\"text-center text-lg/8 font-semibold text-gray-900\">Trusted by the world’s most innovative teams</h2>\n      <div class=\"mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/reform-logo-gray-900.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <h2 className=\"text-center text-lg/8 font-semibold text-gray-900\">\n          Trusted by the world’s most innovative teams\n        </h2>\n        <div className=\"mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n          <img\n            alt=\"Transistor\"\n            src=\"/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Reform\"\n            src=\"/plus-assets/img/logos/158x48/reform-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Tuple\"\n            src=\"/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"SavvyCal\"\n            src=\"/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\"\n          />\n          <img\n            alt=\"Statamic\"\n            src=\"/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\"\n          />\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 376,
+          "smallWidth": 375,
+          "smallHeight": 510
+        },
+        {
+          "name": "Simple with heading on dark",
+          "uuid": "08f666954abd7bc195fd71da9b00aade",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <h2 class=\"text-center text-lg/8 font-semibold text-white\">Trusted by the world’s most innovative teams</h2>\n      <div class=\"mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/transistor-logo-white.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/reform-logo-white.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/tuple-logo-white.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/savvycal-logo-white.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/statamic-logo-white.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <h2 className=\"text-center text-lg/8 font-semibold text-white\">Trusted by the world’s most innovative teams</h2>\n        <div className=\"mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n          <img\n            alt=\"Transistor\"\n            src=\"/plus-assets/img/logos/158x48/transistor-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Reform\"\n            src=\"/plus-assets/img/logos/158x48/reform-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Tuple\"\n            src=\"/plus-assets/img/logos/158x48/tuple-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"SavvyCal\"\n            src=\"/plus-assets/img/logos/158x48/savvycal-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\"\n          />\n          <img\n            alt=\"Statamic\"\n            src=\"/plus-assets/img/logos/158x48/statamic-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\"\n          />\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 376,
+          "smallWidth": 375,
+          "smallHeight": 510
+        },
+        {
+          "name": "Simple with call-to-action",
+          "uuid": "41819e575f2ea4dc492ce0155e48f5ee",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/reform-logo-gray-900.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n      </div>\n      <div class=\"mt-16 flex justify-center\">\n        <p class=\"relative rounded-full bg-gray-50 px-4 py-1.5 text-sm/6 text-gray-600 ring-1 ring-gray-900/5 ring-inset\">\n          <span class=\"hidden md:inline\">Over 2500 companies use our tools to better their business.</span>\n          <a href=\"#\" class=\"font-semibold text-indigo-600\"><span class=\"absolute inset-0\" aria-hidden=\"true\"></span> Read our customer stories <span aria-hidden=\"true\">&rarr;</span></a>\n        </p>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n          <img\n            alt=\"Transistor\"\n            src=\"/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Reform\"\n            src=\"/plus-assets/img/logos/158x48/reform-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Tuple\"\n            src=\"/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"SavvyCal\"\n            src=\"/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\"\n          />\n          <img\n            alt=\"Statamic\"\n            src=\"/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\"\n          />\n        </div>\n        <div className=\"mt-16 flex justify-center\">\n          <p className=\"relative rounded-full bg-gray-50 px-4 py-1.5 text-sm/6 text-gray-600 ring-1 ring-inset ring-gray-900/5\">\n            <span className=\"hidden md:inline\">Over 2500 companies use our tools to better their business.</span>\n            <a href=\"#\" className=\"font-semibold text-indigo-600\">\n              <span aria-hidden=\"true\" className=\"absolute inset-0\" /> Read our customer stories{' '}\n              <span aria-hidden=\"true\">&rarr;</span>\n            </a>\n          </p>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 404,
+          "smallWidth": 375,
+          "smallHeight": 522
+        },
+        {
+          "name": "Simple with call-to-action on dark",
+          "uuid": "18d51c7ed4e5a3fa9fab3503176887ed",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/transistor-logo-white.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/reform-logo-white.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/tuple-logo-white.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/savvycal-logo-white.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/statamic-logo-white.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n      </div>\n      <div class=\"mt-16 flex justify-center\">\n        <p class=\"relative rounded-full bg-gray-800 px-4 py-1.5 text-sm/6 text-gray-300\">\n          <span class=\"hidden md:inline\">Over 2500 companies use our tools to better their business.</span>\n          <a href=\"#\" class=\"font-semibold text-white\"><span class=\"absolute inset-0\" aria-hidden=\"true\"></span> Read our customer stories <span aria-hidden=\"true\">&rarr;</span></a>\n        </p>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n          <img\n            alt=\"Transistor\"\n            src=\"/plus-assets/img/logos/158x48/transistor-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Reform\"\n            src=\"/plus-assets/img/logos/158x48/reform-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Tuple\"\n            src=\"/plus-assets/img/logos/158x48/tuple-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"SavvyCal\"\n            src=\"/plus-assets/img/logos/158x48/savvycal-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\"\n          />\n          <img\n            alt=\"Statamic\"\n            src=\"/plus-assets/img/logos/158x48/statamic-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\"\n          />\n        </div>\n        <div className=\"mt-16 flex justify-center\">\n          <p className=\"relative rounded-full bg-gray-800 px-4 py-1.5 text-sm/6 text-gray-300\">\n            <span className=\"hidden md:inline\">Over 2500 companies use our tools to better their business.</span>\n            <a href=\"#\" className=\"font-semibold text-white\">\n              <span aria-hidden=\"true\" className=\"absolute inset-0\" /> Read our customer stories{' '}\n              <span aria-hidden=\"true\">&rarr;</span>\n            </a>\n          </p>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 404,
+          "smallWidth": 375,
+          "smallHeight": 522
+        },
+        {
+          "name": "Simple left-aligned",
+          "uuid": "0b335b8d706c7e91f42206937f0f240c",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:max-w-none\">\n        <h2 class=\"text-lg/8 font-semibold text-gray-900\">Trusted by the world’s most innovative teams</h2>\n        <div class=\"mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/transistor-logo-gray-900.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/reform-logo-gray-900.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/tuple-logo-gray-900.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/savvycal-logo-gray-900.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/statamic-logo-gray-900.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl lg:max-w-none\">\n          <h2 className=\"text-lg/8 font-semibold text-gray-900\">Trusted by the world’s most innovative teams</h2>\n          <div className=\"mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5\">\n            <img\n              alt=\"Transistor\"\n              src=\"/plus-assets/img/logos/transistor-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n            <img\n              alt=\"Reform\"\n              src=\"/plus-assets/img/logos/reform-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n            <img\n              alt=\"Tuple\"\n              src=\"/plus-assets/img/logos/tuple-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n            <img\n              alt=\"SavvyCal\"\n              src=\"/plus-assets/img/logos/savvycal-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n            <img\n              alt=\"Statamic\"\n              src=\"/plus-assets/img/logos/statamic-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 376,
+          "smallWidth": 375,
+          "smallHeight": 520
+        },
+        {
+          "name": "Simple left-aligned on dark",
+          "uuid": "105d408eaefa34169501d30dcd1c5461",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto max-w-2xl lg:max-w-none\">\n        <h2 class=\"text-lg/8 font-semibold text-white\">Trusted by the world’s most innovative teams</h2>\n        <div class=\"mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/transistor-logo-white.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/reform-logo-white.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/tuple-logo-white.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/savvycal-logo-white.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n          <img class=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\" src=\"/plus-assets/img/logos/statamic-logo-white.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto max-w-2xl lg:max-w-none\">\n          <h2 className=\"text-lg/8 font-semibold text-white\">Trusted by the world’s most innovative teams</h2>\n          <div className=\"mx-auto mt-10 grid grid-cols-4 items-start gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5\">\n            <img\n              alt=\"Transistor\"\n              src=\"/plus-assets/img/logos/transistor-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n            <img\n              alt=\"Reform\"\n              src=\"/plus-assets/img/logos/reform-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n            <img\n              alt=\"Tuple\"\n              src=\"/plus-assets/img/logos/tuple-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n            <img\n              alt=\"SavvyCal\"\n              src=\"/plus-assets/img/logos/savvycal-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n            <img\n              alt=\"Statamic\"\n              src=\"/plus-assets/img/logos/statamic-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"col-span-2 max-h-12 w-full object-contain object-left lg:col-span-1\"\n            />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 376,
+          "smallWidth": 375,
+          "smallHeight": 520
+        },
+        {
+          "name": "Split with logos on right",
+          "uuid": "58e002f268559c7aba120b917e51ea65",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2\">\n        <div class=\"mx-auto w-full max-w-xl lg:mx-0\">\n          <h2 class=\"text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl\">Trusted by the most innovative teams</h2>\n          <p class=\"mt-6 text-lg/8 text-gray-600\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue.</p>\n          <div class=\"mt-8 flex items-center gap-x-6\">\n            <a href=\"#\" class=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\">Create account</a>\n            <a href=\"#\" class=\"text-sm font-semibold text-gray-900\">Contact us <span aria-hidden=\"true\">&rarr;</span></a>\n          </div>\n        </div>\n        <div class=\"mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/tuple-logo-gray-900.svg\" alt=\"Tuple\" width=\"105\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/reform-logo-gray-900.svg\" alt=\"Reform\" width=\"104\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/savvycal-logo-gray-900.svg\" alt=\"SavvyCal\" width=\"140\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/laravel-logo-gray-900.svg\" alt=\"Laravel\" width=\"136\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/transistor-logo-gray-900.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/statamic-logo-gray-900.svg\" alt=\"Statamic\" width=\"147\" height=\"48\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2\">\n          <div className=\"mx-auto w-full max-w-xl lg:mx-0\">\n            <h2 className=\"text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl\">\n              Trusted by the most innovative teams\n            </h2>\n            <p className=\"mt-6 text-lg/8 text-gray-600\">\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a\n              scelerisque amet ullamcorper eu enim et fermentum, augue.\n            </p>\n            <div className=\"mt-8 flex items-center gap-x-6\">\n              <a\n                href=\"#\"\n                className=\"rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600\"\n              >\n                Create account\n              </a>\n              <a href=\"#\" className=\"text-sm font-semibold text-gray-900\">\n                Contact us <span aria-hidden=\"true\">&rarr;</span>\n              </a>\n            </div>\n          </div>\n          <div className=\"mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8\">\n            <img\n              alt=\"Tuple\"\n              src=\"/plus-assets/img/logos/tuple-logo-gray-900.svg\"\n              width={105}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"Reform\"\n              src=\"/plus-assets/img/logos/reform-logo-gray-900.svg\"\n              width={104}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"SavvyCal\"\n              src=\"/plus-assets/img/logos/savvycal-logo-gray-900.svg\"\n              width={140}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"Laravel\"\n              src=\"/plus-assets/img/logos/laravel-logo-gray-900.svg\"\n              width={136}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"Transistor\"\n              src=\"/plus-assets/img/logos/transistor-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"Statamic\"\n              src=\"/plus-assets/img/logos/statamic-logo-gray-900.svg\"\n              width={147}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 544,
+          "smallWidth": 375,
+          "smallHeight": 832
+        },
+        {
+          "name": "Split with logos on right on dark",
+          "uuid": "0f9e221e9238ca5e9f27ba06a979f3a5",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2\">\n        <div class=\"mx-auto w-full max-w-xl lg:mx-0\">\n          <h2 class=\"text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl\">Trusted by the most innovative teams</h2>\n          <p class=\"mt-6 text-lg/8 text-gray-300\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue.</p>\n          <div class=\"mt-8 flex items-center gap-x-6\">\n            <a href=\"#\" class=\"rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500\">Create account</a>\n            <a href=\"#\" class=\"text-sm font-semibold text-white\">Contact us <span aria-hidden=\"true\">&rarr;</span></a>\n          </div>\n        </div>\n        <div class=\"mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/tuple-logo-white.svg\" alt=\"Tuple\" width=\"105\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/reform-logo-white.svg\" alt=\"Reform\" width=\"104\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/savvycal-logo-white.svg\" alt=\"SavvyCal\" width=\"140\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/laravel-logo-white.svg\" alt=\"Laravel\" width=\"136\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/transistor-logo-white.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n          <img class=\"max-h-12 w-full object-contain object-left\" src=\"/plus-assets/img/logos/statamic-logo-white.svg\" alt=\"Statamic\" width=\"147\" height=\"48\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2\">\n          <div className=\"mx-auto w-full max-w-xl lg:mx-0\">\n            <h2 className=\"text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl\">\n              Trusted by the most innovative teams\n            </h2>\n            <p className=\"mt-6 text-lg/8 text-gray-300\">\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a\n              scelerisque amet ullamcorper eu enim et fermentum, augue.\n            </p>\n            <div className=\"mt-8 flex items-center gap-x-6\">\n              <a\n                href=\"#\"\n                className=\"rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500\"\n              >\n                Create account\n              </a>\n              <a href=\"#\" className=\"text-sm font-semibold text-white\">\n                Contact us <span aria-hidden=\"true\">&rarr;</span>\n              </a>\n            </div>\n          </div>\n          <div className=\"mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8\">\n            <img\n              alt=\"Tuple\"\n              src=\"/plus-assets/img/logos/tuple-logo-white.svg\"\n              width={105}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"Reform\"\n              src=\"/plus-assets/img/logos/reform-logo-white.svg\"\n              width={104}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"SavvyCal\"\n              src=\"/plus-assets/img/logos/savvycal-logo-white.svg\"\n              width={140}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"Laravel\"\n              src=\"/plus-assets/img/logos/laravel-logo-white.svg\"\n              width={136}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"Transistor\"\n              src=\"/plus-assets/img/logos/transistor-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n            <img\n              alt=\"Statamic\"\n              src=\"/plus-assets/img/logos/statamic-logo-white.svg\"\n              width={147}\n              height={48}\n              className=\"max-h-12 w-full object-contain object-left\"\n            />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 544,
+          "smallWidth": 375,
+          "smallHeight": 832
+        },
+        {
+          "name": "Simple",
+          "uuid": "fd820f87009f8bfcba4533c929686aad",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/reform-logo-gray-900.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n          <img\n            alt=\"Transistor\"\n            src=\"/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Reform\"\n            src=\"/plus-assets/img/logos/158x48/reform-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Tuple\"\n            src=\"/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"SavvyCal\"\n            src=\"/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\"\n          />\n          <img\n            alt=\"Statamic\"\n            src=\"/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\"\n          />\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 304,
+          "smallWidth": 375,
+          "smallHeight": 422
+        },
+        {
+          "name": "Simple on dark",
+          "uuid": "4e8460828675ab73d0991610e1ed2694",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/transistor-logo-white.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/reform-logo-white.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/tuple-logo-white.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/savvycal-logo-white.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n        <img class=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\" src=\"/plus-assets/img/logos/158x48/statamic-logo-white.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5\">\n          <img\n            alt=\"Transistor\"\n            src=\"/plus-assets/img/logos/158x48/transistor-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Reform\"\n            src=\"/plus-assets/img/logos/158x48/reform-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"Tuple\"\n            src=\"/plus-assets/img/logos/158x48/tuple-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain lg:col-span-1\"\n          />\n          <img\n            alt=\"SavvyCal\"\n            src=\"/plus-assets/img/logos/158x48/savvycal-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1\"\n          />\n          <img\n            alt=\"Statamic\"\n            src=\"/plus-assets/img/logos/158x48/statamic-logo-white.svg\"\n            width={158}\n            height={48}\n            className=\"col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1\"\n          />\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 304,
+          "smallWidth": 375,
+          "smallHeight": 422
+        },
+        {
+          "name": "Grid",
+          "uuid": "43ee71fd15dce1037be11c19f5a95227",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-white py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3\">\n        <div class=\"bg-gray-400/5 p-8 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-gray-400/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/reform-logo-gray-900.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-gray-400/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-gray-400/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/laravel-logo-gray-900.svg\" alt=\"Laravel\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-gray-400/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-gray-400/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-white py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3\">\n          <div className=\"bg-gray-400/5 p-8 sm:p-10\">\n            <img\n              alt=\"Transistor\"\n              src=\"/plus-assets/img/logos/158x48/transistor-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-gray-400/5 p-6 sm:p-10\">\n            <img\n              alt=\"Reform\"\n              src=\"/plus-assets/img/logos/158x48/reform-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-gray-400/5 p-6 sm:p-10\">\n            <img\n              alt=\"Tuple\"\n              src=\"/plus-assets/img/logos/158x48/tuple-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-gray-400/5 p-6 sm:p-10\">\n            <img\n              alt=\"Laravel\"\n              src=\"/plus-assets/img/logos/158x48/laravel-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-gray-400/5 p-6 sm:p-10\">\n            <img\n              alt=\"SavvyCal\"\n              src=\"/plus-assets/img/logos/158x48/savvycal-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-gray-400/5 p-6 sm:p-10\">\n            <img\n              alt=\"Statamic\"\n              src=\"/plus-assets/img/logos/158x48/statamic-logo-gray-900.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 514,
+          "smallWidth": 375,
+          "smallHeight": 477
+        },
+        {
+          "name": "Grid on dark",
+          "uuid": "35b5cefd39fe40ce13988e51fd0ae299",
+          "isNew": false,
+          "downloadable": true,
+          "imageCreditsHtml": null,
+          "requiresJavaScript": false,
+          "archived": false,
+          "iframeHtml": "<!doctype html><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"><link rel=\"preconnect\" href=\"https://rsms.me/\"><link rel=\"stylesheet\" href=\"https://rsms.me/inter/inter.css\"><link rel=\"stylesheet\" href=\"/plus-assets/build/iframe/components.css?hash=1907d2476e1de77d68dab0ee685e463a\"><script src=\"/plus-assets/build/iframe/components.js?hash=25df7d34d043de1c316a31211aa744b1\"></script><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\" /><link rel=\"modulepreload\" href=\"/plus-assets/build/assets/iframe-CBshCjZa.js\" /><script type=\"module\" src=\"/plus-assets/build/assets/iframe-alpine-Dg6QrlCv.js\"></script>\n<script>\n     window.addEventListener('load', () => window.setTimeout(() => {\n        const makeLink = (asset) => {\n            const link = document.createElement('link')\n\n            Object.keys(asset).forEach((attribute) => {\n                link.setAttribute(attribute, asset[attribute])\n            })\n\n            return link\n        }\n\n        const loadNext = (assets, count) => window.setTimeout(() => {\n            if (count > assets.length) {\n                count = assets.length\n\n                if (count === 0) {\n                    return\n                }\n            }\n\n            const fragment = new DocumentFragment\n\n            while (count > 0) {\n                const link = makeLink(assets.shift())\n                fragment.append(link)\n                count--\n\n                if (assets.length) {\n                    link.onload = () => loadNext(assets, 1)\n                    link.onerror = () => loadNext(assets, 1)\n                }\n            }\n\n            document.head.append(fragment)\n        })\n\n        loadNext([], 3)\n    }))\n</script><style>body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }</style><body>\n  \n  <div class=\"bg-gray-900 py-24 sm:py-32\">\n    <div class=\"mx-auto max-w-7xl px-6 lg:px-8\">\n      <div class=\"-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3\">\n        <div class=\"bg-white/5 p-8 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/transistor-logo-white.svg\" alt=\"Transistor\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-white/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/reform-logo-white.svg\" alt=\"Reform\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-white/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/tuple-logo-white.svg\" alt=\"Tuple\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-white/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/laravel-logo-white.svg\" alt=\"Laravel\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-white/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/savvycal-logo-white.svg\" alt=\"SavvyCal\" width=\"158\" height=\"48\">\n        </div>\n        <div class=\"bg-white/5 p-6 sm:p-10\">\n          <img class=\"max-h-12 w-full object-contain\" src=\"/plus-assets/img/logos/158x48/statamic-logo-white.svg\" alt=\"Statamic\" width=\"158\" height=\"48\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n</body>",
+          "snippet": {
+            "name": "react",
+            "language": "jsx",
+            "version": 3,
+            "code": "export default function Example() {\n  return (\n    <div className=\"bg-gray-900 py-24 sm:py-32\">\n      <div className=\"mx-auto max-w-7xl px-6 lg:px-8\">\n        <div className=\"-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3\">\n          <div className=\"bg-white/5 p-8 sm:p-10\">\n            <img\n              alt=\"Transistor\"\n              src=\"/plus-assets/img/logos/158x48/transistor-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-white/5 p-6 sm:p-10\">\n            <img\n              alt=\"Reform\"\n              src=\"/plus-assets/img/logos/158x48/reform-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-white/5 p-6 sm:p-10\">\n            <img\n              alt=\"Tuple\"\n              src=\"/plus-assets/img/logos/158x48/tuple-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-white/5 p-6 sm:p-10\">\n            <img\n              alt=\"Laravel\"\n              src=\"/plus-assets/img/logos/158x48/laravel-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-white/5 p-6 sm:p-10\">\n            <img\n              alt=\"SavvyCal\"\n              src=\"/plus-assets/img/logos/158x48/savvycal-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n          <div className=\"bg-white/5 p-6 sm:p-10\">\n            <img\n              alt=\"Statamic\"\n              src=\"/plus-assets/img/logos/158x48/statamic-logo-white.svg\"\n              width={158}\n              height={48}\n              className=\"max-h-12 w-full object-contain\"\n            />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n"
+          },
+          "largeWidth": 1280,
+          "largeHeight": 514,
+          "smallWidth": 375,
+          "smallHeight": 477
+        }
+      ]
+    }
+  },
+  "url": "/plus/ui-blocks/marketing/sections/logo-clouds",
+  "version": "b2adf83a16a94d2e0fb52a1c5f3049f3",
+  "clearHistory": false,
+  "encryptHistory": false
+}
