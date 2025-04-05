@@ -1,28 +1,47 @@
 from flask import Flask, send_from_directory, request, make_response, abort
 import logging
 from pathlib import Path
+import os
+import sys
+
+# 确定应用程序的基础路径
+def get_base_path():
+    # 检查是否是 PyInstaller 打包的环境
+    if getattr(sys, 'frozen', False):
+        # 如果是打包环境，使用 _MEIPASS
+        base_path = Path(sys._MEIPASS)
+    else:
+        # 如果是开发环境，使用当前目录
+        base_path = Path(__file__).parent
+    return base_path
+
+# 获取基础路径
+BASE_PATH = get_base_path()
 
 def setup_logger():
-    # 创建日志目录
-    log_dir = Path("logs")
-    log_dir.mkdir(exist_ok=True)
-
-    # 配置日志
+    # 创建日志记录器
     logger = logging.getLogger("mirror_site")
-    # logger 和 handler 不一样，这里和下边都设置日志级别是为了保证控制台和文件日志的一致性！
     logger.setLevel(logging.INFO)
-
-    # 创建文件处理器
-    file_handler = logging.FileHandler(log_dir / "server.log", encoding="utf-8")
-    file_handler.setLevel(logging.INFO)
-
-    # 创建格式化器
+    
+    # 创建控制台处理器
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    file_handler.setFormatter(formatter)
-
-    # 添加处理器到日志记录器
-    logger.addHandler(file_handler)
-
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
+    
+    # 检查是否是打包环境，非打包环境才创建文件日志
+    if not getattr(sys, 'frozen', False):
+        # 创建日志目录
+        log_dir = Path(__file__).parent / "logs"
+        log_dir.mkdir(exist_ok=True)
+        
+        # 创建文件处理器
+        file_handler = logging.FileHandler(log_dir / "server.log", encoding="utf-8")
+        file_handler.setLevel(logging.INFO)
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+    
     return logger
 
 logger = setup_logger()
@@ -75,7 +94,7 @@ def handle_download(path):
     filename = parts[-1] + '.zip'
     
     # 构建 zip 文件路径
-    zip_path = Path('static') / base_path / filename
+    zip_path = BASE_PATH / "static" / base_path / filename
     
     logger.info(f"尝试下载文件: {zip_path}")
     
@@ -98,7 +117,7 @@ def handle_download(path):
 
 @app.route('/')
 def index():
-    return send_from_directory('static/plus', 'index.html')
+    return send_from_directory(str(BASE_PATH / "static/plus"), 'index.html')
 
 @app.route('/<path:path>')
 def catch_all(path):
@@ -110,7 +129,7 @@ def catch_all(path):
     
     # 如果路径中包含后缀，那就直接提供文件
     if '.' in path:
-        return send_from_directory('static', path)
+        return send_from_directory(str(BASE_PATH / "static"), path)
     
     # 如果路径中不包含后缀，那就要分情况判断
     # 获取头部中的 x-inertia 字段
@@ -123,12 +142,12 @@ def catch_all(path):
         clear_snippet_lang() # 即时清理，避免影响后续处理！
         
         if snippet_lang:
-            file_path = Path('static') / path / f"{snippet_lang}.json"
+            file_path = BASE_PATH / "static" / path / f"{snippet_lang}.json"
         else:
-            file_path = Path('static') / path / f"{DEFAULT_SNIPPET_LANG}.json"
+            file_path = BASE_PATH / "static" / path / f"{DEFAULT_SNIPPET_LANG}.json"
             # 如果文件不存在，就用 index.json
             if not file_path.exists():
-                file_path = Path('static') / path / 'index.json'
+                file_path = BASE_PATH / "static" / path / 'index.json'
 
         if not file_path.exists():
             logger.warning(f"文件不存在: {file_path}")
@@ -145,7 +164,7 @@ def catch_all(path):
         return response
     
     # 否则，返回 index.html
-    return send_from_directory(f'static/{path}', 'index.html')
+    return send_from_directory(str(BASE_PATH / "static" / path), 'index.html')
 
 
 @app.route('/plus/ui-blocks/language', methods=['PUT'])

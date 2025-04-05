@@ -1,2 +1,20 @@
+# 忽略日志文件
 logs
+
+# 忽略虚拟环境
 .venv
+
+# 忽略构建文件
+build
+
+# 忽略 dist 目录
+dist
+
+# 忽略 .spec 文件
+*.spec
+
+# 忽略 .pyc 文件
+*.pyc
+
+
+

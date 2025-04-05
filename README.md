@@ -36,10 +36,14 @@ MyMirror/
 
 2. 创建并激活虚拟环境（可选但推荐）
 
+**在 Windows 下：**
+
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
+
+**在 Linux 下：**
 
 ```bash
 python -m venv .venv
@@ -60,6 +64,8 @@ python server.py
 
 服务器默认在 http://127.0.0.1:5000 启动，可以通过浏览器访问。
 
+**Tip**：在完全无网的环境下访问可能会出现一点问题（比如预览效果无法显示、加载慢等），这是因为内部依赖了官方的 JS 文件所致（没有完全离线）
+
 ## 主要路由说明
 
 - `/` - 主页
@@ -76,3 +82,24 @@ python server.py
 ## 日志
 
 服务器日志保存在 `logs/server.log` 文件中，记录了所有请求和响应信息，以及可能的错误。
+
+## 打包为可执行文件
+
+### 单行命令打包（多平台支持）
+
+使用以下命令直接打包（包含静态资源）：
+
+```powershell
+pyinstaller --onefile --icon="static/favicon.ico" --name="Tailwind Plus" --add-data="static;static" server.py
+```
+
+参数说明：
+- `--onefile`: 打包为单个可执行文件
+- `--icon=favicon.ico`: 设置应用图标
+- `--add-data="static;static"`: 包含静态资源目录（Windows 用分号分隔，Linux/Mac 用冒号）
+- `--name="Tailwind Plus"`: 设置输出文件名
+
+### 注意事项
+
+1. 打包后的程序将在 `dist` 目录中
+2. 如遇 404 错误，通常是静态资源路径问题
