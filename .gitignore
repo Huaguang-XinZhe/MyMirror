@@ -16,5 +16,9 @@ dist
 # 忽略 .pyc 文件
 *.pyc
 
+# 忽略 scripts 目录
+scripts
 
+# 忽略 ui-blocks 目录
+ui-blocks
 
