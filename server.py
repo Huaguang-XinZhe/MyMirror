@@ -30,8 +30,8 @@ def setup_logger():
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
     
-    # 检查是否是打包环境，非打包环境才创建文件日志
-    if not getattr(sys, 'frozen', False):
+    # 检查是否是打包环境或 Docker 环境，非打包环境才创建文件日志
+    if not getattr(sys, 'frozen', False) and os.environ.get('DOCKER_ENV') != 'true':
         # 创建日志目录
         log_dir = Path(__file__).parent / "logs"
         log_dir.mkdir(exist_ok=True)
@@ -211,6 +211,27 @@ def language_redirect():
         abort(500)
 
 
+# # 添加安全相关的响应头
+# @app.after_request
+# def add_security_headers(response):
+#     response.headers['X-Content-Type-Options'] = 'nosniff'
+#     response.headers['X-Frame-Options'] = 'SAMEORIGIN'
+#     response.headers['X-XSS-Protection'] = '1; mode=block'
+#     return response
+
+
+def create_app():
+    """
+    创建 Flask 应用实例，用于 WSGI 服务器
+    """
+    return app
+
+
 if __name__ == '__main__':
-    logger.info("服务器启动")
-    app.run(debug=True)
+    # 获取环境变量中的配置
+    host = os.environ.get('HOST', '0.0.0.0')
+    port = int(os.environ.get('PORT', 5000))
+    debug = os.environ.get('DEBUG', 'false').lower() == 'true'
+    
+    logger.info(f"服务器启动 - 主机: {host}, 端口: {port}, 调试模式: {debug}")
+    app.run(host=host, port=port, debug=debug)

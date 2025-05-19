@@ -1,0 +1,35 @@
+FROM python:3.12.5-alpine
+
+# 安装构建依赖（编译某些 Python 包可能需要）
+RUN apk add --no-cache --virtual .build-deps \
+    gcc \
+    musl-dev \
+    python3-dev \
+    libffi-dev \
+    openssl-dev \
+    cargo
+
+# 设置工作目录
+WORKDIR /app
+
+# 设置环境变量
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    DOCKER_ENV=true \
+    DEBUG=false
+
+# 安装依赖
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 删除构建依赖，减小镜像体积
+RUN apk del .build-deps
+
+# 复制应用程序代码
+COPY . .
+
+# 暴露端口
+EXPOSE 5000
+
+# 启动 Gunicorn 服务器
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "4", "--timeout", "120", "server:create_app()"] 

@@ -1,0 +1,33 @@
+# 构建 web 容器所需镜像时，忽略的目录或文件
+
+.git
+.gitignore
+.env
+.venv
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+logs/
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 忽略 Dockerfile 相关文件
+Dockerfile
+Dockerfile.*
+docker-compose.yml
+compose.y*ml
+
+# 忽略 nginx 相关文件
+nginx.conf
+nginx.conf.*
+
+# 忽略 scripts 目录
+scripts/
