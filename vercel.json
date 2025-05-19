@@ -1,23 +1,17 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/index.py",
-      "use": "@vercel/python"
-    },
-    {
-      "src": "static/**",
-      "use": "@vercel/static"
+  "functions": {
+    "api/index.py": {
+      "runtime": "@vercel/python"
     }
-  ],
-  "routes": [
+  },
+  "rewrites": [
     {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
+      "source": "/static/(.*)",
+      "destination": "https://huaguang-xinzhe.github.io/MyMirror-Static/$1"
     },
     {
-      "src": "/(.*)",
-      "dest": "/api/index.py"
+      "source": "/(.*)",
+      "destination": "/api/index.py"
     }
   ]
 }

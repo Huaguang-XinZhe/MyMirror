@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory, request, make_response, abort
+from flask import Flask, request, make_response, abort, redirect
 import logging
 from pathlib import Path
 import os
@@ -21,6 +21,8 @@ def get_base_path():
 
 # 获取基础路径
 BASE_PATH = get_base_path()
+# GitHub Pages 静态资源的基础 URL
+STATIC_BASE_URL = "https://huaguang-xinzhe.github.io/MyMirror-Static"
 
 def setup_logger():
     # 创建日志记录器
@@ -80,13 +82,13 @@ def clear_snippet_lang():
 
 def handle_download(path):
     """
-    处理下载请求，返回对应目录下的 zip 文件
+    处理下载请求，重定向到 GitHub Pages 上的 zip 文件
     
     Args:
         path: 请求路径，例如 'plus/templates/catalyst/download'
         
     Returns:
-        Response: 包含 zip 文件的响应，Content-Type 为 application/octet-stream
+        Response: 重定向到 GitHub Pages 上的 zip 文件
     """
     logger.info(f"处理下载请求: {path}")
     
@@ -97,31 +99,18 @@ def handle_download(path):
     parts = base_path.split('/')
     filename = parts[-1] + '.zip'
     
-    # 构建 zip 文件路径
-    zip_path = BASE_PATH / "static" / base_path / filename
+    # 构建 GitHub Pages 上的 zip 文件 URL
+    zip_url = f"{STATIC_BASE_URL}/{base_path}/{filename}"
     
-    logger.info(f"尝试下载文件: {zip_path}")
+    logger.info(f"重定向到 GitHub Pages 上的文件: {zip_url}")
     
-    # 检查文件是否存在
-    if not zip_path.exists():
-        logger.warning(f"下载文件不存在: {zip_path}")
-        abort(404)
-    
-    # 读取文件内容
-    with open(zip_path, 'rb') as f:
-        file_data = f.read()
-    
-    # 构造响应
-    response = make_response(file_data)
-    response.headers['Content-Type'] = 'application/octet-stream'
-    response.headers['Content-Disposition'] = f'attachment; filename="{filename}"'
-    
-    logger.info(f"成功返回下载文件: {filename}")
-    return response
+    # 重定向到 GitHub Pages
+    return redirect(zip_url)
 
 @app.route('/')
 def index():
-    return send_from_directory(str(BASE_PATH / "static/plus"), 'index.html')
+    # 重定向到 GitHub Pages 上的主页
+    return redirect(f"{STATIC_BASE_URL}/plus/index.html")
 
 @app.route('/<path:path>')
 def catch_all(path):
@@ -131,9 +120,9 @@ def catch_all(path):
     if path.endswith('/download'):
         return handle_download(path)
     
-    # 如果路径中包含后缀，那就直接提供文件
+    # 如果路径中包含后缀，那就重定向到 GitHub Pages
     if '.' in path:
-        return send_from_directory(str(BASE_PATH / "static"), path)
+        return redirect(f"{STATIC_BASE_URL}/{path}")
     
     # 如果路径中不包含后缀，那就要分情况判断
     # 获取头部中的 x-inertia 字段
@@ -145,30 +134,21 @@ def catch_all(path):
         snippet_lang = get_snippet_lang()
         clear_snippet_lang() # 即时清理，避免影响后续处理！
         
+        # 构建 JSON 文件的 URL
         if snippet_lang:
-            file_path = BASE_PATH / "static" / path / f"{snippet_lang}.json"
+            json_url = f"{STATIC_BASE_URL}/{path}/{snippet_lang}.json"
         else:
-            file_path = BASE_PATH / "static" / path / f"{DEFAULT_SNIPPET_LANG}.json"
-            # 如果文件不存在，就用 index.json
-            if not file_path.exists():
-                file_path = BASE_PATH / "static" / path / 'index.json'
-
-        if not file_path.exists():
-            logger.warning(f"文件不存在: {file_path}")
-            abort(404)
+            json_url = f"{STATIC_BASE_URL}/{path}/{DEFAULT_SNIPPET_LANG}.json"
+            # 如果文件不存在，可能需要处理 index.json 的情况
+            # 但这需要在客户端处理，因为我们无法检查 GitHub Pages 上文件是否存在
         
-        # 读取 JSON 文件内容
-        with open(file_path, 'r', encoding='utf-8') as f:
-            json_data = f.read()
-            
-        # 构造自定义响应
-        response = make_response(json_data)
-        response.headers['content-type'] = 'application/json'
-        response.headers['x-inertia'] = 'true'
-        return response
+        # 重定向到 GitHub Pages 上的 JSON 文件
+        # 注意：这里可能需要更复杂的处理，因为重定向会改变请求头
+        # 可能需要在前端代码中直接请求 GitHub Pages
+        return redirect(json_url)
     
-    # 否则，返回 index.html
-    return send_from_directory(str(BASE_PATH / "static" / path), 'index.html')
+    # 否则，重定向到 GitHub Pages 上的 index.html
+    return redirect(f"{STATIC_BASE_URL}/{path}/index.html")
 
 
 @app.route('/plus/ui-blocks/language', methods=['PUT'])
