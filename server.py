@@ -6,8 +6,12 @@ import sys
 
 # 确定应用程序的基础路径
 def get_base_path():
+    # 检查是否是 Vercel 环境
+    if os.environ.get('VERCEL_ENV'):
+        # 在 Vercel 环境中使用当前目录
+        base_path = Path(os.getcwd())
     # 检查是否是 PyInstaller 打包的环境
-    if getattr(sys, 'frozen', False):
+    elif getattr(sys, 'frozen', False):
         # 如果是打包环境，使用 _MEIPASS
         base_path = Path(sys._MEIPASS)
     else:
@@ -30,8 +34,8 @@ def setup_logger():
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
     
-    # 检查是否是打包环境，非打包环境才创建文件日志
-    if not getattr(sys, 'frozen', False):
+    # 检查是否是 Vercel 环境或打包环境，非这两种环境才创建文件日志
+    if not (os.environ.get('VERCEL_ENV') or getattr(sys, 'frozen', False)):
         # 创建日志目录
         log_dir = Path(__file__).parent / "logs"
         log_dir.mkdir(exist_ok=True)
@@ -213,4 +217,4 @@ def language_redirect():
 
 if __name__ == '__main__':
     logger.info("服务器启动")
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))

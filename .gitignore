@@ -1,8 +1,12 @@
 # 忽略日志文件
 logs
+*.log
 
 # 忽略虚拟环境
 .venv
+venv
+env
+__pycache__
 
 # 忽略构建文件
 build
@@ -15,6 +19,10 @@ dist
 
 # 忽略 .pyc 文件
 *.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache
 
 # 忽略 scripts 目录
 scripts
@@ -22,3 +30,9 @@ scripts
 # 忽略 ui-blocks 目录
 ui-blocks
 
+# IDE 配置
+.idea
+.vscode
+
+# Vercel
+.vercel
